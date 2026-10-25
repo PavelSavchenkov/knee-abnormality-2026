@@ -1,0 +1,95 @@
+# PL lines (teacher v1). OAI: no. Seeds 201-207 = waves 1-7 (one seed of every PL recipe per wave).
+# LOCAL, oct14 runner (experiments/v2/oct14_all_data/queue.txt), AFTER the 8 F3/F4 teacher lines; insert only after READY_v1 (no needs= gate there):
+P201_sub_b0 main experiments/v0/oct7_baseline/runs/sub_b0/fold0 -1 seed=201 eval_every=2 eval_from=1 save_from=1 spe_ref=434 labels=ext:pl_ct_sub_b0_v1 gb=9
+P201_nfnet basin experiments/v0/oct9_baseline_2nd/runs/P_final/fold0 -1 seed=201 spe_ref=434 stop_step=6076 stop_epoch=0 target=pl_ctns_nfnet_v1 gb=13
+P202_sub_b0 main experiments/v0/oct7_baseline/runs/sub_b0/fold0 -1 seed=202 eval_every=2 eval_from=1 save_from=1 spe_ref=434 labels=ext:pl_ct_sub_b0_v1 gb=9
+P202_nfnet basin experiments/v0/oct9_baseline_2nd/runs/P_final/fold0 -1 seed=202 spe_ref=434 stop_step=6076 stop_epoch=0 target=pl_ctns_nfnet_v1 gb=13
+P203_sub_b0 main experiments/v0/oct7_baseline/runs/sub_b0/fold0 -1 seed=203 eval_every=2 eval_from=1 save_from=1 spe_ref=434 labels=ext:pl_ct_sub_b0_v1 gb=9
+P203_nfnet basin experiments/v0/oct9_baseline_2nd/runs/P_final/fold0 -1 seed=203 spe_ref=434 stop_step=6076 stop_epoch=0 target=pl_ctns_nfnet_v1 gb=13
+P204_sub_b0 main experiments/v0/oct7_baseline/runs/sub_b0/fold0 -1 seed=204 eval_every=2 eval_from=1 save_from=1 spe_ref=434 labels=ext:pl_ct_sub_b0_v1 gb=9
+P204_nfnet basin experiments/v0/oct9_baseline_2nd/runs/P_final/fold0 -1 seed=204 spe_ref=434 stop_step=6076 stop_epoch=0 target=pl_ctns_nfnet_v1 gb=13
+P205_sub_b0 main experiments/v0/oct7_baseline/runs/sub_b0/fold0 -1 seed=205 eval_every=2 eval_from=1 save_from=1 spe_ref=434 labels=ext:pl_ct_sub_b0_v1 gb=9
+P205_nfnet basin experiments/v0/oct9_baseline_2nd/runs/P_final/fold0 -1 seed=205 spe_ref=434 stop_step=6076 stop_epoch=0 target=pl_ctns_nfnet_v1 gb=13
+P206_sub_b0 main experiments/v0/oct7_baseline/runs/sub_b0/fold0 -1 seed=206 eval_every=2 eval_from=1 save_from=1 spe_ref=434 labels=ext:pl_ct_sub_b0_v1 gb=9
+P206_nfnet basin experiments/v0/oct9_baseline_2nd/runs/P_final/fold0 -1 seed=206 spe_ref=434 stop_step=6076 stop_epoch=0 target=pl_ctns_nfnet_v1 gb=13
+P207_sub_b0 main experiments/v0/oct7_baseline/runs/sub_b0/fold0 -1 seed=207 eval_every=2 eval_from=1 save_from=1 spe_ref=434 labels=ext:pl_ct_sub_b0_v1 gb=9
+P207_nfnet basin experiments/v0/oct9_baseline_2nd/runs/P_final/fold0 -1 seed=207 spe_ref=434 stop_step=6076 stop_epoch=0 target=pl_ctns_nfnet_v1 gb=13
+# BOX 1 / BOX 2, oct16 runner, AFTER the teacher fold lines; gated on the READY flag (pushed with the target CSVs):
+b3c_rep_pl_s201 bone runs/b3c_rep/fold0 -1 spe_ref=434 seed=201 tgt_csv=data/pl/pl_ct_b3c_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3l_rep_pl_s201 bone runs/b3l_rep/fold0 -1 spe_ref=434 seed=201 tgt_csv=data/pl/pl_ct_b3l_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3n_rep_pl_s201 bone runs/b3n_rep/fold0 -1 spe_ref=435 seed=201 tgt_csv=data/pl/pl_ct_b3n_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=16
+bfs_rep_pl_s201 bone runs/bfs_rep/fold0 -1 spe_ref=434 seed=201 tgt_csv=data/pl/pl_ct_bfs_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3c_rep_pl_s202 bone runs/b3c_rep/fold0 -1 spe_ref=434 seed=202 tgt_csv=data/pl/pl_ct_b3c_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3l_rep_pl_s202 bone runs/b3l_rep/fold0 -1 spe_ref=434 seed=202 tgt_csv=data/pl/pl_ct_b3l_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3n_rep_pl_s202 bone runs/b3n_rep/fold0 -1 spe_ref=435 seed=202 tgt_csv=data/pl/pl_ct_b3n_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=16
+bfs_rep_pl_s202 bone runs/bfs_rep/fold0 -1 spe_ref=434 seed=202 tgt_csv=data/pl/pl_ct_bfs_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3c_rep_pl_s203 bone runs/b3c_rep/fold0 -1 spe_ref=434 seed=203 tgt_csv=data/pl/pl_ct_b3c_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3l_rep_pl_s203 bone runs/b3l_rep/fold0 -1 spe_ref=434 seed=203 tgt_csv=data/pl/pl_ct_b3l_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3n_rep_pl_s203 bone runs/b3n_rep/fold0 -1 spe_ref=435 seed=203 tgt_csv=data/pl/pl_ct_b3n_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=16
+bfs_rep_pl_s203 bone runs/bfs_rep/fold0 -1 spe_ref=434 seed=203 tgt_csv=data/pl/pl_ct_bfs_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3c_rep_pl_s204 bone runs/b3c_rep/fold0 -1 spe_ref=434 seed=204 tgt_csv=data/pl/pl_ct_b3c_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3l_rep_pl_s204 bone runs/b3l_rep/fold0 -1 spe_ref=434 seed=204 tgt_csv=data/pl/pl_ct_b3l_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3n_rep_pl_s204 bone runs/b3n_rep/fold0 -1 spe_ref=435 seed=204 tgt_csv=data/pl/pl_ct_b3n_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=16
+bfs_rep_pl_s204 bone runs/bfs_rep/fold0 -1 spe_ref=434 seed=204 tgt_csv=data/pl/pl_ct_bfs_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3c_rep_pl_s205 bone runs/b3c_rep/fold0 -1 spe_ref=434 seed=205 tgt_csv=data/pl/pl_ct_b3c_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3l_rep_pl_s205 bone runs/b3l_rep/fold0 -1 spe_ref=434 seed=205 tgt_csv=data/pl/pl_ct_b3l_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3n_rep_pl_s205 bone runs/b3n_rep/fold0 -1 spe_ref=435 seed=205 tgt_csv=data/pl/pl_ct_b3n_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=16
+bfs_rep_pl_s205 bone runs/bfs_rep/fold0 -1 spe_ref=434 seed=205 tgt_csv=data/pl/pl_ct_bfs_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3c_rep_pl_s206 bone runs/b3c_rep/fold0 -1 spe_ref=434 seed=206 tgt_csv=data/pl/pl_ct_b3c_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3l_rep_pl_s206 bone runs/b3l_rep/fold0 -1 spe_ref=434 seed=206 tgt_csv=data/pl/pl_ct_b3l_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3n_rep_pl_s206 bone runs/b3n_rep/fold0 -1 spe_ref=435 seed=206 tgt_csv=data/pl/pl_ct_b3n_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=16
+bfs_rep_pl_s206 bone runs/bfs_rep/fold0 -1 spe_ref=434 seed=206 tgt_csv=data/pl/pl_ct_bfs_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3c_rep_pl_s207 bone runs/b3c_rep/fold0 -1 spe_ref=434 seed=207 tgt_csv=data/pl/pl_ct_b3c_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3l_rep_pl_s207 bone runs/b3l_rep/fold0 -1 spe_ref=434 seed=207 tgt_csv=data/pl/pl_ct_b3l_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3n_rep_pl_s207 bone runs/b3n_rep/fold0 -1 spe_ref=435 seed=207 tgt_csv=data/pl/pl_ct_b3n_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=16
+bfs_rep_pl_s207 bone runs/bfs_rep/fold0 -1 spe_ref=434 seed=207 tgt_csv=data/pl/pl_ct_bfs_rep_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+# TIER C (oct16, boxes), AFTER all tier-B lines, ABOVE the low-value tail; same READY_v1.flag gate. ~106 GPU-min per set of 7.
+z1_acl_pl_s201 syn runs/z1_acl/fold0 -1 spe_ref=434 seed=201 tgt_csv=data/pl/pl_ct_z1_acl_v1.csv tgt_findings=ACL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+w5b_mcl_pl_s201 syn runs/w5b_mcl/fold0 -1 spe_ref=434 seed=201 tgt_csv=data/pl/pl_ct_w5b_mcl_v1.csv tgt_findings=MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3g_pl_s201 syn runs/b3g/fold0 -1 spe_ref=434 seed=201 tgt_csv=data/pl/pl_ct_b3g_v1.csv tgt_findings=ACL+MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=20
+sd1b_pl_s201 mainp runs/sd1b/fold0 -1 spe_ref=434 seed=201 tgt_csv=data/pl/pl_ct_sd1b_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=14
+bsd_nf_pl_s201 basin runs/bsd_nf/fold0 -1 spe_ref=434 stop_epoch=14 save=last seed=201 tgt_csv=data/pl/pl_ct_bsd_nf_v1.csv tgt_findings=MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=26
+oasep_pl_s201 oa runs/oasep/fold0 -1 spe_ref=434 seed=201 tgt_csv=data/pl/pl_ct_oasep_v1.csv tgt_cols=Lateral_OA needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+oasep_nf_pl_s201 oa runs/oasep_nf/fold0 -1 spe_ref=435 seed=201 tgt_csv=data/pl/pl_ct_oasep_nf_v1.csv tgt_cols=Lateral_OA needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=16
+z1_acl_pl_s202 syn runs/z1_acl/fold0 -1 spe_ref=434 seed=202 tgt_csv=data/pl/pl_ct_z1_acl_v1.csv tgt_findings=ACL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+w5b_mcl_pl_s202 syn runs/w5b_mcl/fold0 -1 spe_ref=434 seed=202 tgt_csv=data/pl/pl_ct_w5b_mcl_v1.csv tgt_findings=MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3g_pl_s202 syn runs/b3g/fold0 -1 spe_ref=434 seed=202 tgt_csv=data/pl/pl_ct_b3g_v1.csv tgt_findings=ACL+MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=20
+sd1b_pl_s202 mainp runs/sd1b/fold0 -1 spe_ref=434 seed=202 tgt_csv=data/pl/pl_ct_sd1b_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=14
+bsd_nf_pl_s202 basin runs/bsd_nf/fold0 -1 spe_ref=434 stop_epoch=14 save=last seed=202 tgt_csv=data/pl/pl_ct_bsd_nf_v1.csv tgt_findings=MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=26
+oasep_pl_s202 oa runs/oasep/fold0 -1 spe_ref=434 seed=202 tgt_csv=data/pl/pl_ct_oasep_v1.csv tgt_cols=Lateral_OA needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+oasep_nf_pl_s202 oa runs/oasep_nf/fold0 -1 spe_ref=435 seed=202 tgt_csv=data/pl/pl_ct_oasep_nf_v1.csv tgt_cols=Lateral_OA needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=16
+z1_acl_pl_s203 syn runs/z1_acl/fold0 -1 spe_ref=434 seed=203 tgt_csv=data/pl/pl_ct_z1_acl_v1.csv tgt_findings=ACL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+w5b_mcl_pl_s203 syn runs/w5b_mcl/fold0 -1 spe_ref=434 seed=203 tgt_csv=data/pl/pl_ct_w5b_mcl_v1.csv tgt_findings=MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3g_pl_s203 syn runs/b3g/fold0 -1 spe_ref=434 seed=203 tgt_csv=data/pl/pl_ct_b3g_v1.csv tgt_findings=ACL+MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=20
+sd1b_pl_s203 mainp runs/sd1b/fold0 -1 spe_ref=434 seed=203 tgt_csv=data/pl/pl_ct_sd1b_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=14
+bsd_nf_pl_s203 basin runs/bsd_nf/fold0 -1 spe_ref=434 stop_epoch=14 save=last seed=203 tgt_csv=data/pl/pl_ct_bsd_nf_v1.csv tgt_findings=MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=26
+oasep_pl_s203 oa runs/oasep/fold0 -1 spe_ref=434 seed=203 tgt_csv=data/pl/pl_ct_oasep_v1.csv tgt_cols=Lateral_OA needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+oasep_nf_pl_s203 oa runs/oasep_nf/fold0 -1 spe_ref=435 seed=203 tgt_csv=data/pl/pl_ct_oasep_nf_v1.csv tgt_cols=Lateral_OA needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=16
+z1_acl_pl_s204 syn runs/z1_acl/fold0 -1 spe_ref=434 seed=204 tgt_csv=data/pl/pl_ct_z1_acl_v1.csv tgt_findings=ACL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+w5b_mcl_pl_s204 syn runs/w5b_mcl/fold0 -1 spe_ref=434 seed=204 tgt_csv=data/pl/pl_ct_w5b_mcl_v1.csv tgt_findings=MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3g_pl_s204 syn runs/b3g/fold0 -1 spe_ref=434 seed=204 tgt_csv=data/pl/pl_ct_b3g_v1.csv tgt_findings=ACL+MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=20
+sd1b_pl_s204 mainp runs/sd1b/fold0 -1 spe_ref=434 seed=204 tgt_csv=data/pl/pl_ct_sd1b_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=14
+bsd_nf_pl_s204 basin runs/bsd_nf/fold0 -1 spe_ref=434 stop_epoch=14 save=last seed=204 tgt_csv=data/pl/pl_ct_bsd_nf_v1.csv tgt_findings=MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=26
+oasep_pl_s204 oa runs/oasep/fold0 -1 spe_ref=434 seed=204 tgt_csv=data/pl/pl_ct_oasep_v1.csv tgt_cols=Lateral_OA needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+oasep_nf_pl_s204 oa runs/oasep_nf/fold0 -1 spe_ref=435 seed=204 tgt_csv=data/pl/pl_ct_oasep_nf_v1.csv tgt_cols=Lateral_OA needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=16
+z1_acl_pl_s205 syn runs/z1_acl/fold0 -1 spe_ref=434 seed=205 tgt_csv=data/pl/pl_ct_z1_acl_v1.csv tgt_findings=ACL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+w5b_mcl_pl_s205 syn runs/w5b_mcl/fold0 -1 spe_ref=434 seed=205 tgt_csv=data/pl/pl_ct_w5b_mcl_v1.csv tgt_findings=MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3g_pl_s205 syn runs/b3g/fold0 -1 spe_ref=434 seed=205 tgt_csv=data/pl/pl_ct_b3g_v1.csv tgt_findings=ACL+MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=20
+sd1b_pl_s205 mainp runs/sd1b/fold0 -1 spe_ref=434 seed=205 tgt_csv=data/pl/pl_ct_sd1b_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=14
+bsd_nf_pl_s205 basin runs/bsd_nf/fold0 -1 spe_ref=434 stop_epoch=14 save=last seed=205 tgt_csv=data/pl/pl_ct_bsd_nf_v1.csv tgt_findings=MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=26
+oasep_pl_s205 oa runs/oasep/fold0 -1 spe_ref=434 seed=205 tgt_csv=data/pl/pl_ct_oasep_v1.csv tgt_cols=Lateral_OA needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+oasep_nf_pl_s205 oa runs/oasep_nf/fold0 -1 spe_ref=435 seed=205 tgt_csv=data/pl/pl_ct_oasep_nf_v1.csv tgt_cols=Lateral_OA needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=16
+z1_acl_pl_s206 syn runs/z1_acl/fold0 -1 spe_ref=434 seed=206 tgt_csv=data/pl/pl_ct_z1_acl_v1.csv tgt_findings=ACL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+w5b_mcl_pl_s206 syn runs/w5b_mcl/fold0 -1 spe_ref=434 seed=206 tgt_csv=data/pl/pl_ct_w5b_mcl_v1.csv tgt_findings=MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3g_pl_s206 syn runs/b3g/fold0 -1 spe_ref=434 seed=206 tgt_csv=data/pl/pl_ct_b3g_v1.csv tgt_findings=ACL+MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=20
+sd1b_pl_s206 mainp runs/sd1b/fold0 -1 spe_ref=434 seed=206 tgt_csv=data/pl/pl_ct_sd1b_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=14
+bsd_nf_pl_s206 basin runs/bsd_nf/fold0 -1 spe_ref=434 stop_epoch=14 save=last seed=206 tgt_csv=data/pl/pl_ct_bsd_nf_v1.csv tgt_findings=MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=26
+oasep_pl_s206 oa runs/oasep/fold0 -1 spe_ref=434 seed=206 tgt_csv=data/pl/pl_ct_oasep_v1.csv tgt_cols=Lateral_OA needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+oasep_nf_pl_s206 oa runs/oasep_nf/fold0 -1 spe_ref=435 seed=206 tgt_csv=data/pl/pl_ct_oasep_nf_v1.csv tgt_cols=Lateral_OA needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=16
+z1_acl_pl_s207 syn runs/z1_acl/fold0 -1 spe_ref=434 seed=207 tgt_csv=data/pl/pl_ct_z1_acl_v1.csv tgt_findings=ACL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+w5b_mcl_pl_s207 syn runs/w5b_mcl/fold0 -1 spe_ref=434 seed=207 tgt_csv=data/pl/pl_ct_w5b_mcl_v1.csv tgt_findings=MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+b3g_pl_s207 syn runs/b3g/fold0 -1 spe_ref=434 seed=207 tgt_csv=data/pl/pl_ct_b3g_v1.csv tgt_findings=ACL+MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=20
+sd1b_pl_s207 mainp runs/sd1b/fold0 -1 spe_ref=434 seed=207 tgt_csv=data/pl/pl_ct_sd1b_v1.csv needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=14
+bsd_nf_pl_s207 basin runs/bsd_nf/fold0 -1 spe_ref=434 stop_epoch=14 save=last seed=207 tgt_csv=data/pl/pl_ct_bsd_nf_v1.csv tgt_findings=MCL needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=26
+oasep_pl_s207 oa runs/oasep/fold0 -1 spe_ref=434 seed=207 tgt_csv=data/pl/pl_ct_oasep_v1.csv tgt_cols=Lateral_OA needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=12
+oasep_nf_pl_s207 oa runs/oasep_nf/fold0 -1 spe_ref=435 seed=207 tgt_csv=data/pl/pl_ct_oasep_nf_v1.csv tgt_cols=Lateral_OA needs=experiments/v3/oct16_experts/data/pl/READY_v1.flag gb=16

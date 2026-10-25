@@ -1,0 +1,5346 @@
+{
+ "1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435": {
+  "study_id": "1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Advanced tricompartmental OA, large effusion with synovial proliferation and debris; ACL tear per report; red marrow islands in distal femur; small subchondral/intraosseous cysts."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 #7-13, s3 #17-24: no horn triangles, joint fluid-filled; body a small extruded remnant by osteophytes. both: report complex tear, ~5 mm extrusion",
+    "location": [
+     "anterior_horn",
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 5
+   },
+   "pf_oa": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s5 #26-37: thin patellar cartilage, lateral trochlea with fluid on bone over >10 mm, marginal osteophytes. both: report grade III both facets and trochlea",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": true,
+    "osteophytes": "large",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": false
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 #14-19, s5 #32-37: large distended recess with nodular grey synovium, fronds and debris. both: report extensive effusion, moderate synovial proliferation",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 1,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #3-30, s2 #3-30: central metaphyseal patches intermediate on T1 = red marrow, small tibial cysts; no impact edema. images: report silent",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #3-30 T1, s1 #3-30: only physeal scar lines, cortex intact, no fracture line. images: report silent",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274": {
+  "study_id": "1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Grade II superficial MCL sprain with periligamentous edema per report; mild effusion; small popliteal cyst."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s4 #7-14, s2 #16-23: horns and body dark, normal shape; faint signal at PH capsular junction only. both: report meniscocapsular signal, 'could be' partial lesion",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #20-31: even patellar and trochlear cartilage of normal thickness. both: report PF cartilage normal",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 #17-23, s1 #24-31: small fluid strip, thin smooth lining, Hoffa fat pad dark. both: report mild effusion only",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 #3-39 FS, s3 #6-33 T1: marrow even, no edema. both: report no significant marrow signal change",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #6-33 T1, s4 #3-39: cortex smooth, only physeal scars. both: report no marrow change",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608": {
+  "study_id": "1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": "Medial narrowing with extruded medial meniscus, anterior MFC/MTP edema, fluid around MCL; Baker's cyst 54x15 mm per report."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 #4-11, s4 #10-18: PH small with intermediate signal; body small and extruded ~4 mm past tibial edge. both: report extruded MM with PH tear",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 1,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 4
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 #15-26: inferior patellar cartilage heterogeneous with mild surface irregularity, thickness kept; trochlea even. images: report silent on PF",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": true
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "s2 #12-18, s1 #20-26: small effusion, recess not distended, mild prefemoral/Hoffa fat signal, no thick lining. images: report only suprapatellar fluid",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "s2 #9-14, s4 #8-19: ill-defined anterior MFC and MTP edema, kissing pattern, with medial narrowing; impact vs degenerative unclear. both: report medial marrow edema",
+    "edema": {
+     "medial_femoral_condyle": 1,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 2,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "degenerative_subchondral",
+     "other"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s5 #8-19 T1, s3 #4-11 T1: only faint low T1 in medial tibia, no line or cortical break. images: report silent",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190": {
+  "study_id": "1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Acute ACL tear per report with pivot-shift edema, posterior MFC osteochondral fracture, MM PH tear, effusion, small Baker's cyst."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 #5-13, s3 #13-24: PH small with oblique bright signal toward the tibial surface on adjacent slices. both: report grade 3 PH tear",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s5 #18-29: patellar and trochlear cartilage even and of normal thickness. both: report patellar cartilage unremarkable",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s1 #12-18, s5 #24-29: recess distended by fluid, lining thin and smooth, Hoffa fat pad dark. images: report effusion only",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 #3-27, s2 #3-27: pivot-shift edema in LFC sulcus and posterior LTP, patchy MTP edema. both: report traumatic edema MTP and LFC",
+    "edema": {
+     "medial_femoral_condyle": 2,
+     "lateral_femoral_condyle": 2,
+     "medial_tibial_plateau": 1,
+     "lateral_tibial_plateau": 2,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift",
+     "around_fracture"
+    ]
+   },
+   "fracture": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 #9-15 PD, s4 #10-24 T1: dark subchondral arc in posterior MFC with edema on s1. both: report arc-shaped MFC osteochondral fracture",
+    "line_seen": true,
+    "bones": [
+     "femur"
+    ],
+    "type": "osteochondral"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404": {
+  "study_id": "1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [
+    "meniscus_surgery",
+    "other"
+   ],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Prior partial lateral meniscectomy with recurrent tear and anterior arthroscopy scarring per report; moderate leaking Baker's cyst; small effusion."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #8-14, s5 #17-26: both horns and body uniformly dark triangles, normal shape. both: report normal morphology and signal",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 #20-31: patellar cartilage heterogeneous with surface fissures, thickness mostly kept; trochlea even. both: report mild thinning and irregularity",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": false
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 #14-20, s1 #26-31: small fluid, no distension; Hoffa scarring after arthroscopy, thin plica. both: report small effusion, thickened medial plica",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "moderate",
+    "probability": 0.08,
+    "note": "s5 #14-31: small posterior LTP subchondral edema under worn lateral cartilage only. both: report minimal degenerative edema, no bone bruise",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 1,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "degenerative_subchondral"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 #14-30 T1: cortex smooth, physeal scars only, no line. both: report no acute fracture",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236": {
+  "study_id": "1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Severe sprain: complete ACL tear, grade 2 proximal MCL tear, LFC impaction fracture with pivot-shift edema per report; moderate suprapatellar distension."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #6-14, s4 #12-22: horns and body uniformly dark with normal shape. both: report menisci normal",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #18-29: patellar and trochlear cartilage even, normal thickness. both: report cartilage normal",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s1 #14-20, s3 #24-29: recess distended by fluid, lining thin; posttraumatic infiltration in notch and Hoffa. both: report moderate suprapatellar distension",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 #14-20, s4 #8-26: extensive LFC edema and posterior LTP edema, pivot-shift pattern. both: report extensive LFC edema, posterior LTP contusion",
+    "edema": {
+     "medial_femoral_condyle": 1,
+     "lateral_femoral_condyle": 3,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 2,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift",
+     "around_fracture"
+    ]
+   },
+   "fracture": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 #21-28 PD, s5 #8-26 T1: flattened LFC sulcus with subchondral dark band in edema. both: report small impaction fracture of central LFC",
+    "line_seen": true,
+    "bones": [
+     "femur"
+    ],
+    "type": "impaction"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395": {
+  "study_id": "1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution",
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Knee dislocation pattern per report (ACL, PCL, MCL ruptures, LCL high-grade tear); no coronal FS series, 5 mm sagittal FS with flat contrast; circumferential soft tissue edema."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s4 #5-11, s1 #9-16 PD: only irregular peripheral PH signal at the capsule on thick slices. report: vertical tear in periphery of PH",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "s3 #16-27: patellar cartilage kept, mildly uneven medial facet; trochlea even. both: report slight chondrosis medial patella, no trochlear defect",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": true
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "s4 #11-15, s3 #22-27: small effusion in medial recess, streaky posttraumatic Hoffa signal, no thick lining. both: report small effusion",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s4 #11-20: posterior MTP/MFC edema and central LFC edema. both: report small posterior MTP and tiny posterior LTP bruises, edema under fracture",
+    "edema": {
+     "medial_femoral_condyle": 1,
+     "lateral_femoral_condyle": 2,
+     "medial_tibial_plateau": 1,
+     "lateral_tibial_plateau": 1,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "around_fracture",
+     "other"
+    ]
+   },
+   "fracture": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s4 #13-20, s2 #15-22: lateral subchondral edema, no clear line on thick slices. report: hairline subchondral impaction fracture lateral plateau",
+    "line_seen": true,
+    "bones": [
+     "femur",
+     "tibia"
+    ],
+    "type": "plain_subchondral_or_plateau"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327": {
+  "study_id": "1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Report: tricompartmental OA with osteophytes and subchondral edema, MM root tear, effusion with synovitis, Baker's cyst. Images look milder than report (no osteophytes or edema seen)."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s5 #5-12, s6 #14-23: horns and body keep shape; root region near PCL fluid-bright on NT2-NT3. report: radial posterior root tear, extrusion to gutter",
+    "location": [
+     "posterior_horn",
+     "root"
+    ],
+    "surface_tiles": 1,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": null
+   },
+   "pf_oa": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s2 #18-29: patellar and trochlear cartilage diffusely thin and irregular, no osteophytes seen. report: diffuse >50% chondrosis of facets and trochlea",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": true,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": false
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s5 #12-18, s2 #24-29: suprapatellar recess distended, grey tissue in notch and Hoffa, lining only slightly thick. report: effusion with synovitis",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": true,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s6 #10-26 FS, s7 #10-26 T1: marrow even, no edema seen. images: report's degenerative subchondral edema not visible; no impact edema",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s7 #10-26 T1, s6 #10-26: cortex smooth, no line. images: report silent",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774": {
+  "study_id": "1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "4.5 mm slices, sagittal FS 0.78 mm/px. Partial ACL rupture per report; MM PH radial tear; increased effusion."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s2 #5-11, s4 #11-19: PH small with intermediate inner signal, body small on coronal; thick blurry slices. report: radial tear line in PH",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 1,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #15-26: patellar and trochlear cartilage even, normal thickness. images: report silent on PF cartilage",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s2 #11-16, s1 #21-26: suprapatellar recess distended by fluid, lining thin, Hoffa dark. both: report increased effusion",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 #6-22 FS, s5 #6-22 T1: marrow even; tiny medial patellar edge signal on s1 #18 only, not seen on coronal. images: report silent",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s5 #6-22 T1: cortex smooth, physeal scars only. images: report silent",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Acute injury per report: interstitial ACL tear, LM PH complex tear, LCL grade II sprain, popliteus tendon partial tear and muscle contusion; hemarthrosis."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #4-11, s7 #12-21: horns and body uniformly dark, normal shape. both: report medial meniscus not torn",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 #20-31: patellar and trochlear cartilage even, normal thickness. both: report no chondral lesion",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s1 #12-18, s4 #20-31: recess distended with blood, thin lining; posttraumatic edema near ACL stump in deep Hoffa. both: report hemarthrosis, no synovitis",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #3-27 FS, s8 #8-24 T1: no subchondral edema; faint speckled LFC signal = marrow pattern. both: report no bone contusion",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s8 #8-24 T1: cortex intact, physeal scars only. both: report no fracture",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645": {
+  "study_id": "1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Two reports filed; used report 1 (early medial OA, MFC edema, synovial thickening): report 2's discoid lateral meniscus is not seen. 5 mm slices."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s4 #2-8, s2 #7-14: horns keep dark triangular shape, body small and slightly extruded, no surface signal. both: report 1 degeneration, mild subluxation",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 2
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #10-19: patellar and trochlear cartilage even, normal thickness. images: report silent on PF cartilage",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 #12-16, s1 #15-19: frond-like grey synovium in posterior recess above condyles, distended suprapatellar recess. both: report 1 focal synovial thickening",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "low",
+    "probability": 0.12,
+    "note": "s4 #2-8, s2 #4-16: ill-defined anterior MFC and MTP edema at far medial slices only, with early OA. both: report 1 degenerative / microtrabecular insufficiency",
+    "edema": {
+     "medial_femoral_condyle": 1,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 1,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "degenerative_subchondral",
+     "insufficiency_or_sonk"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 #4-16 T1: cortex smooth, no line, no collapse. both: report 1 only speculates microtrabecular insufficiency without collapse",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903": {
+  "study_id": "1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Advanced OA per report (lateral full-thickness loss, near-complete MFC loss), hydrops with chronic nodular synovitis, ACL mucoid degeneration, ruptured popliteal cyst."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s1 #6-13, s4 #13-20: horns flattened in narrowed joint, body small and slightly extruded with intermediate signal, no definite tear. images: report silent on MM",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 1,
+    "morphology": "other",
+    "extrusion_mm": 2
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 #20-31: patellar cartilage heterogeneous with fissures, thickness largely kept; trochlea thin but no bare area. both: report beginning-moderate chondropathy",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": false
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 #14-21, s4 #6-22: lateral recess distended with grey nodular synovium and debris, lobulated posterior synovial pockets. both: report numerous nodular synovial thickenings",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "moderate",
+    "probability": 0.08,
+    "note": "s4 #6-26 FS, s5 #6-26 T1: small posterior MFC subchondral cystic focus and patchy red marrow only. both: report no significant bone edema, limited subchondral change",
+    "edema": {
+     "medial_femoral_condyle": 1,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 1,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "degenerative_subchondral"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s5 #6-26 T1: cortex intact, marginal osteophytes, no line. images: report silent",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Medial OA with grade IV MTP cartilage loss, degenerative MM tear; tibial microtrabecular insufficiency fractures (SONK) per report; large multiloculated Baker's cyst 9.7 cm."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s4 #2-8, s2 #7-15: anterior horn intact, PH small and blunted with intermediate signal; body thin on coronal. both: report degenerative tear of PH and body",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 1,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #9-18: patellar and trochlear cartilage even, normal thickness. both: report anterior compartment without pathology",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s4 #8-12, s1 #14-18: suprapatellar and lateral recesses distended, lining thin, Hoffa dark. images: report moderate fluid, no synovitis stated",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "moderate",
+    "probability": 0.08,
+    "note": "s2 #4-18, s3 #3-13: anterior LTP and MTP subchondral edema with low T1, no impact pattern. both: report microtrabecular insufficiency fractures (SONK)",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 2,
+     "lateral_tibial_plateau": 2,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "insufficiency_or_sonk",
+     "degenerative_subchondral"
+    ]
+   },
+   "fracture": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s3 #5-7 T1: faint reticular dark lines in anterior LTP edema, no discrete line or collapse. report: microtrabecular insufficiency fractures, no collapse",
+    "line_seen": false,
+    "bones": [
+     "tibia"
+    ],
+    "type": "insufficiency"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910": {
+  "study_id": "1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Medial OA with erosive cartilage change and complex MM tear; ACL moderate-severe degeneration; Baker's cyst 22x31x37 mm; small effusion; popliteus bursitis."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s2 #9-13, s3 #13-22: PH small and fluid-surrounded, body almost absent with fluid in medial joint on all coronal slices. both: report complex radial+horizontal tear",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": null
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s6 #13-24: patellar and trochlear cartilage of preserved thickness, mild lateral facet heterogeneity. both: report grade I chondromalacia lateral patellar facet",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": true
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #14-20, s6 #13-24: fluid in medial and suprapatellar recesses without bulging, lining thin, Hoffa dark. both: report small effusion, incomplete plica",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "low",
+    "probability": 0.12,
+    "note": "s3 #8-26, s1 #6-16 T1: faint patchy MFC/MTP edema under worn medial cartilage and lateral eminence focus near ACL. both: report probably part of OA",
+    "edema": {
+     "medial_femoral_condyle": 1,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 1,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 1
+    },
+    "pattern": [
+     "degenerative_subchondral"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #6-16 T1: cortex intact, physeal scars only, no line. images: report silent",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "MM posterior root radial tear with extrusion and medial tibial subchondral insufficiency fracture per report; tricompartmental chondrosis; small effusion; bright physeal scar line in tibia."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s3 #6-12, s4 #15-24: PH ends abruptly with fluid gap at the root on MM7 and coronal #21-23; body extruded ~3 mm. both: report complete radial posterior root tear",
+    "location": [
+     "posterior_horn",
+     "root"
+    ],
+    "surface_tiles": 2,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 3
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 #20-31: medial patellar facet cartilage mildly thin, trochlea with superficial irregularity, no deep defect. both: report low-grade trochlear fissuring, mild facet thinning",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": null,
+    "focal": true
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 #13-19, s1 #20-31: fluid rim around trochlea and recesses without bulging, lining thin; mild prefemoral/Hoffa fat signal. both: report small effusion",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "moderate",
+    "probability": 0.08,
+    "note": "s4 #15-24, s3 #6-12: subchondral MTP edema above the physeal scar, no impact pattern elsewhere. both: report edema with subchondral insufficiency fracture",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 2,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "insufficiency_or_sonk",
+     "around_fracture"
+    ]
+   },
+   "fracture": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s5 #15-24 PD: only faint darker subchondral zone at medial MTP, no clear line on 0.66 mm/px slices. report: subchondral insufficiency fracture, no collapse",
+    "line_seen": true,
+    "bones": [
+     "tibia"
+    ],
+    "type": "insufficiency"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450": {
+  "study_id": "1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 15,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Lateral-predominant OA per report: complex LM tear with extrusion and parameniscal cysts, lateral grade 2-3 chondropathy; mild effusion with minimal synovitis."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 #5-13, s2 #13-22: horns keep dark triangular shape, faint intermediate PH signal not reaching a surface. both: report central PH/body signal, no tear",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 #15-26: lateral facet cartilage mildly heterogeneous, thickness preserved; trochlea even. both: report superficial lateral facet chondropathy",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": true
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s5 #14-20, s1 #15-26: posterior recess with lobulated fluid and slightly irregular rim; suprapatellar fluid not bulging. report: mild effusion, minimal synovitis",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": true
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #8-26, s3 #8-26: bright posterior condyle rims (MM6, LM9) are tangential cartilage/fluid partial volume, T1 normal. both: report no marrow change",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #8-26 T1: cortex intact, physeal scars only. both: report no marrow change",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378": {
+  "study_id": "1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 16,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Complete ACL rupture with kissing pivot-shift contusions, LFC subarticular fracture and mild anterior tibial subluxation per report; MCL grade I sprain; soleus strain."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s2 #4-11, CJ1-CJ9: horns and body dark triangles, faint inner PH signal not reaching a surface. both: report grade II degeneration of PH and body",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #15-26: patellar and trochlear cartilage even, normal thickness. images: report silent on cartilage",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 #21-26, s2 #12-18: suprapatellar and medial recesses distended by fluid, lining not clearly thick. report: suprapatellar bursitis, mild synovitis",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s2 #19-26 FS, s3 #19-26 T1: LFC sulcus edema, posterior LTP and fibular head edema, small posterior MFC edema. both: report kissing contusions",
+    "edema": {
+     "medial_femoral_condyle": 1,
+     "lateral_femoral_condyle": 3,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 2,
+     "patella": 0,
+     "other": 1
+    },
+    "pattern": [
+     "pivot_shift",
+     "around_fracture"
+    ]
+   },
+   "fracture": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s3 #22-24 T1: dark subchondral band with slight flattening at LFC sulcus inside edema. both: report nondisplaced subarticular LFC fracture",
+    "line_seen": true,
+    "bones": [
+     "femur"
+    ],
+    "type": "impaction"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003": {
+  "study_id": "1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 17,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Patellar dislocation: MPFL femoral tear and medial retinaculum rupture with haematoma per report; trochlear dysplasia; noisy 4 mm slices; joint clearly distended (report says mild effusion)."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 #3-9, s2 #9-17: horns dark triangles, body small but intact; no surface-reaching signal seen on noisy slices. report: 'medial meniscus tear', no location",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 #13-22: patellar and trochlear cartilage even, normal thickness despite dysplastic trochlea. both: report cartilages normal",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s3 #13-22, s1 #10-15: large distension of suprapatellar and medial recesses (likely haemarthrosis), lining thin, Hoffa dark. images: report mild effusion",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 #18-20 FS, s5 #5-21 T1: ill-defined anterolateral LFC edema, typical lateral patellar dislocation bruise; patella clear. images: report silent on bone",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 2,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "patellar_dislocation"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s5 #5-21 T1, s3 #13-22: LFC and patellar cortex smooth, no osteochondral fragment or line. images: report silent",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002": {
+  "study_id": "1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 18,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [
+    "motion"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Hoffa fat pad impingement, ITB friction syndrome and patellar chondropathy per report; motion blur on posterior coronal tiles."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 #3-8, s4 #7-13: both horns and body dark triangles with normal shape. images: report silent on menisci",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "s6 #4-12: patellar cartilage of preserved thickness, mild heterogeneity, no deep defect; trochlea even. both: report patellar chondropathy, grade not given",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": false
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s2 #9-14, PF3-PF5: superolateral Hoffa edema (impingement), small fluid only, lining thin. both: report Hoffa fat pad impingement",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 #3-17 FS, s5 #3-17 T1: marrow even, no subchondral edema. images: report silent on bone",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s5 #3-17 T1: cortex intact, physeal scars only. images: report silent",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254": {
+  "study_id": "1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 19,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Chronic complete ACL tear, complex tears of both menisci (LM bucket-handle, MM fragment in medial gutter) per report; mild medial OA; focal LTP chondrosis; minimal effusion."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 #4-11, s7 #11-22: PH small and irregular, body thin; tissue along medial tibial margin below joint line on s7 #18-20. both: report radial tear, fragment in gutter",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 1,
+    "morphology": "displaced_fragment",
+    "extrusion_mm": null
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s4 #20-31: focal medial patellar facet signal change with mild subchondral signal, thickness largely kept; trochlea even. both: report focal low-grade chondrosis 1.3x1 cm",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": null,
+    "focal": true
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #12-18, s4 #20-31: thin fluid strip in suprapatellar recess without bulging, thin lining, Hoffa dark with vessels. both: report minimal effusion",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "low",
+    "probability": 0.12,
+    "note": "s7 #6-26 FS, s8 #6-26 T1: no clear marrow edema seen. report: subchondral edema under posterolateral tibial chondrosis, degenerative",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 1,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "degenerative_subchondral"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s8 #6-26 T1: cortex intact, physeal scars only, no line. images: report silent",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911": {
+  "study_id": "1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 20,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution",
+    "motion"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Acute ACL complete tear with pivot-shift contusions, LM bucket-handle and MM radial tear per report; large effusion; Hoffa edema; 4.4 mm slices, posterior motion."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s2 #2-8, s4 #13-21: PH small, body thin and blunted at #16-17; no clear surface cleft at 0.33 mm/px. report: MM grade II degeneration with radial tear",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 1,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #16-27: patellar and trochlear cartilage even, normal thickness. images: report silent on cartilage",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 #22-27, s2 #8-13: large suprapatellar distension, diffuse post-traumatic Hoffa edema; lining not clearly thickened. both: report diffuse fluid, Hoffa edema",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 2,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s2 #11-18 FS, s3 #11-18 T1: extensive LFC and LTP edema with low T1, fibular head and patellar edema; pivot-shift pattern. both: report diffuse contusions",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 3,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 2,
+     "patella": 1,
+     "other": 1
+    },
+    "pattern": [
+     "pivot_shift"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 #11-18 T1, s5 #10-26 T1: no discrete line or cortical step in the edematous LFC/LTP. both: report contusions only, no fracture",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 21,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Only SAG PD (non-FS) belongs to this knee; FS, axial and coronal series are of the other knee. Report: undisplaced tibial eminence fracture, contusion edema, minimal effusion. Round lesion posterior LFC."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s5 #3-12 PD: both horns uniformly dark triangles with normal shape; no coronal view of this knee. both: report menisci normal",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "s5 #12-20 PD: patellar and trochlear cartilage even on sagittal; no axial series of this knee. both: report patellar cartilage normal",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "s5 #12-20 PD: thin suprapatellar fluid line, Hoffa fat pad uniformly bright fat; no FS series. both: report minimal effusion",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s5 #13-19 PD: ill-defined darker marrow under eminence extending medially; no FS to confirm. report: contusion edema central tibia toward MTP and medial patella",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 1,
+     "lateral_tibial_plateau": 0,
+     "patella": 1,
+     "other": 2
+    },
+    "pattern": [
+     "around_fracture",
+     "other"
+    ]
+   },
+   "fracture": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s5 #15-19 PD: irregular low band under tibial spines with mottled marrow, no displacement. both: report undisplaced intercondylar eminence fracture",
+    "line_seen": true,
+    "bones": [
+     "tibia"
+    ],
+    "type": "avulsion"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710": {
+  "study_id": "1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 22,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Acute trauma per report: undisplaced lateral tibial plateau fracture, LFC contusion, ACL rupture, MPFL femoral tear, hemorrhagic effusion, soft tissue edema."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #7-15, s3 #12-21: horns and body uniformly dark triangles with normal shape. both: report menisci normal",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 #21-32: patellar and trochlear cartilage even, normal thickness. both: report articular cartilage intact",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s1 #16-22, s2 #26-32: recesses distended by blood, lining thin; posttraumatic soft tissue and Hoffa edema. both: report hemorrhagic effusion",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 #24-32, s3 #8-26: separate LFC contusion (central/anterior) besides diffuse tibial edema around the plateau fracture. both: report LFC contusion edema",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 2,
+     "medial_tibial_plateau": 2,
+     "lateral_tibial_plateau": 3,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift",
+     "around_fracture"
+    ]
+   },
+   "fracture": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s4 #14-22 T1: curvilinear low-signal line through lateral and central tibial metaphysis in edema, no step. both: report undisplaced lateral tibial plateau fracture",
+    "line_seen": true,
+    "bones": [
+     "tibia"
+    ],
+    "type": "plain_subchondral_or_plateau"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220": {
+  "study_id": "1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 23,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "ACL tear, femoral and tibial contusions (lateral > medial), possible LFC subchondral fracture, moderate effusion with synovial hypertrophy and plicae per report; 4.3 mm slices."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s1 #3-9: horns dark triangles; faint signal at PH meniscocapsular junction only, no clear tear on 4 mm slices. report: R/O ramp lesion or peripheral PH tear",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s5 #15-20: central trochlear cartilage thin and irregular inferiorly, size unclear on 5 mm axial. report: focal grade 3-4 trochlear chondromalacia with subchondral edema",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": null,
+    "focal": true
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 #7-12, s5 #15-24: large suprapatellar distension with thick plicae and fronds, grey tissue at recess margins. both: report synovial hypertrophy, synovitis",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 1,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 #11-17, s3 #11-17 T1: extensive weight-bearing LFC edema with low T1, milder tibial edema. both: report bone contusion distal femur and proximal tibia",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 3,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 1,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift"
+    ]
+   },
+   "fracture": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s3 #13-16 T1: reticular low signal in LFC with faint subchondral dark line, no step. report: 'in favor of' LFC subchondral fracture, impression only R/O",
+    "line_seen": true,
+    "bones": [
+     "femur"
+    ],
+    "type": "plain_subchondral_or_plateau"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924": {
+  "study_id": "1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 24,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Brief report: medial meniscus tear only; ACL, MCL, cartilage normal, no effusion. Noisy 1.5 T images, 4 mm slices."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s1 #3-10, s2 #10-19: PH with bright signal at its posterior surface and small cyst-like fluid behind it on MM5-MM7; body intact. report: medial meniscus tear",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 #13-22: patellar and trochlear cartilage even, normal thickness (lower slices oblique). both: report cartilages normal",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #10-15, s3 #13-22: thin fluid line only, lining thin, Hoffa fat pad dark. both: report no effusion",
+    "effusion_synovitis": 0,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #6-24 FS, s5 #6-24 T1: marrow even, no subchondral edema. images: report silent on bone",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s5 #6-24 T1: cortex intact, physeal scars only. images: report silent",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 25,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Per report: PCL complete tear, synovitis with massive effusion, suprapatellar bursitis, complex plicae, Hoffitis, subcutaneous edema, possible popliteal DVT. Noisy 4.4 mm slices."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #2-8, s5 #11-19: horns and body dark triangles with normal shape on noisy slices. both: report medial meniscus normal",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #14-23: patellar and trochlear cartilage of preserved thickness; tiny bright foci along medial trochlea are fluid between fronds. images: report silent on PF",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 #7-12, s2 #14-23: distended recesses with thick plicae, grey frond-like synovium and debris, Hoffa stranding. both: report synovial thickening, massive effusion",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 2,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s5 #6-24 FS, s4 #3-17 T1: marrow even, no subchondral edema. images: report silent on bone",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 #3-17 T1: cortex intact, physeal scars only. images: report silent",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891": {
+  "study_id": "1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 26,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Split tibial plateau fracture with lateral depression into intercondylar region, fibular head contusion, ACL grade 2 per report. Report contradicts itself on medial vs lateral meniscus tear."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #2-9, s4 #9-17: both horns and body dark triangles, normal shape. images: report says MM anterior horn tear, then MM normal, impression LM tear",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s5 #9-16: patellar and trochlear cartilage even, normal thickness. images: report silent on cartilage",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #7-12, s5 #9-16: small fluid in recesses without bulging, lining thin, Hoffa dark. both: report some joint effusion",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s4 #6-22, s1 #11-18: extensive proximal tibial edema mostly around fracture lines; fibular head edema. report: fracture with bone contusion, fibular head contusion",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 2,
+     "lateral_tibial_plateau": 3,
+     "patella": 0,
+     "other": 1
+    },
+    "pattern": [
+     "around_fracture",
+     "other"
+    ]
+   },
+   "fracture": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s3 #11-16 T1: multiple dark fracture lines through lateral and central tibial epiphysis with depressed lateral surface. both: report split plateau fracture with depression",
+    "line_seen": true,
+    "bones": [
+     "tibia",
+     "fibula"
+    ],
+    "type": "plain_subchondral_or_plateau"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037": {
+  "study_id": "1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 27,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Complete ACL tear, MM PH tear, suspected LM meniscocapsular separation, LTP edema, mild-moderate effusion per report; 5 mm slices, T1 0.78 mm/px."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s1 #1-7, s4 #6-12: PH small with irregular bright posterior margin at the capsule on MM5-MM6; thick slices. report: tear of PH of medial meniscus",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s5 #7-13: patellar and trochlear cartilage even, normal thickness. both: report intact patellar cartilage",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s1 #12-15, s5 #7-13: lateral suprapatellar recess distended by fluid, lining thin; prepatellar/infrapatellar soft tissue edema. both: report mild-moderate effusion",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 #12-14 FS, s3 #12-14 T1: patchy LTP marrow edema with low T1, pivot-type with ACL tear; LFC edge mild. both: report bone marrow edema over LTP",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 1,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 2,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 #9-15 T1: no discrete line or cortical step in LTP edema (coarse 0.78 mm/px). images: report edema only",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c1",
+  "position": 28,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Knee sprain per report: marginal LM body truncation, focal fine grade 4 lesion inferior medial trochlea, mild quadriceps/patellar tendinosis. Recesses look more distended than 'mild effusion'."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 #4-12, s2 #12-21: both horns and body uniformly dark triangles with normal shape. both: report medial meniscus normal, no tear",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 #16-19, s4 #13-18: small focal defect on inferior medial trochlear facet, well under 10 mm; patellar cartilage intact. both: report fine focal grade 4 ulcer",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": false,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": true
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s1 #17-22, s4 #13-18: medial, lateral and suprapatellar recesses distended by clear fluid, thin smooth lining, Hoffa dark. report: mild effusion, Hoffa normal",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 #3-35 FS, s3 #6-26 T1: marrow even, no edema. both: report no significant marrow signal change",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #6-26 T1: cortex intact, physeal scars only. both: report no marrow change",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309": {
+  "study_id": "1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Report: MM tear (PH/body, inferior surface), complex LM tear with periarticular edema, MFC and patellar full-thickness ulcers, mild effusion with slight diffuse synovitis, no marrow change."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s5 7-18, s5 11-16 tight, s3 13-24: grey PH signal reaching inferior surface on 3 adjacent slices, blunt inner tip; both",
+    "location": [
+     "posterior_horn",
+     "body"
+    ],
+    "surface_tiles": 3,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 18-25, s1 20-25 tight: fluid on patellar bone with little or no grey layer across facets over >10 mm; trochlea thinner but covered; both",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": true,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": false
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s5 18-29, s1 19-30: recess not distended, thin lining, grey tissue in lateral recess, Hoffa signal only next to LM tear; report slight synovitis; both",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s5 2-46 marrow window, s2 5-29 T1: even marrow in all bones; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 5-29 T1, s5 2-46: smooth cortex, no marrow line; report no marrow change; both",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187": {
+  "study_id": "1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Sag and cor FS 0.74 mm/px, 4.4 mm gaps. Report: MM PH grade III degeneration with horizontal tear and medial extrusion, MFC subarticular fracture with edema and narrowing, diffuse effusion, MCL grade I sprain."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 3-10, s2 6-11 tight, s4 11-18: PH diffusely grey on adjacent slices, cleft not resolved at 0.74 mm/px; body past tibial edge; report horizontal tear; both",
+    "location": [
+     "posterior_horn",
+     "body"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": 2
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 16-23 axial: even grey patellar and trochlear cartilage on all slices; report silent; images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "s2 8-15 sag, s1 18-29 axial: distended recess, even fluid, thin smooth lining, mild Hoffa heterogeneity; report effusion only; images",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "moderate",
+    "probability": 0.08,
+    "note": "s2 1-21 marrow, s3 3-12 and s5 9-18 T1: extensive MFC edema around subchondral fracture line, degenerative knee; faint central LFC patch not subchondral; both",
+    "edema": {
+     "medial_femoral_condyle": 3,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "around_fracture",
+     "insufficiency_or_sonk"
+    ]
+   },
+   "fracture": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s3 9-10 T1, s2 9-10 FS: curved dark subchondral line in posterior MFC inside edema; report subarticular fracture line; both",
+    "line_seen": true,
+    "bones": [
+     "femur"
+    ],
+    "type": "insufficiency"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995": {
+  "study_id": "1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "No sagittal FS (sag PD only); coronal PD FS x2 and axial 3D GRE FS. Report: radial MM body tear with partly separated flap, extruded mucoid body, focal MTP T2 signal, small effusion, Baker's cyst."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 12-23 cor FS, s1 4-13 sag PD: bright clefts through body to surfaces on 3 adjacent coronal slices, ragged inner edge; report radial tear with flap; both",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 3,
+    "morphology": "other",
+    "extrusion_mm": 3
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 92-136 axial 3D GRE FS: continuous patellar and trochlear cartilage layer, no defect; PF sheet off-centre; report silent; images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 12-20 sag PD, s3 60-137 axial: thin fluid in recesses, no distension, smooth lining, normal Hoffa fat; report small effusion; both",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s2 12-23 marrow window, s2/s5 full: faint ill-defined peripheral MTP signal under extruded meniscus; report focal MTP T2 signal, not called bruise; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 1,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "other"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 3-27 sag PD, s2 4-31 cor FS: smooth cortex, no line in any bone; report silent; images",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683": {
+  "study_id": "1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Lateral patellar dislocation per report: torn medial retinaculum, medial patella and LFC edema with possible impression fractures, small effusion, plica, Baker's cyst."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 4-13 sag, s3 13-24 cor: dark horns and body, normal shape; thin peripheral capsular line = vessel per report; both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 16-25 axial: small irregular medial facet surface at impaction site, rest of patellar and trochlear cartilage even; report grade 1; both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": null,
+    "focal": true
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 13-22 sag, s5 18-32 axial: small fluid, recess not distended, smooth lining, suprapatellar plica, mild post-traumatic Hoffa signal; both",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 2-32 marrow, s1 25-30, s3 14-22: extensive LFC and medial patellar edema, lateral patellar dislocation pattern; report same; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 3,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 2,
+     "other": 0
+    },
+    "pattern": [
+     "patellar_dislocation"
+    ]
+   },
+   "fracture": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s5 16-20 axial, s2 25-30 T1, s3/s4 14-22 cor: small depressed medial facet step with fluid, no line on T1, LFC cortex intact; report hedged; both",
+    "line_seen": false,
+    "bones": [
+     "patella"
+    ],
+    "type": "impaction"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125": {
+  "study_id": "1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Report: complete ACL tear, MM bucket-handle tear with notch fragment, LFC osteochondral injury ~1 cm, posterolateral tibial contusion, MCL grade II sprain, minimal effusion."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 4-15 sag, s6 12-23 cor: small blunted horns, body reduced to peripheral sliver, dark fragment by tibial spine; report bucket-handle; both",
+    "location": [
+     "anterior_horn",
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 3,
+    "morphology": "displaced_fragment",
+    "extrusion_mm": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 18-27 axial: even patellar and trochlear cartilage on all slices; report no chondral lesion; both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 12-19 sag, s4 20-34 axial: recess not distended, thin smooth lining, Hoffa fat clean; report minimal effusion; both",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 2-29 marrow, s1 18-26: LFC weight-bearing edema and mild posterolateral tibial edema with ACL tear (pivot shift); report same; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 2,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 1,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift"
+    ]
+   },
+   "fracture": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "s3 18-26 T1, s1 18-26 FS: dark subchondral T1 zone under LFC, smooth cortex, no line; report osteochondral injury, not called fracture; both",
+    "line_seen": false,
+    "bones": [
+     "femur"
+    ],
+    "type": "osteochondral"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945": {
+  "study_id": "1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "4-5 mm slice gaps. Report: extensive proximal tibial bone bruise, near-complete ACL tear, grade 2 MCL tear, considerable effusion, prepatellar bursitis, MM PH degeneration, early medial and patellar chondral thinning."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 2-9 sag, s2 7-14 cor: horns and body dark with normal shape, no surface signal; report PH degeneration only; both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 11-17 axial: medial patellar facet cartilage thinned and uneven, no deep or full-thickness defect; trochlea even; report early OA; both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": true
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "s3 6-13 sag, s1 12-22 axial: distended recess with even fluid, thin smooth lining, mild Hoffa heterogeneity; report effusion only; images",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s3 1-19 marrow: extensive edema of tibial epiphysis and metaphysis under both plateaus; report bone bruise; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 3,
+     "lateral_tibial_plateau": 3,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "other"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s5 5-16 cor T1, s4 5-17 sag GRE: patchy reticular tibial marrow, no discrete line, cortex intact; report bruise, no fracture; both",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192": {
+  "study_id": "1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Report: MM and LM tears, incipient tricompartmental OA, Baker's cyst, large effusion, insufficiency fracture of MFC with adjacent marrow oedema."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 15-26 cor, s1 4-13 sag, s5 4-13 T2: body a small blunted triangle on adjacent coronal slices, horns mostly dark; report MM tear; both",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 1,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": null
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 19-27 axial: patellar and trochlear cartilage thin but continuous, no deep defect; report incipient OA; both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": false
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "s1 13-21 sag, s3 20-32 axial: markedly distended recess, even fluid, thin lining with a few strands, Hoffa clean; report large effusion; images",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "moderate",
+    "probability": 0.08,
+    "note": "s1 2-32 marrow, s2 15-26: extensive MFC oedema around the reported insufficiency fracture, degenerative knee, no impact pattern elsewhere; both",
+    "edema": {
+     "medial_femoral_condyle": 3,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "insufficiency_or_sonk",
+     "around_fracture"
+    ]
+   },
+   "fracture": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s4 15-26 cor T1: dark subchondral band in weight-bearing MFC inside oedema on #20-24; report insufficiency fracture; both",
+    "line_seen": true,
+    "bones": [
+     "femur"
+    ],
+    "type": "insufficiency"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767": {
+  "study_id": "1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Coronal 5.9 mm and axial STIR 6.2 mm gaps. Patchy red marrow in distal femur. Cyst at posterior MFC notch wall. Report: MM signal without tear, tricompartmental OA, PF OA, effusion with synovitis, Osgood sequelae."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 3-11 sag, s3 6-13 cor: horns and body dark with normal shape, no surface signal seen; report signal change without tear; both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s6 3-13 axial: thin patellar cartilage over lateral facet across ~2 cm with subchondral cysts (#9-10), lateral trochlea thin; report PF OA in impression; both",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": true,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": null,
+    "focal": false
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 8-17 sag, s5 9-19 axial STIR: distended recesses with grey irregular thickened lining and small dark foci; report effusion with synovitis; both",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "low",
+    "probability": 0.12,
+    "note": "s1 1-23 marrow, s4 4-15 T1: subchondral patch under lateral trochlea facing worn patellar facet (degenerative); patchy symmetric metaphyseal red marrow; report silent; images",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 1,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "degenerative_subchondral"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 4-15 cor T1, s1 1-23: no line or cortical break; notch-wall lesion is a cyst; report silent; images",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742": {
+  "study_id": "1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "structure_out_of_view",
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Only sagittal series of this knee (coronal and axial belong to the other knee); 4.4 mm gaps. Report: ACL tear, MCL grade 2, MM tear, LM root tear, multifocal contusions, posterior MTP subchondral fracture, synovitis with plicae."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s1 2-9 PD FS, s2 3-9 T2 FS: PH small and greyish on adjacent slices, surface contact not resolved; no coronal of this knee; report linear signal to surface; report",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "s1 8-15 sag: even patellar and trochlear cartilage where cut perpendicular; no axial of this knee; report silent; images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 8-15 PD FS, s2 8-15 T2 FS: markedly distended recess with plica bands and grey irregular tissue at its upper end; report synovial hypertrophy; both",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 1,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 1-21 marrow, s3 3-19 T1: patchy edema in both condyles, tibia and inferior patellar pole; report contusions of femur, tibia, fibula, patella; both",
+    "edema": {
+     "medial_femoral_condyle": 2,
+     "lateral_femoral_condyle": 2,
+     "medial_tibial_plateau": 1,
+     "lateral_tibial_plateau": 1,
+     "patella": 1,
+     "other": 1
+    },
+    "pattern": [
+     "other"
+    ]
+   },
+   "fracture": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s3 3-10 T1, s2 3-9 T2 FS: ill-defined low signal in posterior MTP, line subtle; report subchondral linear hypointensity = subchondral fracture; report",
+    "line_seen": true,
+    "bones": [
+     "tibia"
+    ],
+    "type": "plain_subchondral_or_plateau"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500": {
+  "study_id": "1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Report: complex degenerative LM tear with extrusion, lateral TF grade 3-4 chondropathy, lateral patellar facet near full-thickness ulcers, posterior LTP edema with small subcortical fractures, mild-moderate effusion, minimal synovitis."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s5 4-15 sag, s2 12-23 cor: uniformly dark horns and body with normal shape on every slice; report MM preserved; both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 16-23 axial: fluid on lateral patellar facet bone with little grey layer over ~15 mm (#18-19); report near full-thickness ulcers; both",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": true,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": true
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s5 14-23 sag, s1 17-28 axial: distended recess, even fluid, lining thin and smooth, no fronds; report minimal synovitis; both",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "moderate",
+    "probability": 0.08,
+    "note": "s5 24-33 sag, s3 15-26 cor T1: posterior peripheral LTP edema around subcortical fractures under extruded degenerative LM; no impact pattern; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 2,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "around_fracture",
+     "degenerative_subchondral"
+    ]
+   },
+   "fracture": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s5 28-30 sag FS, s3 19-21 cor T1: bright subcortical foci and irregular posterior LTP cortex, dark T1 zone; report small subcortical fractures; both",
+    "line_seen": true,
+    "bones": [
+     "tibia"
+    ],
+    "type": "insufficiency"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Report: complete ACL tear with mild posterior LTP bone edema, incomplete radial LM tear, small full-thickness LFC and LTP chondral ulcers, PF cartilage normal, mild-moderate effusion (probable hemarthrosis)."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s5 4-15 sag, s2 14-25 cor: horns and body dark with normal shape, no surface signal; report central signal not reaching surface; both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 17-24 axial: thick even patellar and trochlear cartilage on every slice; report PF cartilage normal; both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "s5 15-24 sag, s1 18-29 axial: distended recesses with even fluid, thin smooth lining, Hoffa clean; report effusion/hemarthrosis, no synovitis; both",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s5 21-32 marrow window, s3 14-25 T1: faint posterior LTP marrow signal with ACL tear (pivot shift); report mild posterior LTP bone edema; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 1,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 14-25 cor T1, s5 21-32 FS: smooth cortex, no line in the mild LTP edema; report no fracture; both",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465": {
+  "study_id": "1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Weak fat suppression on all FS series. Report: mid-substance ACL rupture, mild residual LFC and posterior LTP contusion, normal menisci and cartilage, mild effusion."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 3-12 sag, s2 11-22 cor: uniformly dark horns and body with normal shape on every slice; report normal menisci; both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 15-23 axial: thick even patellar and trochlear cartilage; report normal PF cartilage; both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 10-19 sag, s1 16-27 axial: small fluid, recess not distended, thin smooth lining; only superolateral Hoffa impingement focus; report mild effusion; both",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s3 16-26 FS, s4 16-26 T1: ill-defined edema in weight-bearing LFC and posterior LTP with ACL tear (pivot shift); report mild residual contusion; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 1,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 1,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 16-26 T1, s3 16-26 FS: smooth cortex, no line in the LFC or LTP edema; report silent; images",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Report: complete mid-substance ACL tear, LM posterior horn longitudinal tear, MCL grade II sprain, MM intact, PF cartilage normal, no effusion, no fracture or contusion."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 3-14 sag, s7 12-23 cor: horns and body dark with normal shape, no surface signal; report MM not torn; both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 19-28 axial: even patellar and trochlear cartilage on all slices; report no chondral lesion; both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 11-19 sag, s1 20-31 axial: thin fluid layer behind patella, recess not distended, thin smooth lining, Hoffa fat clean; report no effusion; both",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 1-28 marrow, s6 4-26 T1: even marrow in all bones, no impact edema despite ACL tear; report no contusion; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s6 4-26 T1, s4 1-28 FS: smooth cortex, no line; report no fracture; both",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Weak fat suppression on sagittal FS; 4.5-5.3 mm gaps. Report: iliotibial band friction, Hoffa fat pad impingement, patellar chondropathy (ungraded)."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 2-9 sag, s4 7-14 cor: horns and body dark with normal shape, no surface signal; report silent; images",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s6 1-12 axial (0.19 mm/px): patellar cartilage full thickness with mild internal signal heterogeneity, no defect; trochlea even; report patellar chondropathy; both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": false
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s2 8-15 sag, s3 8-19 axial: small fluid, recess not distended, thin lining; fat-pad signal at impingement site only (report Hoffa impingement); both",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 1-21 marrow, s5 4-15 T1: even marrow, no impact edema; weak fat suppression limits; report silent; images",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s5 4-15 cor T1, s1 sag PD on sheet: smooth cortex, no marrow line; report silent; images",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132": {
+  "study_id": "1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "No coronal FS (cor PD only); axial T2 FS 5.5 mm gaps with dark cartilage; 3D sag PD FS. Report: high-grade partial ACL tear, low-grade MCL tear, posterior MTP and LTP osteochondral impaction injuries, mild PF chondrosis, intact menisci, small effusion."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 60-126 sag 3D, s1 10-17 cor PD: horns and body dark with normal shape, no surface signal; report intact menisci; both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "s4 15-20 axial (two windows), s3 130-196 sag 3D: smooth surfaces, no step or bare bone; cartilage poorly separated on T2; report mild scattered chondrosis; both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": false
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s3 130-190 sag 3D, s4 14-25 axial: fluid fills suprapatellar pouch and bulges lateral recess, thin smooth lining, clean Hoffa; report small effusion; images",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s3 196-240 and 84-128 marrow crops: faint ill-defined posterior LTP signal, MTP near normal; ACL tear; report impaction injuries posterior MTP and LTP; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 1,
+     "lateral_tibial_plateau": 1,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift"
+    ]
+   },
+   "fracture": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s3 196-240 3D FS, s2 3-23 sag PD: no visible depression or line at posterior plateaus; report undisplaced osteochondral impaction injuries; report",
+    "line_seen": false,
+    "bones": [
+     "tibia"
+    ],
+    "type": "impaction"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662": {
+  "study_id": "1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 15,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": "No sagittal FS (sag PD/T2 only); cor PD FS and axial 3D GRE FS. Report: known ACL rupture with bony avulsion of PL bundle, residual posterolateral tibial bruise with subchondral impression, disuse osteopenia, MM horizontal tear, Reizsynovialitis."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 15-23 cor FS tight, s4 9-17 sag PD, s5 6-16 T2: small body with grey signal to inner tip, grey PH; report horizontal tear body to PH; both",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 70-158 axial 3D GRE FS: continuous patellar and trochlear cartilage layer, no defect; report silent; images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s5 14-23 sag T2, s1 40-150 axial: thin fluid layer, recess not distended, lining thin; report small effusion with Reizsynovialitis; both",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 6-28 marrow, s2 14-22 lateral crop: patchy posterolateral tibial edema near eminence plus diffuse spotty disuse marrow; report residual bone bruise; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 1,
+     "lateral_tibial_plateau": 2,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift",
+     "degenerative_subchondral"
+    ]
+   },
+   "fracture": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s4 15-26 sag PD: irregular posterior tibial plateau near eminence with small bony fragment (#19-23); report bony avulsion of ACL PL bundle and impression; both",
+    "line_seen": true,
+    "bones": [
+     "tibia"
+    ],
+    "type": "avulsion"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921": {
+  "study_id": "1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 16,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "FS series 0.59 mm/px. Report: small osteochondral impaction injury posterior LFC, small anteromedial tibial contusion, MCL grade 2, mild PF chondrosis, no tear, no effusion, no acute fracture."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 3-11 sag FS, s5 14-25 cor FS: horns and body dark with normal shape, no surface signal; report no tear; both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 22-31 and 24-35 axial: patellar cartilage keeps most thickness on both facets, mild surface unevenness, no deep defect; report low-grade loss; both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": false
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 10-17 sag FS, s1 24-35 axial: thin fluid behind patella, recess not distended, thin smooth lining, Hoffa clean; report no effusion; both",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s3 2-24 sag FS, s5 10-32 cor FS: posterior LFC subchondral edema (cor #24-26); anteromedial tibial focus faint; report contusion and impaction edema; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 2,
+     "medial_tibial_plateau": 1,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "other"
+    ]
+   },
+   "fracture": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s2 14-22 sag PD, s4 10-32 cor T1: small dark subchondral focus posterior LFC (#20), no clear line or step; report impaction injury but no acute fracture; both",
+    "line_seen": false,
+    "bones": [
+     "femur"
+    ],
+    "type": "impaction"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 17,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Report: MCL grade 2 with medial soft-tissue edema, ACL grade 1, contusions of both femoral condyles and anteromedial and posterolateral tibia, menisci intact, some effusion with mild synovitis."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 2-10 sag PD FS, s4 10-19 cor T2 FS: horns and body dark with normal shape, no surface signal; report no meniscal tear; both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s5 12-19 axial: even patellar and trochlear cartilage, no defect; report silent; images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 9-16 sag, s5 13-24 axial: fluid in medial recess and behind patella, pouch not distended, lining mostly thin; report mild synovial hypertrophy; both",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 1-23 marrow, s4 4-26 cor, s3 1-23 T1: edema in anteromedial and posterolateral tibia and small foci in both condyles; report contusions; both",
+    "edema": {
+     "medial_femoral_condyle": 1,
+     "lateral_femoral_condyle": 1,
+     "medial_tibial_plateau": 2,
+     "lateral_tibial_plateau": 2,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "other"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 1-23 sag T1, s1 1-23 FS: smooth cortex, no line inside the edema; report contusion only; both",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 18,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Report: complex degenerative LM tear with small displaced fragment, MM intrasubstance degeneration, tricompartmental chondral thinning with deep patellar fissures, LTP subchondral edema, small effusion with synovitis, Baker's cyst."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 3-12 sag T2 FS, s2 17-28 cor PD FS: horns and body dark with normal shape, no surface signal; report PH intrasubstance degeneration; both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 18-31 axial, tight crop: thin uneven patellar and trochlear cartilage with dark intrachondral lines, no clear bare area; report deep delaminating patellar fissures; both",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": false
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s3 11-20 sag T2 FS, s1 20-31 axial: distended suprapatellar and medial recesses with grey thickened frond-like lining; report synovial thickening, synovitis; both",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "moderate",
+    "probability": 0.08,
+    "note": "s2 12-34 cor marrow, s3 2-29 sag: faint LTP subchondral edema under full-thickness fissures (degenerative); small MFC focus is a cyst; report same; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 1,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "degenerative_subchondral"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 2-29 sag PD, s2 12-34 cor FS: smooth cortex, no line; report bones normal; both",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 19,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution",
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "FS series 0.47 mm/px, 5-5.8 mm gaps; uneven fat suppression on sag FS. Report: ACL tear, partial MCL tear, MM and LM tears, effusion, femorotibial bone contusions."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s3 3-10 sag PD tight, s5 2-9 sag FS, s1 6-13 cor FS: bright signal in peripheral PH on 2 adjacent PD slices (#4-5), small body; report MM tear; both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s6 10-17 axial STIR: even patellar and trochlear cartilage, no defect; report silent; images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "s5 7-14 sag FS, s6 11-22 axial: markedly distended recess with even fluid, thin smooth lining; Hoffa mildly bright with uneven fat sat; report effusion; both",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s5 1-19 marrow, s1 4-15 cor FS, s2 4-15 cor T1: moderate LFC edema and mild posterolateral tibial edema with ACL tear (pivot shift); report contusions; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 2,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 1,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 4-15 cor T1, s3 sag PD: smooth cortex, no line in the LFC or tibial edema; report silent; images",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828": {
+  "study_id": "1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 20,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Report: PF OA with grade IV interfacet chondromalacia, TF OA lateral > medial with osteophytes, posterior intercondylar tibial subchondral cysts, MM posterior horn vertical tear to inferior surface (ramp lesion), minimal effusion."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 6-15 sag tight, s3 15-24 cor: vertical bright signal at peripheral PH reaching inferior surface on #10-12; report vertical PH tear (ramp lesion); both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "pf_oa": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s5 18-27 axial: fluid on bare central patellar ridge with subchondral edema over ~13 mm (#22-26); report grade IV interfacet chondromalacia; both",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": true,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": "mild",
+    "focal": true
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 13-22 sag, s5 20-31 axial: small fluid, pouch not distended, thin lining; small focus at upper Hoffa only; report minimal effusion; both",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "moderate",
+    "probability": 0.08,
+    "note": "s1 2-32 marrow, s2 2-32 T1: subchondral patellar edema under bare cartilage and posterior intercondylar tibial cysts, degenerative; no impact edema; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 1,
+     "other": 0
+    },
+    "pattern": [
+     "degenerative_subchondral"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 2-32 sag T1, s1 2-32 FS: smooth cortex, no line; tibial lesions are cysts; report silent; images",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 21,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Report: lateral patellar facet osteochondral lesion 8x12 mm with dislodged fragment, lateral trochlear full-thickness defect 12x15 mm with subchondral edema, anterior loose body, LM anterior horn tear, moderate effusion with thickened synovium."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 3-13 sag, s7 13-24 cor: horns and body uniformly dark with normal shape; report MM not torn; both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s4 18-29 axial T2 FS, s5 18-29 T1: full-thickness lateral trochlear defect with subchondral edema (#24-28) and lateral patellar facet crater (#26-29), each >10 mm; both",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": true,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": null,
+    "focal": true
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 13-22 sag, s4 18-29 axial: distended suprapatellar recess with grey irregular thickened lining; report thickened synovium, chronic reactive synovitis; both",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "contusion": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 2-29 marrow, s3 14-25 T1: edema of lateral trochlea and lateral patella under osteochondral defects; impact vs osteochondral lesion unclear; report subchondral edema; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 2,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 2,
+     "other": 0
+    },
+    "pattern": [
+     "around_fracture",
+     "other"
+    ]
+   },
+   "fracture": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "s4 26-29 T2 FS, s5 25-28 T1: lateral patellar facet crater with edema and dark subchondral band, loose body anteriorly; report osteochondral fracture with dislodged OCD fragment; both",
+    "line_seen": true,
+    "bones": [
+     "patella"
+    ],
+    "type": "osteochondral"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550": {
+  "study_id": "1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 22,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Weak fat suppression on all FS series. Report: ACL rupture with mild anterior tibial translation, posterolateral tibial plateau contusion, normal menisci and cartilage, no or mild effusion."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 4-15 sag, s2 13-24 cor: horns and body uniformly dark with normal shape on every slice; report normal menisci; both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 15-24 axial: even patellar and trochlear cartilage on all slices; report PF cartilage normal; both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 13-22 sag, s1 16-27 axial: thin fluid, recess not distended, smooth lining; small focal bright area at upper Hoffa only; report no/mild effusion; both",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s3 21-32 FS, s4 21-32 T1: posterior lateral tibial plateau edema with ACL rupture (pivot shift); LFC clean; report posterolateral tibial contusion; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 2,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 21-32 sag T1: reticular low signal in the edema, smooth cortex, no discrete line; report contusion only; both",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 23,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Report: complete mid-substance ACL tear with anterior tibial translation, MM longitudinal vertical tear of body and posterior horn, PF cartilage normal, no effusion, no fracture or contusion."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s3 3-14 sag, s6 14-25 cor: small greyish PH and thin body near the root on adjacent slices, vertical cleft not resolved; report longitudinal vertical tear; both",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 15-24 axial T2 FS: even patellar and trochlear cartilage on all slices; report no chondral lesion; both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 11-20 sag, s2 16-27 axial: thin fluid layer, recess not distended, thin smooth lining, Hoffa fat clean; report no effusion; both",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 2-26 marrow, s4 2-26 T1: even marrow, physeal scars only, no impact edema despite ACL tear; report no bone contusion; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 2-26 sag T1, s3 2-26 FS: smooth cortex, no line; report no fracture; both",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 24,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "poor",
+   "problems": [
+    "low_resolution",
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Body coil, large habitus, low SNR; cartilage poorly resolved. Report: extensive MM body/PH/root tear with severe extrusion, tricompartmental OA (full-thickness medial loss with cysts and edema, high-grade PF loss), small effusion."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s5 2-11 sag FS, s2 12-23 cor FS: no horn triangles between femur and tibia, meniscus displaced outside the joint on coronal; report extensive tear, severe extrusion; both",
+    "location": [
+     "body",
+     "posterior_horn",
+     "root"
+    ],
+    "surface_tiles": null,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 6
+   },
+   "pf_oa": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s1 20-29 axial: thin, poorly resolved cartilage on medial patellar facet and lateral trochlea at low SNR; report high-grade loss at both; report",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": false
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "s5 10-17 sag FS, s1 22-33 axial: small fluid, recess not distended, no visible lining thickening at this quality; report small effusion; both",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "low",
+    "probability": 0.12,
+    "note": "s5 1-23 marrow, s3 10-21 cor T1: faint medial subchondral signal only, low SNR; report subchondral cysts and edema under full-thickness medial loss, no bone bruise; report",
+    "edema": {
+     "medial_femoral_condyle": 1,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 1,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "degenerative_subchondral"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 10-21 cor T1, s4 sag PD on sheet: smooth cortex, osteophytes only, no line; report no acute fracture; both",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363": {
+  "study_id": "1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 25,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Report: MM mucoid degeneration without tear, medial compartment OA, effusion with synovitis, no Baker's cyst."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 2-10 sag, s2 8-17 cor: horns and body dark with normal shape, no surface-reaching signal; report mucoid degeneration only; both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 13-21 axial: patellar cartilage present with mild surface irregularity, upper trochlea thin, no deep defect; report silent on PF; images",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": false
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 9-16 sag, s3 14-25 axial: distended recesses with grey strands and thickened lining in upper pouch; report effusion with synovitis; both",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "moderate",
+    "probability": 0.08,
+    "note": "s1 1-23 marrow, s2 8-17 cor, s5 6-17 T1: small subchondral MFC foci under medial cartilage wear (degenerative); report medial OA, no bruise; both",
+    "edema": {
+     "medial_femoral_condyle": 1,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "degenerative_subchondral"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s5 6-17 cor T1, s1 1-23 FS: smooth cortex, no line; report silent; images",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711": {
+  "study_id": "1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 26,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Report: near-complete ACL tear, LFC anterior weight-bearing subchondral fracture with marrow edema, posterolateral tibial pivot-shift contusion, edematous POL and oblique popliteal ligament, menisci and cartilage normal, mild effusion."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 3-12 sag, s4 13-24 cor: horns and body uniformly dark with normal shape on every slice; report MM normal; both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 15-23 axial: thick even patellar and trochlear cartilage on all slices; report cartilage normal; both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s2 11-18 sag, s3 16-27 axial: mild fluid in recesses, pouch not distended, thin smooth lining, mild post-traumatic Hoffa signal; report mild effusion; both",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s2 17-26 FS, s7 82-126 T1: extensive LFC edema around fracture plus separate posterolateral tibial edema (pivot shift); report pivot-shift contusion; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 3,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 1,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift",
+     "around_fracture"
+    ]
+   },
+   "fracture": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s2 19-23 sag FS, s7 86-98 3D T1: dark subchondral line in anterior weight-bearing LFC inside edema on adjacent slices; report subchondral fracture; both",
+    "line_seen": true,
+    "bones": [
+     "femur"
+    ],
+    "type": "plain_subchondral_or_plateau"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039": {
+  "study_id": "1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 27,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Report: comminuted tibial spine avulsion fracture (ACL, LM/MM root insertions) extending into MTP with collapse, Segond fracture, LFC osteochondral impaction, MFC edema without fracture, MCL high-grade tear, small MM horizontal tear, large effusion."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s4 16-27 cor FS, s3 5-16 sag: faint body signal toward femoral surface, peripheral fluid at capsule, PH root on avulsed fragment; report small horizontal tear; report",
+    "location": [
+     "body",
+     "root"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 20-29 axial: thick even patellar and trochlear cartilage on all slices; report silent; images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s3 15-24 sag, s1 22-33 axial: large distending effusion, plica, few grey nodular foci in lateral recess (likely clot), lining otherwise thin; report large effusion; images",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": true
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s3 2-38 marrow, s4 14-30 cor FS: diffuse LFC and lateral trochlear edema beyond the impaction, tibial edema around fractures, small MFC edema without fracture; both",
+    "edema": {
+     "medial_femoral_condyle": 1,
+     "lateral_femoral_condyle": 3,
+     "medial_tibial_plateau": 3,
+     "lateral_tibial_plateau": 3,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "around_fracture",
+     "other"
+    ]
+   },
+   "fracture": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s2 13-24 sag PD, s4 14-30 cor FS: displaced tibial spine fragment with fracture lines into the plateau; report tibial spine avulsion, Segond, LFC impaction; both",
+    "line_seen": true,
+    "bones": [
+     "tibia",
+     "femur"
+    ],
+    "type": "avulsion"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312": {
+  "study_id": "1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "pilot5",
+  "prompt": "pilot5+report",
+  "source": "work/claude_labels_oct20/pilot_c2",
+  "position": 28,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Weak fat suppression (fat grey) on all FS series limits marrow assessment. Report: normal study, no effusion, normal menisci, ligaments, cartilage and bones."
+  },
+  "findings": {
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 4-15 sag, s2 14-25 cor: horns and body uniformly dark with normal shape on every slice; report normal menisci; both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 14-23 axial: even patellar and trochlear cartilage on all slices; report PF cartilage normal; both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 13-22 sag, s1 15-26 axial: thin fluid only, recess not distended, smooth lining, Hoffa fat clean; report no significant effusion; both",
+    "effusion_synovitis": 0,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 2-35 marrow, s4 2-35 T1: even marrow; mottled area at lateral notch wall is ACL footprint partial volume; weak fat sat limits; report bones normal; both",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 2-35 sag T1, s3 2-35 FS: smooth cortex, no line; report bones normal; both",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ }
+}

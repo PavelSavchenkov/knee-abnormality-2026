@@ -1,0 +1,4 @@
+10-18 12:29 copied from experiments/v2/oct14_text_labels/main/ (train.py, data.py, labels.py, model.py, predict.py, partners.csv,
+series_side_final.csv; itself copied 10-14 from experiments/v0/oct7_baseline = the deployed sub_b0 source + the D3 training-only site term).
+For D3 tl_sitev (Brainstorm site report S4.4, Master 10-18: idle-gap rank). data/site_train.csv and refs/main/sub_b0_src/fold0/config.json
+(the sub_b0 recipe) copied from the same experiment. Experiments stay self-contained: no import across experiments.

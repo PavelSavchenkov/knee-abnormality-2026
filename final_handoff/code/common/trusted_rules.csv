@@ -1,0 +1,54 @@
+finding,key,status,filter,label,verdict,gold_wrong,gold_cells,nongold_cells,reason
+ACL,acl,denied,,0,trusted,0,2,68,explicit "no ACL tear"; all 15 sampled quotes clean
+ACL,acl,structure_normal,,0,trusted,0,19,2692,"ACL normal / intact"; 0/19 gold
+ACL,acl,meets,,1,trusted,0,20,442,complete or high-grade tear; 20/20 gold; no grafts among them
+MCL,mcl,denied,,0,trusted,0,1,37,explicit negation; pooled denied 2% wrong
+MCL,mcl,structure_normal,,0,trusted,0,31,3093,"MCL normal"; 0/31 gold
+MCL,mcl,below,,0,trusted,0,7,352,grade I sprain / periligamentous edema; negative by the official definition; 0/7 gold
+Medial Meniscus,medial_meniscus,denied,,0,trusted,0,11,635,"no tear"; 0/11 gold
+Medial Meniscus,medial_meniscus,structure_normal,,0,trusted,0,7,994,"meniscus normal"; 0/7 gold
+Medial Meniscus,medial_meniscus,meets,,1,trusted,3,25,1625,tear stated; 3/25 gold-negative are report-vs-image disagreements (terse mentions); no extraction errors
+Lateral Meniscus,lateral_meniscus,denied,,0,trusted,0,10,823,"no tear"; 0/10 gold
+Lateral Meniscus,lateral_meniscus,meets,,1,trusted,2,18,571,tear stated; 2/18 gold-negative (one "marginal amputation"); no extraction errors
+Medial OA,medial_oa,denied,,0,trusted,0,5,426,"no chondral defect / no high-grade chondropathy"
+Medial OA,medial_oa,structure_normal,,0,trusted,1,17,1317,"cartilage normal"; 1/17 gold-positive (image disagreement)
+Medial OA,medial_oa,meets,,1,trusted,0,6,437,grade III-IV / full thickness / denudation; 6/6 gold
+Lateral OA,lateral_oa,denied,,0,trusted,0,4,448,"no chondral defect"
+Lateral OA,lateral_oa,structure_normal,,0,trusted,1,16,1473,"cartilage normal"; 1/16 gold-positive (terse report)
+PF OA,pf_oa,denied,,0,trusted,0,5,335,"no chondral lesion"
+PF OA,pf_oa,structure_normal,,0,trusted,1,14,1191,"patellar cartilage normal"; 1/14 gold-positive (trauma report)
+PF OA,pf_oa,meets,,1,trusted,0,9,698,grade III-IV / full thickness; 9/9 gold
+Effusion,effusion,denied,,0,trusted,0,5,1258,"no effusion"
+Effusion,effusion,meets,,1,trusted,1,10,561,moderate or large effusion = official definition; 9/10 gold
+Baker's,bakers_cyst,denied,,0,trusted,0,10,908,"no Baker's cyst"
+Baker's,bakers_cyst,structure_normal,,0,trusted,0,0,87,"popliteal fossa normal"
+Baker's,bakers_cyst,not_mentioned,,0,trusted,0,30,1660,0/30 gold; reports of every template name a Baker's cyst when one is there
+Baker's,bakers_cyst,meets,,1,trusted,0,4,216,moderate / large / >= 5 cm / ruptured; 4/4 gold
+Contusion,contusion,denied,,0,trusted,1,4,537,"no bone contusion / no marrow edema"; the 1 miss had only a muscle contusion in the text
+Contusion,contusion,structure_normal,,0,trusted,0,5,1149,"marrow signal normal"
+Contusion,contusion,excluded,cause degeneration|fracture,0,trusted,0,9,605,edema explained by degeneration or by a fracture = not a contusion by definition; 0/9 gold
+Fracture,fracture,denied,,0,trusted,0,5,587,"no fracture"
+Fracture,fracture,structure_normal,,0,trusted,0,2,711,"bones normal"
+Fracture,fracture,general_normal,,0,trusted,0,5,916,"marrow signal normal" (an acute fracture always shows marrow edema); 0/5 gold
+ACL,acl,not_mentioned,,0,look at,0,4,350,78% are terse positive-only reports (mostly one Spanish template); silence likely means no tear but only 4 gold cells
+ACL,acl,below,grade low_grade,0,look at,0,5,150,low-grade sprain / interstitial tear: negative by definition; 0/5 gold
+ACL,acl,general_normal,,0,look at,0,0,26,whole-study "no abnormality"; no gold cells
+MCL,mcl,not_mentioned,,0,look at,0,7,415,66% terse positive-only reports; 0/7 gold
+MCL,mcl,excluded,,0,look at,0,1,148,chronic / sequela / bursitis: negative by definition (acute tears only) but steven often > 0.9
+MCL,mcl,meets,,1,look at,0,2,47,complete / high-grade tears; definition-aligned but only 2 gold cells
+Medial Meniscus,medial_meniscus,below,,0,look at,1,7,660,grade I-II degeneration; one Turkish "grade II" was a gold tear
+Lateral Meniscus,lateral_meniscus,structure_normal,,0,look at,2,9,1873,"lateral meniscus normal" missed 2 gold tears (one in a severe ACL trauma knee)
+Lateral Meniscus,lateral_meniscus,not_mentioned,,0,look at,1,8,427,silent in a degenerative report with a gold tear
+Lateral Meniscus,lateral_meniscus,below,,0,look at,1,7,465,degeneration without tear; one gold tear
+Medial OA,medial_oa,not_mentioned,,0,look at,0,16,899,0/16 gold but those are mostly young trauma knees; a Turkish template (248 of 899) never describes cartilage
+Medial OA,medial_oa,below,,0,look at,0,2,492,mild thinning / grade I-II: negative by definition
+Lateral OA,lateral_oa,not_mentioned,,0,look at,1,20,1093,same caveat as medial OA; 1/20 gold
+PF OA,pf_oa,unsettled,,1,look at,1,8,719,"OA patelofemoral / condropatía rotuliana" without grade: 7/8 gold-positive (gold readers are lenient on PF OA)
+PF OA,pf_oa,below,,0,look at,1,8,576,superficial / grade I-II; 1/8 gold-positive
+Effusion,effusion,not_mentioned,,0,look at,0,2,417,52% terse positive-only reports; only 2 gold cells
+Effusion,effusion,unsettled,,1,look at,3,19,636,"effusion" without size: 16/19 gold-positive
+Synovitis,synovitis,denied,,0,look at,0,0,26,explicit "no synovitis"; no gold cells
+Synovitis,synovitis,not_mentioned,effusion denied,0,look at,0,5,1055,synovitis silent and effusion denied: 0/5 gold; the only sizeable synovitis negative set
+Baker's,bakers_cyst,excluded,,0,look at,0,0,306,mentions another cyst (ganglion / parameniscal) and is silent on Baker's: same as not mentioned
+Contusion,contusion,not_mentioned,,0,look at,1,10,957,silent trauma reports can miss contusions (patellar dislocation case)
+Fracture,fracture,excluded,,0,look at,0,0,29,old / healed fracture or OCD: not acute

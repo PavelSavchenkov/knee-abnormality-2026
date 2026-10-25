@@ -1,0 +1,149 @@
+<example id="1">
+<input>reports.csv index 120</input>
+<why>
+ACL 'tear' without a grade meets; an ordinary tear is 0.90, lowered one step to 0.80 because every statement uses an indirect word ('in favor of', 'C/W'). MCL grade 1 is below, clearly below: 0.20. 'R/O meniscocapsular separation' is a hedge about the medial meniscus: 0.30. Effusion and Baker's cyst have no size: unsettled, 0.60. Synovitis 0.97: synovial hypertrophy is described and the impression states it directly. Contusion meets at 0.97 (femoral condyle and tibial plateau: a kissing pattern, stated directly in the impression) even though a fracture is suspected; the suspected fracture itself is hedged, and 'suspicious of' (0.40) is firmer than 'R/O' (0.30).
+</why>
+<output>
+{"index": 120, "study_id": "1.2.826.0.1.3680043.8.498.39135770176150551756142329948474103964",
+ "study": {"report_side": "same", "report_type": "narrative", "refers_to_prior": false, "hoffa_edema": null},
+ "findings": {
+  "acl": {"status": "meets", "missing": [], "quote": "in favor of tear ... C/W ACL tear", "probability": 0.8, "grade": null, "acuity": null, "graft": false},
+  "mcl": {"status": "below", "missing": [], "quote": "Interstitial increseased signal intensity of MCL on F/S T2WI, in favor of grade 1 injury", "probability": 0.2, "grade": "low_grade", "acuity": null},
+  "medial_meniscus": {"status": "hedged", "missing": [], "quote": "R/O meniscocapsular separation at the interface of posterior horn of medisl meniscus", "probability": 0.3, "location": ["posterior_horn"], "displaced_fragment": null},
+  "lateral_meniscus": {"status": "denied", "missing": [], "quote": "No evidence of tear is noted in either medial or lateral meniscus", "probability": 0.03, "location": [], "displaced_fragment": null},
+  "medial_oa": {"status": "not_mentioned", "missing": [], "quote": "", "probability": null, "depth": null, "size_mm": null, "extent": null, "severity_word": null},
+  "lateral_oa": {"status": "not_mentioned", "missing": [], "quote": "", "probability": null, "depth": null, "size_mm": null, "extent": null, "severity_word": null},
+  "pf_oa": {"status": "not_mentioned", "missing": [], "quote": "", "probability": null, "depth": null, "size_mm": null, "extent": null, "severity_word": null},
+  "effusion": {"status": "unsettled", "missing": ["size"], "quote": "Joint effusion and suprapatellar bursitis", "probability": 0.6, "size": null},
+  "synovitis": {"status": "meets", "missing": [], "quote": "hypertrophy of the synovium, indicative of synovitis ... Synovitis of right knee", "probability": 0.97},
+  "bakers_cyst": {"status": "unsettled", "missing": ["size"], "quote": "mild infrapatellar bursitis and Baker's cyst", "probability": 0.6, "size": null, "longest_mm": null},
+  "contusion": {"status": "meets", "missing": [], "quote": "in favor of bone contusion ... Bone contusion of femoral condyle and tibial plateau", "probability": 0.97, "cause": "trauma", "bones": ["femur_other", "tibia_other"]},
+  "fracture": {"status": "hedged", "missing": [], "quote": "Suspicious of subchondral fracture of lateral femoral condyle ... R/O subchondral fracture", "probability": 0.4, "acuity": null}
+ }}
+</output>
+</example>
+
+<example id="2">
+<input>reports.csv index 198</input>
+<why>
+The clinical question ('Sospecha lesión meniscal') is ignored. MCL 'grade I-II' with slight loss of continuity: unsettled (grade), leaning away from the definition: 0.45. Full-thickness 2 x 3 mm lesion is below (< 10 mm), one step under the threshold: 0.35. PF grade 4 lesions with no size meet only because the size is not stated: 0.80. Edema whose cause is only a possible avulsion: unsettled (cause), 0.60; the avulsion itself is hedged with 'could represent': 0.40. 'Ligamentos cruzados ... sin alteraciones' covers the ACL as part of a group: 0.05; 'Menisco lateral ... conservada' names the structure: 0.02.
+</why>
+<output>
+{"index": 198, "study_id": "1.2.826.0.1.3680043.8.498.11956771495610267604936834092317960600",
+ "study": {"report_side": "same", "report_type": "narrative", "refers_to_prior": false, "hoffa_edema": null},
+ "findings": {
+  "acl": {"status": "structure_normal", "missing": [], "quote": "Ligamentos cruzados y colateral lateral sin alteraciones", "probability": 0.05, "grade": null, "acuity": null, "graft": false},
+  "mcl": {"status": "unsettled", "missing": ["grade"], "quote": "discreta pérdida de la continuidad de su tercio proximal ... Signos de un esguince grado I - II", "probability": 0.45, "grade": "low_to_partial", "acuity": null},
+  "medial_meniscus": {"status": "below", "missing": [], "quote": "Aumento de señal central del cuerno posterior y cuerpo del menisco medial que no impresiona contactar con la superficie articular, sin caracteres propios de rotura", "probability": 0.2, "location": ["posterior_horn", "body"], "displaced_fragment": null},
+  "lateral_meniscus": {"status": "structure_normal", "missing": [], "quote": "Menisco lateral de morfología y señal conservada, sin signos de rotura", "probability": 0.02, "location": [], "displaced_fragment": null},
+  "medial_oa": {"status": "below", "missing": [], "quote": "Úlcera condral espesor total de la región central de carga del cóndilo femoral medial de 2 x 3 mm", "probability": 0.35, "depth": "full", "size_mm": 3, "extent": "focal", "severity_word": null},
+  "lateral_oa": {"status": "structure_normal", "missing": [], "quote": "El resto de los cartílagos femorotibiales sin alteraciones", "probability": 0.05, "depth": null, "size_mm": null, "extent": null, "severity_word": null},
+  "pf_oa": {"status": "meets", "missing": [], "quote": "Úlcera condral de espesor total con cambios óseos secundarios a la región central de la tróclea femoral y del vértice de la rótula ... Condropatía lesiones focales grado 4 de la articulación patelofemoral", "probability": 0.8, "depth": "full", "size_mm": null, "extent": "multifocal", "severity_word": null},
+  "effusion": {"status": "denied", "missing": [], "quote": "No hay significativo derrame articular", "probability": 0.03, "size": "none"},
+  "synovitis": {"status": "not_mentioned", "missing": [], "quote": "", "probability": null},
+  "bakers_cyst": {"status": "denied", "missing": [], "quote": "No hay significativo derrame articular ni quistes poplíteos", "probability": 0.01, "size": null, "longest_mm": null},
+  "contusion": {"status": "unsettled", "missing": ["cause"], "quote": "Discreto edema óseo periférico del platillo tibial medial ... que podría representar una lesión avulsiva no desplazada", "probability": 0.6, "cause": null, "bones": ["medial_tibial_plateau"]},
+  "fracture": {"status": "hedged", "missing": [], "quote": "podría representar una lesión avulsiva no desplazada", "probability": 0.4, "acuity": null}
+ }}
+</output>
+</example>
+
+<example id="3">
+<input>reports.csv index 6</input>
+<why>
+Two reports (right, then left); knee_side is RIGHT, so only the right-knee part is used. A cartilage-only (chondral) fracture is excluded for fracture. Edema in a knee the report calls degenerative OA is excluded for contusion (cause degeneration). Baker's cyst 4 cm with no size word: unsettled, and 35-49 mm leans toward the definition: 0.75. ICRS grade III with no size meets only because the size is not stated: 0.80. 'Large' effusion: 0.97.
+</why>
+<output>
+{"index": 6, "study_id": "1.2.826.0.1.3680043.8.498.46825768767498441994570613185981335949",
+ "study": {"report_side": "both", "report_type": "narrative", "refers_to_prior": false, "hoffa_edema": null},
+ "findings": {
+  "acl": {"status": "below", "missing": [], "quote": "Ο πρόσθιος χιαστός σύνδεσµος παρουσιάζει µυξοειδή εκφύλιση", "probability": 0.2, "grade": "degeneration", "acuity": null, "graft": false},
+  "mcl": {"status": "structure_normal", "missing": [], "quote": "Τα λοιπά συνδεσµικά στοιχεία είναι ακέραια", "probability": 0.05, "grade": null, "acuity": null},
+  "medial_meniscus": {"status": "below", "missing": [], "quote": "Στο έσω διαµέρισµα αναγνωρίζεται εκφύλιση και ήπιο υπεξάρθρηµα του έσω µηνίσκου", "probability": 0.2, "location": [], "displaced_fragment": null},
+  "lateral_meniscus": {"status": "meets", "missing": [], "quote": "παρατηρείται εκφυλιστική ρήξη και υπεξάρθρηµα του µηνίσκου", "probability": 0.9, "location": [], "displaced_fragment": null},
+  "medial_oa": {"status": "structure_normal", "missing": [], "quote": "Ο αρθρικός χόνδρος και ο οστικός µυελός έχουν φυσιολογική απεικόνιση", "probability": 0.02, "depth": null, "size_mm": null, "extent": null, "severity_word": null},
+  "lateral_oa": {"status": "meets", "missing": [], "quote": "χόνδρινο έλλειµµα διαµέτρου 2,5mm ολικού βάθους ... λέπτυνση-διάβρωση του αρθρικού χόνδρου του έξω κνηµιαίου πλατώ (ICRS grade III)", "probability": 0.8, "depth": "full", "size_mm": 2.5, "extent": "multifocal", "severity_word": null},
+  "pf_oa": {"status": "meets", "missing": [], "quote": "εκφύλιση ICRS grade III στον αρθρικό χόνδρο της επιγονατίδας κατά την έσω µοίρα", "probability": 0.8, "depth": "deep", "size_mm": null, "extent": null, "severity_word": null},
+  "effusion": {"status": "meets", "missing": [], "quote": "Ενδοαρθρικά παρατηρείται µεγάλη συλλογή υγρού", "probability": 0.97, "size": "large"},
+  "synovitis": {"status": "not_mentioned", "missing": [], "quote": "", "probability": null},
+  "bakers_cyst": {"status": "unsettled", "missing": ["size"], "quote": "συνοβιακή κύστη Baker µε παχύρευστο κατά τόπους περιεχόµενο, διαφραγµάτια, κεφαλουραία διάµετρο 4cm", "probability": 0.75, "size": null, "longest_mm": 40},
+  "contusion": {"status": "excluded", "missing": [], "quote": "υπαρθρικό οστεοµυελικό οίδηµα ιδίως εµφανές στην επίφυση της κνήµης. Τα ευρήµατα συνιστούν εκφυλιστική οστεοαρθρίτιδα", "probability": 0.05, "cause": "degeneration", "bones": ["lateral_tibial_plateau"]},
+  "fracture": {"status": "excluded", "missing": [], "quote": "χόνδρινο έλλειµµα διαµέτρου 2,5mm ολικού βάθους στα πλαίσια χόνδρινου κατάγµατος", "probability": 0.05, "acuity": null}
+ }}
+</output>
+</example>
+
+<example id="4">
+<input>reports.csv index 105</input>
+<why>
+OA 'on both sides, more pronounced laterally' with advanced loss described for the lateral side: lateral meets (0.97, advanced), medial unsettled (grade, 0.60). Patellar grade IV with diffusely thinned cartilage: 0.97. Baker's cyst 65 mm: 0.97. Edema with no cause in a knee the report describes as degenerative: unsettled, leaning away: 0.45. A partial PCL tear is not one of the 12 findings and is ignored.
+</why>
+<output>
+{"index": 105, "study_id": "1.2.826.0.1.3680043.8.498.50259348432783983788186173025555513832",
+ "study": {"report_side": "not_stated", "report_type": "narrative", "refers_to_prior": false, "hoffa_edema": null},
+ "findings": {
+  "acl": {"status": "structure_normal", "missing": [], "quote": "ACL se prati u kontinuitetu.", "probability": 0.02, "grade": null, "acuity": null, "graft": false},
+  "mcl": {"status": "structure_normal", "missing": [], "quote": "Medijalni kolateralni kompleks je održan.", "probability": 0.02, "grade": null, "acuity": null},
+  "medial_meniscus": {"status": "denied", "missing": [], "quote": "Medijalni menisk je bez znakova rupture", "probability": 0.03, "location": [], "displaced_fragment": null},
+  "lateral_meniscus": {"status": "meets", "missing": [], "quote": "Lateralni menisk je insuficijentan, u cijelosti maceriran ... Radijalna ruptura stražnjeg korijena ... Horizontalna ruptura prednjeg roga lateralnog meniska i korpusa i kompleksna ruptura stražnjeg roga", "probability": 0.97, "location": ["anterior_horn", "body", "posterior_horn", "posterior_root"], "displaced_fragment": null},
+  "medial_oa": {"status": "unsettled", "missing": ["grade"], "quote": "Degenerativne promjene u sklopu OA obostrano, izraženije lateralnog kompartmenta koljena", "probability": 0.6, "depth": null, "size_mm": null, "extent": null, "severity_word": null},
+  "lateral_oa": {"status": "meets", "missing": [], "quote": "izraženije lateralnog kompartmenta koljena, sa uznapredovalom hondromalacijom i mjestimično potpunim gubitkom hrskavice", "probability": 0.97, "depth": "full", "size_mm": null, "extent": "multifocal", "severity_word": "severe"},
+  "pf_oa": {"status": "meets", "missing": [], "quote": "Hondromalacija patele IV stupnja u području grebena ... Hrskavica je difuzno stanjena. Hondromalacija trohlearne hrskavice III-IV stupnja.", "probability": 0.97, "depth": "full", "size_mm": null, "extent": "diffuse", "severity_word": null},
+  "effusion": {"status": "meets", "missing": [], "quote": "Suprapateralno umjerena količina zglobnog izljeva", "probability": 0.9, "size": "moderate"},
+  "synovitis": {"status": "not_mentioned", "missing": [], "quote": "", "probability": null},
+  "bakers_cyst": {"status": "meets", "missing": [], "quote": "Veća, septirana poplitealna cista, dimenzija oko 35x35x65 mm", "probability": 0.97, "size": "large", "longest_mm": 65},
+  "contusion": {"status": "unsettled", "missing": ["cause"], "quote": "Interkondilarno straga nešto koštanog edema u femuru.", "probability": 0.45, "cause": null, "bones": ["femur_other"]},
+  "fracture": {"status": "not_mentioned", "missing": [], "quote": "", "probability": null, "acuity": null}
+ }}
+</output>
+</example>
+
+<example id="5">
+<input>reports.csv index 67</input>
+<why>
+Normal structured report. 'No sinister bone marrow changes' is a tumour screen and the conclusion 'No significant findings' is general: contusion, fracture, synovitis and Baker's cyst are general_normal at 0.08 (whole-knee normal conclusion). Group statements ('Intact menisci', 'tricompartmental cartilage') are structure_normal at 0.05. 'No knee joint effusion' is a categorical denial: 0.01. 'No evidence of fat pad impingement' makes hoffa_edema false.
+</why>
+<output>
+{"index": 67, "study_id": "1.2.826.0.1.3680043.8.498.52435631723314823200374985065756182593",
+ "study": {"report_side": "not_stated", "report_type": "structured", "refers_to_prior": false, "hoffa_edema": false},
+ "findings": {
+  "acl": {"status": "structure_normal", "missing": [], "quote": "Intact cruciate and collateral ligaments.", "probability": 0.05, "grade": null, "acuity": null, "graft": false},
+  "mcl": {"status": "structure_normal", "missing": [], "quote": "Intact cruciate and collateral ligaments.", "probability": 0.05, "grade": null, "acuity": null},
+  "medial_meniscus": {"status": "structure_normal", "missing": [], "quote": "Intact menisci.", "probability": 0.05, "location": [], "displaced_fragment": null},
+  "lateral_meniscus": {"status": "structure_normal", "missing": [], "quote": "Intact menisci.", "probability": 0.05, "location": [], "displaced_fragment": null},
+  "medial_oa": {"status": "structure_normal", "missing": [], "quote": "Well-maintained tricompartmental hyaline articular cartilage.", "probability": 0.05, "depth": null, "size_mm": null, "extent": null, "severity_word": null},
+  "lateral_oa": {"status": "structure_normal", "missing": [], "quote": "Well-maintained tricompartmental hyaline articular cartilage.", "probability": 0.05, "depth": null, "size_mm": null, "extent": null, "severity_word": null},
+  "pf_oa": {"status": "structure_normal", "missing": [], "quote": "Well-maintained tricompartmental hyaline articular cartilage.", "probability": 0.05, "depth": null, "size_mm": null, "extent": null, "severity_word": null},
+  "effusion": {"status": "denied", "missing": [], "quote": "No knee joint effusion.", "probability": 0.01, "size": "none"},
+  "synovitis": {"status": "general_normal", "missing": [], "quote": "No significant findings.", "probability": 0.08},
+  "bakers_cyst": {"status": "general_normal", "missing": [], "quote": "No significant findings.", "probability": 0.08, "size": null, "longest_mm": null},
+  "contusion": {"status": "general_normal", "missing": [], "quote": "No sinister bone marrow changes. ... No significant findings.", "probability": 0.08, "cause": null, "bones": []},
+  "fracture": {"status": "general_normal", "missing": [], "quote": "No sinister bone marrow changes. ... No significant findings.", "probability": 0.08, "acuity": null}
+ }}
+</output>
+</example>
+
+<example id="6">
+<input>reports.csv index 189</input>
+<why>
+'Rüptür' (rupture) of the ACL meets with grade complete: 0.97. Bucket-handle tear displaced into the notch: displaced_fragment true, 0.97. A 'millimetric' radial tear is weakened by its degree word: 0.80. 'Kondral kayıplar' (cartilage loss) with no depth or size: unsettled (grade, extent), 0.60. Quadriceps (suprapatellar) fat pad edema is not Hoffa's fat pad: hoffa_edema null.
+</why>
+<output>
+{"index": 189, "study_id": "1.2.826.0.1.3680043.8.498.42120645248710860870761681999665860884",
+ "study": {"report_side": "not_stated", "report_type": "narrative", "refers_to_prior": false, "hoffa_edema": null},
+ "findings": {
+  "acl": {"status": "meets", "missing": [], "quote": "Ön çapraz bağ femoral insersiyodan rüptüredir.", "probability": 0.97, "grade": "complete", "acuity": null, "graft": false},
+  "mcl": {"status": "structure_normal", "missing": [], "quote": "Arka çapraz bağ yan bağlar normaldir.", "probability": 0.05, "grade": null, "acuity": null},
+  "medial_meniscus": {"status": "meets", "missing": [], "quote": "Mediyal menisküste interkondiler çentiğe deplase kova sapı yırtığı vardır.", "probability": 0.97, "location": [], "displaced_fragment": true},
+  "lateral_meniscus": {"status": "meets", "missing": [], "quote": "Lateral menisküs korpus apeksinde milimetrik radiyal yırtık vardır.", "probability": 0.8, "location": ["body"], "displaced_fragment": null},
+  "medial_oa": {"status": "structure_normal", "missing": [], "quote": "Mediyal ve lateral femorotibyal, eklem yüzleri normaldir.", "probability": 0.02, "depth": null, "size_mm": null, "extent": null, "severity_word": null},
+  "lateral_oa": {"status": "structure_normal", "missing": [], "quote": "Mediyal ve lateral femorotibyal, eklem yüzleri normaldir.", "probability": 0.02, "depth": null, "size_mm": null, "extent": null, "severity_word": null},
+  "pf_oa": {"status": "unsettled", "missing": ["grade", "extent"], "quote": "patellar taraf mediyal fasette kondral incelme fissür oluşumu vardır.Troklear tarafta ve interkondiler sulkusa yakın lokaliasyonda kondral kayıplar vardır.", "probability": 0.6, "depth": null, "size_mm": null, "extent": null, "severity_word": null},
+  "effusion": {"status": "denied", "missing": [], "quote": "Diz eklemi içi sıvı miktarı normaldir.", "probability": 0.01, "size": "none"},
+  "synovitis": {"status": "not_mentioned", "missing": [], "quote": "", "probability": null},
+  "bakers_cyst": {"status": "not_mentioned", "missing": [], "quote": "", "probability": null, "size": null, "longest_mm": null},
+  "contusion": {"status": "not_mentioned", "missing": [], "quote": "", "probability": null, "cause": null, "bones": []},
+  "fracture": {"status": "not_mentioned", "missing": [], "quote": "", "probability": null, "acuity": null}
+ }}
+</output>
+</example>

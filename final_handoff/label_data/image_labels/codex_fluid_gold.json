@@ -1,0 +1,3354 @@
+{
+ "1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903": {
+  "study_id": "1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Fluid panel reviewed with native s1 #6-23, #26-31 and s3 #9-38, window 5 99.9. Diffuse superficial soft-tissue edema."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate effusion with convex distension of the lateral suprapatellar recess; native s1 #26-31 and s3 #27-38.",
+    "grade": 2,
+    "depth_mm": 20
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Thick irregular frond-like synovium in the distended lateral recess, also posteriorly; native s1 #26-31 and s3 #30-38.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Septated posteromedial cyst distending the gastrocnemius-semimembranosus interval; neck on native s3 #18-26. Separate posterior ganglia.",
+    "grade": "moderate",
+    "diameter_mm": 50,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": [
+     "ganglion"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767": {
+  "study_id": "1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native fluid review: s1 #4-19, s5 #5-20, s6 #1-13, window 5 99.9. Additional focused axial series shows the synovial lining clearly."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate effusion with rounded distension of the lateral suprapatellar recess; native s1 #16-19 and s5 #15-20.",
+    "grade": 2,
+    "depth_mm": 30
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Irregular thickened lining and fine fronds in the distended suprapatellar recess; confirmed on native s6 #5-13 and s1 #9-19.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Posteromedial joint recess fluid without a gastrocnemius-semimembranosus cyst; native s1 #4-9 and s5 #5-16.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945": {
+  "study_id": "1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native fluid review: s3 #3-16 and s1 #7-25, window 5 99.9. Separate prepatellar bursal fluid is excluded from the effusion measurement."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate suprapatellar and parapatellar joint distension, distinct from the superficial prepatellar collection; native s3 #7-14.",
+    "grade": 2,
+    "depth_mm": 12
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "Grey tissue along the upper recess may represent thickened lining versus partial-volume fat/plica; native s1 #22-25. Distension is definite.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No collection distending the gastrocnemius-semimembranosus interval; native s3 #3-8 and s1 #7-18.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native s3 #9-25 and s1 #10-40 reviewed at window 5 99.9. Coarse pixels limit fine lining assessment. Posterior skin marker and anterior superficial edema."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate joint distension with a convex lateral suprapatellar pouch; native s3 #21-25 and s1 #25-40.",
+    "grade": 2,
+    "depth_mm": 15
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distended joint with predominantly thin smooth lining; visible bands appear thin plicae. No definite fronds; native s1 #25-40 and s3 #15-25.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Only a thin sliver in the posteromedial tendon interval without cystic distension; native s1 #14-27 and s3 #9-16.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435": {
+  "study_id": "1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native s1 #6-23 and s5 #12-50 reviewed at window 5 99.9. Superior effusion continues to the upper edge of the acquired field."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Large effusion broadly distending the suprapatellar and parapatellar capsule; native s5 #30-50 and s1 #9-23.",
+    "grade": 3,
+    "depth_mm": 35
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Thick nodular/frond-like lining and multiple low-signal bodies in the large effusion; native s1 #12-23 and s5 #27-50.",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 1,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Small septated cyst with a narrow neck and limited transverse distension; native s1 #11-15 and s5 #18-28. Separate popliteus bursal fluid.",
+    "grade": "small",
+    "diameter_mm": 35,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": [
+     "bursa"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683": {
+  "study_id": "1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native fluid review: s1 #6-23 and s5 #6-36, window 5 99.9."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small effusion without broad capsular or suprapatellar distension; native s1 #16-23 and s5 #20-36.",
+    "grade": 1,
+    "depth_mm": 7
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Mild ill-defined stranding in Hoffa's fat pad, with a thin lining and no joint distension; native s1 #18-21. No definite fronds.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small narrow gastrocnemius-semimembranosus collection, without substantial expansion or leakage; native s1 #6-10 and s5 #9-24.",
+    "grade": "small",
+    "diameter_mm": 25,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003": {
+  "study_id": "1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Native full-FOV views, window 5 99.9: s1 #4-21; s3 #6-28. Medial extracapsular and superficial edema."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Convex distension of the medial and lateral suprapatellar recesses; native s1 #7-9 and s3 #15-26.",
+    "grade": 2,
+    "depth_mm": 23
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distended joint with thin smooth lining and a thin medial plica; native s3 #13-28. No definite nodular thickening or diffuse Hoffa signal.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No collection between semimembranosus and medial gastrocnemius on consecutive sagittal and axial views.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Native full-FOV views, window 5 99.9: s3 #4-21; s2 #6-30."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small continuous layer behind the patella and in the lateral recess without moderate capsular distension; native s2 #21-30.",
+    "grade": 1,
+    "depth_mm": 6
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Thin smooth lining and homogeneous fluid. Hoffa signal consists of fine vessels and sharply defined clefts, without diffuse edema.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No posteromedial bursal collection on consecutive sagittal and axial slices; posterior bright tubular structures are vessels.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327": {
+  "study_id": "1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native full-FOV views, window 5 99.9: s5 #5-22; s2 #8-40. Additional enlarged s5 #17-20 for Hoffa and lining. Posteromedial fluid tracks along the medial gastrocnemius."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate fluid distends the suprapatellar and both parapatellar recesses; native s5 #17-22 and s2 #23-36.",
+    "grade": 2,
+    "depth_mm": 16
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "Distension with mildly irregular grey lining, uncertain true thickening. Mild Hoffa stranding; native s5 #17-20. No definite fronds or bodies.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate lobulated cyst with communicating neck; native s2 #16-31. Inferior fluid along the medial gastrocnemius supports leakage.",
+    "grade": "moderate",
+    "diameter_mm": 55,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363": {
+  "study_id": "1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native full-FOV views, window 5 99.9: s1 #3-20; s3 #5-28. Peripheral posterior fat suppression is incomplete. Suprapatellar fluid continues to the superior axial field edge."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate effusion with convex medial suprapatellar distension and fluid extending superiorly; native s1 #6-10 and s3 #17-28.",
+    "grade": 2,
+    "depth_mm": 16
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Diffuse ill-defined bright signal through Hoffa's fat pad on native s1 #11-16 and s3 #11-15. Suprapatellar bands are thin plicae.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 2,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "excluded",
+    "certainty": "high",
+    "probability": 0.05,
+    "note": "No Baker's cyst. Fluid distends the posterolateral popliteus tendon bursa/sheath; native s1 #15-20 and s3 #5-10.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": [
+     "bursa"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Native full-FOV views, window 5 99.9: s2 #3-18; s3 #4-22; supplemental high-resolution s6 #1-12. Mild peripheral sagittal fat suppression failure; axial STIR confirms fluid distribution."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small continuous retropatellar and suprapatellar fluid, without convincing moderate distension; native s2 #11-16, s3 #18-22 and s6 #8-12.",
+    "grade": 1,
+    "depth_mm": 9
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Smooth thin lining, no bodies or fronds. Hoffa contains fine vessels and defined clefts without diffuse signal change.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No distending collection between semimembranosus and medial gastrocnemius on consecutive native and bundle views.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native window 5 99.9: full-FOV s5 #3-20, s7 #5-30, s1 #31-40; enlarged s5 #19-22. Marked peripheral suppression failure; STIR confirms extensive superficial edema and recess fluid."
+  },
+  "findings": {
+   "effusion": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "Localized lateral recess distension but little central suprapatellar fluid; small-to-moderate threshold uncertain. Native s7 #20-30, s5 #19-22.",
+    "grade": 2,
+    "depth_mm": 20
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Irregular thickened lining and small frond-like projections in the distended lateral recess; enlarged native s5 #20-22 and STIR s7 #24-28.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "excluded",
+    "certainty": "high",
+    "probability": 0.05,
+    "note": "No Baker's cyst. Lobulated cystic collection immediately behind the PCL is central, consistent with a ganglion; native s5 #11-13 and s7 #13-19.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": [
+     "ganglion"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995": {
+  "study_id": "1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other",
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "No FS sagittal series; sagittal PD and axial GRE used. Upper axial recess partly beyond coverage. Native s1 #5-22, s3 #25-144, s4 #7-32; window 5 99.9; axial crops enlarged."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Convex distension of medial and lateral recesses; native s1 #5-12 and s3 #85-144 confirm moderate fluid.",
+    "grade": 2,
+    "depth_mm": 16
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Thick irregular frond-like lining in distended upper lateral recess, with smaller medial nodules; native s3 #109-144. Hoffa assessment limited without sagittal FS.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate debris-containing cyst with neck between semimembranosus and medial gastrocnemius; inferior leakage along muscle. Native s1 #11-13, s3 #25-108.",
+    "grade": "moderate",
+    "diameter_mm": 45,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378": {
+  "study_id": "1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native s2 #5-28 and s1 #4-30, full field, window 5 99.9. Upper axial recess extends beyond coverage; sagittal views show its extent. Posterior and anteromedial soft-tissue edema."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate fluid distends lateral suprapatellar recess with convex capsular bulging; largest lateral pocket on native s2 #26-27.",
+    "grade": 2,
+    "depth_mm": 25
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "Distension with small irregular tissue/debris at posterior margin of lateral recess; definite diffuse thickening not established. Native s1 #24-30. Hoffa mostly vessels and clefts.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No semimembranosus-medial gastrocnemius collection. Posterior fluid is central joint recess fluid and fascial edema, confirmed on native s1 #4-24 and s2 #5-16.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465": {
+  "study_id": "1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 15,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Uneven posterior fat suppression. Native s3 #4-25 and s1 #8-30, window 5 99.9. Uppermost recess reaches series boundary."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate fluid with convex upper suprapatellar distension, confirmed on native s1 #26-30 and s3 #19-25.",
+    "grade": 2,
+    "depth_mm": 12
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distended joint with mostly thin lining and thin plicae; mild deep Hoffa signal without diffuse involvement. No definite fronds. Native s1 #14-30, s3 #14-25.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Characteristic interval remains dry on native s3 #4-12 and s1 #8-25; no posteromedial cyst.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039": {
+  "study_id": "1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 16,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Uppermost suprapatellar pouch extends beyond available views. Native s3 #8-25 and s1 #9-38, window 5 99.9. Widespread soft-tissue edema."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Large effusion markedly distending suprapatellar and medial recesses; native s3 #14-25 and s1 #21-38. Maximum visible depth estimated; superior extent outside coverage.",
+    "grade": 3,
+    "depth_mm": 30
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Irregular thickened lining and nodular/frond-like projections in large suprapatellar effusion; diffuse ill-defined Hoffa signal. Native s1 #30-38 and s3 #17-24.",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 2,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No fluid collection between semimembranosus and medial gastrocnemius on native s3 #8-17 and s1 #9-28. Diffuse subcutaneous edema without cyst neck.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 17,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native s5 #3-16 and s6 #5-24, window 5 99.9. Upper recess reaches superior coverage boundary. Posterior fascial and periarticular edema."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate convex suprapatellar distension, also seen throughout native s5 #6-14 and s6 #17-24.",
+    "grade": 2,
+    "depth_mm": 18
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "Distended joint with possibly thickened upper recess lining; mild patchy Hoffa signal. No definite fronds. Native s6 #21-24 and s5 #10-12.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No discrete semimembranosus-medial gastrocnemius cyst. Posterior fluid follows fascial planes centrally rather than a cyst neck; native s6 #5-20 and s5 #3-9.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274": {
+  "study_id": "1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 18,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Native s4 #8-25 and s1 #10-37, window 5 99.9. Mild superficial prepatellar and medial soft-tissue signal."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small continuous fluid in narrow suprapatellar and parapatellar recesses without moderate capsular distension; native s4 #14-25 and s1 #22-37.",
+    "grade": 1,
+    "depth_mm": 8
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Smooth thin lining, clear fluid and normal Hoffa apart from fine vessels; thin medial plica. Native s4 #14-25 and s1 #19-37.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Only a thin physiologic sliver in the semimembranosus-medial gastrocnemius interval, without a distended cyst; native s1 #16-26 and s4 #8-16.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192": {
+  "study_id": "1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 19,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native s1 #6-27 and s3 #4-35, window 5-99.9. Upper suprapatellar recess and inferior extent of leaked calf fluid extend beyond coverage."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Large effusion with marked medial and suprapatellar capsular distension; native s1 #9-11 and s3 #25-35.",
+    "grade": 3,
+    "depth_mm": 26
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Irregular thickened suprapatellar lining with nodular fronds, especially laterally; mild Hoffa signal. Native s1 #24-27 and s3 #27-33.",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 1,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Distended cyst with SM-MG neck and inferior leakage along calf fascia. Native s1 #8-13 and s3 #10-20.",
+    "grade": "moderate",
+    "diameter_mm": 40,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911": {
+  "study_id": "1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 20,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure",
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native s2 #3-17, including enlarged #9-14, and s1 #9-32; window 5-99.9. Peripheral fat suppression is uneven; uppermost recess is incompletely covered."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate fluid distends the suprapatellar recess with convex margins; native s2 #8-15 and s1 #23-32.",
+    "grade": 2,
+    "depth_mm": 12
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "Mild irregularity of lateral suprapatellar lining, without definite thickening; mild Hoffa signal. Native s2 #13-16 and s1 #24-29.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No distended SM-MG bursa on consecutive native s2 #3-8 and s1 #9-20.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 21,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure",
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Native s1 #3-16, s2 #5-27 and s3 #6-11; window 5-99.9. Noisy sagittal images and extensive lateral/posterior fat suppression failure limit subtle lining assessment."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate effusion predominantly distends the medial parapatellar recess; less fluid above the patella. Native s1 #4-9 and s2 #10-18.",
+    "grade": 2,
+    "depth_mm": 8
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distended joint with largely smooth thin lining; the medial band is a thin plica. No definite fronds or Hoffa-synovitis. Native s2 #11-18 and s3 #6-11.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No characteristic posteromedial collection on native s1 #3-8 and s2 #5-16; assessment mildly limited by noise and uneven suppression.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 22,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native s1 #6-26 and s4 #8-40, window 5-99.9; all fluid sheets reviewed."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate effusion with convex distension of the lateral suprapatellar recess. Native s1 #21-25 and s4 #29-37.",
+    "grade": 2,
+    "depth_mm": 16
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Thick irregular villous synovium in lateral suprapatellar recess and low-signal intra-articular bodies; mild Hoffa signal. Native s1 #14-16,21-25.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No distended SM-MG collection on consecutive native s1 #6-11 and s4 #14-25.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924": {
+  "study_id": "1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 23,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Native s1 #5-21 and s3 #6-27, window 5-99.9. Mild peripheral suppression variation; fluid structures remain adequately visible."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small amount of continuous retropatellar fluid without suprapatellar capsular distension; native s1 #13-21 and s3 #20-27.",
+    "grade": 1,
+    "depth_mm": 4
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Thin smooth lining, no convincing debris or fronds, and Hoffa signal limited to fine vessels. Native s1 #11-21 and s3 #12-27.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No distended posteromedial collection on native s1 #5-10 and s3 #6-19.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309": {
+  "study_id": "1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 24,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Native s5 #10-42 and s1 #8-33, window 5-99.9. Additional lateral sagittal slices reviewed for recess fronds and inferior Hoffa signal."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate effusion distends the lateral suprapatellar recess; native s5 #38-40 and s1 #22-31.",
+    "grade": 2,
+    "depth_mm": 20
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Nodular/frond-like lateral recess lining and confluent inferolateral Hoffa signal extending centrally. Native s5 #25-39 and s1 #14-16.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 2,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No distended SM-MG bursa or posteromedial fluid collection on native s5 #10-18 and s1 #8-25.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404": {
+  "study_id": "1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 25,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Native s3 #8-29 and s1 #9-40, window 5-99.9. Native in-plane resolution 0.56-0.70 mm limits fine lining detail."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Small effusion with narrow suprapatellar fluid and no convincing moderate capsular distension. Native s3 #17-29 and s1 #28-40.",
+    "grade": 1,
+    "depth_mm": 8
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Slight lateral suprapatellar lining irregularity without definite thickening or distension; Hoffa is preserved. Native s3 #22-26 and s1 #33-40.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate septated SM-MG cyst with visible neck. Mild inferior pericystic edema; rupture uncertain without definite calf tracking. Native s3 #11-16 and s1 #12-31.",
+    "grade": "moderate",
+    "diameter_mm": 65,
+    "neck_seen": true,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132": {
+  "study_id": "1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 26,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "motion"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Axial motion. Native s3 #155-166 and #94-99 consecutive; #86-214 every 8 slices for wider sagittal coverage; s4 #6-30, window 5-99.9."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderately distended suprapatellar and parapatellar recesses; native s3 #155-214 and s4 #18-26.",
+    "grade": 2,
+    "depth_mm": 12
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distension with predominantly thin lining and a thin plica; no definite fronds or diffuse Hoffa abnormality. Native s4 #18-27, s3 #155-166.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No collection distending the semimembranosus-medial gastrocnemius interval; native s3 #94-99 and s4 #6-17.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 27,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Upper extent of lateral suprapatellar fluid exceeds sagittal and axial coverage. Native s4 #7-24, #30-35; s1 #9-32, window 5-99.9."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate effusion with marked convex distension of the lateral suprapatellar recess; native s4 #30-35, s1 #21-32.",
+    "grade": 2,
+    "depth_mm": 25
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distended recesses but mostly smooth thin lining; no definite diffuse Hoffa abnormality or synovial fronds. Native s1 #21-32 and s4 #13-24.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No distending collection in the characteristic posteromedial interval; native s4 #7-16, s1 #9-20.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 28,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "motion",
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Mild sagittal motion; suprapatellar fluid persists at the upper acquisition boundary. Native s5 #7-24, #29-34; s1 #9-34, window 5-99.9."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate effusion with convex parapatellar distension, greatest laterally; native s5 #29-34 and s1 #21-34.",
+    "grade": 2,
+    "depth_mm": 30
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "Distension with mildly prominent lateral recess lining, without definite fronds or diffuse Hoffa edema; native s1 #23-29. Thickening remains equivocal.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No collection in the semimembranosus-medial gastrocnemius interval; native s5 #7-16 and s1 #9-20.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711": {
+  "study_id": "1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_0-29",
+  "position": 29,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Upper suprapatellar fluid extends beyond acquired coverage. Native s2 #5-22, s1 #17-22, s3 #6-30; enlarged s2 #19-22 and s3 #15-18, window 5-99.9."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate effusion, most distended in the lateral suprapatellar recess; native s2 #19-22 and s3 #21-30.",
+    "grade": 2,
+    "depth_mm": 25
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Nodular/frond-like tissue projects into distended lateral recesses; enlarged native s2 #19-22 and s3 #15-18. Hoffa signal mainly fine vessels.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No Baker collection; fluid remains in posterior joint recesses. Native s2 #5-12 and s3 #6-20.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774": {
+  "study_id": "1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution",
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Low-resolution sagittal series; upper suprapatellar fluid reaches axial acquisition boundary. Native s2 #5-22 and s1 #7-30, window 5-99.9."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate effusion distends the suprapatellar and lateral parapatellar recesses; native s2 #15-22 and s1 #19-30.",
+    "grade": 2,
+    "depth_mm": 20
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distension with mostly thin smooth lining and a thin plica. No definite fronds or diffuse Hoffa signal; native s1 #13-30.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No posteromedial cyst; native s2 #5-12 and s1 #7-19. Sagittal detail is limited but axial interval is clear.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645": {
+  "study_id": "1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure",
+    "motion",
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Uneven fat suppression and mild axial motion. Upper recess exceeds axial coverage. Native s4 #3-17 and s1 #4-19, window 5-99.9."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate effusion, most convex in the lateral suprapatellar recess; native s4 #13-17 and s1 #16-19.",
+    "grade": 2,
+    "depth_mm": 20
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "Distended recess with possible lining irregularity and mild Hoffa signal. Definite thickening is not confirmed amid uneven suppression; native s4 #9-14, s1 #16-19.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Only thin fluid around the gastrocnemius origin, without a distending posteromedial sac or inferior extension; native s4 #3-8 and s1 #7-13.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037": {
+  "study_id": "1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution",
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Coarse sagittal detail; upper recess extends beyond acquired coverage. Native s1 #2-15, s5 #4-15 including enlarged #7-9, window 5-99.9."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate effusion with convex lateral suprapatellar distension; native s1 #11-15 and s5 #11-15.",
+    "grade": 2,
+    "depth_mm": 25
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distension with largely smooth thin lining and no definite diffuse Hoffa abnormality or fronds; native s1 #5-13 and s5 #10-15.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small oval collection in the characteristic interval, without substantial extension or rupture; native s1 #4 and enlarged s5 #7-9.",
+    "grade": "small",
+    "diameter_mm": 20,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550": {
+  "study_id": "1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Incomplete fat suppression reduces fluid-to-fat contrast, but anatomy is sharp. Native s3 #7-24 and s1 #9-30, window 5-99.9."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small fluid volume without convex distension of the suprapatellar pouch; native s3 #16-24 and s1 #21-30.",
+    "grade": 1,
+    "depth_mm": 6
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Thin smooth lining; Hoffa shows fine vessels and clefts without confluent abnormal signal. Incomplete suppression limits certainty; native s3 #13-24, s1 #15-30.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No collection in the characteristic posteromedial interval; native s3 #7-14 and s1 #9-22.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450": {
+  "study_id": "1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Native s5 #7-24 and s1 #9-30, window 5 99.9. Small uppermost suprapatellar fluid continues to the superior axial edge."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate effusion with convex distension of lateral suprapatellar/parapatellar recess; native s1 #21-26.",
+    "grade": 2,
+    "depth_mm": 25
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distended recesses have predominantly thin smooth lining; no definite thickening or fronds. Mild posterior Hoffa signal; native s5 #17-24, s1 #21-26.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "excluded",
+    "certainty": "moderate",
+    "probability": 0.08,
+    "note": "No SM-MG collection. Separate lobulated lateral joint-line collection, not a Baker cyst; native s1 #11-16.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": [
+     "other"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220": {
+  "study_id": "1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native s1 #2-17 and s5 #5-28, window 5 99.9; full suprapatellar and posteromedial coverage."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Convex moderate suprapatellar and parapatellar distension; native s1 #8-14, s5 #15-21.",
+    "grade": 2,
+    "depth_mm": 20
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distension with thin lining and a thin suprapatellar plica. No definite synovial hypertrophy or Hoffa-synovitis; native s1 #8-14, s5 #17-25.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No collection in the SM-MG interval on consecutive medial and axial views; native s1 #2-7, s5 #5-13.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312": {
+  "study_id": "1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Native s3 #6-23 and s1 #9-30, window 5 99.9. Incomplete fat suppression reduces sensitivity to subtle Hoffa signal."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small amount of fluid without suprapatellar capsular distension; native s3 #14-23, s1 #21-30.",
+    "grade": 1,
+    "depth_mm": 6
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Smooth thin lining without distension or definite Hoffa edema. Fat suppression is incomplete; native s3 #14-23 and s1 #18-30.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small SM-MG cyst with a narrow communicating neck and minimal posterior extension; native s3 #6-8 and s1 #13-17. No leakage.",
+    "grade": "small",
+    "diameter_mm": 20,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125": {
+  "study_id": "1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native s1 #4-21 and s4 #15-40, window 5 99.9. Suprapatellar, Hoffa and posteromedial regions reviewed."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small fluid volume; continuous retropatellar fluid but no convex suprapatellar distension. Native s1 #10-21, s4 #27-40.",
+    "grade": 1,
+    "depth_mm": 8
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Thin smooth lining with no distension or debris. Hoffa contains discrete vessels and recesses rather than diffuse edema; native s1 #10-21, s4 #21-40.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No posteromedial SM-MG fluid collection; native s1 #4-10 and s4 #15-26.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608": {
+  "study_id": "1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution",
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native s2 #3-26 and s1 #7-30, window 5 99.9. Coarse native pixels and patchy peripheral fat suppression; sagittal views supplement superior axial coverage."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Small effusion, most conspicuous laterally, without convincing convex capsular distension; native s2 #21-26 and s1 #25-30.",
+    "grade": 1,
+    "depth_mm": 12
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Mild ill-defined Hoffa signal and slight recess lining irregularity without joint distension; native s2 #15-23. No definite fronds.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate Baker cyst distending the SM-MG interval and extending posteriorly, with a visible neck; native s2 #3-7, s1 #10-25. No definite rupture.",
+    "grade": "moderate",
+    "diameter_mm": 50,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254": {
+  "study_id": "1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Native s1 #4-21, s4 #15-40 and enlarged s4 #29-32, window 5 99.9. Full suprapatellar and posteromedial review."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate effusion with convex distension of both parapatellar recesses, especially lateral; native s4 #27-33.",
+    "grade": 2,
+    "depth_mm": 25
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distended joint with thin smooth recess lining and no definite debris or Hoffa edema; native s1 #10-21, enlarged s4 #29-32.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Only a thin posteromedial fluid sliver; no distending cyst body or calf tracking. Native s1 #4-10 and s4 #21-32.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution",
+    "fat_suppression_failure",
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native s3 #5-22 and s1 #9-40, window 5 99.9. Uneven peripheral fat suppression and limited superior recess coverage; fluid and fronds remain visible."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate convex suprapatellar and parapatellar distension; native s3 #10-17 and s1 #27-40.",
+    "grade": 2,
+    "depth_mm": 16
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Multiple grey fronds and thick irregular lining within distended fluid; native s3 #10-15 and s1 #27-40. Hoffa fat lacks diffuse inflammatory signal.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate SM-MG cyst with a communicating neck and posterior/inferior extension, native s3 #10-12 and s1 #14-27. No definite rupture.",
+    "grade": "moderate",
+    "diameter_mm": 45,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710": {
+  "study_id": "1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native s1 #9-26 and s2 #9-42, window 5 99.9; enlarged s1 #18-23 and s2 #35-40. Uppermost recess extends beyond axial coverage. Extensive extra-articular edema."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Convex distension of the suprapatellar recess with fluid extending into lateral recesses; native s1 #18-26 and s2 #30-42.",
+    "grade": 2,
+    "depth_mm": 12
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "Possible thick lining/bands in the upper recess, difficult to separate from adjacent fat and folds; native s2 #35-40. Mild Hoffa stranding.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No SM-MG fluid collection on native s1 #9-16 and s2 #9-26. Posterior superficial edema does not form a Baker cyst.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921": {
+  "study_id": "1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution",
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native s3 #4-21 and s1 #11-40, window 5 99.9. Coarse fluid-sensitive resolution and residual fat signal; recess morphology remains assessable."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small continuous retropatellar/suprapatellar fluid with no substantial capsular distension; native s3 #12-17 and s1 #28-40.",
+    "grade": 1,
+    "depth_mm": 6
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Smooth thin lining and no debris. Hoffa signal is uniform apart from thin vessels; no definite inflammatory signal on native s3 #10-17 and s1 #23-40.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No distending SM-MG collection on consecutive medial slices or native s1 #11-30; only a trace of fluid at the gastrocnemius origin.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828": {
+  "study_id": "1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution",
+    "motion"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native s1 #5-26 and s5 #3-36, window 5 99.9. Mild axial motion/ringing and coarse resolution limit fine lining assessment."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small retropatellar and suprapatellar fluid without moderate capsular distension; native s1 #15-24 and s5 #23-36.",
+    "grade": 1,
+    "depth_mm": 7
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Slight irregularity of suprapatellar lining/folds in a nondistended recess; native s1 #19-24. No diffuse Hoffa signal or definite fronds.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small SM-MG cyst, native s1 #9-10 and s5 #12-17. Separate distal semimembranosus bursal fluid wraps the tendon at the tibia (A1); no rupture.",
+    "grade": "small",
+    "diameter_mm": 25,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": [
+     "bursa"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236": {
+  "study_id": "1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 15,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native s1 #5-22 and s3 #8-38, window 5 99.9; enlarged s1 #16-21 and s3 #32-37. Upper recess continues beyond the superior image boundary."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate convex suprapatellar and parapatellar distension, native s1 #17-22 and s3 #26-38.",
+    "grade": 2,
+    "depth_mm": 16
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Small irregular grey frond-like projections line the distended upper recess, clearest on enlarged native s3 #32-37. Separate thin plica is not counted. Hoffa mostly dark.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No SM-MG cyst on consecutive medial views and native s3 #8-25. Central popliteal edema and posterior joint recess fluid do not constitute a Baker cyst.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 16,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "motion",
+    "low_resolution",
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native s4 #2-17 and s1 #1-20, window 5 99.9. Blurring, coarse through-plane sampling and incomplete superior recess coverage limit lining detail."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate suprapatellar/lateral recess distension, native s4 #11-17 and s1 #16-20.",
+    "grade": 2,
+    "depth_mm": 18
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distended joint with no definite thick lining or fronds despite native review. Mild Hoffa stranding; fine synovial assessment limited by blurring.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Large septated SM-MG cyst with proximal and distal extension; native s4 #2-8 and s1 #2-19. Inferior fluid dissects along medial gastrocnemius, supporting leakage.",
+    "grade": "large",
+    "diameter_mm": 85,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 17,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Native s4 #4-21 and s1 #9-38 reviewed at window 5 99.9, covering central/medial sagittal slices and the joint line through the upper recess."
+  },
+  "findings": {
+   "effusion": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "Focal convex fluid pocket above patella, native s4 #16-20 and s1 #28-32; little fluid elsewhere. Borderline small versus moderate overall distension.",
+    "grade": 2,
+    "depth_mm": 12
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Localized recess distension with thin smooth lining, no definite fronds and no diffuse Hoffa signal on native s4 #10-21 and s1 #21-38.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No SM-MG collection on consecutive medial slices and native s1 #9-28.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 18,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native s1 #3-20 and s5 #4-24, full field, window 5 99.9. Minor peripheral fat-suppression variation does not limit fluid assessment."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small suprapatellar and medial parapatellar fluid pockets without broad convex distension; native s1 #12-16, s5 #16-21.",
+    "grade": 1,
+    "depth_mm": 6
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Thin smooth lining and dark Hoffa fat apart from vessels and clefts. No definite thickening or fronds; native s1 #9-20, s5 #10-24.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No distended semimembranosus-medial gastrocnemius collection. Only trace origin fluid; posterior lateral tubes are vessels; native s1 #3-8, s5 #4-15.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002": {
+  "study_id": "1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 19,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Native s2 #4-20, s3 #7-22 and focused axial s6 #1-12, window 5 99.9. Slight sagittal fat-suppression variation; axial series adequately shows the lining."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small suprapatellar fluid pocket without broad capsular distension; native s2 #10-16 and s3 #18-22.",
+    "grade": 1,
+    "depth_mm": 8
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Smooth thin lining, no debris or fronds. Hoffa fat shows vessels and clefts without diffuse edema; native s2 #9-16, s3 #10-22, s6 #1-12.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No fluid collection in the semimembranosus-medial gastrocnemius interval; native s2 #4-9 and s3 #7-15.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395": {
+  "study_id": "1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 20,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution",
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native s4 #5-20 and s3 #7-36, plus s3 #30-35 crop, window 5 99.9. Thick sagittal slices limit lining detail. Upper recess continues to the superior coverage edge."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate effusion with convex medial parapatellar and suprapatellar distension; native s4 #7-10, s3 #19-30.",
+    "grade": 2,
+    "depth_mm": 20
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "Distension with possible irregular thickening in the upper medial recess; partial volume with adjacent fat limits certainty. Hoffa mainly dark; native s3 #30-35.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Diffuse posteromedial and calf fascial edema without a discrete SM-MG bursal collection or neck; native s4 #5-10, s3 #7-24.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662": {
+  "study_id": "1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 21,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other",
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "No sagittal FS. Native s5 #9-26, consecutive s3 #7-34 (TE46), s1 #35-160 every 5 with upper-recess crop, window 5 99.9. Upper fluid reaches axial coverage edge."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate effusion with convex lateral suprapatellar recess distension; native s3 #24-34 and s1 #120-160.",
+    "grade": 2,
+    "depth_mm": 18
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "Small projections/debris along the lateral recess, without unequivocal thickened lining. No diffuse Hoffa edema; native s3 #25-31, s1 #120-145.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small narrow SM-MG cyst with a visible neck and short inferior extension; no rupture. Native s5 #13-17 and s3 #9-22.",
+    "grade": "small",
+    "diameter_mm": 35,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 22,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Native s1 #6-23 and s4 #10-40, full field, window 5 99.9. Good detail, but the upper suprapatellar recess reaches the superior image boundary."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate fluid distension of the suprapatellar and parapatellar recesses, with substantial synovial tissue within them; native s1 #12-23, s4 #28-40.",
+    "grade": 2,
+    "depth_mm": 20
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Marked irregular frond-like synovial thickening fills the upper recess; additional lining around the cruciates and mild Hoffa signal. Native s1 #12-22, s4 #34-40.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No distended SM-MG bursa or cyst neck. Posterior fluid is intra-articular and perivascular; native s1 #6-11, s4 #10-30.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190": {
+  "study_id": "1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 23,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native s1 #6-23 and s5 #10-36, full field, window 5 99.9. Upper recess fluid extends to the superior axial boundary; otherwise good fluid-panel detail."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate effusion with convex distension of both parapatellar recesses and the lateral suprapatellar pouch; native s5 #25-36.",
+    "grade": 2,
+    "depth_mm": 25
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distended joint with mostly thin smooth lining. Small suprapatellar bands appear to be plicae, without definite thickening; Hoffa dark. Native s1 #12-23, s5 #25-36.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small SM-MG cyst with a narrow communicating neck, without inferior leakage; native s1 #8-10 and s5 #19-26.",
+    "grade": "small",
+    "diameter_mm": 25,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 24,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "5_notch",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other",
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": false,
+   "pattern": "normal_looking",
+   "note": "Only target-knee sagittal PD available: native s5 #7-30, window 5 99.9; other-knee series ignored. No FS or axial images. Medial/lateral labels appear reversed: fibula on labelled medial slices."
+  },
+  "findings": {
+   "effusion": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Only a thin recess line without a definite fluid pocket or capsular distension; native s5 #10-24. Assessment limited to non-fat-suppressed sagittal PD.",
+    "grade": 0,
+    "depth_mm": 2
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No visible thickened lining, fronds or distension. Hoffa architecture preserved, but edema signal cannot be reliably graded without FS; native s5 #13-24.",
+    "effusion_synovitis": 0,
+    "hoffa_signal": null,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No discrete posterior bursal collection across sagittal views, including anatomical medial side despite reversed position labels; native s5 #7-30. No axial confirmation.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742": {
+  "study_id": "1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 25,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "5_notch",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": false,
+   "pattern": "acute_trauma",
+   "note": "Native s1 and s2 #3-19, full field, window 5 99.9. No target-knee axial series; other-knee series ignored. Position labels appear reversed, with fibula on labelled medial slices."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Large effusion markedly expands the suprapatellar and parapatellar recesses throughout consecutive sagittal slices; native s1/s2 #6-18.",
+    "grade": 3,
+    "depth_mm": 25
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Irregular thickened lining and small frond-like projections in the distended upper recess, confirmed on PD FS and T2 FS. Mild Hoffa signal; native s1/s2 #6-11.",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 1,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No discrete posterior bursal collection on either side of the sagittal stack, including anatomical medial slices labelled lateral. No axial confirmation; native s1/s2 #3-19.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910": {
+  "study_id": "1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 26,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "motion",
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Sagittal motion; suprapatellar fluid reaches the upper axial coverage. Native s2 #6-23 and s6 #1-30 reviewed at window 5-99.9."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate convex suprapatellar and parapatellar recess distension; native s2 #14-23 and s6 #20-30.",
+    "grade": 2,
+    "depth_mm": 20
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Irregular grey lining and frond-like tissue in the distended upper recess; native s2 #15-23 and s6 #25-30. No diffuse Hoffa signal.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Distended SM-MG collection with a clear neck and inferior extension, about 65 mm long. Native s2 #7-15 and s6 #3-20; no definite leakage.",
+    "grade": "moderate",
+    "diameter_mm": 65,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187": {
+  "study_id": "1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 27,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure",
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Uneven fat suppression and low sagittal resolution limit fine lining assessment. Native s2 #3-19 and s1 #9-34 reviewed at window 5-99.9."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate suprapatellar distension with convex lateral recess expansion; native s2 #9-16 and s1 #22-30.",
+    "grade": 2,
+    "depth_mm": 25
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distended joint with mostly smooth thin lining; no convincing fronds. Mild Hoffa signal, limited by uneven fat suppression. Native s2 #9-16 and s1 #21-30.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No distended SM-MG collection on consecutive posteromedial views; native s2 #3-9 and s1 #9-22. Uneven suppression limits subtle detail.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891": {
+  "study_id": "1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 28,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native s1 #3-16 and s5 #5-20 reviewed at window 5-99.9. Mild peripheral suppression variation does not limit the fluid panel."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "Small simple fluid in the parapatellar recesses; the upper suprapatellar pouch remains nondistended. Native s1 #6-14 and s5 #11-20.",
+    "grade": 1,
+    "depth_mm": 6
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Smooth thin lining, homogeneous fluid and normal Hoffa fat apart from slender vessels. Native s1 #5-15 and s5 #11-20.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No collection or distension between semimembranosus and medial gastrocnemius. Native s1 #3-8 and s5 #5-14.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500": {
+  "study_id": "1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/codex_labels_oct7/fluid_30-59",
+  "position": 29,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Upper suprapatellar fluid extends beyond coverage. Native s5 #6-23 and s1 #7-30, including crops of s5 #17-22 and s1 #25-30, reviewed at window 5-99.9."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate convex suprapatellar and bilateral parapatellar distension, with posterior joint recess fluid. Native s5 #10-23 and s1 #21-30.",
+    "grade": 2,
+    "depth_mm": 25
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distension with predominantly thin smooth lining. Mild posterior Hoffa signal around fluid clefts; no definite hypertrophic lining. Native s5 #17-22 and s1 #25-30 crops.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No SM-MG collection. Posterior central fluid remains within the joint recess around the cruciates. Native s5 #6-14 and s1 #7-22.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ }
+}

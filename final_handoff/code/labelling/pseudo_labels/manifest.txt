@@ -1,0 +1,142 @@
+140e0fbaa58085941486661faddf1ee6  data/text_labels/external/pl_ctns_nfnet_v0.csv  recipe=nfnet teacher=v0 rows=4407
+579e93466e76ce8b8e450397507f70fb  data/text_labels/external/pl_ct_sub_b0_v0.csv  recipe=sub_b0 teacher=v0 rows=4407
+4977c06cef4d209eb9c4ae6c77021b19  experiments/v3/oct16_experts/data/pl/pl_ct_b3c_rep_v0.csv  recipe=b3c_rep teacher=v0 rows=4407
+0e2acd787d6415ba227dd00ce4a8a7f4  experiments/v3/oct16_experts/data/pl/pl_ct_b3l_rep_v0.csv  recipe=b3l_rep teacher=v0 rows=4407
+4977c06cef4d209eb9c4ae6c77021b19  experiments/v3/oct16_experts/data/pl/pl_ct_b3n_rep_v0.csv  recipe=b3n_rep teacher=v0 rows=4407
+4977c06cef4d209eb9c4ae6c77021b19  experiments/v3/oct16_experts/data/pl/pl_ct_bfs_rep_v0.csv  recipe=bfs_rep teacher=v0 rows=4407
+0a1bbff9e84d59ab542f833dcc04d944  experiments/v3/oct16_experts/data/pl/pl_ct_b3c_rep_v0.csv  recipe=b3c_rep teacher=v0 rows=4407
+fa5e0f755ebc3b62c433e9d0489d67bf  experiments/v3/oct16_experts/data/pl/pl_ct_b3l_rep_v0.csv  recipe=b3l_rep teacher=v0 rows=4407
+7df9804da18d9fbdb9723bbd21f3aa6f  experiments/v3/oct16_experts/data/pl/pl_ct_b3n_rep_v0.csv  recipe=b3n_rep teacher=v0 rows=4407
+9a4a56f984f5e36c7c92ed3334597e82  experiments/v3/oct16_experts/data/pl/pl_ct_bfs_rep_v0.csv  recipe=bfs_rep teacher=v0 rows=4407
+579e93466e76ce8b8e450397507f70fb  data/text_labels/external/pl_ct_sub_b0_v0.csv  recipe=sub_b0 teacher=v0 rows=4407
+140e0fbaa58085941486661faddf1ee6  data/text_labels/external/pl_ctns_nfnet_v0.csv  recipe=nfnet teacher=v0 rows=4407
+2aa935af0b52356e255eeb1f30a1ff48  experiments/v3/oct16_experts/data/pl/pl_ct_z1_acl_v0.csv  recipe=z1_acl teacher=v0 rows=4407
+d50c27e903d29955880bc79a416eecd7  experiments/v3/oct16_experts/data/pl/pl_ct_w5b_mcl_v0.csv  recipe=w5b_mcl teacher=v0 rows=4407
+b4581587d4994a2e69ffe0265b432d4f  experiments/v3/oct16_experts/data/pl/pl_ct_b3g_v0.csv  recipe=b3g teacher=v0 rows=4407
+c82ba709b74738d6f476b3e453837e24  experiments/v3/oct16_experts/data/pl/pl_ct_sd1b_v0.csv  recipe=sd1b teacher=v0 rows=4407
+2ba236d2db3ca2cb4901d0c4487392ed  experiments/v3/oct16_experts/data/pl/pl_ct_bsd_nf_v0.csv  recipe=bsd_nf teacher=v0 rows=4407
+4a4b89bdfdab9d6becce32276bda70c9  experiments/v3/oct16_experts/data/pl/pl_ct_oasep_v0.csv  recipe=oasep teacher=v0 rows=4407
+2f80614d5497ecc73b1e580d53db397b  experiments/v3/oct16_experts/data/pl/pl_ct_oasep_nf_v0.csv  recipe=oasep_nf teacher=v0 rows=4407
+2da197d43b64a2fb4bf56424df918c87  experiments/v3/oct16_experts/data/pl/pl_ct_b3c_rep_v1.csv  recipe=b3c_rep teacher=v1 rows=4407
+2df363df3678729ad0bbaa851468f6c7  experiments/v3/oct16_experts/data/pl/pl_ct_b3l_rep_v1.csv  recipe=b3l_rep teacher=v1 rows=4407
+2580d9bd16be9f4c440d2c30d9bbe438  experiments/v3/oct16_experts/data/pl/pl_ct_b3n_rep_v1.csv  recipe=b3n_rep teacher=v1 rows=4407
+6d265e2063d1ba01cf92c115b2b276f9  experiments/v3/oct16_experts/data/pl/pl_ct_bfs_rep_v1.csv  recipe=bfs_rep teacher=v1 rows=4407
+b1581b8b6a8bcd55a2df5c1607d5d261  experiments/v3/oct16_experts/data/pl/pl_ct_z1_acl_v1.csv  recipe=z1_acl teacher=v1 rows=4407
+7a07fb744f840051ac620399559a1d46  experiments/v3/oct16_experts/data/pl/pl_ct_w5b_mcl_v1.csv  recipe=w5b_mcl teacher=v1 rows=4407
+c9d6e4e543a5365c68f2df4164a60f9f  experiments/v3/oct16_experts/data/pl/pl_ct_b3g_v1.csv  recipe=b3g teacher=v1 rows=4407
+3ed4f23dfb718e5689698e20476509eb  experiments/v3/oct16_experts/data/pl/pl_ct_sd1b_v1.csv  recipe=sd1b teacher=v1 rows=4407
+e022e47094ba93018d0901caac3ba482  experiments/v3/oct16_experts/data/pl/pl_ct_bsd_nf_v1.csv  recipe=bsd_nf teacher=v1 rows=4407
+5a05a156fc105d318c5238508951a93c  experiments/v3/oct16_experts/data/pl/pl_ct_oasep_v1.csv  recipe=oasep teacher=v1 rows=4407
+aa79fc0fdc953b221f374a7a2d3bd201  experiments/v3/oct16_experts/data/pl/pl_ct_oasep_nf_v1.csv  recipe=oasep_nf teacher=v1 rows=4407
+ab22940ec47ffc7af4a4c8689347dcec  experiments/v3/oct16_experts/data/pl/pl2_b3c_rep_v0.csv  recipe=b3c_rep text ['Fracture', 'Contusion'] rows=4407
+d8d8df0677d9a305a89ad3388a7c67d6  experiments/v3/oct16_experts/data/pl/pl2_sxm_v0.csv  recipe=sxm text ['Contusion', 'Fracture'] rows=4407
+22dc3b17329c710a86be2a6950e0ef1d  experiments/v3/oct16_experts/data/pl/pl2_sxm_img_bone_v0.csv  recipe=sxm image img_cont / img_frac rows=4407
+6f51b6df0b15600b1bca062e6f5ad6c3  experiments/v3/oct16_experts/data/pl/pl2_silsep_v0.csv  recipe=silsep text ['Medial OA', 'Lateral OA', 'PF OA', 'Medial Meniscus', 'Lateral Meniscus'] rows=4407
+2aa935af0b52356e255eeb1f30a1ff48  experiments/v3/oct16_experts/data/pl/pl2_z1_acl_v0.csv  recipe=z1_acl text ['ACL'] rows=4407
+f630fed4be9239b044ea64d7735f7168  data/text_labels/external/pl2_oa_v2cor_v0.csv  recipe=oa_v2cor text(all 12; untrained = plain) rows=4407
+25ac7afba53d6ca2df8f001066bec453  experiments/v3/oct16_experts/data/pl/pl2_b3l_rep_v0.csv  recipe=b3l_rep text ['Fracture', 'Contusion'] rows=4407
+33e6b34027c61ec31737b47813985ff4  experiments/v3/oct16_experts/data/pl/pl2_b3n_rep_v0.csv  recipe=b3n_rep text ['Fracture', 'Contusion'] rows=4407
+e1f7c3b8a7a3bea4e2fde56d2dddd10a  experiments/v3/oct16_experts/data/pl/pl2_bfs_rep_v0.csv  recipe=bfs_rep text ['Fracture', 'Contusion'] rows=4407
+d50c27e903d29955880bc79a416eecd7  experiments/v3/oct16_experts/data/pl/pl2_w5b_mcl_v0.csv  recipe=w5b_mcl text ['MCL'] rows=4407
+f1040e2a68e168d9f292eef69c4e0141  experiments/v3/oct16_experts/data/pl/pl2_oasep_v0.csv  recipe=oasep text ['Medial OA', 'Lateral OA', 'PF OA', 'Medial Meniscus', 'Lateral Meniscus'] rows=4407
+f1299d253ccbbd304ca015b195281814  experiments/v3/oct16_experts/data/pl/pl2_oasep_nf_v0.csv  recipe=oasep_nf text ['Medial OA', 'Lateral OA', 'PF OA', 'Medial Meniscus', 'Lateral Meniscus'] rows=4407
+f630fed4be9239b044ea64d7735f7168  data/text_labels/external/pl2_oa_v2cor_nf_v0.csv  recipe=oa_v2cor_nf text(all 12; untrained = plain) rows=4407
+7616463b12b4541068f51564e3fdd6f2  experiments/v3/oct16_experts/data/pl/pl2_b3g_v0.csv  recipe=b3g text ['ACL', 'MCL', 'Medial Meniscus', 'Lateral Meniscus', 'Medial OA', 'Lateral OA', 'PF OA', 'Effusion', 'Synovitis', "Baker's", 'Contusion', 'Fracture'] rows=4407
+e8367c008353a43a4572ddbeac4a8a8e  experiments/v3/oct16_experts/data/pl/pl2_b3g_img_syn_v0.csv  recipe=b3g image img_syn (read 3566 / 4349) rows=4407
+d50279c457bbed4aed86992d84bd9b0f  experiments/v3/oct16_experts/data/pl/pl2_b3g_img_eff_v0.csv  recipe=b3g image img_eff (read 3574 / 4349) rows=4407
+b08b915c24c696c5636cf450ef4663cc  experiments/v3/oct16_experts/data/pl/pl2_cs_fs_v0.csv  recipe=cs_fs text ['Synovitis', 'Effusion', "Baker's"] rows=4407
+21b6be9300108d2918e35888f147f8f0  experiments/v3/oct16_experts/data/pl/pl2_cs_fs_img_syn_v0.csv  recipe=cs_fs image img_syn (read 3566 / 4349) rows=4407
+8b7888b4b4dd11a3579172b49aaeccbb  experiments/v3/oct16_experts/data/pl/pl2_cs_fs_img_eff_v0.csv  recipe=cs_fs image img_eff (read 3574 / 4349) rows=4407
+c51050c12327d0f6410b0558e698c827  experiments/v3/oct16_experts/data/pl/pl2_cs_fc125_v0.csv  recipe=cs_fc125 text ['Synovitis', 'Effusion', "Baker's"] rows=4407
+1d6d55b9da138251c609abf63f372abb  experiments/v3/oct16_experts/data/pl/pl2_cs_fc125_img_syn_v0.csv  recipe=cs_fc125 image img_syn (read 3566 / 4349) rows=4407
+8cf3a81109420e16f73ec167c406c6cb  experiments/v3/oct16_experts/data/pl/pl2_cs_fc125_img_eff_v0.csv  recipe=cs_fc125 image img_eff (read 3574 / 4349) rows=4407
+424b048e595d9bb088db475ecd57330a  experiments/v3/oct16_experts/data/pl/pl2_ef3_v0.csv  recipe=ef3 text ['Synovitis', 'Effusion', "Baker's"] rows=4407
+89ecf4df2ce95529d76e056a0a0244d6  experiments/v3/oct16_experts/data/pl/pl2_ef3_img_syn_v0.csv  recipe=ef3 image img_syn (read 3566 / 4349) rows=4407
+229c4e1474718bdb89ea1f01c91da2fd  experiments/v3/oct16_experts/data/pl/pl2_ef3_img_eff_v0.csv  recipe=ef3 image img_eff (read 3574 / 4349) rows=4407
+a548aea405065e5e2849f38224926b66  experiments/v3/oct16_experts/data/pl/pl2_ef3fc_v0.csv  recipe=ef3fc text ['Synovitis', 'Effusion', "Baker's"] rows=4407
+2675ca6f76c884172de01ae985f7d270  experiments/v3/oct16_experts/data/pl/pl2_ef3fc_img_syn_v0.csv  recipe=ef3fc image img_syn (read 3566 / 4349) rows=4407
+860bf6d69dc6fbcbba4f6030b74d22ce  experiments/v3/oct16_experts/data/pl/pl2_ef3fc_img_eff_v0.csv  recipe=ef3fc image img_eff (read 3574 / 4349) rows=4407
+ea8b0daeb4a7058b1a4c6ae8fb966dda  experiments/v3/oct16_experts/data/pl/pl2_ef3nf_v0.csv  recipe=ef3nf text ['Synovitis', 'Effusion', "Baker's"] rows=4407
+84b0e82a17ece118b6f248765268fa2b  experiments/v3/oct16_experts/data/pl/pl2_ef3nf_img_syn_v0.csv  recipe=ef3nf image img_syn (read 3566 / 4349) rows=4407
+ba7014c52a69b8359d3025e79ade7df0  experiments/v3/oct16_experts/data/pl/pl2_ef3nf_img_eff_v0.csv  recipe=ef3nf image img_eff (read 3574 / 4349) rows=4407
+53a6943635b3370443e59c69d51b0832  experiments/v3/oct16_experts/data/pl/pl2_ef3nffc_v0.csv  recipe=ef3nffc text ['Synovitis', 'Effusion', "Baker's"] rows=4407
+eedb7a8d86694a0c2fd61c4a747c454a  experiments/v3/oct16_experts/data/pl/pl2_ef3nffc_img_syn_v0.csv  recipe=ef3nffc image img_syn (read 3566 / 4349) rows=4407
+759ae4a22d2c5d597bad537218222468  experiments/v3/oct16_experts/data/pl/pl2_ef3nffc_img_eff_v0.csv  recipe=ef3nffc image img_eff (read 3574 / 4349) rows=4407
+fa71b5f35eccbda23c6910f7dbddf986  experiments/v3/oct16_experts/data/pl/pl2_sd1b_v0.csv  recipe=sd1b text ['ACL', 'MCL', 'Medial Meniscus', 'Lateral Meniscus', 'Medial OA', 'Lateral OA', 'PF OA', 'Effusion', 'Synovitis', "Baker's", 'Contusion', 'Fracture'] rows=4407
+bb8ba709bef96b6cb371a3c7fe956876  experiments/v3/oct16_experts/data/pl/pl2_bsd_nf_v0.csv  recipe=bsd_nf text ['ACL', 'MCL', 'Medial Meniscus', 'Lateral Meniscus', 'Medial OA', 'Lateral OA', 'PF OA', 'Effusion', 'Synovitis', "Baker's", 'Contusion', 'Fracture'] rows=4407
+579e93466e76ce8b8e450397507f70fb  data/text_labels/external/pl2_sub_b0_v0.csv  recipe=sub_b0 text(all 12; untrained = plain) rows=4407
+579e93466e76ce8b8e450397507f70fb  data/text_labels/external/pl2_m_prob05_v0.csv  recipe=m_prob05 text(all 12; untrained = plain) rows=4407
+4770c09393ae2aad32468ba9867ba564  experiments/v2/oct14_all_data/data/pl/pl2_m_prob05_ext_v0.csv  recipe=m_prob05 image ext (read 3566 / 4349) rows=4407
+88199e87e11ebd4c313b658456c6e60d  data/text_labels/external/pl2_nfnet_v0.csv  recipe=nfnet text(all 12; untrained = plain) rows=4407
+88199e87e11ebd4c313b658456c6e60d  data/text_labels/external/pl2_r50_v0.csv  recipe=r50 text(all 12; untrained = plain) rows=4407
+88199e87e11ebd4c313b658456c6e60d  data/text_labels/external/pl2_n_prob05_v0.csv  recipe=n_prob05 text(all 12; untrained = plain) rows=4407
+fc0e2a1450ab98d38d34da6d2df6ab82  experiments/v2/oct14_all_data/data/pl/pl2_n_prob05_img_v0.csv  recipe=n_prob05 image img (read 3566 / 4349) rows=4407
+b4afa2d0e440c2ce5b085c75528bbcf7  data/text_labels/external/pl2_s_fs_nf_v0.csv  recipe=s_fs_nf text(all 12; untrained = plain) rows=4407
+c839d3551fdcaa01cd7a52ed20380b34  experiments/v2/oct14_all_data/data/pl/pl2_s_fs_nf_img_syn_v0.csv  recipe=s_fs_nf image img_syn (read 3566 / 4349) rows=4407
+b4afa2d0e440c2ce5b085c75528bbcf7  data/text_labels/external/pl2_s_fc125_nf_v0.csv  recipe=s_fc125_nf text(all 12; untrained = plain) rows=4407
+c23272dc22269a35dcb666f50680ede2  experiments/v2/oct14_all_data/data/pl/pl2_s_fc125_nf_img_syn_v0.csv  recipe=s_fc125_nf image img_syn (read 3566 / 4349) rows=4407
+b343ec2e7fd9a2b42df00b92d2425d8c  experiments/v3/oct16_experts/data/pl/pl2_b3c_rep_v1.csv  recipe=b3c_rep text ['Fracture', 'Contusion'] (file columns 2) rows=4407
+7fb4f533c278d1817bbc03586c203f3a  experiments/v3/oct16_experts/data/pl/pl2_b3l_rep_v1.csv  recipe=b3l_rep text ['Fracture', 'Contusion'] (file columns 2) rows=4407
+57819f0b62c5124b75822f491f3d3faa  experiments/v3/oct16_experts/data/pl/pl2_b3n_rep_v1.csv  recipe=b3n_rep text ['Fracture', 'Contusion'] (file columns 2) rows=4407
+db4c23aa3e52780a5aafbc6a0afd33b6  experiments/v3/oct16_experts/data/pl/pl2_bfs_rep_v1.csv  recipe=bfs_rep text ['Fracture', 'Contusion'] (file columns 2) rows=4407
+3ed6593376d0205f2edbc3ea5ade7905  experiments/v3/oct16_experts/data/pl/pl2_z1_acl_v1.csv  recipe=z1_acl text ['ACL'] (file columns 12) rows=4407
+01ba4332c9e5b6c69f76410a7922dfbf  experiments/v3/oct16_experts/data/pl/pl2_w5b_mcl_v1.csv  recipe=w5b_mcl text ['MCL'] (file columns 12) rows=4407
+0275f979c237b7e2c89a8b8514de2a4f  experiments/v3/oct16_experts/data/pl/pl2_oasep_v1.csv  recipe=oasep text ['Medial OA', 'Lateral OA', 'PF OA', 'Medial Meniscus', 'Lateral Meniscus'] (file columns 5) rows=4407
+19b5fc5b17ba705484eacd5411b872b3  experiments/v3/oct16_experts/data/pl/pl2_oasep_nf_v1.csv  recipe=oasep_nf text ['Medial OA', 'Lateral OA', 'PF OA', 'Medial Meniscus', 'Lateral Meniscus'] (file columns 5) rows=4407
+e51544f20fb48132f76d32f6956adf26  experiments/v3/oct16_experts/data/pl/pl2_silsep_v1.csv  recipe=silsep text ['Medial OA', 'Lateral OA', 'PF OA', 'Medial Meniscus', 'Lateral Meniscus'] (file columns 5) rows=4407
+973899513405512dd4fb850548e27347  experiments/v3/oct16_experts/data/pl/pl2_sxm_v1.csv  recipe=sxm text ['Contusion', 'Fracture'] (file columns 12) rows=4407
+effbf010bae6d6b991f4b7045d78e426  experiments/v3/oct16_experts/data/pl/pl2_sxm_img_bone_v1.csv  recipe=sxm image img_cont / img_frac rows=4407
+ed1f80d52ab5b84c3485dcfbc79ca5b2  data/text_labels/external/pl2_oa_v2cor_v1.csv  recipe=oa_v2cor text(all 12; untrained = plain) rows=4407
+ed1f80d52ab5b84c3485dcfbc79ca5b2  data/text_labels/external/pl2_oa_v2cor_nf_v1.csv  recipe=oa_v2cor_nf text(all 12; untrained = plain) rows=4407
+7e39979181c9ece1b3992cc98509ac1a  experiments/v3/oct16_experts/data/pl/pl2_cs_fs_v0.csv  recipe=cs_fs text ['Synovitis', 'Effusion', "Baker's"] (file columns 12) rows=4407
+21b6be9300108d2918e35888f147f8f0  experiments/v3/oct16_experts/data/pl/pl2_cs_fs_img_syn_v0.csv  recipe=cs_fs image img_syn (read 3566 / 4349) rows=4407
+8b7888b4b4dd11a3579172b49aaeccbb  experiments/v3/oct16_experts/data/pl/pl2_cs_fs_img_eff_v0.csv  recipe=cs_fs image img_eff (read 3574 / 4349) rows=4407
+4c9f2755e24c77ea77c6ef2cf339f474  experiments/v3/oct16_experts/data/pl/pl2_cs_fc125_v0.csv  recipe=cs_fc125 text ['Synovitis', 'Effusion', "Baker's"] (file columns 12) rows=4407
+1d6d55b9da138251c609abf63f372abb  experiments/v3/oct16_experts/data/pl/pl2_cs_fc125_img_syn_v0.csv  recipe=cs_fc125 image img_syn (read 3566 / 4349) rows=4407
+8cf3a81109420e16f73ec167c406c6cb  experiments/v3/oct16_experts/data/pl/pl2_cs_fc125_img_eff_v0.csv  recipe=cs_fc125 image img_eff (read 3574 / 4349) rows=4407
+626a64de156663a14e8171dd0c5a5884  experiments/v3/oct16_experts/data/pl/pl2_ef3_v0.csv  recipe=ef3 text ['Synovitis', 'Effusion', "Baker's"] (file columns 12) rows=4407
+89ecf4df2ce95529d76e056a0a0244d6  experiments/v3/oct16_experts/data/pl/pl2_ef3_img_syn_v0.csv  recipe=ef3 image img_syn (read 3566 / 4349) rows=4407
+229c4e1474718bdb89ea1f01c91da2fd  experiments/v3/oct16_experts/data/pl/pl2_ef3_img_eff_v0.csv  recipe=ef3 image img_eff (read 3574 / 4349) rows=4407
+df84d6ac053390d624f45b7df50fee73  experiments/v3/oct16_experts/data/pl/pl2_ef3fc_v0.csv  recipe=ef3fc text ['Synovitis', 'Effusion', "Baker's"] (file columns 12) rows=4407
+2675ca6f76c884172de01ae985f7d270  experiments/v3/oct16_experts/data/pl/pl2_ef3fc_img_syn_v0.csv  recipe=ef3fc image img_syn (read 3566 / 4349) rows=4407
+860bf6d69dc6fbcbba4f6030b74d22ce  experiments/v3/oct16_experts/data/pl/pl2_ef3fc_img_eff_v0.csv  recipe=ef3fc image img_eff (read 3574 / 4349) rows=4407
+874b46d5030b02ef26450091624ccc5c  experiments/v3/oct16_experts/data/pl/pl2_ef3nf_v0.csv  recipe=ef3nf text ['Synovitis', 'Effusion', "Baker's"] (file columns 12) rows=4407
+84b0e82a17ece118b6f248765268fa2b  experiments/v3/oct16_experts/data/pl/pl2_ef3nf_img_syn_v0.csv  recipe=ef3nf image img_syn (read 3566 / 4349) rows=4407
+ba7014c52a69b8359d3025e79ade7df0  experiments/v3/oct16_experts/data/pl/pl2_ef3nf_img_eff_v0.csv  recipe=ef3nf image img_eff (read 3574 / 4349) rows=4407
+81eecea7f5ca8873f7ea70f9e386c138  experiments/v3/oct16_experts/data/pl/pl2_ef3nffc_v0.csv  recipe=ef3nffc text ['Synovitis', 'Effusion', "Baker's"] (file columns 12) rows=4407
+eedb7a8d86694a0c2fd61c4a747c454a  experiments/v3/oct16_experts/data/pl/pl2_ef3nffc_img_syn_v0.csv  recipe=ef3nffc image img_syn (read 3566 / 4349) rows=4407
+759ae4a22d2c5d597bad537218222468  experiments/v3/oct16_experts/data/pl/pl2_ef3nffc_img_eff_v0.csv  recipe=ef3nffc image img_eff (read 3574 / 4349) rows=4407
+4d74577a88295e6de74b0ea9bb76b52b  experiments/v3/oct16_experts/data/pl/pl2_b3g_v1.csv  recipe=b3g text ['ACL', 'MCL', 'Medial Meniscus', 'Lateral Meniscus', 'Medial OA', 'Lateral OA', 'PF OA', 'Effusion', 'Synovitis', "Baker's", 'Contusion', 'Fracture'] (file columns 12) rows=4407
+78adfd6fd55b206ffa997e64c994440c  experiments/v3/oct16_experts/data/pl/pl2_b3g_img_syn_v1.csv  recipe=b3g image img_syn (read 3566 / 4349) rows=4407
+657c30292612d3b349cf121788a1f357  experiments/v3/oct16_experts/data/pl/pl2_b3g_img_eff_v1.csv  recipe=b3g image img_eff (read 3574 / 4349) rows=4407
+48f8bd6a2e43c12947400e1e8d31a180  experiments/v3/oct16_experts/data/pl/pl2_cs_fs_v1.csv  recipe=cs_fs text ['Synovitis', 'Effusion', "Baker's"] (file columns 12) rows=4407
+8868127742cab1aeae4519349007025c  experiments/v3/oct16_experts/data/pl/pl2_cs_fs_img_syn_v1.csv  recipe=cs_fs image img_syn (read 3566 / 4349) rows=4407
+01accd337c76014b6c0a388c746fd8b1  experiments/v3/oct16_experts/data/pl/pl2_cs_fs_img_eff_v1.csv  recipe=cs_fs image img_eff (read 3574 / 4349) rows=4407
+0f3ee2c143aa5b1dd0245ef9b6357a92  experiments/v3/oct16_experts/data/pl/pl2_cs_fc125_v1.csv  recipe=cs_fc125 text ['Synovitis', 'Effusion', "Baker's"] (file columns 12) rows=4407
+7e3e24c1e6537e90eb11c9d8a1a5891a  experiments/v3/oct16_experts/data/pl/pl2_cs_fc125_img_syn_v1.csv  recipe=cs_fc125 image img_syn (read 3566 / 4349) rows=4407
+65b359af55e0687d535703c5698593aa  experiments/v3/oct16_experts/data/pl/pl2_cs_fc125_img_eff_v1.csv  recipe=cs_fc125 image img_eff (read 3574 / 4349) rows=4407
+7961c7b943c41bcebcbc5b90388cb80d  experiments/v3/oct16_experts/data/pl/pl2_ef3_v1.csv  recipe=ef3 text ['Synovitis', 'Effusion', "Baker's"] (file columns 12) rows=4407
+d74c7172840f91387735da642b63a47e  experiments/v3/oct16_experts/data/pl/pl2_ef3_img_syn_v1.csv  recipe=ef3 image img_syn (read 3566 / 4349) rows=4407
+517474b3ca0c76b15e4081d89ac11c99  experiments/v3/oct16_experts/data/pl/pl2_ef3_img_eff_v1.csv  recipe=ef3 image img_eff (read 3574 / 4349) rows=4407
+1584ace5a0e541a78b0c9f37a2574f2d  experiments/v3/oct16_experts/data/pl/pl2_ef3fc_v1.csv  recipe=ef3fc text ['Synovitis', 'Effusion', "Baker's"] (file columns 12) rows=4407
+2174329a8d37751db6399e763a26b365  experiments/v3/oct16_experts/data/pl/pl2_ef3fc_img_syn_v1.csv  recipe=ef3fc image img_syn (read 3566 / 4349) rows=4407
+a3de6fb34931c1d6fa1331c7c4543d87  experiments/v3/oct16_experts/data/pl/pl2_ef3fc_img_eff_v1.csv  recipe=ef3fc image img_eff (read 3574 / 4349) rows=4407
+7fdc73f09dfac4a5cba62e0eb2c7afe7  experiments/v3/oct16_experts/data/pl/pl2_ef3nf_v1.csv  recipe=ef3nf text ['Synovitis', 'Effusion', "Baker's"] (file columns 12) rows=4407
+2bb6e33fc74bf6ef8200bb5f7d10c8a2  experiments/v3/oct16_experts/data/pl/pl2_ef3nf_img_syn_v1.csv  recipe=ef3nf image img_syn (read 3566 / 4349) rows=4407
+b65c6a5b31675796f8e59718269f87e1  experiments/v3/oct16_experts/data/pl/pl2_ef3nf_img_eff_v1.csv  recipe=ef3nf image img_eff (read 3574 / 4349) rows=4407
+742234c7c9ca32e58e8eb76a94b933c7  experiments/v3/oct16_experts/data/pl/pl2_ef3nffc_v1.csv  recipe=ef3nffc text ['Synovitis', 'Effusion', "Baker's"] (file columns 12) rows=4407
+0cee4dc691bbd691bac3461491cc3904  experiments/v3/oct16_experts/data/pl/pl2_ef3nffc_img_syn_v1.csv  recipe=ef3nffc image img_syn (read 3566 / 4349) rows=4407
+14033121ba81badaeaf727ba93c16825  experiments/v3/oct16_experts/data/pl/pl2_ef3nffc_img_eff_v1.csv  recipe=ef3nffc image img_eff (read 3574 / 4349) rows=4407
+a2aa1d5cc313ff9cd9c049a70132aa63  experiments/v3/oct16_experts/data/pl/pl2_sd1b_v1.csv  recipe=sd1b text ['ACL', 'MCL', 'Medial Meniscus', 'Lateral Meniscus', 'Medial OA', 'Lateral OA', 'PF OA', 'Effusion', 'Synovitis', "Baker's", 'Contusion', 'Fracture'] (file columns 12) rows=4407
+b03beb92a9526499be6a91115c76672b  experiments/v3/oct16_experts/data/pl/pl2_bsd_nf_v1.csv  recipe=bsd_nf text ['ACL', 'MCL', 'Medial Meniscus', 'Lateral Meniscus', 'Medial OA', 'Lateral OA', 'PF OA', 'Effusion', 'Synovitis', "Baker's", 'Contusion', 'Fracture'] (file columns 12) rows=4407
+256714c10a2f100f420106f59beaa89e  data/text_labels/external/pl2_sub_b0_v1.csv  recipe=sub_b0 text(all 12; untrained = plain) rows=4407
+256714c10a2f100f420106f59beaa89e  data/text_labels/external/pl2_m_prob05_v1.csv  recipe=m_prob05 text(all 12; untrained = plain) rows=4407
+b127b739f235ab9a092f85d121a6b9ca  experiments/v2/oct14_all_data/data/pl/pl2_m_prob05_ext_v1.csv  recipe=m_prob05 image ext (read 3566 / 4349) rows=4407
+f78f50bffb271aa519d74406e4a5646b  data/text_labels/external/pl2_nfnet_v1.csv  recipe=nfnet text(all 12; untrained = plain) rows=4407
+f78f50bffb271aa519d74406e4a5646b  data/text_labels/external/pl2_n_prob05_v1.csv  recipe=n_prob05 text(all 12; untrained = plain) rows=4407
+b8b6b845d090b07d7a6a1a6d68f75b77  experiments/v2/oct14_all_data/data/pl/pl2_n_prob05_img_v1.csv  recipe=n_prob05 image img (read 3566 / 4349) rows=4407
+33532d35996aa58a71762bd7a039b987  data/text_labels/external/pl2_s_fs_nf_v1.csv  recipe=s_fs_nf text(all 12; untrained = plain) rows=4407
+947d4a08f3b18ade32e7be80509b4ba5  experiments/v2/oct14_all_data/data/pl/pl2_s_fs_nf_img_syn_v1.csv  recipe=s_fs_nf image img_syn (read 3566 / 4349) rows=4407
+33532d35996aa58a71762bd7a039b987  data/text_labels/external/pl2_s_fc125_nf_v1.csv  recipe=s_fc125_nf text(all 12; untrained = plain) rows=4407
+5bc2d534243e88241000202687493171  experiments/v2/oct14_all_data/data/pl/pl2_s_fc125_nf_img_syn_v1.csv  recipe=s_fc125_nf image img_syn (read 3566 / 4349) rows=4407
+f78f50bffb271aa519d74406e4a5646b  data/text_labels/external/pl2_r50_v1.csv  recipe=r50 text(all 12; untrained = plain) rows=4407

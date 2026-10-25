@@ -1,0 +1,2430 @@
+{
+ "1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945": {
+  "study_id": "1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b1",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Tibial marrow edema beneath preserved lateral cartilage. Native s2 #5-16 and s3 #11-19 reviewed; s3 #12-17 also at window 5/99.9."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Both lateral articular surfaces retain smooth cartilage without a focal defect; marrow edema has a traumatic pattern.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435": {
+  "study_id": "1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b1",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native s3 #12-28, s1 #20-31 and s4 #17-24 reviewed; s1 #21-26 repeated at window 5/99.9."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Deep weight-bearing femoral loss with focal denudation and cysts; lesser tibial wear. Native s1 #21-25 spans about 17 mm (5 x 3.3 mm).",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": true,
+    "osteophytes": "large",
+    "subchondral_marrow": true,
+    "narrowing": "mild",
+    "focal": false,
+    "extent_mm": 17,
+    "surfaces": [
+     "femur",
+     "tibia"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003": {
+  "study_id": "1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b1",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native s2 #8-19 and s1 #14-23 reviewed. Soft-tissue edema and effusion; no lateral articular cartilage defect."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Smooth, preserved femoral and tibial cartilage throughout the lateral weight-bearing compartment.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b1",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure",
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Uneven fat suppression and grainy images reduce cartilage contrast. Native s5 #9-20 and s1 #12-19 reviewed."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Both lateral surfaces remain smooth without a convincing defect; confidence reduced by noise and uneven fat suppression.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774": {
+  "study_id": "1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b1",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Sagittal PD native resolution is 0.78 mm/px. Reviewed s2 #16-25, s4 #9-20, s3 #17-22; s4 #12-18 repeated at window 5/99.9."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Continuous cartilage on both lateral surfaces, confirmed on coronal PD and sagittal T1; sagittal PD detail is limited.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645": {
+  "study_id": "1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b1",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Native s2 #5-16 and s4 #11-19 reviewed. Lateral cartilage is preserved despite joint fluid."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Even femoral cartilage and preserved tibial cartilage without a surface defect across the lateral compartment.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450": {
+  "study_id": "1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b1",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native s2 #10-24 and thin sagittal PD s5 #20-31 reviewed."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Mild heterogeneous tibial cartilage signal but preserved surface and thickness; no definite femoral or tibial defect on native s5 #23-27.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312": {
+  "study_id": "1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b1",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Native s2 #12-27 and s3 #20-33 reviewed through the complete lateral condyle."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Uniform lateral femoral and tibial cartilage with no focal loss, narrowing or subchondral reaction.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608": {
+  "study_id": "1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b1",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "CJ tiles truncate the lateral edge; native views restore coverage. Reviewed s4 #8-23 and s2 #17-28, with s2 #22-26 repeated at window 5/99.9."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Preserved weight-bearing cartilage on both surfaces. Peripheral femoral marrow signal near the popliteal groove has no definite associated cartilage loss (native s2 #22-26, s4 #12-20).",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710": {
+  "study_id": "1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b1",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native s3 #10-25 and s1 #22-33 reviewed; s3 #12-17 and s1 #24-30 repeated at window 5/99.9. Thin s6/s7 #7-13 cover mainly the notch, so high-resolution s1 supplies lateral coverage."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Continuous, preserved cartilage on both lateral surfaces despite traumatic subchondral marrow edema. Native s1 #25-31 and s3 #14-23 confirm no cartilage defect.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828": {
+  "study_id": "1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b1",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native PD s3 #10-27 and s1 #19-30 reviewed; s1 #21-26 repeated at window 5/99.9. Both lateral cartilage surfaces are well shown."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Smooth, continuous lateral femoral and tibial cartilage with preserved thickness on consecutive sagittal and coronal views; no surface defect on native s1 #21-26 and s3 #16-24.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662": {
+  "study_id": "1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b1",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Irregular tibial bony contour and patchy marrow signal. Native s2 #10-30, PD s4 #22-36 and T2 s5 #24-31 reviewed; s2 #22-27 repeated at window 5/99.9."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Cartilage remains continuous over the irregular tibial contour; femoral thickness is preserved. No definite loss on native s4 #24-31 and s2 #16-27; low cartilage signal limits subtle grading.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b1",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "4_nonfs",
+   "7_lateral"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "structure_out_of_view",
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": false,
+   "pattern": "normal_looking",
+   "note": "mirrored: judged the fibula side, labelled medial in s5. Only s5 belongs to this knee; no coronal series. Native s5 #1-24 reviewed, with anatomical lateral cartilage on #5-14. LM tiles show the opposite compartment."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Anatomical lateral femoral and tibial cartilage is smooth and preserved on native s5 #5-14, nearest S2/S3/N1. Single sagittal PD series only; no coronal confirmation.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": null,
+    "narrowing": null,
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891": {
+  "study_id": "1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b1",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Depressed lateral tibial contour with marrow edema. Native s4 #6-20 and PD s1 #11-19 reviewed; s4 #10-16 and s1 #12-17 repeated at window 5/99.9 to separate bright fluid from cartilage."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Cartilage is preserved over the depressed tibial surface, with continuous femoral cartilage. No definite loss on native s1 #12-17 and s4 #10-16; altered contour and thick slices limit subtle grading.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b2",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Both lateral cartilage surfaces preserved; native s2 #20-25 and s4 #13-25 confirm no definite loss.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683": {
+  "study_id": "1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b2",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Lateral femoral marrow edema with preserved overlying cartilage."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Smooth preserved cartilage on both surfaces, including over femoral edema; native s1 #20-29 and s3 #12-26.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b2",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Uneven fat suppression and low cartilage contrast; STIR and non-FS PD supplement assessment."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Mild central tibial cartilage irregularity, less than half-depth; no definite deep defect. Native s4 #15-19, s5 #15-19, s6 #11-24.",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": true,
+    "extent_mm": null,
+    "surfaces": [
+     "tibia"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995": {
+  "study_id": "1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b2",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Sagittal assessment uses non-fat-suppressed PD; coronal PD FS provides fluid-sensitive correlation."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Mild anterior-central tibial thinning, under half-depth. No definite high-grade loss; native s5 #17-22 and s1 #19-25.",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": true,
+    "extent_mm": null,
+    "surfaces": [
+     "tibia"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192": {
+  "study_id": "1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b2",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Shallow central tibial cartilage roughening; no convincing greater-than-half-depth loss. Native s1 #21-24 and s2 #19-24.",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": true,
+    "extent_mm": null,
+    "surfaces": [
+     "tibia"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b2",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Anterior lateral femoral marrow edema with maintained overlying cartilage."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Both cartilage surfaces preserved. Native s1 #17-26, s7 #10-23; window 5-99.9 confirms edges at s1 #19-24 and s7 #12-17.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924": {
+  "study_id": "1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b2",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [
+    "motion"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Mild banding in central sagittal slices; lateral cartilage well seen on remaining sagittal and coronal views."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Both lateral cartilage surfaces smooth and maintained throughout; native s1 #17-24 and s2 #10-22.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132": {
+  "study_id": "1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b2",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Posterior lateral tibial marrow edema with preserved overlying cartilage."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Both surfaces have preserved cartilage. Consecutive native s3 #181-264 and coronal s1 #7-21 confirm no loss.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125": {
+  "study_id": "1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b2",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Lateral femoral and posterior tibial marrow edema; cartilage remains intact."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Both cartilage surfaces preserved. Native s1 #18-27 and s6 #7-25; window 5-99.9 s1 #18-25 and s6 #13-18 confirms edges.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b2",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Low cartilage contrast and 0.42-0.50 mm native pixels limit depth grading. Small lateral tibial subchondral cystic changes."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "Central tibial thinning approaches half depth over ~15 mm; >50% loss not secure. Native s4 #22-25, s3 #22-25 and s2 #19-21.",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": "mild",
+    "focal": true,
+    "extent_mm": null,
+    "surfaces": [
+     "tibia"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b2",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Patchy posterior lateral tibial marrow edema with maintained cartilage."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Both lateral surfaces retain smooth cartilage. Native s1 #15-23 and s4 #7-24 confirm preservation without a defect.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b2",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [
+    "motion"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Mild blurring and bright fluid reduce confidence at anterior cartilage margins. Lateral femoral marrow edema."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Cartilage remains continuous on both surfaces. Native s1 #18-27, s7 #6-28; wider window s1 #18-23 and s7 #11-16 shows no definite loss.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742": {
+  "study_id": "1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b2",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "4_nonfs",
+   "7_lateral"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Target knee has sagittal series only; coronal and axial series are flagged as the other knee and ignored. Lateral femoral and tibial marrow edema."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Both cartilage layers preserved on sagittal images; no target-knee coronal series. Native s1 #13-20, s2 #13-18; s1 #13-18 also at window 5-99.9.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": null,
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910": {
+  "study_id": "1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b2",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Small marginal lateral osteophytes and marrow change near the lateral tibial spine; cartilage maintained."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No definite lateral cartilage loss. Native s2 #20-29, s3 #8-28 and s5 #14-21; window 5-99.9 confirms inner margins at s2 #20-22 and s3 #13-18.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903": {
+  "study_id": "1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b3",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Broad full-thickness femoral loss with tibial thinning; native s1 #23-29 and s4 #13-17, confirmed on s2. Deep loss spans about 22 mm by bar and consecutive slices.",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": true,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": "mild",
+    "focal": false,
+    "extent_mm": 22,
+    "surfaces": [
+     "femur",
+     "tibia"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767": {
+  "study_id": "1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b3",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Both lateral cartilage surfaces remain continuous and preserved on consecutive views; native s3 #5-14 and s2 #14-21.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327": {
+  "study_id": "1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b3",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": ""
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Preserved femoral and tibial cartilage, including native s6 #11-25 and s5 #19-28. Tibial signal heterogeneity without surface loss.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363": {
+  "study_id": "1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b3",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Peripheral fat suppression is uneven; lateral cartilage remains well seen."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Smooth continuous cartilage on both lateral surfaces, confirmed on native s2 #7-20 and s1 #15-23.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b3",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": ""
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Both lateral surfaces have smooth preserved cartilage; native s4 #5-14 and high-resolution PD s1 #14-20 confirm no loss.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465": {
+  "study_id": "1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b3",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Lateral femoral and posterior tibial marrow edema has a traumatic distribution."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Cartilage remains intact over the lateral marrow edema. Native s2 #12-24 and s3 #17-26 show preserved femoral and tibial layers without loss.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274": {
+  "study_id": "1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b3",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Uniform cartilage on both lateral surfaces throughout native s2 #12-29 and s4 #24-37; no focal defect or deep thinning.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b3",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": ""
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Preserved femoral and tibial cartilage throughout native s2 #11-27 and s5 #22-33. No surface defect or substantial thinning.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711": {
+  "study_id": "1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b3",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Lateral femoral and posterior tibial marrow edema with minor femoral contour flattening."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No definite cartilage loss over contused lateral surfaces. Native s4 #10-24, s2 #17-26 and thin GRE s6 #96-107 show continuous layers despite slight femoral flattening.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037": {
+  "study_id": "1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b3",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Preserved lateral femoral and tibial cartilage through consecutive slices. Native s4 #4-13 and s1 #9-15 confirm continuous layers without focal or diffuse loss.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550": {
+  "study_id": "1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b3",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Posterior lateral tibial marrow edema has a traumatic distribution."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Continuous femoral and tibial cartilage, including over posterior tibial edema. Native s2 #13-26 and s3 #19-28, with wider-window checks, show no cartilage loss.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220": {
+  "study_id": "1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b3",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Lateral femoral and posterior tibial contusions with mild femoral contour indentation."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Cartilage remains continuous over the contused surfaces despite slight femoral indentation. Native s4 #7-20 and s1 #11-19 show no definite cartilage loss.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002": {
+  "study_id": "1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b3",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Anterior soft-tissue edema; lateral articular surfaces are well visualized."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Smooth, full-depth lateral femoral and tibial cartilage. Native s4 #5-14 and higher-resolution PD s1 #12-20 confirm no loss on consecutive slices.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395": {
+  "study_id": "1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b3",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [
+    "metal_artifact"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Peripheral susceptibility artifact; cartilage remains visible. Lateral femoral contusion with slight subchondral irregularity."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Continuous cartilage over lateral femoral contusion despite mild subchondral irregularity. Native s1 #7-18, s2 #14-24 and FS s4 #16-21 show no definite cartilage loss.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500": {
+  "study_id": "1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b3",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Lateral marginal osteophytes and posterolateral tibial subchondral change."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Mild tibial thinning, greatest posterolaterally; no definite >50% loss over 10 mm. Native s5 #20-33 and s2 #9-26, with focused and non-FS checks; femoral layer preserved.",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": "mild",
+    "focal": false,
+    "extent_mm": null,
+    "surfaces": [
+     "tibia"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b4",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Native s6 #9-24 and s3 #15-26 reviewed."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Both lateral cartilage surfaces remain smooth and preserved on consecutive coronal and sagittal images.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378": {
+  "study_id": "1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b4",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native s4 #8-23 and s2 #17-28 reviewed; bright joint interfaces rechecked at window 5/99.9. Lateral marrow edema has a traumatic distribution."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Cartilage is preserved over the lateral femoral and tibial marrow edema; no definite surface loss. Native s2 #21-25 and s4 #14-17 confirm continuity.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039": {
+  "study_id": "1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b4",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "motion"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Fluid-sensitive images are mildly blurred. Native s4 #12-29 and higher-resolution PD s2 #20-31 reviewed; coronal interface rechecked at window 5/99.9."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Lateral cartilage remains continuous with preserved thickness on native PD s2 #22-28 despite extensive traumatic marrow edema.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b4",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Relatively wide slice spacing and blurred fluid-sensitive detail. Native coronal s1 #5-15 and sagittal PD s3 #11-19 reviewed; coronal s1 #7-10 repeated at window 5/99.9."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Both lateral cartilage layers remain preserved, including over the femoral edema; native PD s3 #13-17 confirms no definite cartilage defect.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911": {
+  "study_id": "1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b4",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native s4 #10-21 and s2 #12-19 reviewed; coronal s4 #12-17 repeated at window 5/99.9. Patchy lateral marrow edema without corresponding cartilage loss."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Continuous femoral and tibial cartilage without a definite defect on native s2 #14-17 and s4 #12-17; mild image softness limits fine surface detail.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309": {
+  "study_id": "1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b4",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native s3 #9-24 and s5 #26-40 reviewed. Focal tibial defect checked on s4 #29-32 and s5 #29-32 at window 5/99.9."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Small deep central tibial fissure; native s5 #29-31 spans 3 x 2.2 mm, about 7 mm, with a similar short extent by the 10 mm bar. Femoral cartilage preserved.",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": false,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": true,
+    "extent_mm": 7,
+    "surfaces": [
+     "tibia"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404": {
+  "study_id": "1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b4",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native s5 #13-29 and PD s2 #19-30 reviewed. Posterolateral tibial interface rechecked on s5 #21-24 and s3 #24-27 at window 5/99.9."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Both cartilage layers are preserved on native PD s2 #21-27. Focal posterolateral tibial marrow edema lacks a definite overlying cartilage defect.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b4",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Native s2 #9-26 and s4 #20-34 reviewed."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Smooth, continuous cartilage of both lateral surfaces throughout the weight-bearing compartment, confirmed in both native planes.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254": {
+  "study_id": "1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b4",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Native s7 #8-25 and s1 #16-27 reviewed; s7 #14-19 and s1 #18-23 repeated at 5/99.9 window."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Continuous cartilage layers on both lateral surfaces in native planes, without a definite focal defect or deep loss. Small marginal osteophytes.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921": {
+  "study_id": "1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b4",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Fluid-sensitive series are coarse. Native s5 #13-29 and s2 #14-22 reviewed; s5 #16-21 repeated at 5/99.9 window."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Even lateral femoral and tibial cartilage, confirmed on higher-resolution native sagittal PD. Posterolateral femoral marrow signal is not accompanied by cartilage loss.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236": {
+  "study_id": "1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b4",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Native s4 #8-25 and s2 #19-32 reviewed, with s4 #12-17 and s1 #23-28 at 5/99.9 window."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Lateral bone contusions and femoral sulcus impaction, but overlying cartilage remains continuous without a definite loss defect. Tibial cartilage is preserved.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b4",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "motion"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Mild blur and thick slices. Native s2 #5-16, s4 #12-19 and supplemental s5 #17-23 reviewed; coronal and sagittal joint slices rechecked at 5/99.9."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Both lateral cartilage layers remain continuous and reasonably even on coronal PD and sagittal PD/GRE. Mild lateral tibial marrow edema without an overlying loss defect.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b4",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Native s7 #8-25 and s4 #17-28 reviewed; s7 #13-18 and s4 #20-25 repeated at 5/99.9 window."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Smooth, continuous lateral femoral and tibial cartilage throughout the weight-bearing surfaces in both native planes. No focal loss or supporting degenerative bone change.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190": {
+  "study_id": "1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b4",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "motion"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Some coronal motion/ghosting. Native s3 #8-25, s1 #16-27 and s2 #20-25 reviewed; s3 #14-19 and s1 #20-25 repeated at 5/99.9."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Focal femoral sulcus impaction and lateral bone contusions, with continuous cartilage over the depression on native FS and non-FS PD. Tibial cartilage preserved.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187": {
+  "study_id": "1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187",
+  "labeller": "codex",
+  "model": "Codex, gpt-6-astra, reasoning xhigh (local, with native full-resolution views)",
+  "panel": "lateral_oa",
+  "prompt": "lateral_oa",
+  "source": "work/codex_labels_oct7/lateral_oa_b4",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "4_nonfs",
+   "7_lateral",
+   "8_cor_joint"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Coarse 0.74 mm PD FS images. Native s4 #8-22 and s2 #13-21 reviewed, supplemented by s5 #12-17 and s3 #14-19; central PD slices repeated at 5/99.9."
+  },
+  "findings": {
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Even, continuous cartilage on both lateral surfaces across native PD FS and sharper T1 views. No definite lateral cartilage loss; confidence limited by coarse fluid-sensitive resolution.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null,
+    "extent_mm": null,
+    "surfaces": []
+   }
+  }
+ }
+}

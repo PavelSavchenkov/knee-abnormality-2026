@@ -1,0 +1,5853 @@
+{
+ "1.2.826.0.1.3680043.8.498.37270291131952413969044156276264153316": {
+  "study_id": "1.2.826.0.1.3680043.8.498.37270291131952413969044156276264153316",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 AX PD FS #7-12 thin comma 8x12 mm between MG and SM; s1 SAG PD FS #7-9 narrow, 10 mm wide, 20 mm long; report small; largest 20 mm; both",
+    "grade": "small",
+    "diameter_mm": 20,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.95060380238431209646600378585422128745": {
+  "study_id": "1.2.826.0.1.3680043.8.498.95060380238431209646600378585422128745",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Axial FS 0.66 mm/px."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "s1 AX T2 FS #17-26 neck between MG and SM, 12x13 mm; s3 SAG T2 FS #12-14 17x40 mm; report small; largest 40 mm; both",
+    "grade": "small",
+    "diameter_mm": 40,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.69260280362382086729793018979234418276": {
+  "study_id": "1.2.826.0.1.3680043.8.498.69260280362382086729793018979234418276",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": null,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Large lipohemarthrosis after lateral patellar dislocation."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "s1 AX PD FS #16-22 neck between MG and SM; s3 SAG T2 FS #10-13 oval 16x24 mm; report 1.1x1.5 cm; largest 24 mm; both",
+    "grade": "small",
+    "diameter_mm": 24,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.20063306448698185569553477478719533390": {
+  "study_id": "1.2.826.0.1.3680043.8.498.20063306448698185569553477478719533390",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Large effusion, soft-tissue edema."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s5 AX PD FS #13-21 neck between MG and SM, round 15x17 mm; s1 SAG PD FS #10-13 14x32 mm; report 4.5x2x2 cm; largest 32 mm; both",
+    "grade": "moderate",
+    "diameter_mm": 32,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.26201626427712146573573952548179938304": {
+  "study_id": "1.2.826.0.1.3680043.8.498.26201626427712146573573952548179938304",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [
+    "other"
+   ],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "No sagittal FS series (sheets show SAG PD); native SAG T2 used. Postoperative iliotibial band per report."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s6 AX PD FS #16-25 thin crescent along posterior MG edge, 21x9 mm, small cystoid foci; s5 SAG T2 #4-15 no distended sac; report small DD Baker; largest 21 mm; both",
+    "grade": "small",
+    "diameter_mm": 21,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.69930569170269472474738549886709596023": {
+  "study_id": "1.2.826.0.1.3680043.8.498.69930569170269472474738549886709596023",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Short-TE PD FS: muscle nearly as bright as fluid, poor fluid contrast in the popliteal fossa; 5.4 mm axial spacing."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s1 AX PD FS #5-19, s4 SAG PD FS #3-11, s2 COR #11-19: no fluid-bright sac distinct from MG/SM muscle; report 3.5 cm CC Baker cyst; none measured; report",
+    "grade": null,
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.54374735423703474541190464716308417985": {
+  "study_id": "1.2.826.0.1.3680043.8.498.54374735423703474541190464716308417985",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #14-17 teardrop with neck between MG and SM, 12x13 mm; s3 SAG PD FS #5-7 14x23 mm; ganglion at MG head; report small; largest 23 mm; both",
+    "grade": "small",
+    "diameter_mm": 23,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": [
+     "ganglion"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.30662407196303880392459287553277761223": {
+  "study_id": "1.2.826.0.1.3680043.8.498.30662407196303880392459287553277761223",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "ACL tear with lateral bone contusions per report."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 AX PD FS #14-22 neck between MG and SM, body 13x11 mm; s1 SAG PD FS #6-10 12x25 mm; report smaller Baker cyst; largest 25 mm; both",
+    "grade": "small",
+    "diameter_mm": 25,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.34826100703045042103752460066224521343": {
+  "study_id": "1.2.826.0.1.3680043.8.498.34826100703045042103752460066224521343",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Short-TE PD FS, muscle bright; 5.5 mm axial spacing."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 AX PD FS #5-13 septated sac between MG and SM, neck #11-12, up to 15x19 mm; s4 SAG PD FS #6-8 16x26 mm, CC ~40 mm; report Baker cyst, no size; largest 40 mm; both",
+    "grade": "moderate",
+    "diameter_mm": 40,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.25292715244575997322139502072242615319": {
+  "study_id": "1.2.826.0.1.3680043.8.498.25292715244575997322139502072242615319",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Axial STIR 5.8 mm spacing."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 AX STIR #1-8 fluid foci and fascial streaks medial calf (leak), no distended sac at MG-SM #9-12; s5 SAG PD FS #2-10; report ruptured Baker; largest 15 mm; both",
+    "grade": "moderate",
+    "diameter_mm": 15,
+    "neck_seen": false,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10994848378662155711176898659205016445": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10994848378662155711176898659205016445",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Low soft-tissue contrast on FS series (muscle bright); axial STIR 7.6 mm spacing."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s3 AX STIR #1-12: no sac between MG and SM, faint fascial streaks medial calf #3-5; s2 SAG PD FS #1-9 no collection; report Baker cyst with leak; none measured; report",
+    "grade": null,
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.91742054227008690570256869200116133922": {
+  "study_id": "1.2.826.0.1.3680043.8.498.91742054227008690570256869200116133922",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #18-25 thin crescent with neck between MG and SM, 8x15 mm; s3 SAG PD FS #7-9 lobulated 9x20 mm; report small; largest 20 mm; both",
+    "grade": "small",
+    "diameter_mm": 20,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.55300053252365037422745072128951402593": {
+  "study_id": "1.2.826.0.1.3680043.8.498.55300053252365037422745072128951402593",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Sagittal FS 0.66 mm/px."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #12-16 thin crescent around MG tendon, 5x10 mm; s2 SAG PD FS #5-8 9x20 mm above MG origin; ganglia lateral to vessels; report 3x1 cm; largest 20 mm; both",
+    "grade": "small",
+    "diameter_mm": 20,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": [
+     "ganglion"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.87516159856486535118712846576943170757": {
+  "study_id": "1.2.826.0.1.3680043.8.498.87516159856486535118712846576943170757",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 AX PD FS #13-22 two thin pockets by MG tendon, up to 4x11 mm; s2 SAG PD FS #6-14 no distended sac; parameniscal cyst per report; report 13 and 9 mm; largest 11 mm; both",
+    "grade": "small",
+    "diameter_mm": 11,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": [
+     "parameniscal"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11716605112302071535035323666308656381": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11716605112302071535035323666308656381",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "No sagittal FS series (sheets show SAG PD); native SAG T2 and AX GRE FS 3D used."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX GRE FS 3D #92-112 thin fluid pocket between MG and SM, 10x4 mm; s5 SAG T2 #10-12 sliver 3x8 mm; report slightly fluid-filled Baker cyst; largest 10 mm; both",
+    "grade": "small",
+    "diameter_mm": 10,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.88574487918084130981335189023288704909": {
+  "study_id": "1.2.826.0.1.3680043.8.498.88574487918084130981335189023288704909",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 15,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #12-17 thin sliver between MG and SM tendons, 3x8 mm; s5 SAG PD FS #12-16 tiny pocket 3x8 mm; report small popliteal cyst; largest 8 mm; both",
+    "grade": "small",
+    "diameter_mm": 8,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.15065556607080211420503043544482923211": {
+  "study_id": "1.2.826.0.1.3680043.8.498.15065556607080211420503043544482923211",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 16,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Short-TE PD FS, muscle bright; 5 mm slice spacing. Edema around MG insertion per report."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #5-8 thin sliver between MG and SM tendons, 3x8 mm; s5 SAG PD FS #6-8 fluid in posterior recess, no sac; report small Baker cyst; largest 8 mm; both",
+    "grade": "small",
+    "diameter_mm": 8,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.77760453966349959552328150395676117417": {
+  "study_id": "1.2.826.0.1.3680043.8.498.77760453966349959552328150395676117417",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 17,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Bucket-handle medial meniscal tear with meniscal cysts per report."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 AX PD FS #16-22 oval pocket with neck between MG and SM, 5x9 mm; s1 SAG PD FS #12-15 4x12 mm; meniscal cysts; report smaller Baker cyst; largest 12 mm; both",
+    "grade": "small",
+    "diameter_mm": 12,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": [
+     "parameniscal"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12961116776122838195555132309258963046": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12961116776122838195555132309258963046",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 18,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Anterior tibial marrow edema per report."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 AX PD FS #20-22 small pocket between MG and SM tendons, 7x5 mm; s1 SAG T2 FS #5-7 6x12 mm above MG origin; report small G-SM bursa fluid; largest 12 mm; both",
+    "grade": "small",
+    "diameter_mm": 12,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10386894500329189457070808193345170500": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10386894500329189457070808193345170500",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s1",
+  "position": 19,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #22-27 tiny pocket between MG and SM tendons, 6x4 mm; s3 SAG T2 FS #9-11 thin crescent 4x10 mm; report 0.5x0.4 cm; largest 10 mm; both",
+    "grade": "small",
+    "diameter_mm": 10,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.88711356400820562340756013729440417015": {
+  "study_id": "1.2.826.0.1.3680043.8.498.88711356400820562340756013729440417015",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": "Posteromedial soft-tissue edema; joint effusion."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 AX PD FS #20-28, s1 SAG PD FS #8-19: small cyst between SM and MG tendons, max 15 mm (CC); report 14 mm. Separate 10 mm oval collection far posteromedial. both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": [
+     "other"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.13054766954092919774634499780241210835": {
+  "study_id": "1.2.826.0.1.3680043.8.498.13054766954092919774634499780241210835",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Joint effusion; posteromedial calf edema from a leaking thin cyst."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 AX PD FS #5-16, s6 SAG PD FS #1-12: thin tubular cyst along MG head, ~35 mm long, max 5 mm thick, leaking into calf. Report: 3.8 cm, <5 mm thick, leaking. both",
+    "grade": "small",
+    "diameter_mm": 35,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11642678020345468499556230871411308014": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11642678020345468499556230871411308014",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Patellar bone bruise and prepatellar soft-tissue edema."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 AX PD FS #9-20, s1 SAG PD FS #6-15: small cyst between SM and MG, 22 mm CC x 12 mm; thin fluid stripe along MG below. Report: small Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 22,
+    "neck_seen": true,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.31220970065722563280311764269386457090": {
+  "study_id": "1.2.826.0.1.3680043.8.498.31220970065722563280311764269386457090",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 AX PD FS #8-19, s1 SAG PD FS #5-12: oval cyst between SM and MG, 25 mm CC x 15 x 10 mm, not distending beyond tendons. Report: present, no size. both",
+    "grade": "small",
+    "diameter_mm": 25,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12563940497360871791097093821926086616": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12563940497360871791097093821926086616",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Ill-defined edema-like signal in popliteal fat above the condyles."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s4 AX STIR #9-28, s2 SAG PD FS 3D #30-63: thin fluid sheet along MG, ~30 mm long, max 6 mm thick, tracking distally; no distended sac. Report: leaking Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 30,
+    "neck_seen": null,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.67181088492292316990397177612918195713": {
+  "study_id": "1.2.826.0.1.3680043.8.498.67181088492292316990397177612918195713",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Extensive subcutaneous edema posteriorly."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s3 AX PD FS #14-25, s1 SAG PD FS #5-14: thin cyst between SM and MG, 25 mm CC x 8 mm AP, 5-7 mm on axial. Report: small popliteal cyst. both",
+    "grade": "small",
+    "diameter_mm": 25,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.20427402498958253193571475926580142499": {
+  "study_id": "1.2.826.0.1.3680043.8.498.20427402498958253193571475926580142499",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [
+    "hardware"
+   ],
+   "open_growth_plates": false,
+   "orientation_ok": false,
+   "pattern": "degenerative",
+   "note": "Axial AX T2 FS (s5): fibula lies on the side marked M, so the axial looks mirrored or from the other knee; medial/lateral judged from sagittal only. Report: prior femoral fixation removed."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 SAG PD FS #3-13, s5 AX T2 FS #11-27 (mirrored): small lobulated collection behind MFC, ~15 mm, no distension; 10 mm oval on axial. Report: small Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.77183368292104509335580564463404842046": {
+  "study_id": "1.2.826.0.1.3680043.8.498.77183368292104509335580564463404842046",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #14-36, s3 SAG T2 FS #5-14: thin fluid curving around MG tendon, oval 15 x 8 mm, thin tail, CC ~30 mm. Report: small non-ruptured popliteal cyst. both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.69665129458102359604411189244405850661": {
+  "study_id": "1.2.826.0.1.3680043.8.498.69665129458102359604411189244405850661",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "No fat-suppressed sagittal series: sagittal sheets show SAG PD; native SAG T2 used for fluid."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX GRE FS 3D #36-102, s5 SAG T2 #4-15: thin crescent of fluid between SM and MG, max 15 x 4 mm, no distension. Report: small Baker cyst. both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.74622031396885197580453304563088863451": {
+  "study_id": "1.2.826.0.1.3680043.8.498.74622031396885197580453304563088863451",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "No fat-suppressed sagittal series: sagittal sheets show SAG PD; native SAG T2 and AX GRE FS 3D used for fluid."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 AX GRE FS 3D #6-138, s5 SAG T2 #6-17: neck 11x4 mm, thin fluid wrapping MG (25 mm, <5 mm thick), tracking ~40 mm down calf; no distended sac. Report: Baker cyst, distal fluid. both",
+    "grade": "small",
+    "diameter_mm": 25,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.74939269621045823332837094516056211606": {
+  "study_id": "1.2.826.0.1.3680043.8.498.74939269621045823332837094516056211606",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Noisy images. Subcutaneous varicose veins posteriorly (bright tubes, not cysts); prepatellar edema."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #6-17, s2 SAG PD FS #1-9: small posteromedial collection 15 x 6 mm above joint, thin fluid along MG/SM below; no distension. Report: Baker 1 cm. both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.64443149121726771900576109439951701105": {
+  "study_id": "1.2.826.0.1.3680043.8.498.64443149121726771900576109439951701105",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Joint effusion."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s1 AX PD FS #8-19, s2 SAG PD FS #1-9: sac 22 x 17 mm between SM and MG with tail along MG, ~35 mm CC; crescent wraps MG on axial. Report: 40x17 mm. both",
+    "grade": "moderate",
+    "diameter_mm": 35,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.53156118232564605912649705207438612782": {
+  "study_id": "1.2.826.0.1.3680043.8.498.53156118232564605912649705207438612782",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Suprapatellar effusion; edema around the posteromedial cyst; subcutaneous edema."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 AX PD FS #11-22, s2 SAG PD FS #8-19: septated cyst along MG, 22 mm CC x 10 mm, 7-10 mm on axial, with edema around it. Report: septated Baker 10x15x21 mm. both",
+    "grade": "small",
+    "diameter_mm": 22,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.81590494282169434250974061642267472166": {
+  "study_id": "1.2.826.0.1.3680043.8.498.81590494282169434250974061642267472166",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Muscles bright on fluid-sensitive series, low contrast against fluid. Medial tibial plateau subchondral edema."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #10-21, s4 SAG PD FS #6-17: small fluid pocket between SM and MG, max 8 x 5 mm, ~15 mm CC; no distension. Report: small uncomplicated popliteal cyst. both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.36924091633099385100942228071545017565": {
+  "study_id": "1.2.826.0.1.3680043.8.498.36924091633099385100942228071545017565",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Small joint effusion; patellofemoral degeneration."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s4 AX STIR #9-20, s2 SAG PD FS 3D #36-69: small fluid pockets between SM and MG, max 10 x 8 mm, thin stripe along MG; no distension. Report: small Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 10,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.29384016102624554484300773136383156153": {
+  "study_id": "1.2.826.0.1.3680043.8.498.29384016102624554484300773136383156153",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 15,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Small effusion; posteromedial soft-tissue edema; report suggests inflammatory arthritis."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX T2 FS #14-25, s4 SAG T2 FS #4-13: thin oval cyst between SM and MG, 22 mm CC x 7-8 mm, edema along MG fascia. Report: small, partially ruptured. both",
+    "grade": "small",
+    "diameter_mm": 22,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.56993108275828399240508695615212151102": {
+  "study_id": "1.2.826.0.1.3680043.8.498.56993108275828399240508695615212151102",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 16,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s4 AX STIR #9-20, s2 SAG PD FS 3D #30-63: small oval cyst between SM and MG above joint line, max 14 x 7 mm; no distension. Report: small Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 14,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.93718451128867963123946970296603639068": {
+  "study_id": "1.2.826.0.1.3680043.8.498.93718451128867963123946970296603639068",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 17,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Bright round structures lateral in the popliteal fossa on axial STIR = popliteal vein, not cyst."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s4 AX STIR #9-20, s2 SAG PD FS 3D #33-66: thin tubular fluid along MG tendon, ~28 mm long, 3-4 mm thick; no distended sac. Report: low-volume Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 28,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.53901077733518036755308692304268815965": {
+  "study_id": "1.2.826.0.1.3680043.8.498.53901077733518036755308692304268815965",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 18,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Large joint effusion; ruptured Baker's cyst with fluid along the medial gastrocnemius."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s3 AX PD FS #10-32, s1 SAG PD FS #3-14: collapsed sac 22 x 7 mm with neck, leaked fluid along MG >70 mm down calf, 4-6 mm thick. Report: recent rupture, extensive fluid. both",
+    "grade": "small",
+    "diameter_mm": 22,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.25928779639851562853500186715690156268": {
+  "study_id": "1.2.826.0.1.3680043.8.498.25928779639851562853500186715690156268",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s2",
+  "position": 19,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Bright round structure central in the popliteal fossa on axial = popliteal vein, not cyst."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s5 AX PD FS #12-23, s1 SAG PD FS #6-15: small oval cyst between SM and MG, max 14 x 7 mm, CC ~14 mm; no distension. Report: smaller Baker cyst; 2 mm parameniscal cyst. both",
+    "grade": "small",
+    "diameter_mm": 14,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": [
+     "parameniscal"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.33614319611050071354692274770073371314": {
+  "study_id": "1.2.826.0.1.3680043.8.498.33614319611050071354692274770073371314",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": "diffuse soft-tissue edema anteriorly and medially; patellar tendon rupture per report"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s5 SAG STIR #6-11, s1 AX GRE FS #86-104: wraps med gastroc tendon (neck), ~20x10 mm axial, ~45 mm craniocaudal; rupture suspected per report only. both",
+    "grade": "moderate",
+    "diameter_mm": 45,
+    "neck_seen": true,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.54761306437713414745748829128854749469": {
+  "study_id": "1.2.826.0.1.3680043.8.498.54761306437713414745748829128854749469",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 AX PD FS #17-21, s5 SAG PD FS #12-22: ~28x8 mm between med gastroc and SM, fluid tracking caudally along fascia; separate lobulated cyst above MFC. both",
+    "grade": "moderate",
+    "diameter_mm": 28,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": [
+     "other"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.92071199603599654827155753204585082303": {
+  "study_id": "1.2.826.0.1.3680043.8.498.92071199603599654827155753204585082303",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 AX PD FS #15-22, s5 SAG PD FS #7-9: C-shaped around med gastroc tendon ~22x10 mm, ~28 mm craniocaudal; fluid along gastroc fascia caudally. both",
+    "grade": "moderate",
+    "diameter_mm": 28,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": [
+     "other"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12817753008281742621758605755308036035": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12817753008281742621758605755308036035",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 AX PD FS #19-35, s3 SAG PD FS #6-10: thin curved cyst ~26x5 mm round med gastroc; lobulated 20x10 mm cranial part = ganglion per report; report small. both",
+    "grade": "small",
+    "diameter_mm": 26,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": [
+     "ganglion"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10021179701366615563817491713738306606": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10021179701366615563817491713738306606",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s6 AX PD FS #12-28, s1 SAG PD FS #5-10: thin fluid sheet 4-5 mm thick, ~45 mm long along med gastroc below joint; no distended sac at joint line; report: Baker's, no size. both",
+    "grade": "small",
+    "diameter_mm": 45,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11458488293461896930750018852127694875": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11458488293461896930750018852127694875",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s5 AX PD FS #14-18, s1 SAG PD FS #6-11: septated cyst wrapping med gastroc tendon ~22x15 mm axial, ~22 mm craniocaudal; report 27x14 mm, possible rupture. both",
+    "grade": "moderate",
+    "diameter_mm": 24,
+    "neck_seen": true,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.73602922823389605007702521335136347605": {
+  "study_id": "1.2.826.0.1.3680043.8.498.73602922823389605007702521335136347605",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #19-25, s4 SAG PD FS #5-9: small cyst ~12x6 mm round med gastroc tendon, thin fluid sheet along gastroc caudally; report small, ruptured. both",
+    "grade": "small",
+    "diameter_mm": 12,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.38104228771638294693272534500734878990": {
+  "study_id": "1.2.826.0.1.3680043.8.498.38104228771638294693272534500734878990",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "small circular field of view"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX T2 FS #12-23, s3 SAG T2 FS #8-11: thin collections ~4x18 mm behind MFC, no distension between tendons; report small. both",
+    "grade": "small",
+    "diameter_mm": 18,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.79609204436595306110253502961172135807": {
+  "study_id": "1.2.826.0.1.3680043.8.498.79609204436595306110253502961172135807",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 AX PD FS #14-19, s4 SAG PD FS #4-10: tear-drop cyst ~20x11 mm axial, ~15 mm craniocaudal, neck between med gastroc and SM; report small. both",
+    "grade": "small",
+    "diameter_mm": 20,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": [
+     "parameniscal"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.95984406324600336713471618620285270466": {
+  "study_id": "1.2.826.0.1.3680043.8.498.95984406324600336713471618620285270466",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "weak fat suppression on 3D PD FS: muscle and fat bright, fluid contrast low"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s4 AX PD FS 3D #94-106, s3 SAG PD FS 3D #85-105: tiny fluid ~6 mm round med gastroc tendon, no distension; report tiny. both",
+    "grade": "small",
+    "diameter_mm": 6,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.38420384692181444061893234153745102059": {
+  "study_id": "1.2.826.0.1.3680043.8.498.38420384692181444061893234153745102059",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s5 AX PD FS #17-35, s1 SAG PD FS #5-16: sac ~20x8 mm behind MFC; fluid crescent ~40 mm along SM muscle fascia (rupture); report 21x8 mm. both",
+    "grade": "small",
+    "diameter_mm": 21,
+    "neck_seen": null,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.95256518245659249144569318023469597946": {
+  "study_id": "1.2.826.0.1.3680043.8.498.95256518245659249144569318023469597946",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "no sagittal fat-suppressed series; sagittal sheets are SAG PD, native SAG T2 used for fluid"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX GRE FS 3D #84-106, s4 SAG T2 #9-11: small fluid ~6x8 mm between med gastroc and SM, no distension; report small. both",
+    "grade": "small",
+    "diameter_mm": 8,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.71792468450491064417953341293663396190": {
+  "study_id": "1.2.826.0.1.3680043.8.498.71792468450491064417953341293663396190",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 AX PD FS #14-25, s1 SAG PD FS #4-8: thin fluid ~18x5 mm wrapping med gastroc tendon, no distension; report: Baker's cyst, no size. both",
+    "grade": "small",
+    "diameter_mm": 18,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.50512021577184367495598050974910055550": {
+  "study_id": "1.2.826.0.1.3680043.8.498.50512021577184367495598050974910055550",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s5 AX PD FS #13-21, s1 SAG PD FS #6-11: small fluid ~10x5 mm between med gastroc and SM, no distension; 9 mm ganglion behind PCL; report smaller cyst. both",
+    "grade": "small",
+    "diameter_mm": 10,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": [
+     "ganglion"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.21239630702461934662855021164119114203": {
+  "study_id": "1.2.826.0.1.3680043.8.498.21239630702461934662855021164119114203",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s5 AX PD FS #15-29, s1 SAG PD FS #7-10: multilocular cyst round med gastroc tendon ~28x10 mm, fluid leaking ~40 mm along gastroc fascia; report partly ruptured. both",
+    "grade": "moderate",
+    "diameter_mm": 28,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": [
+     "parameniscal"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.40994616246264625946610553907227975893": {
+  "study_id": "1.2.826.0.1.3680043.8.498.40994616246264625946610553907227975893",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 15,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 AX PD FS #16-22, s1 SAG PD FS #7-8: tubular cyst ~15x4 mm round med gastroc, no distension; multilocular ganglia behind tibia (s1 #13-15); report smaller. both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": [
+     "ganglion",
+     "parameniscal"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.99441773159476751698123795913150660766": {
+  "study_id": "1.2.826.0.1.3680043.8.498.99441773159476751698123795913150660766",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 16,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": "subcutaneous edema medially"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s4 AX T2 FS #9-11, s1 SAG PD FS #5-6: small fluid ~7x5 mm between med gastroc and SM, no distension; pes anserine fluid; report small. both",
+    "grade": "small",
+    "diameter_mm": 7,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": [
+     "bursa"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.47255564202539432049700324486197024855": {
+  "study_id": "1.2.826.0.1.3680043.8.498.47255564202539432049700324486197024855",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 17,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "medial subcutaneous edema"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #16-20, s4 SAG T2 FS #17-20: cyst ~14x10 mm axial, ~18 mm craniocaudal, neck round med gastroc tendon; slight fluid along gastroc; report small leaking. both",
+    "grade": "small",
+    "diameter_mm": 18,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.62693151030819598514729637644804213983": {
+  "study_id": "1.2.826.0.1.3680043.8.498.62693151030819598514729637644804213983",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 18,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s3 AX PD FS #15-21, s1 SAG PD FS #10-14: bilobed cyst ~13x10 mm axial, ~20 mm craniocaudal, neck round med gastroc tendon; report small. both",
+    "grade": "small",
+    "diameter_mm": 20,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12307356432736970350794033171174403632": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12307356432736970350794033171174403632",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s3",
+  "position": 19,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "MFC subchondral edema (insufficiency fracture per report); medial soft-tissue edema"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s3 AX PD FS #26-34, s1 SAG PD FS #8-15: sac ~20x6 mm round med gastroc tendon; wide fluid sheet along gastroc fascia (rupture); report ruptured, no size. both",
+    "grade": "small",
+    "diameter_mm": 20,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10512466806929129734785318932315918522": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10512466806929129734785318932315918522",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": "p4 panel: Baker's cyst only; qa from 1_sag_fs, 3_ax_fs, 6_medial. Tibial plateau marrow edema."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 AX PD FS #12-23, s1 SAG PD FS #8-16: oval cyst ~9x17 mm, neck around MG tendon, not distending beyond tendons; report: small Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 17,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.66364462115470823900176770413527217503": {
+  "study_id": "1.2.826.0.1.3680043.8.498.66364462115470823900176770413527217503",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "p4 panel: Baker's cyst only; qa from 1_sag_fs, 3_ax_fs, 6_medial. Subcutaneous and muscle edema."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s4 AX T2 FS #7-15, s1 SAG T2 FS #3-11: thin cyst MG-SM, ~14x7 mm axial, ~30 mm cranio-caudal, no distension; report: suspect Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 30,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.19813267030974842239752491935957206955": {
+  "study_id": "1.2.826.0.1.3680043.8.498.19813267030974842239752491935957206955",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "p4 panel: Baker's cyst only. Sagittal FOV cuts posterior soft tissue; uneven coil brightness makes posterior muscles look bright on axial."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 AX PD FS #6-17, s4 SAG PD FS #2-10: thin MG-SM cyst ~11x8 mm axial, ~40 mm long, neck seen; report: Baker cyst 4.7 cm cc. Long but not distending. both",
+    "grade": "moderate",
+    "diameter_mm": 40,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.29579560656789178333629609998252952856": {
+  "study_id": "1.2.826.0.1.3680043.8.498.29579560656789178333629609998252952856",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "p4 panel: Baker's cyst only; qa from 1_sag_fs, 3_ax_fs, 6_medial. Tibial marrow edema."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s5 AX PD FS #14-25, s1 SAG PD FS #5-12: thin cyst around MG tendon ~9x7 mm axial, 24 mm cc, no distension; report: small Baker cyst 26x7 mm. both",
+    "grade": "small",
+    "diameter_mm": 24,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10419993051271996183722192755371692029": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10419993051271996183722192755371692029",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "p4 panel: Baker's cyst only; qa from 1_sag_fs, 3_ax_fs, 6_medial. 3D PD FS with weak fat suppression (muscles bright)."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s5 AX T2 FS #10-21, s3 SAG PD FS 3D #60-148: small MG-SM cyst ~9x12 mm, ~20 mm cc, no distension; report: small Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 12,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.72237065473467452226073540784070938342": {
+  "study_id": "1.2.826.0.1.3680043.8.498.72237065473467452226073540784070938342",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "p4 panel: Baker's cyst only; qa from 1_sag_fs, 3_ax_fs, 6_medial."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s5 AX T2 FS #8-19, s1 SAG PD FS #3-10: thin fluid sliver around MG tendon ~10x3 mm, no distension; report: small Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 10,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11646465814751330102194657154003685957": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11646465814751330102194657154003685957",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "p4 panel: Baker's cyst only; qa from 1_sag_fs, 3_ax_fs, 6_medial."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "s2 AX T2 FS #14-25, s1 SAG PD FS #7-14: lobulated septated cyst ~31x15x14 mm, neck from posteromedial capsule; report: lobulated Baker's cyst. small-moderate. both",
+    "grade": "moderate",
+    "diameter_mm": 31,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12992013816638129896738209015383985569": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12992013816638129896738209015383985569",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "p4 panel: Baker's cyst only. Tibial plateau fracture, large effusion, extensive soft-tissue edema; lobulated fluid in posteromedial thigh planes."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s6 AX PD FS #10-29, s2 SAG PD FS #10-21: ~10 mm MG-SM collection; posterior recess fluid is joint effusion; lobulated medial thigh fluid not Baker; report: small Baker. both",
+    "grade": "small",
+    "diameter_mm": 10,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": [
+     "other"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.13463672277039459152171414002273376185": {
+  "study_id": "1.2.826.0.1.3680043.8.498.13463672277039459152171414002273376185",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "p4 panel: Baker's cyst only; qa from 1_sag_fs, 3_ax_fs, 6_medial."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #15-26, s4 SAG T2 FS #8-15: thin fluid around MG tendon ~5x17 mm, no distension; report: small Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 17,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10522585237725235866013737575867341946": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10522585237725235866013737575867341946",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "p4 panel: Baker's cyst only. Sagittal PD FS native 0.74 mm/px; bright gastrocnemius veins in upper calf."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #3-21, s2 SAG PD FS #4-11: thin posteromedial collection along MG ~6 mm wide, ~25 mm cc; no distension at joint level; report: Baker cyst 22 mm. both",
+    "grade": "small",
+    "diameter_mm": 25,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.54482848766921329667469114743547203929": {
+  "study_id": "1.2.826.0.1.3680043.8.498.54482848766921329667469114743547203929",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "p4 panel: Baker's cyst only; qa from 1_sag_fs, 3_ax_fs, 6_medial. Circular FOV crops edges."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX T2 FS #13-24, s3 SAG T2 FS #6-14: small fluid at MG ~9x14 mm plus lobulated cluster in upper fossa ~18x10 mm; not distending; report: small multiloculated Baker. both",
+    "grade": "small",
+    "diameter_mm": 18,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.54100786607660749952814251186461344633": {
+  "study_id": "1.2.826.0.1.3680043.8.498.54100786607660749952814251186461344633",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "p4 panel: Baker's cyst only; qa from 1_sag_fs, 3_ax_fs, 6_medial. Medial femoral and tibial marrow edema (report: stress fractures)."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 AX STIR #9-18, s2 SAG PD FS #5-12: only a thin fluid sliver at MG tendon ~4x12 mm, no distension; report: Baker's cyst (no size). images",
+    "grade": "small",
+    "diameter_mm": 12,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.30690232747840004203140392776057147177": {
+  "study_id": "1.2.826.0.1.3680043.8.498.30690232747840004203140392776057147177",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "p4 panel: Baker's cyst only. No FS sagittal (SAG PD shown); axial 3D GRE water-excitation makes muscle bright, fluid hard to separate."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX GRE FS 3D #76-142, s5 SAG T2 #7-15: thin fluid crescent at MG tendon ~11x3 mm, no distension; report: small Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 11,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.45304570280714567513866386380356988876": {
+  "study_id": "1.2.826.0.1.3680043.8.498.45304570280714567513866386380356988876",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "p4 panel: Baker's cyst only; qa from 1_sag_fs, 3_ax_fs, 6_medial. Large joint effusion."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s3 AX PD FS #14-25, s1 SAG PD FS #6-14: small fluid sliver at MG tendon ~5x12 mm with large effusion, no distension; report: small popliteal cyst. both",
+    "grade": "small",
+    "diameter_mm": 12,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.94244885518758327449236878653096161475": {
+  "study_id": "1.2.826.0.1.3680043.8.498.94244885518758327449236878653096161475",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "p4 panel: Baker's cyst only. No FS sagittal (SAG PD shown); axial 3D GRE water-excitation makes muscle bright."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX GRE FS 3D #62-106, s4 SAG T2 #4-12: oval cyst ~14x12 mm, ~24 mm cc, neck wrapping MG tendon; mild distension; report: fluid-filled Baker cyst (no size). both",
+    "grade": "small",
+    "diameter_mm": 24,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.21605506484276750075895228202564072044": {
+  "study_id": "1.2.826.0.1.3680043.8.498.21605506484276750075895228202564072044",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 15,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "p4 panel: Baker's cyst only; qa from 1_sag_fs, 3_ax_fs, 6_medial. Fluid in posterior intercondylar recess (intra-articular)."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s4 AX STIR #12-21, s2 SAG PD FS 3D #30-74: only ~4 mm fluid focus at MG tendon; bright posterior fluid is intra-articular recess; report: small micro-Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 4,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.71753603955749189961638324806586359888": {
+  "study_id": "1.2.826.0.1.3680043.8.498.71753603955749189961638324806586359888",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 16,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "p4 panel: Baker's cyst only. Coil hot spots at posterior skin and uneven fat suppression at FOV edges."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #6-15, s5 SAG PD FS #2-10: thin fluid curving at MG tendon ~8x4 mm, ~12 mm cc, no distension; report: small Baker cyst. both",
+    "grade": "small",
+    "diameter_mm": 12,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.23378338408981699466914366379590099738": {
+  "study_id": "1.2.826.0.1.3680043.8.498.23378338408981699466914366379590099738",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 17,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "p4 panel: Baker's cyst only; qa from 1_sag_fs, 3_ax_fs, 6_medial. Dilated popliteal vein (bright tube) in fossa; joint effusion."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 AX T2 FS #8-19, s1 SAG PD FS #4-12: small MG-SM cyst ~10x7 mm, ~15 mm cc, perifocal edema; round fluid tube is popliteal vein; report: small Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.70478068758081824347762712452252763894": {
+  "study_id": "1.2.826.0.1.3680043.8.498.70478068758081824347762712452252763894",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 18,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "p4 panel: Baker's cyst only; qa from 1_sag_fs, 3_ax_fs, 6_medial. Medial femoral condyle subchondral lesion with edema."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s5 AX PD FS #15-26, s1 SAG PD FS #6-14: thin comma-shaped MG-SM cyst ~13x6 mm, ~25 mm cc, no distension; report: smaller popliteal cyst. both",
+    "grade": "small",
+    "diameter_mm": 25,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.47651715105501347255071941051553742767": {
+  "study_id": "1.2.826.0.1.3680043.8.498.47651715105501347255071941051553742767",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s4",
+  "position": 19,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "p4 panel: Baker's cyst only; qa from 1_sag_fs, 3_ax_fs, 6_medial. Muscles bright on PD FS."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #12-21, s4 SAG PD FS #6-14: small MG-SM cyst ~8x5 mm, ~13 mm cc, no distension; report: small uncomplicated popliteal cyst. both",
+    "grade": "small",
+    "diameter_mm": 13,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.66401771232064170830621215861092532421": {
+  "study_id": "1.2.826.0.1.3680043.8.498.66401771232064170830621215861092532421",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 AX PD FS #5-10 neck between MG and SM on #9-10; s5 SAG PD FS #6-8; 31x14 mm (cc x ap), report 3.2 cm; both",
+    "grade": "moderate",
+    "diameter_mm": 31,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.58626635384305289939700801774393536415": {
+  "study_id": "1.2.826.0.1.3680043.8.498.58626635384305289939700801774393536415",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 AX PD FS #17-27 crescent around MG, neck #25-27; s3 SAG T2 FS #8-11; 30x15 mm seen (report 4.7x3.1x2.6 cm); both",
+    "grade": "moderate",
+    "diameter_mm": 30,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.21449012857520712901884874638467532958": {
+  "study_id": "1.2.826.0.1.3680043.8.498.21449012857520712901884874638467532958",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "s4 AX T2 FS #10-19 neck #15-17; s3 SAG PD FS 3D #90-135 thin septated lobules; ~45 mm long, 7-9 mm thick (report 4.5x2.4x0.9 cm); both",
+    "grade": "moderate",
+    "diameter_mm": 45,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.46305694398420300356121078124030126469": {
+  "study_id": "1.2.826.0.1.3680043.8.498.46305694398420300356121078124030126469",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #10-19 thin 2-4 mm rim around MG head; s2 SAG PD FS #8-12 thin sheath, no distension; report 2.5x1 cm; both",
+    "grade": "small",
+    "diameter_mm": 25,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.75760698509105388883811155432691667447": {
+  "study_id": "1.2.826.0.1.3680043.8.498.75760698509105388883811155432691667447",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #10-14 thin MG-SM fluid, #20-24 streaky fluid in fossa fat planes (not a cyst); s2 SAG PD FS #5-7 pockets ~8x15 mm; both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.65160241567146620406193593170843451582": {
+  "study_id": "1.2.826.0.1.3680043.8.498.65160241567146620406193593170843451582",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "medial gastrocnemius myotendinous tear with muscle edema (per report and images)"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #11-22 thin 2-4 mm MG-SM fluid, thin fluid around torn edematous MG = leak; S2-S3; report small cyst, 23x7 mm; both",
+    "grade": "small",
+    "diameter_mm": 23,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.17336223563862025807066700226971845206": {
+  "study_id": "1.2.826.0.1.3680043.8.498.17336223563862025807066700226971845206",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 6,
+  "sheets_viewed": [
+   "3_ax_fs"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "no sagittal sheets (sagittal series belong to the other knee); coronal native series used for extent"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 AX T2 FS #18-24 oval 12x10 mm MG-SM, fluid along calf below; s3 COR T2 FS #21-22 ~15 mm with leak streaks; report small ruptured; both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": false,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.85333821516157983299252782678788406019": {
+  "study_id": "1.2.826.0.1.3680043.8.498.85333821516157983299252782678788406019",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "edema at the medial gastrocnemius origin (tendinopathy per report)"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #14-16 thin 3-5 mm MG-SM sliver; s3 SAG PD FS #10-11 ~15x3 mm; report small Baker cyst; both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.34861721301001052975626513770908147451": {
+  "study_id": "1.2.826.0.1.3680043.8.498.34861721301001052975626513770908147451",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX T2 FS #15-24 chain of thin locules around MG; s3 SAG T2 FS #8-16 locules 3-12 mm, chain ~40 mm; report small, partly ruptured; both",
+    "grade": "small",
+    "diameter_mm": 12,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.29343735048224321966824641432873034291": {
+  "study_id": "1.2.826.0.1.3680043.8.498.29343735048224321966824641432873034291",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s4 AX STIR #16-18 thin 3-5 mm MG-SM sliver; s2 SAG PD FS 3D #44-62 thin fluid on posterior condyle, no distension; ~10 mm; report low volume; both",
+    "grade": "small",
+    "diameter_mm": 10,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.92902692647544828045768164058889405369": {
+  "study_id": "1.2.826.0.1.3680043.8.498.92902692647544828045768164058889405369",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 AX STIR #7-14 teardrop 8x12 mm at MG-SM neck, 15x6 mm above; s2 SAG PD FS #2-4, #8-9 tube ~35 mm long, 6-8 mm thick; report Baker cyst no size; both",
+    "grade": "small",
+    "diameter_mm": 35,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.85728170022176096748897349447671687164": {
+  "study_id": "1.2.826.0.1.3680043.8.498.85728170022176096748897349447671687164",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #12-17 teardrop 5x7 mm at MG-SM neck; s5 SAG PD FS #8-11 ~12x5 mm; report small uncomplicated popliteal cyst; both",
+    "grade": "small",
+    "diameter_mm": 12,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.26512333939158074470511885252122191522": {
+  "study_id": "1.2.826.0.1.3680043.8.498.26512333939158074470511885252122191522",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #12-16 crescent 4-6 mm around MG, neck; s3 SAG PD FS #6-9 oval 6x15 mm; S6 tube = popliteal vein; report small; both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10124701778993602117271554854098856833": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10124701778993602117271554854098856833",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "fluid with an ossific body in the posterior joint recess under the medial gastrocnemius head"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #13-17 oval 8x12 mm at MG-SM neck; s3 SAG PD FS #10 ~15x6 mm; #13-17 recess fluid deep to MG = joint; report small non-ruptured; both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.15851463019383290210760064201595021029": {
+  "study_id": "1.2.826.0.1.3680043.8.498.15851463019383290210760064201595021029",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s4 AX STIR #11-19 crescent 5-7 mm around MG, neck; s2 SAG PD FS 3D #36-58 pockets ~8x15 mm, strip 5x20 mm deep to MG; report small; both",
+    "grade": "small",
+    "diameter_mm": 20,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.43256905750043156063416845850825787417": {
+  "study_id": "1.2.826.0.1.3680043.8.498.43256905750043156063416845850825787417",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 15,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #15-23 thin 3-7 mm MG-SM fluid, neck; s5 SAG PD FS #6-9 oval 7x20 mm, #13-15 small pocket; report small uncomplicated; both",
+    "grade": "small",
+    "diameter_mm": 20,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.94625454484290996254750481989036812516": {
+  "study_id": "1.2.826.0.1.3680043.8.498.94625454484290996254750481989036812516",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 16,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "edema around the medial gastrocnemius / medial soft tissues after trauma"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #19-20 pocket 3-4 mm MG-SM, thin perifascial fluid; s5 SAG PD FS #6-11 streaky fluid only, no distension; report small ruptured; both",
+    "grade": "small",
+    "diameter_mm": 5,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.14325424371811230497993759959862738838": {
+  "study_id": "1.2.826.0.1.3680043.8.498.14325424371811230497993759959862738838",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 17,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "ruptured Baker cyst with fluid and edema tracking down along the medial gastrocnemius"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 AX PD FS #21 oval 7x12 mm at MG-SM, #5-15 thin fluid sheath round MG; s1 SAG PD FS #9-13 leak 3-5 mm thick ~60 mm down calf; report ruptured; both",
+    "grade": "small",
+    "diameter_mm": 12,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": [
+     "ganglion"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.14236519693915284584208989450687591759": {
+  "study_id": "1.2.826.0.1.3680043.8.498.14236519693915284584208989450687591759",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 18,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #20-28 teardrop 4x8 mm MG-SM, neck; s3 SAG T2 FS #11-12 oval 5x15 mm; no calf leak seen; report small ruptured; both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": true,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12839498544183083639548298117995964432": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12839498544183083639548298117995964432",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s5",
+  "position": 19,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "small circular field of view on sagittal slices"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX T2 FS #12-17 small 4-6 mm MG-SM fluid, neck; s3 SAG T2 FS #6-9 tube 4-6 mm x ~25 mm; report small ruptured; both",
+    "grade": "small",
+    "diameter_mm": 25,
+    "neck_seen": true,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10728448245470003618625208276233778895": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10728448245470003618625208276233778895",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s5 AX PD FS #14-21: neck between MG and SM, 21 mm wide; s2 SAG PD FS #4-9: 33x15 mm. Largest 33 mm. Report: cyst 33/18 mm. both",
+    "grade": "moderate",
+    "diameter_mm": 33,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11079556243110299049578981210837702995": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11079556243110299049578981210837702995",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 AX PD FS #12-19: fluid around SM tendon, 8 mm sliver between MG and SM; s2 SAG PD FS #7-9: 17x8 mm, not distended. Largest 17 mm. Report: SM bursa fluid, no cyst. both",
+    "grade": "small",
+    "diameter_mm": 17,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": [
+     "bursa"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.44002376543340544410495269060824194475": {
+  "study_id": "1.2.826.0.1.3680043.8.498.44002376543340544410495269060824194475",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "s1 AX T2 FS #19-26: neck between MG and SM, 12x17 mm, fluid tracking down MG; s3 SAG T2 FS #8-10: 18x20 mm. Largest 20 mm. Report: small cyst, partial rupture. both",
+    "grade": "small",
+    "diameter_mm": 20,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10378535286770237477615181844634903700": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10378535286770237477615181844634903700",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s3 AX PD FS #23-37: multilobulated, 31 mm wide, between MG and SM above joint; s1 SAG PD FS #8-16: 38x15 mm, tail to joint. Largest 38 mm. Report: multilocular cyst 44/37/16. both",
+    "grade": "moderate",
+    "diameter_mm": 38,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.37007302166102452703965686598524467188": {
+  "study_id": "1.2.826.0.1.3680043.8.498.37007302166102452703965686598524467188",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #14-25: thin fluid between MG and SM, 5x19 mm; s3 SAG PD FS #8-12: stripes 23x6 mm, not distended. Largest 23 mm. Report: small ruptured cyst. both",
+    "grade": "small",
+    "diameter_mm": 23,
+    "neck_seen": true,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.23956169649865635269920565218680494366": {
+  "study_id": "1.2.826.0.1.3680043.8.498.23956169649865635269920565218680494366",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "no fat-suppressed sagittal series; sagittal sheets are SAG PD"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX GRE FS 3D #71-148: thin fluid MG-SM 19x6 mm, small lobules to 11 mm; s4 SAG T2 #5-11: small lobulated cysts, not distended. Largest 19 mm. Report: synovial cysts. both",
+    "grade": "small",
+    "diameter_mm": 19,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10783501127779906316117667790784040770": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10783501127779906316117667790784040770",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s5 AX STIR #10-17: 8x11 mm collection MG-SM, ill-defined fluid to 20 mm, leak along MG; s4 SAG PD FS #5-10: no discrete cyst. Largest 20 mm. Report: cyst with leak. both",
+    "grade": "small",
+    "diameter_mm": 20,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11257869433929994221899994675448655047": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11257869433929994221899994675448655047",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s3 AX PD FS #24-28: 4x8 mm sliver MG-SM; s1 SAG PD FS #8-11: lobules to 8 mm; small cyst behind notch (S5). Largest 8 mm. Report: small cyst 13/8 mm. both",
+    "grade": "small",
+    "diameter_mm": 8,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": [
+     "other"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11125718814639515292482773418372267821": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11125718814639515292482773418372267821",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s5 AX STIR #9-15: pockets to 8 mm MG-SM, fluid rim along MG; s4 SAG PD FS #4-8: 19x8 mm pocket. Largest 19 mm. Report: cyst with leak. both",
+    "grade": "small",
+    "diameter_mm": 19,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11394861774586578112386386342670500749": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11394861774586578112386386342670500749",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #14-25: thin fluid MG-SM 5x14 mm, 6x20 mm above; s2 SAG PD FS #10-14: strands 25x5 mm, not distended. Largest 25 mm. Report: cyst 26x7 mm. both",
+    "grade": "small",
+    "diameter_mm": 25,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10930374192038896613513882597332665403": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10930374192038896613513882597332665403",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s4 AX STIR #11-22: no fluid MG-SM beyond trace; s2 SAG PD FS 3D #36-72: 10x3 mm sliver; 10 mm cyst at MM root/PCL = parameniscal. Largest 10 mm. Report: trace cyst. both",
+    "grade": "small",
+    "diameter_mm": 10,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": [
+     "parameniscal"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10880553082640412137979450100928382021": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10880553082640412137979450100928382021",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 AX PD FS #20-26: 7x13 mm MG-SM, wraps MG head; s1 SAG PD FS #7-11: lobulated 15x6 mm, not distended. Largest 15 mm. Report: popliteal cyst 13x7 mm. both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.43483537125776347707929354413013709736": {
+  "study_id": "1.2.826.0.1.3680043.8.498.43483537125776347707929354413013709736",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #15-29: 15x8 mm deep to MG head at its origin, trace MG-SM; s2 SAG PD FS #4-8: 8 mm oval, not distended. Largest 15 mm. Report: cyst 16 mm. both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.79122189963582241618519333445055548347": {
+  "study_id": "1.2.826.0.1.3680043.8.498.79122189963582241618519333445055548347",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s3 AX PD FS #20-28: 3x7 mm sliver MG-SM; s1 SAG PD FS #7-12: posterior recess crescent 12x3 mm, 4 mm focus. Largest 12 mm. Report: small cyst. both",
+    "grade": "small",
+    "diameter_mm": 12,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": [
+     "parameniscal"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.54589880111295324708950851057241927191": {
+  "study_id": "1.2.826.0.1.3680043.8.498.54589880111295324708950851057241927191",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #14-21: pockets MG-SM to 6x9 mm; s5 SAG PD FS #12-20: 18x6 mm along MG, not distended. Largest 18 mm. Report: small uncomplicated popliteal cyst. both",
+    "grade": "small",
+    "diameter_mm": 18,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.33620268340279901383196638228030589893": {
+  "study_id": "1.2.826.0.1.3680043.8.498.33620268340279901383196638228030589893",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 15,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "bilateral report; series s6-s10 are the other knee and were ignored"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s4 AX PD FS #10-19: neck MG-SM, 5x10 mm around MG tendon; s1 SAG PD FS #6-10: 16x7 mm, not distended. Largest 16 mm. Report: small cyst (left knee part). both",
+    "grade": "small",
+    "diameter_mm": 16,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.67386780309737226410965627751074124678": {
+  "study_id": "1.2.826.0.1.3680043.8.498.67386780309737226410965627751074124678",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 16,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "s3 AX STIR #5-16: neck MG-SM, tongue 5x12 mm deep to MG to 43 mm below joint; s5 SAG PD FS #5-6: 30x7 mm. Largest 40 mm, thin. Report: cyst with leak. both",
+    "grade": "small",
+    "diameter_mm": 40,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12487362549907644519947672428024977201": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12487362549907644519947672428024977201",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 17,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s3 AX PD FS #15-26: foci MG-SM to 4 mm; s1 SAG PD FS #5-8: 8x5 mm pocket at joint line, not distended. Largest 8 mm. Report: small cyst. both",
+    "grade": "small",
+    "diameter_mm": 8,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.29039872266866623711060910233238440882": {
+  "study_id": "1.2.826.0.1.3680043.8.498.29039872266866623711060910233238440882",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 18,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #8-13: 3x8 mm sliver MG-SM; s4 SAG PD FS #5-7: 10x5 mm pockets, not distended. Largest 10 mm. Report: small synovial cyst. both",
+    "grade": "small",
+    "diameter_mm": 10,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.13173050135651736408720687361834045815": {
+  "study_id": "1.2.826.0.1.3680043.8.498.13173050135651736408720687361834045815",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s6",
+  "position": 19,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 AX PD FS #9-17: neck MG-SM 7x10 mm, flat tongue 4x20 mm deep to MG; s4 SAG PD FS #9-16: 38x6 mm. Largest 38 mm, thin. Report: mild MG-SM recess distension. both",
+    "grade": "small",
+    "diameter_mm": 38,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.29739171278960083313048266628194182569": {
+  "study_id": "1.2.826.0.1.3680043.8.498.29739171278960083313048266628194182569",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #13-24, s5 SAG PD FS #4-15: oval posteromedial cyst with neck, ~20x15x14 mm, confined; report: small popliteal cyst. both",
+    "grade": "small",
+    "diameter_mm": 20,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.68637419175382604890136839259344633105": {
+  "study_id": "1.2.826.0.1.3680043.8.498.68637419175382604890136839259344633105",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #9-20, s5 SAG PD FS #6-17: thin crescent cyst around med gastroc, ~28 mm CC x 7 mm, neck seen; report: small cyst, leaking. both",
+    "grade": "small",
+    "diameter_mm": 28,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.80161127293548940216292842707683784128": {
+  "study_id": "1.2.826.0.1.3680043.8.498.80161127293548940216292842707683784128",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s3 AX PD FS #8-19, s1 SAG PD FS #3-12: septated cyst with neck, ~33 mm CC x 17 x 16 mm, distends gastroc-SM space; report: Baker's cyst present. both",
+    "grade": "moderate",
+    "diameter_mm": 33,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.28579372595938810820078670002733005121": {
+  "study_id": "1.2.826.0.1.3680043.8.498.28579372595938810820078670002733005121",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 AX STIR #5-16, s5 SAG PD FS #2-10: no distended collection, ~6 mm residue; fluid along med gastroc fascia; report: ruptured Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 6,
+    "neck_seen": null,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.67456402757136973484427155324664966595": {
+  "study_id": "1.2.826.0.1.3680043.8.498.67456402757136973484427155324664966595",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 4,
+  "sheets_viewed": [
+   "3_ax_fs"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": "no sagittal sheets: sagittal series belong to the other knee; coronal PD FS used for cranio-caudal extent"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 AX PD FS #5-16, s4 COR PD FS #18-29: cyst with neck, ~33 mm CC x 25 x 12 mm, down along med gastroc; report: Baker cyst present. both",
+    "grade": "moderate",
+    "diameter_mm": 33,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.69411539430142524612470544041263824359": {
+  "study_id": "1.2.826.0.1.3680043.8.498.69411539430142524612470544041263824359",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 AX PD FS #9-20, s2 SAG PD FS #6-17: bilobed cyst, lobes ~22x12 mm, axial ~10 mm; large effusion in posterior recess separate; report: small bilobed cyst. both",
+    "grade": "small",
+    "diameter_mm": 22,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.22594249996322566888700984133307337128": {
+  "study_id": "1.2.826.0.1.3680043.8.498.22594249996322566888700984133307337128",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s5 AX PD FS #16-27, s1 SAG PD FS #8-19: thin oblique cyst ~25x6 mm along gastroc fascia, not distended; report: popliteal cyst 22x7 mm. both",
+    "grade": "small",
+    "diameter_mm": 25,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.83747418172021065605877274971789603771": {
+  "study_id": "1.2.826.0.1.3680043.8.498.83747418172021065605877274971789603771",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "uneven fat suppression on sagittal PD FS; axial STIR 7.8 mm spacing"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s3 AX STIR #5-16, s2 SAG PD FS #2-10: no distended cyst, ~15x8 mm residual crescent; fluid tracks in calf planes; report: Baker's cyst with leak. both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": null,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.91125742927944703615970502025043944089": {
+  "study_id": "1.2.826.0.1.3680043.8.498.91125742927944703615970502025043944089",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": false,
+   "pattern": "degenerative",
+   "note": "fibula on the side marked M (A1, S1-S2): knee mirrored, true medial is the side marked L; 6_medial shows the true lateral compartment"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s3 AX STIR #7-18, s2 SAG PD FS #12-23 (true medial = marked L): multilobulated cyst wrapping gastroc tendon, ~41x17x20 mm; report: ruptured Baker's cyst. both",
+    "grade": "moderate",
+    "diameter_mm": 41,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.63377901538320536934403969965624202519": {
+  "study_id": "1.2.826.0.1.3680043.8.498.63377901538320536934403969965624202519",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #8-19, s3 SAG T2 FS #3-11: thin fluid strip ~18x4 mm around med gastroc tendon, no distension; report: trace Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 18,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.64590392444259942263746282444188079724": {
+  "study_id": "1.2.826.0.1.3680043.8.498.64590392444259942263746282444188079724",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #12-23, s4 SAG PD FS #6-17: crescent cyst ~15x6 mm around med gastroc tendon, not distended; report: small cyst, probable leak. both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": true,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11425019165071014217290822852865654127": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11425019165071014217290822852865654127",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX T2 FS #14-25, s3 SAG T2 FS #3-11: oval cyst ~17x8x6 mm behind MFC with neck, not distended; report: small Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 17,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.25252553477605568387898480443616118724": {
+  "study_id": "1.2.826.0.1.3680043.8.498.25252553477605568387898480443616118724",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "motion"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "ringing / motion artefact on sagittal PD FS"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #5-15, s5 SAG PD FS #1-9: small fluid pocket with neck behind MFC, ~10x6 mm axial, not distended; report: small Baker cyst 1 cm. both",
+    "grade": "small",
+    "diameter_mm": 12,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.99088247184917460283293617180083591028": {
+  "study_id": "1.2.826.0.1.3680043.8.498.99088247184917460283293617180083591028",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "no fat-suppressed sagittal series (sheets 1 and 6 show SAG PD); fluid judged on AX GRE FS 3D and SAG T2"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX GRE FS 3D #48-114, s5 SAG T2 #5-16: thin crescent ~20 mm CC x 5-9 mm around med gastroc tendon, not distended; report: small Baker cyst. both",
+    "grade": "small",
+    "diameter_mm": 20,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.78296478954955171036523274995555716268": {
+  "study_id": "1.2.826.0.1.3680043.8.498.78296478954955171036523274995555716268",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #14-31, s5 SAG PD FS #2-13: round cyst with neck ~17 mm CC x 12 x 10 mm, not distending gastroc-SM space; report: popliteal cyst, slight leak. both",
+    "grade": "small",
+    "diameter_mm": 17,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.81738571920712657790861120957086010772": {
+  "study_id": "1.2.826.0.1.3680043.8.498.81738571920712657790861120957086010772",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 15,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "two reports filed (bilateral); images match the first (no displaced meniscal fragment, no OA); uneven fat suppression at the posterior skin"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #6-17, s5 SAG PD FS #1-9: small fluid pocket ~10x8 mm at med gastroc head, no distension; matching report: small Baker cyst. both",
+    "grade": "small",
+    "diameter_mm": 10,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.63683477631564232018930819747238111809": {
+  "study_id": "1.2.826.0.1.3680043.8.498.63683477631564232018930819747238111809",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 16,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "weak fat suppression on 3D PD FS (fat bright); AX T2 FS used for fluid"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 AX T2 FS #9-18, s3 SAG PD FS 3D #70-136: tiny fluid pocket ~6x3 mm between med gastroc and SM, no distension; report: tiny Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 6,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.36648377536792309029975432419163533533": {
+  "study_id": "1.2.826.0.1.3680043.8.498.36648377536792309029975432419163533533",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 17,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": ""
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s4 AX T2 FS #14-25, s1 SAG PD FS #2-13: oblong cyst with neck, ~28x20x8 mm, thin but extends behind med gastroc; report: Baker's cyst 2x0.8x2.8 cm. both",
+    "grade": "small",
+    "diameter_mm": 28,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.85883562680953255833567595509408888410": {
+  "study_id": "1.2.826.0.1.3680043.8.498.85883562680953255833567595509408888410",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 18,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "trochlear dysplasia, patellar chondral changes"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #13-24, s4 SAG PD FS #4-15: lobulated fluid ~15x10 mm below joint line at med gastroc, slivers higher; not distended; report: Baker cyst 2.5 cm CC. both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.75739561647115166735277767560308263446": {
+  "study_id": "1.2.826.0.1.3680043.8.498.75739561647115166735277767560308263446",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s7",
+  "position": 19,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "3D sagittal PD FS has 0.89 mm/px native resolution (blurred)"
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s4 AX STIR #11-22, s2 SAG PD FS 3D #20-64: lobulated cyst with neck ~13x10x8 mm between med gastroc and SM, not distended; report: small Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 13,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11123446342116837882811834332727990911": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11123446342116837882811834332727990911",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s2 axial and s5 sagittal views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 AX T2 FS #15-22, s5 SAG PD FS #9-12; largest 25 mm cc, 13x12 mm axial, lobulated, neck at #19-21; report 13x21x12 mm. both",
+    "grade": "moderate",
+    "diameter_mm": 25,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.88523737187772411911621088333701306485": {
+  "study_id": "1.2.826.0.1.3680043.8.498.88523737187772411911621088333701306485",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s5 axial and s1 sagittal views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s5 AX T2 FS #10-15, s1 SAG PD FS #6-9; thin flat collection ~6 mm thick, ~35 mm cc, along MG; report: lobulated Baker's cyst, no size. both",
+    "grade": "small",
+    "diameter_mm": 35,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.48520238688122533624681796433258211236": {
+  "study_id": "1.2.826.0.1.3680043.8.498.48520238688122533624681796433258211236",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s1 axial and s3 sagittal views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #11-17, s3 SAG PD FS #5-8; small irregular collection ~9x10 mm axial, 22 mm cc, neck, edema around (leak); report: <=5 mm, leaking. both",
+    "grade": "small",
+    "diameter_mm": 22,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11654064547593365398103107850228629066": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11654064547593365398103107850228629066",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s4 axial and s1 sagittal views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "s4 AX T2 FS #5-16, s1 SAG PD FS #5-9; no distended cavity: thin fluid <=5 mm + stranding around MG, fluid along MG fascia (leak?); report: Baker's cyst + edema, no size. both",
+    "grade": "small",
+    "diameter_mm": 25,
+    "neck_seen": null,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.27034189091164693165076510006436405194": {
+  "study_id": "1.2.826.0.1.3680043.8.498.27034189091164693165076510006436405194",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s1 axial and s3 sagittal views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s1 AX PD FS #15-21, s3 SAG PD FS #12-15; ~30x20x18 mm, neck MG-SM at #18-20, ill-defined inferior edge; report: small, partially ruptured. both",
+    "grade": "moderate",
+    "diameter_mm": 30,
+    "neck_seen": true,
+    "ruptured": true,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.68504220056564878621959394439671931747": {
+  "study_id": "1.2.826.0.1.3680043.8.498.68504220056564878621959394439671931747",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s1 axial and s3 sagittal views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #20-25, s3 SAG T2 FS #8-10; tiny lobulated collection ~8x11 mm behind MFC; bright oval lateral to artery = popliteal vein; report: tiny popliteal cyst. both",
+    "grade": "small",
+    "diameter_mm": 11,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.55461938012492393262172182405932212246": {
+  "study_id": "1.2.826.0.1.3680043.8.498.55461938012492393262172182405932212246",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s3 axial and s1 sagittal views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s3 AX PD FS #5-21, s1 SAG PD FS #3-17; decompressed cyst, fluid film 3-8 mm around MG over >55 mm cc; small round cyst behind posterior notch; report: recent rupture. both",
+    "grade": "moderate",
+    "diameter_mm": 55,
+    "neck_seen": false,
+    "ruptured": true,
+    "other_cysts": [
+     "ganglion"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.39135770176150551756142329948474103964": {
+  "study_id": "1.2.826.0.1.3680043.8.498.39135770176150551756142329948474103964",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s5 axial and s3 sagittal views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 AX T2 FS #13-17, s3 SAG PD FS #7-8; small collection ~5x9 mm axial, 15 mm cc between MG and SM; report: Baker's cyst, no size. both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.18792568294433896490648198192877693850": {
+  "study_id": "1.2.826.0.1.3680043.8.498.18792568294433896490648198192877693850",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s1 axial and s3 sagittal views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX T2 FS #13-16, s3 SAG T2 FS #6-8; only slivers <=3 mm between MG and SM, thin 5x18 mm fluid strip behind MFC; report: trace Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 18,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.40618283771317160262473004328692613267": {
+  "study_id": "1.2.826.0.1.3680043.8.498.40618283771317160262473004328692613267",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 (sagittal non-FS PD) plus native s1 axial GRE FS and s4 sagittal T2 views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX GRE FS 3D #52-88, s4 SAG T2 #5-7; only small fluid foci ~4x8 mm behind MFC, no distended sac; report: slightly fluid-filled Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 8,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.94921929374845793599006362190119159537": {
+  "study_id": "1.2.826.0.1.3680043.8.498.94921929374845793599006362190119159537",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [
+    "meniscus_surgery"
+   ],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s5 axial and s1 sagittal views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s5 AX PD FS #11-19, s1 SAG PD FS #4-9; well-defined distended oval cyst ~23x20x12 mm between MG and SM, neck at #11-13; report: Baker's cyst, no size. both",
+    "grade": "moderate",
+    "diameter_mm": 23,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11413427362266862411525989114324631512": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11413427362266862411525989114324631512",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s1 axial and s3 sagittal views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX T2 FS #15-21, s3 SAG T2 FS #7-9; small elongated collection ~4x6 mm axial, 10 mm cc between MG and SM; report: small Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 10,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.67284681623851829916403311739987186159": {
+  "study_id": "1.2.826.0.1.3680043.8.498.67284681623851829916403311739987186159",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s4 axial 3D and s3 sagittal 3D views; weak fat suppression on 3D series."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s4 AX PD FS 3D #81-101, s3 SAG PD FS 3D #75-100; only a fluid streak ~3x10 mm along MG tendon, no distension; report: tiny Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 10,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10129462959695121379466274688956171166": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10129462959695121379466274688956171166",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s5 axial and s2 sagittal views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 AX PD FS #3-22, s2 SAG PD FS #8-11; only thin elongated fluid ~4x5x18 mm between MG and SM, no distension; tubular foci in MG = veins; report: 20x6x5 mm. both",
+    "grade": "small",
+    "diameter_mm": 18,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.26978027400525885904983020900996228004": {
+  "study_id": "1.2.826.0.1.3680043.8.498.26978027400525885904983020900996228004",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s3 axial and s1 sagittal views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s3 AX PD FS #12-18, s1 SAG PD FS #8-12; round septated cyst ~12x13x15 mm between MG and SM, neck at #14-16; report: polylobulated multiloculated Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 15,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.68806105227826942108149090508198910591": {
+  "study_id": "1.2.826.0.1.3680043.8.498.68806105227826942108149090508198910591",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 15,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s5 axial and s1 sagittal views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s5 AX PD FS #18-24, s1 SAG PD FS #18-21; thin fluid ~5 mm wide, ~20 mm cc along MG/SM tendons, no distended sac; report: small fluid in Baker bursa, no cyst. both",
+    "grade": "small",
+    "diameter_mm": 20,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.47465512474718256570933149642267926825": {
+  "study_id": "1.2.826.0.1.3680043.8.498.47465512474718256570933149642267926825",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 16,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s1 axial and s4 sagittal views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #11-14, s4 SAG PD FS #4-8; small oval collection ~6x10 mm, 14 mm cc posteromedial along SM/MG tendon; report: small uncomplicated popliteal cyst. both",
+    "grade": "small",
+    "diameter_mm": 14,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.13321746459276191365724686301267421531": {
+  "study_id": "1.2.826.0.1.3680043.8.498.13321746459276191365724686301267421531",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 17,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s4 axial STIR and s2 sagittal 3D views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s4 AX STIR #13-21, s2 SAG PD FS 3D #46-58; thin elongated fluid ~6 mm wide, up to ~30 mm cc along MG tendon, no distended sac; report: small Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 30,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.30330001893437233719772129404417384472": {
+  "study_id": "1.2.826.0.1.3680043.8.498.30330001893437233719772129404417384472",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 18,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s1 axial and s3 sagittal views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "s1 AX PD FS #14-22, s3 SAG PD FS #6-9; only thin fluid <=6 mm between MG and SM, ~13 mm cc, no distension; report: trace Baker's cyst. both",
+    "grade": "small",
+    "diameter_mm": 13,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.87680825247567493080163504511649789348": {
+  "study_id": "1.2.826.0.1.3680043.8.498.87680825247567493080163504511649789348",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p4",
+  "prompt": "p4+report",
+  "source": "work/claude_labels_oct20/p4_s8",
+  "position": 19,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": "Baker's-only read (p4): sheets 1, 3, 6 plus native s1 axial and s4 sagittal views."
+  },
+  "findings": {
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 AX PD FS #14-21, s4 SAG PD FS #6-10; thin fluid strip 3-4 mm wide, ~18 mm cc along MG tendon; bright focus at #13-15 = posterior joint recess; report: small popliteal cyst. both",
+    "grade": "small",
+    "diameter_mm": 18,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ }
+}

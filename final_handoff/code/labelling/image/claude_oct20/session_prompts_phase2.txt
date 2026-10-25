@@ -1,0 +1,144 @@
+### Phase 2, chat 1: image + report labels, 3 findings, batch p2_c1 (267 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Two other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: THREE findings only, the "p2" panel: contusion, fracture and pf_oa. Do them for the 267 indexes listed in work/claude_labels_oct20/_batches/p2_c1.txt (one index per line), strictly in that order.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p2.json in full, and look at every image in host_figures/.
+
+Change 1 - the panel: label only contusion, fracture and pf_oa. Each file follows schema_p2.json and holds "panel": "p2", with no structures list. Use every rule prompt.txt gives for these three findings.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In each finding's note, name the native views you looked at (series + slice range), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - looking, for EVERY study and ALL THREE findings: before deciding, open at least one native full-resolution view of the structure with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder:
+- contusion / fracture: the fluid-sensitive series for marrow oedema in every bone with signal, plus the T1 / non-FS series for fracture lines (cortical breaks, subchondral or impaction lines); apply the host definitions for what counts as a fracture vs a contusion;
+- pf_oa: axial through the patella and the trochlea, cartilage enlarged.
+Keep the same care for the last study as for the first.
+
+Change 4 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. For each of its 3 anchor indexes, run views.py and look at every sheet and its report.txt once. Never save labels for anchors.
+
+Change 5 - output: work/claude_labels_oct20/p2_c1/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c3/. For each study (and each anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 3
+It empties your temp folder, extracts the study's sheets into _tmp_c3/<index>/ and writes the report there as report.txt.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p2_c1/ already holds a valid file for it (validate.py OK). If so, skip that index.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p2_c1.txt, your output folder p2_c1/, your temp folder _tmp_c3/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p2_c1/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p2_c1 work/claude_labels_oct20/_batches/p2_c1.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. If you must stop (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p2_c1: N of 267 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index finding: reason", or "none".
+
+### Phase 2, chat 2: image + report labels, 3 findings, batch p2_c2 (267 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Two other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: THREE findings only, the "p2" panel: contusion, fracture and pf_oa. Do them for the 267 indexes listed in work/claude_labels_oct20/_batches/p2_c2.txt (one index per line), strictly in that order.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p2.json in full, and look at every image in host_figures/.
+
+Change 1 - the panel: label only contusion, fracture and pf_oa. Each file follows schema_p2.json and holds "panel": "p2", with no structures list. Use every rule prompt.txt gives for these three findings.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In each finding's note, name the native views you looked at (series + slice range), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - looking, for EVERY study and ALL THREE findings: before deciding, open at least one native full-resolution view of the structure with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder:
+- contusion / fracture: the fluid-sensitive series for marrow oedema in every bone with signal, plus the T1 / non-FS series for fracture lines (cortical breaks, subchondral or impaction lines); apply the host definitions for what counts as a fracture vs a contusion;
+- pf_oa: axial through the patella and the trochlea, cartilage enlarged.
+Keep the same care for the last study as for the first.
+
+Change 4 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. For each of its 3 anchor indexes, run views.py and look at every sheet and its report.txt once. Never save labels for anchors.
+
+Change 5 - output: work/claude_labels_oct20/p2_c2/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c4/. For each study (and each anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 4
+It empties your temp folder, extracts the study's sheets into _tmp_c4/<index>/ and writes the report there as report.txt.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p2_c2/ already holds a valid file for it (validate.py OK). If so, skip that index.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p2_c2.txt, your output folder p2_c2/, your temp folder _tmp_c4/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p2_c2/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p2_c2 work/claude_labels_oct20/_batches/p2_c2.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. If you must stop (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p2_c2: N of 267 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index finding: reason", or "none".
+
+### Phase 2, chat 3: image + report labels, 3 findings, batch p2_c3 (266 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Two other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: THREE findings only, the "p2" panel: contusion, fracture and pf_oa. Do them for the 266 indexes listed in work/claude_labels_oct20/_batches/p2_c3.txt (one index per line), strictly in that order.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p2.json in full, and look at every image in host_figures/.
+
+Change 1 - the panel: label only contusion, fracture and pf_oa. Each file follows schema_p2.json and holds "panel": "p2", with no structures list. Use every rule prompt.txt gives for these three findings.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In each finding's note, name the native views you looked at (series + slice range), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - looking, for EVERY study and ALL THREE findings: before deciding, open at least one native full-resolution view of the structure with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder:
+- contusion / fracture: the fluid-sensitive series for marrow oedema in every bone with signal, plus the T1 / non-FS series for fracture lines (cortical breaks, subchondral or impaction lines); apply the host definitions for what counts as a fracture vs a contusion;
+- pf_oa: axial through the patella and the trochlea, cartilage enlarged.
+Keep the same care for the last study as for the first.
+
+Change 4 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. For each of its 3 anchor indexes, run views.py and look at every sheet and its report.txt once. Never save labels for anchors.
+
+Change 5 - output: work/claude_labels_oct20/p2_c3/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c5/. For each study (and each anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 5
+It empties your temp folder, extracts the study's sheets into _tmp_c5/<index>/ and writes the report there as report.txt.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p2_c3/ already holds a valid file for it (validate.py OK). If so, skip that index.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p2_c3.txt, your output folder p2_c3/, your temp folder _tmp_c5/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p2_c3/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p2_c3 work/claude_labels_oct20/_batches/p2_c3.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. If you must stop (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p2_c3: N of 266 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index finding: reason", or "none".
+

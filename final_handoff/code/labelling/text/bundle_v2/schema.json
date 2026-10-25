@@ -1,0 +1,1319 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Knee MRI report facts, one study (text labelling v2)",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "index",
+  "study_id",
+  "report",
+  "context",
+  "facts"
+ ],
+ "properties": {
+  "index": {
+   "type": "integer",
+   "minimum": 0
+  },
+  "study_id": {
+   "type": "string",
+   "minLength": 1
+  },
+  "report": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "side",
+    "style",
+    "compares_prior"
+   ],
+   "properties": {
+    "side": {
+     "enum": [
+      "same",
+      "not_stated",
+      "both",
+      "other"
+     ]
+    },
+    "style": {
+     "enum": [
+      "structured",
+      "narrative",
+      "impression_only",
+      "empty"
+     ]
+    },
+    "compares_prior": {
+     "type": "boolean"
+    }
+   }
+  },
+  "context": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "trauma",
+    "prior_surgery",
+    "age_years",
+    "quote"
+   ],
+   "properties": {
+    "trauma": {
+     "enum": [
+      "recent",
+      "remote",
+      "none",
+      "not_stated"
+     ]
+    },
+    "prior_surgery": {
+     "type": "array",
+     "uniqueItems": true,
+     "items": {
+      "enum": [
+       "acl_reconstruction",
+       "meniscectomy",
+       "meniscal_repair",
+       "cartilage_repair",
+       "osteotomy",
+       "arthroscopy",
+       "other"
+      ]
+     }
+    },
+    "age_years": {
+     "type": [
+      "integer",
+      "null"
+     ],
+     "minimum": 0
+    },
+    "quote": {
+     "type": "string",
+     "maxLength": 300
+    }
+   }
+  },
+  "facts": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/fact"
+   }
+  }
+ },
+ "$defs": {
+  "fact": {
+   "type": "object",
+   "required": [
+    "structure",
+    "finding",
+    "assertion",
+    "scope",
+    "section",
+    "quote"
+   ],
+   "properties": {
+    "structure": {
+     "enum": [
+      "acl",
+      "pcl",
+      "mcl",
+      "lcl",
+      "posterolateral_corner",
+      "mpfl",
+      "medial_meniscus",
+      "lateral_meniscus",
+      "meniscus_unspecified",
+      "medial_femoral_condyle",
+      "medial_tibial_plateau",
+      "lateral_femoral_condyle",
+      "lateral_tibial_plateau",
+      "patella",
+      "trochlea",
+      "femur_other",
+      "tibia_other",
+      "fibula",
+      "medial_compartment",
+      "lateral_compartment",
+      "patellofemoral",
+      "femorotibial",
+      "whole_knee",
+      "site_unspecified",
+      "joint",
+      "synovium",
+      "popliteal_fossa",
+      "other_bursa",
+      "hoffa_fat_pad",
+      "quadriceps_tendon",
+      "patellar_tendon",
+      "soft_tissue",
+      "global"
+     ]
+    },
+    "finding": {
+     "type": "string"
+    },
+    "assertion": {
+     "enum": [
+      "present",
+      "present_indirect",
+      "probable",
+      "possible",
+      "questionable",
+      "absent",
+      "absent_qualified"
+     ]
+    },
+    "scope": {
+     "enum": [
+      "specific",
+      "group"
+     ]
+    },
+    "section": {
+     "enum": [
+      "findings",
+      "impression",
+      "both"
+     ]
+    },
+    "quote": {
+     "type": "string",
+     "minLength": 1,
+     "maxLength": 300
+    }
+   },
+   "allOf": [
+    {
+     "if": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "acl",
+         "pcl",
+         "mcl",
+         "lcl",
+         "posterolateral_corner",
+         "mpfl"
+        ]
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "acl",
+         "pcl",
+         "mcl",
+         "lcl",
+         "posterolateral_corner",
+         "mpfl"
+        ]
+       },
+       "finding": {
+        "enum": [
+         "normal",
+         "signal_change",
+         "degeneration",
+         "sprain",
+         "partial_tear",
+         "complete_tear",
+         "tear",
+         "not_visualized",
+         "periligamentous_edema",
+         "laxity",
+         "avulsion",
+         "chronic_change",
+         "graft"
+        ]
+       },
+       "assertion": {
+        "enum": [
+         "present",
+         "present_indirect",
+         "probable",
+         "possible",
+         "questionable",
+         "absent",
+         "absent_qualified"
+        ]
+       },
+       "scope": {
+        "enum": [
+         "specific",
+         "group"
+        ]
+       },
+       "section": {
+        "enum": [
+         "findings",
+         "impression",
+         "both"
+        ]
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 300
+       },
+       "part": {
+        "type": "array",
+        "uniqueItems": true,
+        "minItems": 1,
+        "items": {
+         "enum": [
+          "proximal",
+          "mid",
+          "distal"
+         ]
+        }
+       },
+       "grade": {
+        "type": "string",
+        "pattern": "^[0-4][abc]?(-[0-4][abc]?)?$"
+       },
+       "grade_system": {
+        "enum": [
+         "icrs",
+         "outerbridge",
+         "noyes",
+         "kellgren_lawrence",
+         "meniscal",
+         "ligament",
+         "unspecified"
+        ]
+       },
+       "percent": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+       },
+       "severity_word": {
+        "enum": [
+         "trace",
+         "small",
+         "small_to_moderate",
+         "moderate",
+         "moderate_to_large",
+         "large",
+         "low_grade",
+         "high_grade"
+        ]
+       },
+       "acuity": {
+        "enum": [
+         "acute",
+         "subacute",
+         "chronic"
+        ]
+       },
+       "graft": {
+        "type": "boolean"
+       },
+       "change": {
+        "enum": [
+         "new",
+         "unchanged",
+         "progressed",
+         "improved",
+         "resolved"
+        ]
+       }
+      },
+      "additionalProperties": false
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "medial_meniscus",
+         "lateral_meniscus",
+         "meniscus_unspecified"
+        ]
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "medial_meniscus",
+         "lateral_meniscus",
+         "meniscus_unspecified"
+        ]
+       },
+       "finding": {
+        "enum": [
+         "normal",
+         "degeneration",
+         "surface_signal",
+         "tear",
+         "fraying",
+         "maceration",
+         "truncation",
+         "resection",
+         "repair",
+         "extrusion",
+         "capsular_separation",
+         "discoid",
+         "parameniscal_cyst",
+         "displaced_fragment"
+        ]
+       },
+       "assertion": {
+        "enum": [
+         "present",
+         "present_indirect",
+         "probable",
+         "possible",
+         "questionable",
+         "absent",
+         "absent_qualified"
+        ]
+       },
+       "scope": {
+        "enum": [
+         "specific",
+         "group"
+        ]
+       },
+       "section": {
+        "enum": [
+         "findings",
+         "impression",
+         "both"
+        ]
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 300
+       },
+       "part": {
+        "type": "array",
+        "uniqueItems": true,
+        "minItems": 1,
+        "items": {
+         "enum": [
+          "anterior_horn",
+          "body",
+          "posterior_horn",
+          "anterior_root",
+          "posterior_root"
+         ]
+        }
+       },
+       "tear_type": {
+        "type": "array",
+        "uniqueItems": true,
+        "minItems": 1,
+        "items": {
+         "enum": [
+          "horizontal",
+          "longitudinal",
+          "radial",
+          "oblique",
+          "complex",
+          "flap",
+          "bucket_handle",
+          "root",
+          "ramp",
+          "degenerative",
+          "peripheral"
+         ]
+        }
+       },
+       "images": {
+        "enum": [
+         "single",
+         "multiple"
+        ]
+       },
+       "grade": {
+        "type": "string",
+        "pattern": "^[0-4][abc]?(-[0-4][abc]?)?$"
+       },
+       "grade_system": {
+        "enum": [
+         "icrs",
+         "outerbridge",
+         "noyes",
+         "kellgren_lawrence",
+         "meniscal",
+         "ligament",
+         "unspecified"
+        ]
+       },
+       "size_mm": {
+        "type": "number",
+        "exclusiveMinimum": 0
+       },
+       "severity_word": {
+        "enum": [
+         "trace",
+         "small",
+         "small_to_moderate",
+         "moderate",
+         "moderate_to_large",
+         "large",
+         "low_grade",
+         "high_grade"
+        ]
+       },
+       "acuity": {
+        "enum": [
+         "acute",
+         "subacute",
+         "chronic"
+        ]
+       },
+       "change": {
+        "enum": [
+         "new",
+         "unchanged",
+         "progressed",
+         "improved",
+         "resolved"
+        ]
+       }
+      },
+      "additionalProperties": false
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "medial_femoral_condyle",
+         "medial_tibial_plateau",
+         "lateral_femoral_condyle",
+         "lateral_tibial_plateau",
+         "patella",
+         "trochlea",
+         "femur_other",
+         "tibia_other",
+         "fibula",
+         "medial_compartment",
+         "lateral_compartment",
+         "patellofemoral",
+         "femorotibial",
+         "whole_knee",
+         "site_unspecified"
+        ]
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "medial_femoral_condyle",
+         "medial_tibial_plateau",
+         "lateral_femoral_condyle",
+         "lateral_tibial_plateau",
+         "patella",
+         "trochlea",
+         "femur_other",
+         "tibia_other",
+         "fibula",
+         "medial_compartment",
+         "lateral_compartment",
+         "patellofemoral",
+         "femorotibial",
+         "whole_knee",
+         "site_unspecified"
+        ]
+       },
+       "finding": {
+        "enum": [
+         "cartilage_normal",
+         "cartilage_signal_change",
+         "chondromalacia",
+         "cartilage_fissuring",
+         "cartilage_thinning",
+         "cartilage_defect",
+         "full_thickness_loss",
+         "osteochondral_lesion",
+         "osteoarthritis",
+         "osteophytes",
+         "joint_space_narrowing",
+         "subchondral_sclerosis",
+         "subchondral_cyst",
+         "bone_normal",
+         "marrow_edema",
+         "contusion",
+         "fracture",
+         "avulsion_fracture",
+         "osteochondral_fracture",
+         "impaction_injury",
+         "insufficiency_fracture",
+         "osteonecrosis",
+         "ocd",
+         "bone_lesion",
+         "red_marrow",
+         "postoperative_bone"
+        ]
+       },
+       "assertion": {
+        "enum": [
+         "present",
+         "present_indirect",
+         "probable",
+         "possible",
+         "questionable",
+         "absent",
+         "absent_qualified"
+        ]
+       },
+       "scope": {
+        "enum": [
+         "specific",
+         "group"
+        ]
+       },
+       "section": {
+        "enum": [
+         "findings",
+         "impression",
+         "both"
+        ]
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 300
+       },
+       "depth": {
+        "enum": [
+         "superficial",
+         "partial",
+         "deep",
+         "full"
+        ]
+       },
+       "percent": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 100
+       },
+       "grade": {
+        "type": "string",
+        "pattern": "^[0-4][abc]?(-[0-4][abc]?)?$"
+       },
+       "grade_system": {
+        "enum": [
+         "icrs",
+         "outerbridge",
+         "noyes",
+         "kellgren_lawrence",
+         "meniscal",
+         "ligament",
+         "unspecified"
+        ]
+       },
+       "size_mm": {
+        "type": "number",
+        "exclusiveMinimum": 0
+       },
+       "extent": {
+        "enum": [
+         "focal",
+         "multifocal",
+         "diffuse"
+        ]
+       },
+       "severity_word": {
+        "enum": [
+         "trace",
+         "small",
+         "small_to_moderate",
+         "moderate",
+         "moderate_to_large",
+         "large",
+         "low_grade",
+         "high_grade"
+        ]
+       },
+       "acuity": {
+        "enum": [
+         "acute",
+         "subacute",
+         "chronic"
+        ]
+       },
+       "cause": {
+        "enum": [
+         "trauma",
+         "degeneration",
+         "fracture",
+         "insufficiency",
+         "osteonecrosis",
+         "ocd",
+         "postoperative",
+         "inflammatory",
+         "tumor",
+         "infection",
+         "other"
+        ]
+       },
+       "displaced": {
+        "type": "boolean"
+       },
+       "change": {
+        "enum": [
+         "new",
+         "unchanged",
+         "progressed",
+         "improved",
+         "resolved"
+        ]
+       }
+      },
+      "additionalProperties": false
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "joint"
+        ]
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "joint"
+        ]
+       },
+       "finding": {
+        "enum": [
+         "effusion",
+         "hemarthrosis",
+         "lipohemarthrosis",
+         "loose_body",
+         "suprapatellar_bursitis"
+        ]
+       },
+       "assertion": {
+        "enum": [
+         "present",
+         "present_indirect",
+         "probable",
+         "possible",
+         "questionable",
+         "absent",
+         "absent_qualified"
+        ]
+       },
+       "scope": {
+        "enum": [
+         "specific",
+         "group"
+        ]
+       },
+       "section": {
+        "enum": [
+         "findings",
+         "impression",
+         "both"
+        ]
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 300
+       },
+       "size_mm": {
+        "type": "number",
+        "exclusiveMinimum": 0
+       },
+       "severity_word": {
+        "enum": [
+         "trace",
+         "small",
+         "small_to_moderate",
+         "moderate",
+         "moderate_to_large",
+         "large",
+         "low_grade",
+         "high_grade"
+        ]
+       },
+       "change": {
+        "enum": [
+         "new",
+         "unchanged",
+         "progressed",
+         "improved",
+         "resolved"
+        ]
+       }
+      },
+      "additionalProperties": false
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "synovium"
+        ]
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "synovium"
+        ]
+       },
+       "finding": {
+        "enum": [
+         "normal",
+         "synovitis",
+         "synovial_thickening",
+         "synovial_proliferation",
+         "plica"
+        ]
+       },
+       "assertion": {
+        "enum": [
+         "present",
+         "present_indirect",
+         "probable",
+         "possible",
+         "questionable",
+         "absent",
+         "absent_qualified"
+        ]
+       },
+       "scope": {
+        "enum": [
+         "specific",
+         "group"
+        ]
+       },
+       "section": {
+        "enum": [
+         "findings",
+         "impression",
+         "both"
+        ]
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 300
+       },
+       "extent": {
+        "enum": [
+         "focal",
+         "multifocal",
+         "diffuse"
+        ]
+       },
+       "severity_word": {
+        "enum": [
+         "trace",
+         "small",
+         "small_to_moderate",
+         "moderate",
+         "moderate_to_large",
+         "large",
+         "low_grade",
+         "high_grade"
+        ]
+       },
+       "change": {
+        "enum": [
+         "new",
+         "unchanged",
+         "progressed",
+         "improved",
+         "resolved"
+        ]
+       }
+      },
+      "additionalProperties": false
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "popliteal_fossa"
+        ]
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "popliteal_fossa"
+        ]
+       },
+       "finding": {
+        "enum": [
+         "normal",
+         "bakers_cyst",
+         "ruptured_bakers_cyst",
+         "bursal_fluid"
+        ]
+       },
+       "assertion": {
+        "enum": [
+         "present",
+         "present_indirect",
+         "probable",
+         "possible",
+         "questionable",
+         "absent",
+         "absent_qualified"
+        ]
+       },
+       "scope": {
+        "enum": [
+         "specific",
+         "group"
+        ]
+       },
+       "section": {
+        "enum": [
+         "findings",
+         "impression",
+         "both"
+        ]
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 300
+       },
+       "size_mm": {
+        "type": "number",
+        "exclusiveMinimum": 0
+       },
+       "severity_word": {
+        "enum": [
+         "trace",
+         "small",
+         "small_to_moderate",
+         "moderate",
+         "moderate_to_large",
+         "large",
+         "low_grade",
+         "high_grade"
+        ]
+       },
+       "change": {
+        "enum": [
+         "new",
+         "unchanged",
+         "progressed",
+         "improved",
+         "resolved"
+        ]
+       }
+      },
+      "additionalProperties": false
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "other_bursa"
+        ]
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "other_bursa"
+        ]
+       },
+       "finding": {
+        "enum": [
+         "bursitis",
+         "ganglion_cyst",
+         "cyst"
+        ]
+       },
+       "assertion": {
+        "enum": [
+         "present",
+         "present_indirect",
+         "probable",
+         "possible",
+         "questionable",
+         "absent",
+         "absent_qualified"
+        ]
+       },
+       "scope": {
+        "enum": [
+         "specific",
+         "group"
+        ]
+       },
+       "section": {
+        "enum": [
+         "findings",
+         "impression",
+         "both"
+        ]
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 300
+       },
+       "size_mm": {
+        "type": "number",
+        "exclusiveMinimum": 0
+       },
+       "severity_word": {
+        "enum": [
+         "trace",
+         "small",
+         "small_to_moderate",
+         "moderate",
+         "moderate_to_large",
+         "large",
+         "low_grade",
+         "high_grade"
+        ]
+       },
+       "change": {
+        "enum": [
+         "new",
+         "unchanged",
+         "progressed",
+         "improved",
+         "resolved"
+        ]
+       }
+      },
+      "additionalProperties": false
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "hoffa_fat_pad"
+        ]
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "hoffa_fat_pad"
+        ]
+       },
+       "finding": {
+        "enum": [
+         "normal",
+         "edema",
+         "impingement"
+        ]
+       },
+       "assertion": {
+        "enum": [
+         "present",
+         "present_indirect",
+         "probable",
+         "possible",
+         "questionable",
+         "absent",
+         "absent_qualified"
+        ]
+       },
+       "scope": {
+        "enum": [
+         "specific",
+         "group"
+        ]
+       },
+       "section": {
+        "enum": [
+         "findings",
+         "impression",
+         "both"
+        ]
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 300
+       },
+       "severity_word": {
+        "enum": [
+         "trace",
+         "small",
+         "small_to_moderate",
+         "moderate",
+         "moderate_to_large",
+         "large",
+         "low_grade",
+         "high_grade"
+        ]
+       },
+       "change": {
+        "enum": [
+         "new",
+         "unchanged",
+         "progressed",
+         "improved",
+         "resolved"
+        ]
+       }
+      },
+      "additionalProperties": false
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "quadriceps_tendon",
+         "patellar_tendon"
+        ]
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "quadriceps_tendon",
+         "patellar_tendon"
+        ]
+       },
+       "finding": {
+        "enum": [
+         "normal",
+         "tendinosis",
+         "partial_tear",
+         "complete_tear",
+         "tear"
+        ]
+       },
+       "assertion": {
+        "enum": [
+         "present",
+         "present_indirect",
+         "probable",
+         "possible",
+         "questionable",
+         "absent",
+         "absent_qualified"
+        ]
+       },
+       "scope": {
+        "enum": [
+         "specific",
+         "group"
+        ]
+       },
+       "section": {
+        "enum": [
+         "findings",
+         "impression",
+         "both"
+        ]
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 300
+       },
+       "severity_word": {
+        "enum": [
+         "trace",
+         "small",
+         "small_to_moderate",
+         "moderate",
+         "moderate_to_large",
+         "large",
+         "low_grade",
+         "high_grade"
+        ]
+       },
+       "acuity": {
+        "enum": [
+         "acute",
+         "subacute",
+         "chronic"
+        ]
+       },
+       "change": {
+        "enum": [
+         "new",
+         "unchanged",
+         "progressed",
+         "improved",
+         "resolved"
+        ]
+       }
+      },
+      "additionalProperties": false
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "soft_tissue"
+        ]
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "soft_tissue"
+        ]
+       },
+       "finding": {
+        "enum": [
+         "normal",
+         "edema"
+        ]
+       },
+       "assertion": {
+        "enum": [
+         "present",
+         "present_indirect",
+         "probable",
+         "possible",
+         "questionable",
+         "absent",
+         "absent_qualified"
+        ]
+       },
+       "scope": {
+        "enum": [
+         "specific",
+         "group"
+        ]
+       },
+       "section": {
+        "enum": [
+         "findings",
+         "impression",
+         "both"
+        ]
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 300
+       },
+       "severity_word": {
+        "enum": [
+         "trace",
+         "small",
+         "small_to_moderate",
+         "moderate",
+         "moderate_to_large",
+         "large",
+         "low_grade",
+         "high_grade"
+        ]
+       },
+       "change": {
+        "enum": [
+         "new",
+         "unchanged",
+         "progressed",
+         "improved",
+         "resolved"
+        ]
+       }
+      },
+      "additionalProperties": false
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "global"
+        ]
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "structure": {
+        "enum": [
+         "global"
+        ]
+       },
+       "finding": {
+        "enum": [
+         "normal_study",
+         "otherwise_normal"
+        ]
+       },
+       "assertion": {
+        "enum": [
+         "present",
+         "present_indirect",
+         "probable",
+         "possible",
+         "questionable",
+         "absent",
+         "absent_qualified"
+        ]
+       },
+       "scope": {
+        "enum": [
+         "specific",
+         "group"
+        ]
+       },
+       "section": {
+        "enum": [
+         "findings",
+         "impression",
+         "both"
+        ]
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 300
+       }
+      },
+      "additionalProperties": false
+     }
+    }
+   ]
+  }
+ }
+}

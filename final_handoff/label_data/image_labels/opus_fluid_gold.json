@@ -1,0 +1,3330 @@
+{
+ "1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903": {
+  "study_id": "1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Fluid mainly in lateral suprapatellar recess with internal strands. Lobulated posteromedial Baker's cyst. Separate multilocular cysts in posterior notch/popliteal fossa (ganglia)."
+  },
+  "findings": {
+   "effusion": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "Lateral recess distended with convex outline up to ~10 mm (native s3 #29-38); midline pouch and medial recess thin.",
+    "grade": 2,
+    "depth_mm": 10
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "Low-signal strands/septa in lateral recess fluid (native s3 #33-38); Hoffa mildly hazy with a well-defined cleft.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Lobulated collection between medial gastrocnemius and semimembranosus with neck, ~20x10 mm axial, ~45 mm craniocaudal (native s3 #12-28, s1 #10-13).",
+    "grade": "moderate",
+    "diameter_mm": 45,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": [
+     "ganglion"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767": {
+  "study_id": "1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "1.5T, 4.5 mm sagittal, 6 mm axial STIR. Fluid concentrated in lateral suprapatellar recess. Small posteromedial fluid behind medial condyle."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Lateral recess distended with convex outline, ~9 mm deep (native s5 #15-19); midline and medial recesses thin.",
+    "grade": 2,
+    "depth_mm": 9
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended lateral recess with smooth thin lining; Hoffa homogeneous (native s1 #9-15).",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "~10x5 mm fluid behind posterior medial condyle (native s1 #6-8); not seen distending between tendons on axial (s5 #8-12).",
+    "grade": "small",
+    "diameter_mm": 10,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945": {
+  "study_id": "1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "1.5T, ~5 mm slices. Joint fluid distends medial and lateral recesses and suprapatellar pouch. Separate prepatellar bursal fluid in front of patella (not joint)."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Recesses around trochlea and suprapatellar pouch distended with convex outline, ~7 mm deep (native s1 #18-25, s3 #5-8).",
+    "grade": 2,
+    "depth_mm": 7
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "Grey lobulated frond-like tissue at medial end of suprapatellar recess fluid (native s1 #23-25); Hoffa mildly hazy.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": null,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s1 #6-13).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": [
+     "bursa"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": true,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Adolescent. External skin marker behind knee (bright oval, S4-S5, A3). Fluid distends both patellofemoral recesses and posterior intercondylar/posteromedial recess."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Medial and lateral recesses distended around trochlea, suprapatellar pouch filled up to ~8 mm (native s1 #28-38, s3 #21-23).",
+    "grade": 2,
+    "depth_mm": 8
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended joint, lining thin and smooth; Hoffa dark with thin vessels (native s3 #16-19).",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "Small fluid in posteromedial recess behind upper medial condyle (~12x5 mm, native s1 #28, s3 #13-14); larger fluid is posterior intercondylar recess.",
+    "grade": "small",
+    "diameter_mm": 12,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435": {
+  "study_id": "1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Large effusion with many low-signal bodies/fronds; lobulated heterogeneous synovial tissue filling the posterior notch and posterior capsule. Septated posteromedial collection behind medial condyle."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Whole capsule distended; suprapatellar pouch ~18 mm deep (native s5 #33-47, s1 #12-22).",
+    "grade": 3,
+    "depth_mm": 18
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Many low-signal nodules/fronds in recess fluid and band across lateral recess; nodular mixed-signal synovial mass in posterior notch (native s1 #15-20, s5 #24-26).",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 1,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "Septated collection between medial gastrocnemius and semimembranosus with neck, ~16x9 mm axial, ~30 mm craniocaudal (native s5 #18-26, s1 #11-14).",
+    "grade": "small",
+    "diameter_mm": 30,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683": {
+  "study_id": "1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": true,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Adolescent; fat incompletely suppressed (subcutaneous fat grey). Small joint fluid pooling medially beside patella. Medial retinacular edema."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Thin fluid behind patella, small pool in medial patellofemoral recess; suprapatellar pouch thin, ~4 mm (native s5 #26-36).",
+    "grade": 1,
+    "depth_mm": 4
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "No distension; patchy bright signal in upper lateral Hoffa near patella and tendon (native s1 #17-21), impingement/fat-sat vs mild Hoffa edema.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Thin sliver of fluid between medial gastrocnemius and semimembranosus, ~10x4 mm (native s5 #9-14).",
+    "grade": "small",
+    "diameter_mm": 10,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003": {
+  "study_id": "1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": true,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Adolescent, 1.5T, 4 mm slices. Large effusion distending medial and lateral recesses and suprapatellar pouch. Medial retinacular/subcutaneous edema. Thin medial plica."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Capsule distended in all anterior recesses with convex outline, ~14 mm deep (native s3 #20-28, s1 #7-12).",
+    "grade": 3,
+    "depth_mm": 14
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Large effusion, lining thin and smooth; one small low-signal focus at medial recess (PF7, plica edge); Hoffa homogeneous.",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No fluid between medial gastrocnemius and semimembranosus (native s3 #7-15).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Thin fluid layer behind patella and in lateral recess; suprapatellar pouch not distended. Edematous disorganised tissue in the notch (cruciate region), not synovial thickening of the recesses."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Fluid continuous behind patella, ~4 mm; pouch not distended (native s2 #23-30, s3 #9-19).",
+    "grade": 1,
+    "depth_mm": 4
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No distension; thin smooth lining; Hoffa dark with vessels only.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No fluid between medial gastrocnemius and semimembranosus (native s2 #6-16, s3 #3-10).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327": {
+  "study_id": "1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Joint fluid distends both patellofemoral recesses and the suprapatellar pouch; fluid also in anterior intercondylar recess. Lobulated posteromedial Baker's cyst."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Recesses around trochlea and suprapatellar pouch distended with convex outline, ~8 mm (native s2 #21-34, s5 #10-20).",
+    "grade": 2,
+    "depth_mm": 8
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended joint with thin smooth lining; fluid in anterior intercondylar recess behind Hoffa; Hoffa fat dark (native s5 #13-17).",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Lobulated collection between medial gastrocnemius and semimembranosus with neck, ~20x12 mm axial, ~35 mm craniocaudal (native s2 #16-28).",
+    "grade": "moderate",
+    "diameter_mm": 35,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363": {
+  "study_id": "1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Large effusion; suprapatellar pouch extends >60 mm above the joint. Ill-defined bright signal through central and lateral Hoffa's fat pad."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Pouch and both recesses distended with convex outline, ~12 mm deep, extending to top of series (native s3 #20-28).",
+    "grade": 3,
+    "depth_mm": 12
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "Ill-defined bright signal spreading through central/lateral Hoffa fat beyond the impingement corner (native s3 #11-13, s1 #12-15); recess lining thin.",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 2,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s3 #7-15); bright dots in muscles are vessels.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Fat suppression fails at medial and lateral edges of sagittal series. Small effusion with fluid in suprapatellar recess and anterior intercondylar recess."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Fluid continuous behind patella and in pouch, ~5 mm, not distended (native s3 #16-22).",
+    "grade": 1,
+    "depth_mm": 5
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "No distension; faint ill-defined signal in medial Hoffa/plica region on S4, partly fat-suppression unevenness; Hoffa otherwise vessels only.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s3 #5-11, s2 #3-9).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure",
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "1.5T, large habitus: uneven fat suppression at the edges, axial FOV cuts the medial soft tissues. Fluid mainly in lateral patellofemoral recess. Small lobulated fluid behind PCL in posterior notch."
+  },
+  "findings": {
+   "effusion": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "Lateral recess filled ~6 mm wide over 30 mm height; midline pouch and medial recess thin (native s1 #18-34, s5 #11-14).",
+    "grade": 1,
+    "depth_mm": 4
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "No distension; thin lining; midline Hoffa dark (bright anterolateral areas are fat-suppression failure).",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No fluid between medial gastrocnemius and semimembranosus (native s1 #10-20); posterior notch fluid is intra-articular, central.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995": {
+  "study_id": "1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "No sagittal fat-suppressed series (sagittal sheets are PD); fluid judged mainly on axial 3D GRE FS. Large effusion with irregular grey material in the upper recesses. Patella lateralised."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Medial and lateral recesses markedly distended from joint line to upper recess, ~12 mm (native s3 #59-144).",
+    "grade": 3,
+    "depth_mm": 12
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "Grey irregular frond-like material lining the upper medial and lateral recesses (native s3 #120-140); low-signal strands in medial recess.",
+    "effusion_synovitis": 3,
+    "hoffa_signal": null,
+    "synovial_thickening": null,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Oval septated collection between medial gastrocnemius and semimembranosus, ~18x14 mm axial, ~32 mm craniocaudal, neck (native s3 #47-101).",
+    "grade": "moderate",
+    "diameter_mm": 32,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378": {
+  "study_id": "1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "1.5T, 0.56 mm/px. Effusion distends all recesses incl. posterior recess behind medial condyle. Curvilinear fluid/edema along anteromedial proximal tibia below the joint (A1-A2), outside the joint."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Medial and lateral recesses and suprapatellar pouch distended with convex outline, ~9 mm (native s1 #15-30, s2 #10-20).",
+    "grade": 2,
+    "depth_mm": 9
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended joint with thin lining; streaky reticular bright strands through Hoffa (native s2 #14-18), favour vessels/mild edema.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Fluid fills posterior capsular recess behind medial condyle, small teardrop toward gastrocnemius-semimembranosus gap ~8 mm (native s1 #21-25), not distending.",
+    "grade": "small",
+    "diameter_mm": 8,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465": {
+  "study_id": "1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 15,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Fat incompletely suppressed (fat grey). Joint fluid in suprapatellar pouch and lateral recess. Swollen edematous tissue in the notch (cruciate region)."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Pouch and lateral recess distended with convex outline, ~8 mm (native s1 #21-30, s3 #16-20).",
+    "grade": 2,
+    "depth_mm": 8
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended joint with thin smooth lining; faint reticular strands in posterior Hoffa next to swollen notch tissue.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No fluid between medial gastrocnemius and semimembranosus (native s1 #7-16, s3 #3-11).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039": {
+  "study_id": "1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 16,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "motion"
+   ],
+   "postoperative": [],
+   "open_growth_plates": null,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Very large effusion with layering grey dependent component in the medial/upper recess (fluid-fluid level, likely hemarthrosis). Diffuse soft-tissue edema. Bony injury at the tibial eminence region."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Capsule markedly distended, pouch ~22 mm deep up to 70 mm above joint (native s1 #26-37, s3 #15-25).",
+    "grade": 3,
+    "depth_mm": 22
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Large effusion; grey layering material is dependent blood, lining otherwise thin; Hoffa mildly hazy with trauma (native s1 #29-37, s3 #19-22).",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s1 #11-19, s3 #9-17).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 17,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "1.5T, ~5 mm slices. Large effusion. Edematous notch tissue. Fluid/edema tracking between medial gastrocnemius and popliteus below the joint (A2, native s6 #6-9), no discrete Baker's cyst."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Pouch and both recesses distended with convex outline, ~12 mm (native s6 #17-24, s5 #6-16).",
+    "grade": 3,
+    "depth_mm": 12
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Large effusion with thin smooth lining; Hoffa with mild streaky signal near swollen notch tissue.",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus at the joint line (native s6 #10-12, s5 #3-8); fluid below is along popliteus.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274": {
+  "study_id": "1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 18,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Small effusion, mainly medial recess. Lobulated fluid-bright collections in the notch along the cruciates (ganglia), not in the posteromedial fossa."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Fluid continuous behind patella, pooling in medial recess; pouch ~5 mm, not distended (native s1 #26-37, s4 #16-21).",
+    "grade": 1,
+    "depth_mm": 5
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No distension; thin smooth lining; Hoffa dark with thin vessels.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s1 #10-19, s4 #7-16).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": [
+     "ganglion"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192": {
+  "study_id": "1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 19,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": true,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Adolescent. Large effusion. Baker's cyst with neck between medial gastrocnemius and semimembranosus, extending distally with heterogeneous content."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Pouch and recesses markedly distended with convex outline, ~15 mm (native s3 #25-35, s1 #11-21).",
+    "grade": 3,
+    "depth_mm": 15
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Large effusion; lining thin and smooth, thin plica in medial recess; Hoffa dark with vessels only (native s1 #14-18).",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Collection between medial gastrocnemius and semimembranosus with neck, ~12x22 mm axial, ~40 mm craniocaudal (native s3 #9-18, s1 #11-13).",
+    "grade": "moderate",
+    "diameter_mm": 40,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911": {
+  "study_id": "1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 20,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": true,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Adolescent, 1.5T, 4.4 mm slices, blurry. Joint fluid distends suprapatellar pouch and both recesses. Swollen notch tissue."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Pouch distended with convex outline ~9 mm, fluid in both recesses (native s2 #8-15, s1 #22-32).",
+    "grade": 2,
+    "depth_mm": 9
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended joint with thin lining; mild hazy signal in posterior Hoffa next to swollen notch tissue (native s2 #10-12).",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s1 #8-16, s2 #2-8).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 21,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution",
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Large habitus, noisy 4.4 mm images; fat suppression fails in anterior thigh fat on upper axial slices. Fluid predominantly in medial recess and medial pouch."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Medial pouch and medial recess distended with convex outline ~11 mm (native s1 #5-9, s2 #10-17); lateral recess thin.",
+    "grade": 2,
+    "depth_mm": 11
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended joint, thin lining; tiny low-signal dots along trochlear surface in medial recess fluid (debris vs surface irregularity); Hoffa dark.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": null
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s2 #8-15).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 22,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "3T. Fluid fills suprapatellar pouch and distends the lateral recess, with lobulated low-signal septa/fronds in the lateral recess. Fluid around the cruciates in the notch."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Lateral recess distended with convex outline ~9 mm, fluid continuous through pouch (native s4 #28-40, s1 #19-24).",
+    "grade": 2,
+    "depth_mm": 9
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "Lobulated grey septa/fronds in lateral recess fluid (native s1 #24-26); lining elsewhere thin; Hoffa dark.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": null,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s4 #9-20, s1 #3-11).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924": {
+  "study_id": "1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 23,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "1.5T, 4 mm sagittal slices. Small amount of joint fluid; small pocket of fluid behind the posterior medial condyle."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Thin fluid continuous behind patella, pouch ~3 mm, not distended (native s3 #20-27, s1 #9-19).",
+    "grade": 1,
+    "depth_mm": 3
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No distension; thin smooth lining; Hoffa dark with vessels only.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "Small lobulated fluid pocket behind posterior medial condyle ~8 mm (native s1 #10-11); no distension between tendons on axial (s3 #9-14).",
+    "grade": "small",
+    "diameter_mm": 8,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309": {
+  "study_id": "1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 24,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "1.5T, large habitus; subcutaneous fat poorly suppressed. Joint fluid concentrated in the lateral recess and lateral pouch; medial recess thin."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Lateral recess distended with convex outline ~10 mm over 50 mm height (native s1 #23-32); medial side thin.",
+    "grade": 2,
+    "depth_mm": 10
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended lateral recess with thin smooth lining; Hoffa hard to judge with poor fat suppression, no focal edema seen.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s1 #9-17, s5 #6-18).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404": {
+  "study_id": "1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 25,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "3T. Large tubular Baker's cyst behind medial condyle with neck. Joint fluid mainly in the anterior intercondylar recess behind Hoffa and around the cruciates; suprapatellar pouch thin."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Fluid continuous behind patella and pooled in anterior intercondylar recess; suprapatellar pouch ~3 mm, not distended (native s1 #27-37, s3 #15-22).",
+    "grade": 1,
+    "depth_mm": 3
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "No distension; irregular low-signal strands in the anterior intercondylar recess fluid next to Hoffa (native s3 #15-18); Hoffa fat otherwise dark.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": null
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Tubular collection between medial gastrocnemius and semimembranosus with neck, ~15 mm wide, ~70 mm craniocaudal (native s1 #15-21, s3 #12-16).",
+    "grade": "large",
+    "diameter_mm": 70,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132": {
+  "study_id": "1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 26,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "1.5T; 3D sagittal PD FS with grey fat, axial T2 FS. Joint fluid distends suprapatellar pouch and both patellofemoral recesses. Swollen notch tissue."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Pouch and recesses distended with convex outline ~9 mm (native s4 #20-28, s3 #142-196).",
+    "grade": 2,
+    "depth_mm": 9
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended joint with thin smooth lining; Hoffa homogeneous on 3D sagittal.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s4 #9-15, s3 #63-129).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 27,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "1.5T. Large effusion distending all recesses. Lobulated fluid at the posterior intercondylar recess/PCL attachment behind the medial condyle (S4), intra-articular, not between gastrocnemius and semimembranosus."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Pouch and both recesses markedly distended, ~12 mm (native s1 #23-32, s4 #13-23).",
+    "grade": 3,
+    "depth_mm": 12
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Large effusion; lining thin and smooth; thin strands only; Hoffa dark (native s4 #16-20).",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "excluded",
+    "certainty": "moderate",
+    "probability": 0.08,
+    "note": "Fluid lobule lies in posterior intercondylar recess at PCL attachment (native s4 #13-16, s1 #12-17), not in the gastrocnemius-semimembranosus gap.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": [
+     "other"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 28,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "3T. Effusion distending both patellofemoral recesses and pouch. Posterior notch and posterior capsule filled by nodular, mixed low-signal frond-like synovial tissue (PVNS-like) extending into the popliteal region."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Pouch and recesses distended with convex outline ~10 mm (native s1 #23-33, s5 #13-17).",
+    "grade": 2,
+    "depth_mm": 10
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Nodular frond-like synovial tissue with dark foci filling posterior notch and posterior capsule (native s5 #14-21, s1 #23-28); thin anterior lining.",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 0,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No fluid collection between medial gastrocnemius and semimembranosus (native s1 #10-18); posterior tissue is synovial, central.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711": {
+  "study_id": "1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_0-29",
+  "position": 29,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": null,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "3T. Joint fluid distends both patellofemoral recesses and lateral pouch. Fluid in posterior intercondylar recess behind medial condyle (intra-articular). Lateral femoral condyle marrow edema."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Recesses distended with convex outline ~9 mm, lateral pouch up to 46 mm above joint (native s3 #22-30, s1 #9-19).",
+    "grade": 2,
+    "depth_mm": 9
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended joint with thin smooth lining; Hoffa dark with vessels; posterior notch fluid and swollen cruciate region only.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s3 #7-15); fluid behind medial condyle is the posterior recess (s1 #12).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774": {
+  "study_id": "1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "1.5T, 4.5 mm slices, sagittal FS 0.78 mm/px. Joint fluid concentrated in lateral recess and suprapatellar pouch. Medial subcutaneous edema."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Pouch and lateral recess distended with convex outline ~8 mm (native s1 #21-30, s2 #14-18).",
+    "grade": 2,
+    "depth_mm": 8
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended joint with thin smooth lining; Hoffa dark.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s1 #7-15, s2 #5-11).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645": {
+  "study_id": "1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "5 mm slices, moderate resolution. Extensive medial subcutaneous edema. Joint fluid mainly in lateral recess; fluid in posterior recess behind the medial condyle."
+  },
+  "findings": {
+   "effusion": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "Lateral recess filled ~6 mm with slight convexity (native s1 #15-19, s4 #12-15); midline pouch and medial recess thin.",
+    "grade": 1,
+    "depth_mm": 5
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "No distension; ill-defined bright signal in upper lateral Hoffa near patellar tendon (impingement region) and mild haze in Hoffa (native s4 #8-11).",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "Small fluid pocket behind posterior medial condyle ~10x6 mm (native s4 #5-7); no distension between tendons on axial (s1 #3-10).",
+    "grade": "small",
+    "diameter_mm": 10,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037": {
+  "study_id": "1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Small knee, 5 mm sagittal and 6 mm axial slices; axial series covers only ~36 mm above the joint. Joint fluid concentrated in lateral recess and lateral pouch; fluid in posterior notch."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Lateral pouch and lateral recess distended with convex outline ~10 mm (native s1 #11-13, s5 #6-8); midline pouch and medial recess thin.",
+    "grade": 2,
+    "depth_mm": 10
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended lateral recess with thin lining; ill-defined bright signal in deep central Hoffa/anterior notch (PF4), mild.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "Small fluid behind posterior medial condyle ~8x5 mm and thin crescent at medial gastrocnemius tendon (native s1 #4, s5 #7-8).",
+    "grade": "small",
+    "diameter_mm": 8,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550": {
+  "study_id": "1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Fat poorly suppressed (fat grey). Small effusion; fluid in anterior and posterior intercondylar recesses and around posterior medial condyle. Proximal tibial marrow signal (not fluid panel)."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Fluid continuous behind patella ~4 mm, pouch not distended (native s1 #16-30, s3 #13-23).",
+    "grade": 1,
+    "depth_mm": 4
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "No distension; thin lining. Bright area on PF2-PF3 is anterior intercondylar recess fluid; Hoffa grey from poor fat suppression with septa.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "Thin crescent of fluid behind posterior medial condyle (native s3 #13-14); no collection between tendons on axial (s1 #7-16).",
+    "grade": "small",
+    "diameter_mm": 10,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450": {
+  "study_id": "1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Sagittal FOV cuts the anterior soft tissues. Fluid in both patellofemoral recesses and a distended posterior intercondylar recess behind the PCL/medial condyle."
+  },
+  "findings": {
+   "effusion": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "Recesses filled with slight convexity, lateral ~5 mm, pouch ~6 mm (native s1 #21-30, s5 #13-17); posterior recess distended.",
+    "grade": 2,
+    "depth_mm": 6
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Fluid with thin smooth lining; patchy bright signal in upper Hoffa below patella (native s5 #16-18) and strands on PF1-PF2.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "excluded",
+    "certainty": "moderate",
+    "probability": 0.08,
+    "note": "Rounded fluid pocket in posterior intercondylar recess behind PCL (native s5 #14-16, s1 #12-15), central; no fluid between gastrocnemius and semimembranosus.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": [
+     "other"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220": {
+  "study_id": "1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Large habitus. Suprapatellar pouch markedly distended, crossed by a thin dark band (suprapatellar plica). Fluid in both patellofemoral recesses. Posterior fossa clear."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Pouch distended with convex outline ~12 mm deep (native s1 #8-14); recesses filled around trochlea.",
+    "grade": 2,
+    "depth_mm": 12
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended pouch with thin smooth lining; thin dark band across pouch is a plica (native s1 #11-13); Hoffa dark.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s5 #9-16).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312": {
+  "study_id": "1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Fat poorly suppressed on all fluid-sensitive series (fat grey). Small amount of joint fluid pooling in medial patellofemoral recess. Small oval posteromedial fluid at the medial gastrocnemius."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Thin fluid in medial recess and behind patella; suprapatellar pouch not distended (native s1 #21-30, s3 #13-23).",
+    "grade": 1,
+    "depth_mm": 3
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "No distension; thin lining; Hoffa grey with septa from poor fat suppression, no focal edema.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Oval fluid ~8x6 mm at medial gastrocnemius tendon behind medial condyle (native s3 #6-8), thin crescent on axial (s1 #14-15).",
+    "grade": "small",
+    "diameter_mm": 8,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125": {
+  "study_id": "1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Fluid fills the anterior intercondylar recess and both patellofemoral recesses; suprapatellar pouch only moderately filled. Fluid in posterior intercondylar recess behind the medial condyle (intra-articular)."
+  },
+  "findings": {
+   "effusion": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "Recesses filled with mild convexity; suprapatellar pouch ~6 mm (native s1 #10-20, s4 #18-30).",
+    "grade": 2,
+    "depth_mm": 6
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Fluid with thin lining; Hoffa fat dark with vessels; fluid in anterior intercondylar recess, no lobulated tissue.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s4 #9-20); posterior fluid lies in intercondylar recess (s1 #12-13).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608": {
+  "study_id": "1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Large habitus, 0.56 mm/px. Elongated posteromedial Baker's cyst. Small joint fluid, medial recess. Medial subcutaneous edema. Lobulated fluid at the posterior intercondylar recess."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Thin fluid behind patella and in medial recess; suprapatellar pouch not distended (native s1 #16-30, s2 #11-21).",
+    "grade": 1,
+    "depth_mm": 4
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "No distension; mildly hazy signal in upper Hoffa below patella; thin lining.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Elongated collection between medial gastrocnemius and semimembranosus with neck, ~45x15 mm (native s2 #3-7, s1 #11-16).",
+    "grade": "moderate",
+    "diameter_mm": 45,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254": {
+  "study_id": "1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Small effusion in both patellofemoral recesses and behind patella; fluid in posterior intercondylar recess. Posterior fossa clear."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Recesses filled ~4 mm without convex distension; suprapatellar pouch thin (native s4 #28-40, s1 #10-20).",
+    "grade": 1,
+    "depth_mm": 4
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No distension; thin smooth lining; Hoffa dark with thin vessels.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s4 #9-20, s1 #10-13).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Effusion mainly in medial recess and suprapatellar pouch. Ovoid posteromedial Baker's cyst with neck. Prepatellar soft-tissue edema."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Medial recess and pouch distended with convex outline ~8 mm (native s1 #28-36, s3 #4-12).",
+    "grade": 2,
+    "depth_mm": 8
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended joint with thin smooth lining; small loculi in medial plica region (PF4-PF5); Hoffa dark.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Ovoid collection between medial gastrocnemius and semimembranosus with neck, ~25x10 mm (native s3 #8-12, s1 #14-20).",
+    "grade": "moderate",
+    "diameter_mm": 25,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710": {
+  "study_id": "1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Uneven fat suppression (muscle brighter than fat in places). Effusion in the suprapatellar pouch with grey septa/material. Extensive subcutaneous and lateral soft-tissue edema; tibial marrow edema."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Pouch distended with convex outline ~9 mm up to 66 mm above joint; recesses filled (native s2 #30-42, s1 #18-24).",
+    "grade": 2,
+    "depth_mm": 9
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "Grey septa/irregular material within upper pouch fluid (native s2 #36-42); lining otherwise thin; Hoffa mildly heterogeneous.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": null,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "Fluid in posterior recesses behind both condyles, small crescent toward medial gastrocnemius (native s1 #15-17, s2 #20-22); no distended collection.",
+    "grade": "small",
+    "diameter_mm": 12,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921": {
+  "study_id": "1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "0.59 mm/px. Small joint fluid: lateral patellofemoral recess, anterior intercondylar recess and posterior intercondylar recess. Suprapatellar pouch thin."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Fluid in lateral recess and anterior intercondylar recess; pouch thin ~3 mm, not distended (native s1 #17-22, s3 #11-17).",
+    "grade": 1,
+    "depth_mm": 3
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No distension; thin lining; Hoffa dark with vessels (native s3 #11-14).",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s1 #12-22, s3 #4-10).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828": {
+  "study_id": "1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Fluid behind patella and in both recesses, pouch thin. Oval fluid at the posteromedial tibia ~35 mm below joint (semimembranosus/pes bursa). Small fluid pocket in posteromedial recess."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Fluid continuous behind patella ~4 mm; suprapatellar pouch thin, not distended (native s5 #26-36, s1 #12-22).",
+    "grade": 1,
+    "depth_mm": 3
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No distension; thin lining; Hoffa dark with vessels only.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "Small pocket behind posterior medial condyle ~5-8 mm (native s5 #12-15); separate oval bursa at posteromedial tibia (s5 #7-9, A1).",
+    "grade": "small",
+    "diameter_mm": 8,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": [
+     "bursa"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236": {
+  "study_id": "1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 15,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": true,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Adolescent; lean knee. Effusion distending the suprapatellar pouch and both recesses. Diffuse marrow signal (red marrow/trabecular), edematous notch tissue."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Pouch and recesses distended with convex outline ~9 mm, pouch to 66 mm above joint (native s3 #27-38, s1 #12-22).",
+    "grade": 2,
+    "depth_mm": 9
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended joint with thin smooth lining; Hoffa dark; edematous notch tissue only.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s3 #9-19); fluid behind medial condyle is posterior intercondylar recess (S4).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 16,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Older-style images, thick slices. Posteromedial Baker's cyst with neck extending down along the calf; separate oval fluid collection posteromedially above the joint (39-49 mm superior). Fluid in lateral recess and pouch."
+  },
+  "findings": {
+   "effusion": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "Lateral recess distended ~6 mm; pouch fluid ~6 mm up to 49 mm above joint (native s1 #15-20); medial recess thin.",
+    "grade": 2,
+    "depth_mm": 6
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Joint fluid with thin lining; small loculated fluid with septa in anterior notch (PF4) and hazy Hoffa signal (PF1, S5).",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": null
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Collection between medial gastrocnemius and semimembranosus with neck, ~20x12 mm axial, extending ~40 mm down the calf (native s1 #3-10, s4 #3-5).",
+    "grade": "moderate",
+    "diameter_mm": 40,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": [
+     "other"
+    ]
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 17,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Joint fluid across the suprapatellar pouch and both patellofemoral recesses, anterior intercondylar recess filled. Posterior fossa clear."
+  },
+  "findings": {
+   "effusion": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "Pouch fluid ~6 mm deep extending to ~50 mm above joint, recesses mildly convex (native s1 #28-36, s4 #14-18).",
+    "grade": 2,
+    "depth_mm": 6
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Fluid with thin smooth lining; Hoffa dark with vessels only.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No fluid between medial gastrocnemius and semimembranosus (native s1 #9-20, s4 #3-11).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 18,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Thick axial slices. Small joint fluid mainly in medial patellofemoral recess. Bright tubular structures behind lateral condyle are popliteal vessels. Medial soft-tissue edema."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Fluid continuous behind patella with small pool medially; pouch ~3 mm, not distended (native s5 #18-24, s1 #8-18).",
+    "grade": 1,
+    "depth_mm": 3
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "No distension; mildly hazy/strandy signal in Hoffa fat (native s1 #10-13); lining thin.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s5 #4-12).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002": {
+  "study_id": "1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 19,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure",
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Sagittal PD FS with fat only partly suppressed; axial STIR 6 mm. Small joint fluid behind patella and in suprapatellar pouch. Fluid/vessels in the anterior intercondylar region."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Thin fluid in pouch ~4 mm and behind patella, not distended (native s3 #16-22, s2 #6-16).",
+    "grade": 1,
+    "depth_mm": 4
+   },
+   "synovitis": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "No distension; branching bright signal in deep central Hoffa at the notch entrance (PF2), mostly vessels/recess; lining thin.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s3 #5-11, s2 #3-9).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395": {
+  "study_id": "1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 20,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Large habitus with diffuse subcutaneous edema; bright external pads/bags beside the knee on axial and lateral sagittal tiles (not anatomy). Joint fluid mainly in the medial recess. Edematous tissue in the notch."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Medial recess distended with convex outline ~10 mm over 40 mm height (native s3 #24-29); lateral recess and midline pouch thin.",
+    "grade": 2,
+    "depth_mm": 10
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended medial recess with thin smooth lining; Hoffa with reticular strands amid diffuse soft-tissue edema.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s3 #10-19); only subcutaneous edema posteromedially.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662": {
+  "study_id": "1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 21,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "No sagittal fat-suppressed series (sagittal sheets PD; native sagittal T2 used); axial 3D GRE FS with streak artifact. Fluid in both patellofemoral recesses, lateral more. Small posteromedial collection with neck."
+  },
+  "findings": {
+   "effusion": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "Lateral recess filled ~5 mm wide over 30 mm, medial recess fluid; pouch ~4 mm on T2 (native s5 #17-21, s1 #124-160).",
+    "grade": 1,
+    "depth_mm": 4
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "No distension; thin lining; Hoffa grey with fine septa on GRE FS, no focal bright signal.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Small collection between medial gastrocnemius and semimembranosus with neck, ~8x8 mm axial, ~18 mm craniocaudal (native s1 #57-81, s5 #16-17).",
+    "grade": "small",
+    "diameter_mm": 18,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 22,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Suprapatellar pouch and medial recess distended and filled with heterogeneous grey synovial tissue and fluid; diffuse ill-defined bright signal in Hoffa's fat pad; heterogeneous tissue in posterior capsule."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Pouch and medial recess distended with convex outline ~10 mm (native s4 #28-40, s1 #10-20); content mixed fluid and tissue.",
+    "grade": 2,
+    "depth_mm": 10
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Thick irregular grey synovium lining the distended pouch (native s4 #32-40, s1 #13-19) and ill-defined bright signal through Hoffa (PF1-PF2).",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 2,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s4 #9-20, s1 #3-11).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190": {
+  "study_id": "1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 23,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Joint fluid distends the suprapatellar pouch and both recesses; fluid in posterior capsular recess. Small oval fluid behind the posterior medial condyle at the medial gastrocnemius."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Pouch and medial/lateral recesses distended with convex outline ~8 mm (native s5 #26-36, s1 #10-20).",
+    "grade": 2,
+    "depth_mm": 8
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended joint with thin smooth lining; Hoffa dark with a well-defined cleft and thin vessels.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Oval ~10x14 mm fluid at medial gastrocnemius behind posterior medial condyle (native s1 #9-10), not distending between tendons on axial (s5 #8-19).",
+    "grade": "small",
+    "diameter_mm": 14,
+    "neck_seen": null,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 24,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "5_notch",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Only a non-fat-suppressed sagittal PD series of this knee (fluid-sensitive series flagged as other knee). Fluid judged on PD: no visible distension of the pouch; no posteromedial collection."
+  },
+  "findings": {
+   "effusion": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "Suprapatellar pouch collapsed with thin intermediate line only on PD (native s5 #12-22); fluid poorly separable from fat without fat suppression.",
+    "grade": 0,
+    "depth_mm": 0
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "No distension; Hoffa fat bright and homogeneous on PD with thin septa; no lining thickening seen.",
+    "effusion_synovitis": 0,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "No collection behind medial condyle between gastrocnemius and semimembranosus on PD (native s5 #5-13); no axial series.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742": {
+  "study_id": "1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 25,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "5_notch",
+   "6_medial"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Only sagittal series for this knee (axial and coronal flagged other knee). Large effusion with debris in the suprapatellar pouch; swollen edematous notch tissue; patchy marrow edema."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Suprapatellar pouch markedly distended, ~15 mm deep, from medial to lateral slices (native s1 #6-16).",
+    "grade": 3,
+    "depth_mm": 15
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "Distended pouch with grey septa/debris strands in the fluid (native s1 #6-8, #12-13); Hoffa mildly hazy; lining otherwise thin.",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 1,
+    "synovial_thickening": null,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "No collection behind medial condyle between gastrocnemius and semimembranosus on sagittal (native s1 #2-8); no axial series of this knee.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910": {
+  "study_id": "1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 26,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Large lobulated Baker's cyst with neck between medial gastrocnemius and semimembranosus, extending ~50 mm down the calf. Moderate joint effusion in suprapatellar pouch and both recesses."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Pouch and both patellofemoral recesses distended with convex outline ~8 mm (native s6 #23-30, s2 #12-22).",
+    "grade": 2,
+    "depth_mm": 8
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended joint; slightly irregular grey margin of upper pouch fluid (native s6 #26-30), lining otherwise thin; Hoffa dark.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Lobulated collection with neck between medial gastrocnemius and semimembranosus, ~30x15 mm axial, ~50 mm craniocaudal (native s6 #5-15, s2 #7-14).",
+    "grade": "large",
+    "diameter_mm": 50,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187": {
+  "study_id": "1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 27,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution",
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Large habitus; sagittal FS 0.74 mm/px, uneven fat suppression at the edges and top of axial series. Joint fluid distends the suprapatellar pouch and lateral recess."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Pouch and lateral recess distended with convex outline ~9 mm (native s1 #23-33, s2 #10-15).",
+    "grade": 2,
+    "depth_mm": 9
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended joint; mildly irregular grey margin in lateral recess (PF8-PF9), lining otherwise thin; Hoffa mostly dark.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s1 #9-17, s2 #3-9).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891": {
+  "study_id": "1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 28,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Small joint fluid in patellofemoral recesses; suprapatellar pouch thin. Proximal tibial marrow lesion with serpiginous margins (not fluid panel). Posterior fossa clear."
+  },
+  "findings": {
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Fluid in medial and lateral patellofemoral recesses ~4 mm, not distending; pouch thin (native s5 #15-20, s1 #5-15).",
+    "grade": 1,
+    "depth_mm": 3
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No distension; thin smooth lining; Hoffa dark with thin vessels.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s5 #4-10, s1 #2-8).",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500": {
+  "study_id": "1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views)",
+  "panel": "fluid",
+  "prompt": "fluid",
+  "source": "work/claude_labels_oct7/fluid_30-59",
+  "position": 29,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "3_ax_fs",
+   "5_notch",
+   "6_medial",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Effusion distends suprapatellar pouch and both patellofemoral recesses and fills the posterior intercondylar recess behind the PCL. Skin markers anterior. Posterior fossa clear."
+  },
+  "findings": {
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Pouch and recesses distended with convex outline ~9 mm, to 52 mm above joint; posterior recess distended (native s1 #15-30, s5 #13-18).",
+    "grade": 2,
+    "depth_mm": 9
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Distended joint with thin smooth lining; Hoffa dark with thin septa (native s5 #17-21).",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No collection between medial gastrocnemius and semimembranosus (native s1 #8-16); fluid behind condyles is the posterior intercondylar recess.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": null,
+    "ruptured": null,
+    "other_cysts": []
+   }
+  }
+ }
+}

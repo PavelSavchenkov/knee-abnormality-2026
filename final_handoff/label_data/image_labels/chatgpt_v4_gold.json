@@ -1,0 +1,3182 @@
+{
+ "1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911": {
+  "study_id": "1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_20-29.zip",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Traumatic lateral femoral and tibial marrow edema with ACL injury and distended joint."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Disrupted ACL course, replaced by heterogeneous edematous signal through the notch.",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Mild medial periligamentous edema with thin apparently continuous fibres.",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Posterior peripheral capsular signal without two-slice meniscal surface cleft.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Marrow signal is traumatic rather than osteoarthritic.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Bulging suprapatellar recess and patellofemoral gutters.",
+    "grade": 2,
+    "depth_mm": 12
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Ill-defined hyperintensity throughout anterior Hoffa fat pad in injured knee.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 2,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Pivot-shift impact edema in lateral femoral condyle and lateral tibial plateau.",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 3,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 2,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No discrete fracture line or cortical step in edematous lateral compartment.",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_20-29.zip",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "T2 fluid-sensitive series has uneven fat suppression/grainy soft-tissue signal. Large intra-articular fluid accumulation without focal acute marrow edema."
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Some increased ACL signal but an oblique continuous fibre course appears retained.",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Medial recess fluid alongside apparently intact, dark medial ligament; no high-grade fibre injury.",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No convincing two-consecutive-slice surface extension or displaced portion.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 1
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Mild irregular signal in medial trochlear cartilage, without a deep or broad defect.",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": true
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Large fluid-filled recesses, particularly suprapatellar and medial patellofemoral gutter.",
+    "grade": 2,
+    "depth_mm": 15
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Moderate distension but no convincing thick nodular synovial lining; noncontrast images.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No discrete traumatic focal subchondral edema; bright peripheral fat signal from variable suppression.",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Smooth cortical contours without an acute line.",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_20-29.zip",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Prominent effusion with focal anterior lateral femoral/trochlear subchondral edema and cartilage irregularity; no obvious acute fracture line."
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Slightly bright and broadened ACL but discernible continuous oblique fibres through adjacent notch slices.",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Minor fluid/periligamentous signal medially, without high-grade intraligamentous disruption.",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Small medial joint-line fluid pocket, but no confirmed meniscal cleft over successive images.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 1
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Continuous dark meniscal horns and body; nearby lateral popliteal fluid does not demonstrate meniscal tear.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Lateral weight-bearing femorotibial cartilage maintained.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "Focal high-grade-appearing lateral trochlear chondral thinning over subchondral edema, near the 10 mm size threshold.",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": null,
+    "focal": true
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Clearly expanded suprapatellar recess and medial/lateral parapatellar fluid with sizeable intercondylar extension.",
+    "grade": 2,
+    "depth_mm": 12
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Moderately distended joint, without definite bulky frond-like synovium; Hoffa signal mild.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Lateral posterior popliteus-region pocket is separate from medial Baker cyst location.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": [
+     "bursa"
+    ]
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Localized prominent impact-pattern edema beneath lateral trochlear femoral articular surface, rather than diffuse marrow red signal.",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 2,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "direct_blow"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No definite acute cortical break or internal linear fracture through lateral trochlear edema.",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924": {
+  "study_id": "1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_20-29.zip",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Mostly preserved ligaments, menisci, articular cartilage and marrow. Small posterior medial joint fluid pocket and mildly conspicuous central cruciate signal."
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Mildly bright striated ACL with retained oblique course through notch and continuous dark fibre portions.",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Dark, continuous medial collateral ligament without surrounding edema.",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Fine horizontal increased posterior horn signal remains intrameniscal rather than definitely reaching a surface on two images.",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 1
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Uniform patellar and femoral trochlear cartilage with no high-grade chondral defect.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Small fluid in patellofemoral gutter and intercondylar recess without marked capsular distension.",
+    "grade": 1,
+    "depth_mm": 4
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No convincing synovial thickening or diffuse Hoffa inflammatory signal.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Small posterior medial meniscocapsular fluid does not form a Baker's cyst.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309": {
+  "study_id": "1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_20-29.zip",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Marked patellofemoral and lateral gutter effusion, anterior Hoffa edema and variable peripheral fat suppression; no definite acute bone impact lesion."
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "ACL somewhat thick and internally bright, but parallel continuous fibre bundles visible throughout, without high-grade gap.",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Continuous dark MCL with no intraligamentous edema or adjacent focal high-grade injury.",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Preserved anterior and posterior horns on serial medial images.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 1
+   },
+   "lateral_meniscus": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Horizontal posterior horn/root-region intermediate signal might approach a meniscal surface, but two definite surface contacts are not established.",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Preserved cartilage thickness without broad deep chondral defects.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Patchy patellar/trochlear cartilage signal and superficial wear without definite broad loss exceeding half the thickness.",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": false
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Bulging fluid-filled suprapatellar pouch with substantial lateral patellofemoral recess distension.",
+    "grade": 2,
+    "depth_mm": 14
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Ill-defined increased Hoffa fat pad signal spans lateral anterior compartment and accompanies distended synovial recesses.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 2,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No convincing discrete traumatic marrow edema; variable fat suppression at margins and anterior soft-tissue inflammation.",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No acute fracture line or cortical break on non-fat-suppressed or fluid-sensitive images.",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404": {
+  "study_id": "1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_20-29.zip",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": "Distended popliteal Baker cyst, moderate effusion, focal posterior lateral tibial plateau impact-pattern edema and focally eroded trochlear cartilage."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Defined dark continuous ACL fibre bundle in normal oblique course.",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No acute medial-sided intraligamentous edema or fibre gap.",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Dark meniscal bodies and horns, without reproducible surface cleft.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No convincing posterior horn cleft or displaced fragment despite adjacent posterior tibial edema.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Posterior lateral tibial subchondral signal appears impact-related, without matching broad full-thickness chondral loss.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Focal deeply thinned central trochlear sulcus cartilage across multiple consecutive axial slices, with irregular near-fluid-to-bone interface.",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": true,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": true
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderately distended patellofemoral, intercondylar and suprapatellar fluid recesses.",
+    "grade": 2,
+    "depth_mm": 10
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distended knee joint but no definite thick villous synovium or widespread Hoffa inflammatory edema.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Large elongated distending fluid collection behind medial knee between semimembranosus and medial gastrocnemius; tracks along proximal calf.",
+    "grade": "moderate",
+    "diameter_mm": 30,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Discrete poorly defined high-fluid-signal edema posterior lateral tibial plateau, with retained cartilage and no clear fracture line.",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 2,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "direct_blow"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Despite lateral plateau edema, no definite subchondral fracture line or cortical depression seen.",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132": {
+  "study_id": "1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_20-29.zip",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Sagittal water-sensitive images are 3D slab-averaged and coronal sequences lack fat suppression. Large patellofemoral effusion, localized posterior lateral tibial plateau edema and poorly defined ACL signal."
+  },
+  "findings": {
+   "acl": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Abnormally bright indistinct ligament in distal intercondylar notch, but grade of fibre injury cannot be established due to 3D slab averaging.",
+    "fibres": "partly_disrupted",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "MCL dark and continuous without focal discontinuity; coronal fat suppression unavailable.",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Preserved dark horn triangles without apparent displaced or truncated tissue.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 1
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No definite two-consecutive-slice surface cleft; posterior root near normal fluid recess.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Articular cartilage maintained over focal marrow edema, no high-grade degenerative lesion.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Patellar and trochlear chondral contours remain visible despite distending fluid.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Large bulging suprapatellar pouch with marked fluid separation at both patellar facets and both parapatellar gutters.",
+    "grade": 3,
+    "depth_mm": 18
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Very distended synovial recess, but no convincing thick irregular lining or diffuse Hoffa signal.",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No distending medial gastrocnemius-semimembranosus fluid collection.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Geographic subarticular edema posterior lateral tibial plateau on successive lateral sagittal slices, without corresponding cartilage denudation.",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 2,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "direct_blow"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No convincing fracture line or step despite posterior lateral subchondral edema.",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_20-29.zip",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Marked uncomplicated suprapatellar and parapatellar joint distension without high-grade ligament, meniscal, osteochondral, or marrow injury detected."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Oblique intact bands retained at tibial and femoral attachments across contiguous notch slices; surrounding synovial fluid limits precise fine-fibre assessment.",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Thin low-signal medial collateral fibres, no intraligamentous or adjacent inflammatory edema.",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Preserved posterior and anterior horn triangle morphology; no consecutive articular-surface opening.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Slight anterior root-region heterogeneity at LM1-LM3 appears related to normal root attachments; posterior horn and lateral body remain intact.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Medial tibial and femoral cartilage layers preserved with no sizeable defect, osteophyte, or narrowing.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Uninterrupted lateral articular cartilage layer and maintained compartment width.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Cartilage follows the patella and trochlear facets; a small irregularity near the central groove is below a convincing chondral defect.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Large capsular distension, broad crescentic bright fluid in the suprapatellar recess and both parapatellar gutters on multiple planes.",
+    "grade": 3,
+    "depth_mm": 19
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "The fluid-filled recesses are very distended but lining predominantly thin and smooth; an apparent medial plica lacks convincing irregular synovial thickening.",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No distending gastrocnemius-semimembranosus collection despite the intra-articular effusion.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No convincing geographic impact-pattern subchondral marrow edema on fluid-sensitive images.",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Cortex and marrow contours intact without an acute subchondral, impaction, or avulsion fracture line.",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_20-29.zip",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Large simple joint effusion, mildly heterogeneous but preserved anterior cruciate fibres; nonuniform posterior soft-tissue suppression on selected fat-suppressed views without limiting meniscus or cartilage assessment."
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Mildly thick high-intermediate-signal, striated ACL on NT4-NT5, following expected oblique course with retained attachment continuity; no fluid-gap or pivot-shift marrow bruises.",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Low-signal continuous medial collateral fibres without adjacent or intraligamentous edema.",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Dark intact anterior and posterior horn triangles, no two-slice surface cleft or radial loss.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Posterior horn continuous with intact body and anterior root; meniscofemoral attachment accounts for adjacent narrow signal.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Full-appearing medial femoral and tibial cartilage thickness without articular denudation or osteophytes.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Maintained lateral chondral cover and joint width across consecutive coronal and sagittal sections.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Smooth uninterrupted patellar and femoral trochlear cartilage; no focal high-grade chondral defect despite extensive fluid.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Marked tense suprapatellar and medial and lateral gutter distension with large smooth bright fluid collections.",
+    "grade": 3,
+    "depth_mm": 18
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Fluid-related high effusion-synovitis score with thin smooth synovial border, without convincing irregular soft-tissue thickening, debris, or diffuse Hoffa edema.",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No distension of the semimembranosus-medial gastrocnemius bursa or posterior-medial popliteal recess.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No definite impact-pattern subchondral signal; patchy bright extra-articular musculature is not bone marrow edema.",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "No acute cortical break, plateau step, subchondral dark fracture line, or displaced fragment.",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711": {
+  "study_id": "1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_20-29.zip",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Acute pivot-shift pattern with disrupted high-signal ACL, broad lateral femoral condyle and posterior lateral tibial plateau impact edema, and large hemarthrosis/effusion. Non-fat-suppressed sagittal images are heavily averaged 3D slabs."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Severely swollen heterogeneous, slack, nearly horizontal fibres from the tibial stump with loss of a coherent femoral attachment across NT5-NT6; acute lateral pivot-shift bruises.",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Collateral fibres are low signal and remain aligned despite mild extracapsular fluid, with no evident intraligamentous disruption or high-grade edema.",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No definite articular-surface opening on two consecutive images or shape abnormality despite associated cruciate trauma.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Posterior horn and body appear retained without a definite tear cleft; irregular anterior root-adjacent tissue overlaps the torn ACL.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Intact thickness of medial articular cartilage, absent marginal osteophytes or fixed narrowing.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Lateral cartilage remains continuous above impact-related marrow edema and no degenerative surface loss over 10 mm is present.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Patellar and trochlear articular layers remain visible; tiny central groove irregularity lacks a substantial chondral defect.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Marked tense joint distension with suprapatellar fluid and broad bilateral parapatellar gutters in traumatic ACL-deficient knee.",
+    "grade": 3,
+    "depth_mm": 17
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Large acute effusion without convincing frond-like thick synovial lining; mild Hoffa vascular signal is not diffuse grade-2 edema.",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No posterior-medial defined distending gastrocnemius-semimembranosus collection.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Extensive geographic impact edema of anterior-to-central lateral femoral condyle and posterior lateral tibial plateau on consecutive fluid-sensitive slices; classic pivot shift.",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 3,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 2,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Despite prominent lateral compartment marrow edema, no discrete fracture line or convincing acute articular depression; proximal horizontal dark line represents epiphyseal scar.",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395": {
+  "study_id": "1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_50-59.zip",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Diffuse medial subcutaneous and posterior soft-tissue edema; intense intercondylar edema and lateral femoral condyle impact signal."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "No continuous dark ACL band; disorganized edema and disrupted ligament in the notch.",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Periligamentous medial edema with fibers appearing continuous; no high-grade tear identified.",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Suprapatellar and medial parapatellar recesses are visibly distended.",
+    "grade": 2,
+    "depth_mm": 12
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distended recess with a largely thin-appearing lining; Hoffa edema mild in trauma.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Lateral femoral condylar impact edema in the setting of ACL injury; subtle posteromedial tibial signal.",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 2,
+     "medial_tibial_plateau": 1,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Edema without a visible acute cortical break or discrete fracture line.",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662": {
+  "study_id": "1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_50-59.zip",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Fluid-sensitive coronal and axial series but sagittal is PD without fat suppression; substantial effusion with posteromedial popliteal cyst. Mild patchy marrow signal."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Ligament courses nearly flat along the tibial roof with lack of a taut femoral continuity on consecutive notch images.",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Posterior meniscocapsular signal without clear meniscal-surface communication.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Large lateral parapatellar fluid recess and convex suprapatellar capsule.",
+    "grade": 2,
+    "depth_mm": 12
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Fluid distension without certain lining thickening.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Distended fluid collection between medial gastrocnemius and semimembranosus, continuing on adjacent axial images.",
+    "grade": "moderate",
+    "diameter_mm": 15,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Posterior lateral tibial marrow hyperintensity may be traumatic; widespread patchy metaphyseal red marrow complicates assessment.",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 1,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "other"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No convincing acute fracture line or cortical disruption.",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_50-59.zip",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Marked traumatic intercondylar edema, distended joint, Hoffa fat-pad inflammation and lateral femoral condylar marrow edema."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Edema and fluid replace the expected continuous oblique ACL fibres; retracted stump along tibial attachment.",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Minor periligament edema without definite thickening or disrupted MCL fibres.",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Extensive convex suprapatellar recess with fluid extending along both sides of the patella.",
+    "grade": 2,
+    "depth_mm": 15
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Extensive ill-defined Hoffa fat pad high T2-FS signal with irregular synovial tissue in anterior recesses.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 3,
+    "synovial_thickening": true,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Focal traumatic edema within the lateral femoral condyle; very slight lateral plateau signal.",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 2,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 1,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No discrete fracture line or cortical discontinuity within marrow edema.",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190": {
+  "study_id": "1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_50-59.zip",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Lateral femoral and posterolateral tibial impact pattern, abnormal ACL and moderate joint effusion."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "ACL appears irregular and replaced by increased fluid-sensitive signal with no intact taut continuous bundle.",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "Mild periligament edema without convincing MCL fibre disruption.",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Edema is traumatic rather than degenerative.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderately distended suprapatellar and medial/lateral parapatellar recesses.",
+    "grade": 2,
+    "depth_mm": 13
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Joint fluid with mild reactive synovial signal, without obvious florid thickening.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Posterior periarticular fluid is not a definite medial gastrocnemius-semimembranosus cyst.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Strong lateral femoral condyle and posterolateral tibial plateau marrow edema, typical pivot-shift kissing contusions.",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 3,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 2,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "pivot_shift"
+    ]
+   },
+   "fracture": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Focal impaction-like depression of lateral femoral articular contour; no unequivocal separate fracture line.",
+    "line_seen": false,
+    "bones": [
+     "femur"
+    ],
+    "type": "impaction"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_50-59.zip",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Only sagittal non-fat-suppressed PD series provided; no fluid-sensitive fat-suppressed, coronal or axial sequences. Reduced confidence for MCL, edema, cyst and synovial findings."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Continuous oblique fibres on available sagittal PD views.",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "not_assessable",
+    "certainty": null,
+    "probability": null,
+    "note": "No coronal images or adequate dedicated views of MCL fibres.",
+    "fibres": null,
+    "adjacent_edema": null
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Cartilage thickness grossly maintained on sagittal images.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "not_assessable",
+    "certainty": null,
+    "probability": null,
+    "note": "Patellar and trochlear cartilage incompletely shown without axial images.",
+    "cartilage_loss": null,
+    "extent_ge_10mm": null,
+    "osteophytes": null,
+    "subchondral_marrow": null,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "No obvious bulging suprapatellar recess on available non-fat-suppressed views.",
+    "grade": 0,
+    "depth_mm": 0
+   },
+   "synovitis": {
+    "status": "not_assessable",
+    "certainty": null,
+    "probability": null,
+    "note": "Fluid-sensitive images needed to characterize synovial thickening or Hoffa fat pad signal.",
+    "effusion_synovitis": null,
+    "hoffa_signal": null,
+    "synovial_thickening": null,
+    "debris_or_fronds": null
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "No sizeable posteromedial popliteal collection on sagittal views.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "not_assessable",
+    "certainty": null,
+    "probability": null,
+    "note": "No fat-suppressed edema-sensitive series to reliably detect subtle marrow contusion.",
+    "edema": {
+     "medial_femoral_condyle": null,
+     "lateral_femoral_condyle": null,
+     "medial_tibial_plateau": null,
+     "lateral_tibial_plateau": null,
+     "patella": null,
+     "other": null
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "No distinct marrow fracture line or articular cortical disruption on sagittal PD views.",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742": {
+  "study_id": "1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_50-59.zip",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "structure_out_of_view"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Marked post-traumatic effusion, ACL discontinuity, widespread femoral and tibial marrow edema and possible medial tibial plateau fracture. No coronal or axial images."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Edematous irregular ACL stump; normal continuous fibres are absent in intercondylar notch.",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "not_assessable",
+    "certainty": null,
+    "probability": null,
+    "note": "Acute ligament edema suspected, but no coronal series or clear longitudinal MCL view.",
+    "fibres": null,
+    "adjacent_edema": null
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "No clearly surface-reaching meniscal tear despite adjacent post-traumatic changes.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "lateral_meniscus": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Posterior horn signal/irregularity is difficult to distinguish from surrounding traumatic edema, without definite multi-slice surface extension.",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 1,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Cartilage retained despite marked marrow edema.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "Limited midsagittal assessment only, without high-grade cartilage deficit.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Very large distended suprapatellar recess with capsular fluid extending to lateral compartment.",
+    "grade": 3,
+    "depth_mm": 25
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Large effusion with probable reactive synovial signal, no unambiguous thickened frond-like lining.",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "Posterior soft tissue edema but no distinct distended gastrocnemius-semimembranosus collection.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Extensive medial femoral and posterolateral tibial marrow edema; medial tibial signal also surrounds suspected plateau fracture.",
+    "edema": {
+     "medial_femoral_condyle": 3,
+     "lateral_femoral_condyle": 1,
+     "medial_tibial_plateau": 3,
+     "lateral_tibial_plateau": 3,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "direct_blow",
+     "around_fracture"
+    ]
+   },
+   "fracture": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "Oblique low-signal line through edematous posteromedial tibial plateau in consecutive slices; could be acute nondisplaced fracture.",
+    "line_seen": true,
+    "bones": [
+     "tibia"
+    ],
+    "type": "plain_subchondral_or_plateau"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910": {
+  "study_id": "1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_50-59.zip",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Medial femoral subchondral edema and chondral thinning, a sizeable posteromedial popliteal cyst and moderate effusion; no traumatic pivot-shift pattern."
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "ACL mildly thick and bright but fibres remain continuous, favored mucoid signal change rather than disruption.",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Posterior horn appears thin with subtle intrasubstance signal, without unequivocal surface contact on two slices.",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 1,
+    "morphology": "normal",
+    "extrusion_mm": 2
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Medial femoral articular cartilage thinning over a substantial region, with subchondral reactive signal and mild joint narrowing.",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": true,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": "mild",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderate suprapatellar and parapatellar joint fluid distension.",
+    "grade": 2,
+    "depth_mm": 13
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Distended recesses with mostly smooth non-thickened lining and slight Hoffa reactive signal.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Multilobulated distended fluid collection between semimembranosus tendon and medial gastrocnemius, tracking inferiorly.",
+    "grade": "large",
+    "diameter_mm": 26,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "moderate",
+    "probability": 0.08,
+    "note": "Edema is subchondral at medial femoral cartilage loss, more likely degenerative or osteochondral than impact trauma.",
+    "edema": {
+     "medial_femoral_condyle": 2,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 1,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "degenerative_subchondral"
+    ]
+   },
+   "fracture": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "Medial femoral subchondral abnormality raises a subtle insufficiency/osteochondral lesion differential; no definite acute dark fracture line.",
+    "line_seen": false,
+    "bones": [
+     "femur"
+    ],
+    "type": "insufficiency"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187": {
+  "study_id": "1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_50-59.zip",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Widespread medial femoral condylar marrow edema with focal dark subchondral fracture band suggestive of insufficiency fracture. Mildly blurred fluid-sensitive series."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Oblique ACL bundle remains continuous without characteristic torn stump.",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Medial periligament signal accompanying marked femoral edema; fibres are identifiable without high-grade disruption.",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Thin triangular posterior horn without consistent surface-reaching abnormal signal.",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 1
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Mild focal chondral surface irregularity at subchondral insufficiency lesion without a broad clearly high-grade cartilage defect.",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": false,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "mild",
+    "focal": true
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Moderately convex suprapatellar recess distension.",
+    "grade": 2,
+    "depth_mm": 12
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Effusion without obvious irregular thick synovial lining; minimal Hoffa signal.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "high",
+    "probability": 0.05,
+    "note": "Medial femoral edema surrounds a subchondral fracture band and is not a discrete traumatic impact contusion.",
+    "edema": {
+     "medial_femoral_condyle": 3,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 1,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "insufficiency_or_sonk",
+     "around_fracture"
+    ]
+   },
+   "fracture": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Subchondral low-signal fracture band within extensive medial femoral condyle edema on consecutive views, consistent with insufficiency fracture.",
+    "line_seen": true,
+    "bones": [
+     "femur"
+    ],
+    "type": "insufficiency"
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891": {
+  "study_id": "1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_50-59.zip",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Extensive lateral/central proximal tibial marrow edema without conspicuous femoral kissing contusion or definite fracture line; minimal-to-small effusion."
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Mildly thickened hyperintense ACL bundles with identifiable longitudinal continuity; no high-grade fibre loss.",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "Marrow edema is not accompanied by cartilage loss or osteophytes.",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Small fluid stripe behind patella and in parapatellar gutters, without pronounced suprapatellar capsule distension.",
+    "grade": 1,
+    "depth_mm": 6
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "Small uncomplicated fluid and smooth lining, Hoffa fat pad signal normal.",
+    "effusion_synovitis": 1,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Confluent acute edema centred on lateral tibial plateau, extending into central tibial metaphysis; smaller medial plateau component.",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 2,
+     "lateral_tibial_plateau": 3,
+     "patella": 0,
+     "other": 1
+    },
+    "pattern": [
+     "direct_blow"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No discrete fracture line or plateau articular cortical step across the extensive marrow edema.",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500": {
+  "study_id": "1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v4",
+  "source": "work/image_labeling/returned/v4A_img_50-59.zip",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Moderate knee effusion with marked posterior intercondylar fluid and abnormal thinned/irregular lateral meniscus; no acute osseous impact pattern."
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Thickened mildly high-signal ACL, yet longitudinal fibres remain traceable; lacks high-grade discontinuity.",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "Marked lateral meniscal body thinning/truncation and irregular horns with adjacent small multiloculated parameniscal fluid signal.",
+    "location": [
+     "body",
+     "anterior_horn"
+    ],
+    "surface_tiles": 1,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 2
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Mild peripheral chondral thinning and minimal rim irregularity without unequivocal extensive high-grade loss.",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": false,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": "mild",
+    "focal": true
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Minor central trochlear cartilage surface heterogeneity without high-grade broad defect.",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": false,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": true
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Convexly distended suprapatellar recess with widespread bilateral parapatellar fluid.",
+    "grade": 2,
+    "depth_mm": 17
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "Moderate joint effusion with minimal anterior Hoffa signal and no definite nodular synovial thickening.",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "excluded",
+    "certainty": "moderate",
+    "probability": 0.08,
+    "note": "Bulky localized posterior intercondylar fluid behind PCL, favored notch ganglion/recess rather than posteromedial Baker's cyst.",
+    "grade": "none",
+    "diameter_mm": null,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": [
+     "ganglion",
+     "parameniscal"
+    ]
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ }
+}

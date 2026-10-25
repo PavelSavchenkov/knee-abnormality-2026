@@ -1,0 +1,763 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "knee_image_labels",
+  "title": "Knee MRI image labels: one object per study",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "index",
+    "study_id",
+    "sheets_viewed",
+    "qa",
+    "findings",
+    "structures"
+  ],
+  "properties": {
+    "index": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "study_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sheets_viewed": {
+      "type": "array",
+      "uniqueItems": true,
+      "minItems": 1,
+      "items": {
+        "enum": [
+          "1_sag_fs",
+          "2_cor_fs",
+          "3_ax_fs",
+          "4_nonfs",
+          "5_notch",
+          "6_medial",
+          "7_lateral",
+          "8_cor_joint",
+          "9_patella"
+        ]
+      }
+    },
+    "qa": {
+      "$ref": "#/$defs/qa"
+    },
+    "findings": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "acl",
+        "mcl",
+        "medial_meniscus",
+        "lateral_meniscus",
+        "medial_oa",
+        "lateral_oa",
+        "pf_oa",
+        "effusion",
+        "synovitis",
+        "bakers_cyst",
+        "contusion",
+        "fracture"
+      ],
+      "properties": {
+        "acl": {
+          "$ref": "#/$defs/acl"
+        },
+        "mcl": {
+          "$ref": "#/$defs/mcl"
+        },
+        "medial_meniscus": {
+          "$ref": "#/$defs/meniscus"
+        },
+        "lateral_meniscus": {
+          "$ref": "#/$defs/meniscus"
+        },
+        "medial_oa": {
+          "$ref": "#/$defs/oa"
+        },
+        "lateral_oa": {
+          "$ref": "#/$defs/oa"
+        },
+        "pf_oa": {
+          "$ref": "#/$defs/oa"
+        },
+        "effusion": {
+          "$ref": "#/$defs/effusion"
+        },
+        "synovitis": {
+          "$ref": "#/$defs/synovitis"
+        },
+        "bakers_cyst": {
+          "$ref": "#/$defs/bakers_cyst"
+        },
+        "contusion": {
+          "$ref": "#/$defs/contusion"
+        },
+        "fracture": {
+          "$ref": "#/$defs/fracture"
+        }
+      }
+    },
+    "structures": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {
+        "$ref": "#/$defs/structure"
+      }
+    }
+  },
+  "$defs": {
+    "tiles": {
+      "type": "array",
+      "uniqueItems": true,
+      "maxItems": 12,
+      "items": {
+        "type": "string",
+        "minLength": 2,
+        "maxLength": 3
+      }
+    },
+    "fraction": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "box": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "tile",
+        "box"
+      ],
+      "properties": {
+        "tile": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 3
+        },
+        "box": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "$ref": "#/$defs/fraction"
+          }
+        }
+      }
+    },
+    "boxes": {
+      "type": "array",
+      "maxItems": 8,
+      "items": {
+        "$ref": "#/$defs/box"
+      }
+    },
+    "grade03": {
+      "enum": [
+        null,
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "flag": {
+      "enum": [
+        null,
+        true,
+        false
+      ]
+    },
+    "mm": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "note": {
+      "type": "string",
+      "maxLength": 200
+    },
+    "base": {
+      "type": "object",
+      "required": [
+        "status",
+        "certainty",
+        "evidence",
+        "boxes",
+        "note"
+      ],
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/status"
+        },
+        "certainty": {
+          "$ref": "#/$defs/certainty"
+        },
+        "evidence": {
+          "$ref": "#/$defs/tiles"
+        },
+        "boxes": {
+          "$ref": "#/$defs/boxes"
+        },
+        "note": {
+          "$ref": "#/$defs/note"
+        }
+      }
+    },
+    "acl": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/base"
+        }
+      ],
+      "additionalProperties": false,
+      "required": [
+        "fibres",
+        "graft"
+      ],
+      "properties": {
+        "status": {},
+        "certainty": {},
+        "evidence": {},
+        "boxes": {},
+        "note": {},
+        "fibres": {
+          "enum": [
+            null,
+            "continuous",
+            "thickened_or_bright",
+            "partly_disrupted",
+            "discontinuous",
+            "not_seen"
+          ]
+        },
+        "graft": {
+          "type": "boolean"
+        }
+      }
+    },
+    "mcl": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/base"
+        }
+      ],
+      "additionalProperties": false,
+      "required": [
+        "fibres",
+        "adjacent_edema"
+      ],
+      "properties": {
+        "status": {},
+        "certainty": {},
+        "evidence": {},
+        "boxes": {},
+        "note": {},
+        "fibres": {
+          "enum": [
+            null,
+            "continuous",
+            "thickened_or_bright",
+            "partly_disrupted",
+            "discontinuous",
+            "not_seen"
+          ]
+        },
+        "adjacent_edema": {
+          "$ref": "#/$defs/flag"
+        }
+      }
+    },
+    "meniscus": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/base"
+        }
+      ],
+      "additionalProperties": false,
+      "required": [
+        "location",
+        "surface_tiles",
+        "morphology",
+        "extrusion_mm"
+      ],
+      "properties": {
+        "status": {},
+        "certainty": {},
+        "evidence": {},
+        "boxes": {},
+        "note": {},
+        "location": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "anterior_horn",
+              "body",
+              "posterior_horn",
+              "root"
+            ]
+          }
+        },
+        "surface_tiles": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "morphology": {
+          "enum": [
+            null,
+            "normal",
+            "truncated_or_diminutive",
+            "displaced_fragment",
+            "other"
+          ]
+        },
+        "extrusion_mm": {
+          "$ref": "#/$defs/mm"
+        }
+      }
+    },
+    "oa": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/base"
+        }
+      ],
+      "additionalProperties": false,
+      "required": [
+        "cartilage_loss",
+        "extent_ge_10mm",
+        "osteophytes",
+        "subchondral_marrow",
+        "narrowing",
+        "focal"
+      ],
+      "properties": {
+        "status": {},
+        "certainty": {},
+        "evidence": {},
+        "boxes": {},
+        "note": {},
+        "cartilage_loss": {
+          "enum": [
+            null,
+            "none",
+            "partial_lt_50",
+            "partial_ge_50",
+            "full_thickness"
+          ]
+        },
+        "extent_ge_10mm": {
+          "$ref": "#/$defs/flag"
+        },
+        "osteophytes": {
+          "enum": [
+            null,
+            "none",
+            "small",
+            "large"
+          ]
+        },
+        "subchondral_marrow": {
+          "$ref": "#/$defs/flag"
+        },
+        "narrowing": {
+          "enum": [
+            null,
+            "none",
+            "mild",
+            "marked"
+          ]
+        },
+        "focal": {
+          "$ref": "#/$defs/flag"
+        }
+      }
+    },
+    "effusion": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/base"
+        }
+      ],
+      "additionalProperties": false,
+      "required": [
+        "grade",
+        "depth_mm"
+      ],
+      "properties": {
+        "status": {},
+        "certainty": {},
+        "evidence": {},
+        "boxes": {},
+        "note": {},
+        "grade": {
+          "$ref": "#/$defs/grade03"
+        },
+        "depth_mm": {
+          "$ref": "#/$defs/mm"
+        }
+      }
+    },
+    "synovitis": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/base"
+        }
+      ],
+      "additionalProperties": false,
+      "required": [
+        "effusion_synovitis",
+        "hoffa_signal",
+        "synovial_thickening",
+        "debris_or_fronds"
+      ],
+      "properties": {
+        "status": {},
+        "certainty": {},
+        "evidence": {},
+        "boxes": {},
+        "note": {},
+        "effusion_synovitis": {
+          "$ref": "#/$defs/grade03"
+        },
+        "hoffa_signal": {
+          "$ref": "#/$defs/grade03"
+        },
+        "synovial_thickening": {
+          "$ref": "#/$defs/flag"
+        },
+        "debris_or_fronds": {
+          "$ref": "#/$defs/flag"
+        }
+      }
+    },
+    "bakers_cyst": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/base"
+        }
+      ],
+      "additionalProperties": false,
+      "required": [
+        "grade",
+        "diameter_mm",
+        "neck_seen",
+        "ruptured",
+        "other_cysts"
+      ],
+      "properties": {
+        "status": {},
+        "certainty": {},
+        "evidence": {},
+        "boxes": {},
+        "note": {},
+        "grade": {
+          "enum": [
+            null,
+            "none",
+            "small",
+            "moderate",
+            "large"
+          ]
+        },
+        "diameter_mm": {
+          "$ref": "#/$defs/mm"
+        },
+        "neck_seen": {
+          "$ref": "#/$defs/flag"
+        },
+        "ruptured": {
+          "$ref": "#/$defs/flag"
+        },
+        "other_cysts": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "ganglion",
+              "parameniscal",
+              "bursa",
+              "other"
+            ]
+          }
+        }
+      }
+    },
+    "contusion": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/base"
+        }
+      ],
+      "additionalProperties": false,
+      "required": [
+        "edema",
+        "pattern"
+      ],
+      "properties": {
+        "status": {},
+        "certainty": {},
+        "evidence": {},
+        "boxes": {},
+        "note": {},
+        "edema": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "medial_femoral_condyle",
+            "lateral_femoral_condyle",
+            "medial_tibial_plateau",
+            "lateral_tibial_plateau",
+            "patella",
+            "other"
+          ],
+          "properties": {
+            "medial_femoral_condyle": {
+              "$ref": "#/$defs/grade03"
+            },
+            "lateral_femoral_condyle": {
+              "$ref": "#/$defs/grade03"
+            },
+            "medial_tibial_plateau": {
+              "$ref": "#/$defs/grade03"
+            },
+            "lateral_tibial_plateau": {
+              "$ref": "#/$defs/grade03"
+            },
+            "patella": {
+              "$ref": "#/$defs/grade03"
+            },
+            "other": {
+              "$ref": "#/$defs/grade03"
+            }
+          }
+        },
+        "pattern": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "pivot_shift",
+              "patellar_dislocation",
+              "direct_blow",
+              "around_fracture",
+              "degenerative_subchondral",
+              "insufficiency_or_sonk",
+              "other"
+            ]
+          }
+        }
+      }
+    },
+    "fracture": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/base"
+        }
+      ],
+      "additionalProperties": false,
+      "required": [
+        "line_seen",
+        "bones",
+        "type"
+      ],
+      "properties": {
+        "status": {},
+        "certainty": {},
+        "evidence": {},
+        "boxes": {},
+        "note": {},
+        "line_seen": {
+          "$ref": "#/$defs/flag"
+        },
+        "bones": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "femur",
+              "tibia",
+              "patella",
+              "fibula"
+            ]
+          }
+        },
+        "type": {
+          "enum": [
+            null,
+            "plain_subchondral_or_plateau",
+            "avulsion",
+            "osteochondral",
+            "impaction",
+            "insufficiency",
+            "old_or_healed",
+            "other"
+          ]
+        }
+      }
+    },
+    "qa": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "image_quality",
+        "problems",
+        "postoperative",
+        "open_growth_plates",
+        "orientation_ok",
+        "pattern",
+        "marks",
+        "note"
+      ],
+      "properties": {
+        "image_quality": {
+          "enum": [
+            "good",
+            "limited",
+            "poor"
+          ]
+        },
+        "problems": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "fat_suppression_failure",
+              "motion",
+              "wrap_around",
+              "metal_artifact",
+              "low_resolution",
+              "structure_out_of_view",
+              "other"
+            ]
+          }
+        },
+        "postoperative": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "acl_graft",
+              "acl_tunnels",
+              "meniscus_surgery",
+              "hardware",
+              "other"
+            ]
+          }
+        },
+        "open_growth_plates": {
+          "$ref": "#/$defs/flag"
+        },
+        "orientation_ok": {
+          "type": "boolean"
+        },
+        "pattern": {
+          "enum": [
+            "acute_trauma",
+            "degenerative",
+            "trauma_and_degenerative",
+            "normal_looking",
+            "other"
+          ]
+        },
+        "marks": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "tile",
+              "x",
+              "y"
+            ],
+            "properties": {
+              "tile": {
+                "type": "string",
+                "minLength": 2,
+                "maxLength": 3
+              },
+              "x": {
+                "$ref": "#/$defs/fraction"
+              },
+              "y": {
+                "$ref": "#/$defs/fraction"
+              }
+            }
+          }
+        },
+        "note": {
+          "type": "string",
+          "maxLength": 300
+        }
+      }
+    },
+    "structure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "tile",
+        "box"
+      ],
+      "properties": {
+        "name": {
+          "enum": [
+            "acl",
+            "pcl",
+            "mcl",
+            "lcl",
+            "medial_meniscus_anterior_horn",
+            "medial_meniscus_posterior_horn",
+            "medial_meniscus_body",
+            "lateral_meniscus_anterior_horn",
+            "lateral_meniscus_posterior_horn",
+            "lateral_meniscus_body",
+            "patellar_cartilage",
+            "trochlear_cartilage",
+            "suprapatellar_recess",
+            "popliteal_fossa"
+          ]
+        },
+        "tile": {
+          "type": "string",
+          "minLength": 2,
+          "maxLength": 3
+        },
+        "box": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": {
+            "$ref": "#/$defs/fraction"
+          }
+        }
+      }
+    },
+    "status": {
+      "enum": [
+        "meets",
+        "borderline",
+        "possible",
+        "below",
+        "excluded",
+        "normal",
+        "not_assessable"
+      ]
+    },
+    "certainty": {
+      "enum": [
+        null,
+        "high",
+        "moderate",
+        "low"
+      ]
+    }
+  }
+}

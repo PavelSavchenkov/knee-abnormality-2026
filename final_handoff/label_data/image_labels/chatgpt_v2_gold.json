@@ -1,0 +1,1587 @@
+{
+ "1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v2",
+  "source": "work/image_labeling/returned/v2A_img_0-9.zip",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Isolated ACL abnormality without accompanying acute marrow injury."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "No intact taut ACL is seen; fibres are replaced by irregular high-signal tissue.",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0.5
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0.5
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "",
+    "grade": 1,
+    "depth_mm": 5.0
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "effusion_synovitis": 0,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "grade": "none",
+    "diameter_mm": 0.0,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v2",
+  "source": "work/image_labeling/returned/v2A_img_0-9.zip",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": ""
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0.5
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0.5
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "grade": 2,
+    "depth_mm": 10.0
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "grade": "none",
+    "diameter_mm": 0.0,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 2,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "other"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903": {
+  "study_id": "1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v2",
+  "source": "work/image_labeling/returned/v2A_img_0-9.zip",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "No continuous taut ACL fibres through the notch.",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 3,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 6.0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 1.0
+   },
+   "medial_oa": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": true,
+    "osteophytes": "large",
+    "subchondral_marrow": true,
+    "narrowing": "marked",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": "mild",
+    "focal": false
+   },
+   "pf_oa": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": true,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": null,
+    "focal": false
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "grade": 2,
+    "depth_mm": 8.0
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 1,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "grade": "moderate",
+    "diameter_mm": 16.0,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "moderate",
+    "probability": 0.08,
+    "note": "Marrow signal is subchondral beneath advanced medial compartment wear.",
+    "edema": {
+     "medial_femoral_condyle": 2,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 2,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "degenerative_subchondral"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945": {
+  "study_id": "1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v2",
+  "source": "work/image_labeling/returned/v2A_img_0-9.zip",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": ""
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Periligamentous edema with preserved fibres.",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 1.0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 1.0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "grade": 2,
+    "depth_mm": 11.0
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "grade": "none",
+    "diameter_mm": 0.0,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "Extensive proximal tibial marrow edema without a discrete fracture line.",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 3,
+     "lateral_tibial_plateau": 3,
+     "patella": 0,
+     "other": 1
+    },
+    "pattern": [
+     "other"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "No discrete fracture line on non-fat-suppressed or zoomed views.",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683": {
+  "study_id": "1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v2",
+  "source": "work/image_labeling/returned/v2A_img_0-9.zip",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": ""
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0.5
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0.5
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "below",
+    "certainty": "high",
+    "probability": 0.1,
+    "note": "",
+    "grade": 1,
+    "depth_mm": 5.0
+   },
+   "synovitis": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "effusion_synovitis": 0,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "grade": "none",
+    "diameter_mm": 0.0,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 2,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 2,
+     "other": 0
+    },
+    "pattern": [
+     "patellar_dislocation"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363": {
+  "study_id": "1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v2",
+  "source": "work/image_labeling/returned/v2A_img_0-9.zip",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "No continuous taut ACL band is identified through the notch.",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 2.0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 1.0
+   },
+   "medial_oa": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "Focal medial femoral condyle defect is at the approximately 10 mm extent threshold.",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": "mild",
+    "focal": true
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "grade": 2,
+    "depth_mm": 9.0
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "grade": "none",
+    "diameter_mm": 0.0,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "high",
+    "probability": 0.05,
+    "note": "Marrow edema lies directly beneath the focal medial chondral defect.",
+    "edema": {
+     "medial_femoral_condyle": 2,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "degenerative_subchondral"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327": {
+  "study_id": "1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v2",
+  "source": "work/image_labeling/returned/v2A_img_0-9.zip",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": ""
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "ACL is replaced by irregular high-signal tissue without a continuous taut band.",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Intrasubstance posterior-horn signal does not definitely reach an articular surface.",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 3.0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 1.0
+   },
+   "medial_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": "mild",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Focal high-grade patellar/trochlear chondral loss is clearly under 10 mm.",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": false,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": true
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "grade": 2,
+    "depth_mm": 9.0
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "",
+    "effusion_synovitis": 2,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "grade": "moderate",
+    "diameter_mm": 15.0,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003": {
+  "study_id": "1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v2",
+  "source": "work/image_labeling/returned/v2A_img_0-9.zip",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": ""
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "ACL fibres remain in continuity but are thickened/high signal.",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "Periligamentous medial edema with intact fibres.",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0.5
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0.5
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "grade": 3,
+    "depth_mm": 14.0
+   },
+   "synovitis": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "Marked distension; the lining may be mildly thickened on noncontrast imaging.",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 1,
+    "synovial_thickening": null,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "grade": "none",
+    "diameter_mm": 0.0,
+    "neck_seen": false,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 0,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": []
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435": {
+  "study_id": "1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v2",
+  "source": "work/image_labeling/returned/v2A_img_0-9.zip",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": ""
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "excluded",
+    "certainty": "moderate",
+    "probability": 0.08,
+    "note": "Thickened MCL without surrounding edema, compatible with chronic change.",
+    "fibres": "thickened_or_bright",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 6.0
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 1,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 4.0
+   },
+   "medial_oa": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": true,
+    "osteophytes": "large",
+    "subchondral_marrow": true,
+    "narrowing": "marked",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": true,
+    "osteophytes": "large",
+    "subchondral_marrow": true,
+    "narrowing": "marked",
+    "focal": false
+   },
+   "pf_oa": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": true,
+    "osteophytes": "large",
+    "subchondral_marrow": true,
+    "narrowing": null,
+    "focal": false
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "grade": 3,
+    "depth_mm": 25.0
+   },
+   "synovitis": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 2,
+    "synovial_thickening": true,
+    "debris_or_fronds": true
+   },
+   "bakers_cyst": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "",
+    "grade": "moderate",
+    "diameter_mm": 15.0,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "excluded",
+    "certainty": "high",
+    "probability": 0.05,
+    "note": "",
+    "edema": {
+     "medial_femoral_condyle": 2,
+     "lateral_femoral_condyle": 1,
+     "medial_tibial_plateau": 2,
+     "lateral_tibial_plateau": 1,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "degenerative_subchondral"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767": {
+  "study_id": "1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767",
+  "labeller": "chatgpt-web",
+  "model": "ChatGPT web, astra xhigh",
+  "panel": "all12",
+  "prompt": "v2",
+  "source": "work/image_labeling/returned/v2A_img_0-9.zip",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": ""
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "ACL is not seen as a continuous taut band.",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0.5
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0.5
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "pf_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "effusion": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "",
+    "grade": 3,
+    "depth_mm": 16.0
+   },
+   "synovitis": {
+    "status": "possible",
+    "certainty": "moderate",
+    "probability": 0.35,
+    "note": "",
+    "effusion_synovitis": 3,
+    "hoffa_signal": 0,
+    "synovial_thickening": false,
+    "debris_or_fronds": false
+   },
+   "bakers_cyst": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "",
+    "grade": "small",
+    "diameter_mm": 8.0,
+    "neck_seen": true,
+    "ruptured": false,
+    "other_cysts": []
+   },
+   "contusion": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "",
+    "edema": {
+     "medial_femoral_condyle": 0,
+     "lateral_femoral_condyle": 2,
+     "medial_tibial_plateau": 0,
+     "lateral_tibial_plateau": 0,
+     "patella": 0,
+     "other": 0
+    },
+    "pattern": [
+     "other"
+    ]
+   },
+   "fracture": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "",
+    "line_seen": false,
+    "bones": [],
+    "type": null
+   }
+  }
+ }
+}

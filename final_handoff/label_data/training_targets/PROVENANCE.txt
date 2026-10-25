@@ -1,0 +1,1 @@
+data/aux_facts.csv: copied 10-19 11:00 from experiments/v2/oct14_text_labels/data/aux_facts.csv (own v2 report facts; D2 arm A)

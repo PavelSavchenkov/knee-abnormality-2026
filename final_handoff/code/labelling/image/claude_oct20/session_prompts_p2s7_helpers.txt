@@ -1,0 +1,85 @@
+=== chat 11 (Final Label #1) ===
+New batch for you (chat 11): p2_s7_h1, 17 studies. Same task and rules as your finished p2 batch.
+List: work/claude_labels_oct20/_batches/p2_s7_h1.txt (one index per line). Work strictly in that order.
+
+Everything in your original p2 prompt applies unchanged: the p2 panel (contusion, fracture, pf_oa), images + report, Change 1-4, notes naming the native series + slice range and ending with the source tag, a native --box crop for every finding, blind-labelling and memory-safety rules, and one study at a time without stopping. Keep your chat number and temp folder (views.py <index> --chat 11, _tmp_c11/). You already read the anchors, so no need to repeat them.
+
+Only these change:
+- Output folder: work/claude_labels_oct20/p2_s7_h1/ (create it). One <study_id>.json per index. Never write these studies into your old p2_s1/ folder.
+- Read permission: add your new list _batches/p2_s7_h1.txt and your new output folder p2_s7_h1/ to what you may read. The rest of the blind rules are unchanged.
+- Resuming: before each index, skip it if p2_s7_h1/ already holds a valid file for it.
+- Validate each file after saving:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p2_s7_h1/<study_id>.json
+  At the end: conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p2_s7_h1 work/claude_labels_oct20/_batches/p2_s7_h1.txt
+- Final message: "Batch p2_s7_h1: N of 17 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>." Then "Unsure:" with up to 10 lines, or "none".
+
+Run every Python command inside the capped scope, as before.
+
+=== chat 12 (Final Label #2) ===
+New batch for you (chat 12): p2_s7_h2, 17 studies. Same task and rules as your finished p2 batch.
+List: work/claude_labels_oct20/_batches/p2_s7_h2.txt (one index per line). Work strictly in that order.
+
+Everything in your original p2 prompt applies unchanged: the p2 panel (contusion, fracture, pf_oa), images + report, Change 1-4, notes naming the native series + slice range and ending with the source tag, a native --box crop for every finding, blind-labelling and memory-safety rules, and one study at a time without stopping. Keep your chat number and temp folder (views.py <index> --chat 12, _tmp_c12/). You already read the anchors, so no need to repeat them.
+
+Only these change:
+- Output folder: work/claude_labels_oct20/p2_s7_h2/ (create it). One <study_id>.json per index. Never write these studies into your old p2_s2/ folder.
+- Read permission: add your new list _batches/p2_s7_h2.txt and your new output folder p2_s7_h2/ to what you may read. The rest of the blind rules are unchanged.
+- Resuming: before each index, skip it if p2_s7_h2/ already holds a valid file for it.
+- Validate each file after saving:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p2_s7_h2/<study_id>.json
+  At the end: conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p2_s7_h2 work/claude_labels_oct20/_batches/p2_s7_h2.txt
+- Final message: "Batch p2_s7_h2: N of 17 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>." Then "Unsure:" with up to 10 lines, or "none".
+
+Run every Python command inside the capped scope, as before.
+
+=== chat 14 (Final Label #4) ===
+New batch for you (chat 14): p2_s7_h4, 17 studies. Same task and rules as your finished p2 batch.
+List: work/claude_labels_oct20/_batches/p2_s7_h4.txt (one index per line). Work strictly in that order.
+
+Everything in your original p2 prompt applies unchanged: the p2 panel (contusion, fracture, pf_oa), images + report, Change 1-4, notes naming the native series + slice range and ending with the source tag, a native --box crop for every finding, blind-labelling and memory-safety rules, and one study at a time without stopping. Keep your chat number and temp folder (views.py <index> --chat 14, _tmp_c14/). You already read the anchors, so no need to repeat them.
+
+Only these change:
+- Output folder: work/claude_labels_oct20/p2_s7_h4/ (create it). One <study_id>.json per index. Never write these studies into your old p2_s4/ folder.
+- Read permission: add your new list _batches/p2_s7_h4.txt and your new output folder p2_s7_h4/ to what you may read. The rest of the blind rules are unchanged.
+- Resuming: before each index, skip it if p2_s7_h4/ already holds a valid file for it.
+- Validate each file after saving:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p2_s7_h4/<study_id>.json
+  At the end: conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p2_s7_h4 work/claude_labels_oct20/_batches/p2_s7_h4.txt
+- Final message: "Batch p2_s7_h4: N of 17 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>." Then "Unsure:" with up to 10 lines, or "none".
+
+Run every Python command inside the capped scope, as before.
+
+=== chat 16 (Final Label #6) ===
+New batch for you (chat 16): p2_s7_h6, 17 studies. Same task and rules as your finished p2 batch.
+List: work/claude_labels_oct20/_batches/p2_s7_h6.txt (one index per line). Work strictly in that order.
+
+Everything in your original p2 prompt applies unchanged: the p2 panel (contusion, fracture, pf_oa), images + report, Change 1-4, notes naming the native series + slice range and ending with the source tag, a native --box crop for every finding, blind-labelling and memory-safety rules, and one study at a time without stopping. Keep your chat number and temp folder (views.py <index> --chat 16, _tmp_c16/). You already read the anchors, so no need to repeat them.
+
+Only these change:
+- Output folder: work/claude_labels_oct20/p2_s7_h6/ (create it). One <study_id>.json per index. Never write these studies into your old p2_s6/ folder.
+- Read permission: add your new list _batches/p2_s7_h6.txt and your new output folder p2_s7_h6/ to what you may read. The rest of the blind rules are unchanged.
+- Resuming: before each index, skip it if p2_s7_h6/ already holds a valid file for it.
+- Validate each file after saving:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p2_s7_h6/<study_id>.json
+  At the end: conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p2_s7_h6 work/claude_labels_oct20/_batches/p2_s7_h6.txt
+- Final message: "Batch p2_s7_h6: N of 17 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>." Then "Unsure:" with up to 10 lines, or "none".
+
+Run every Python command inside the capped scope, as before.
+
+=== chat 15 (Final Label #5) ===
+New batch for you (chat 15): p2_s7_h5, 16 studies. Same task and rules as your finished p2 batch.
+List: work/claude_labels_oct20/_batches/p2_s7_h5.txt (one index per line). Work strictly in that order.
+
+Everything in your original p2 prompt applies unchanged: the p2 panel (contusion, fracture, pf_oa), images + report, Change 1-4, notes naming the native series + slice range and ending with the source tag, a native --box crop for every finding, blind-labelling and memory-safety rules, and one study at a time without stopping. Keep your chat number and temp folder (views.py <index> --chat 15, _tmp_c15/). You already read the anchors, so no need to repeat them.
+
+Only these change:
+- Output folder: work/claude_labels_oct20/p2_s7_h5/ (create it). One <study_id>.json per index. Never write these studies into your old p2_s5/ folder.
+- Read permission: add your new list _batches/p2_s7_h5.txt and your new output folder p2_s7_h5/ to what you may read. The rest of the blind rules are unchanged.
+- Resuming: before each index, skip it if p2_s7_h5/ already holds a valid file for it.
+- Validate each file after saving:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p2_s7_h5/<study_id>.json
+  At the end: conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p2_s7_h5 work/claude_labels_oct20/_batches/p2_s7_h5.txt
+- Final message: "Batch p2_s7_h5: N of 16 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>." Then "Unsure:" with up to 10 lines, or "none".
+
+Run every Python command inside the capped scope, as before.
+

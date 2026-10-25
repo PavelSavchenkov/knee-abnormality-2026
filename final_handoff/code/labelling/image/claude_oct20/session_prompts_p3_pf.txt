@@ -1,0 +1,767 @@
+### Phase 3 PF, session 44: image + report labels, pf_oa only with a depth record, batch p3_s44 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p3_s44.txt strictly in order. Each line is "INDEX pf_oa". For each index, label only pf_oa. The list says which finding to label, not whether it is present. Many listed findings are absent, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p3.json in full, and look at host_figures 10_oa_negative, 11_oa_negative, 12_oa_positive and 13_oa_positive (the other figures are for findings you do not label).
+
+Change 1 - the panel: each file follows schema_p3.json and holds "panel": "p3", with no structures list. Its findings object holds exactly pf_oa, nothing else. Use every rule prompt.txt gives for pf_oa.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #9-12"), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 9_patella, 3_ax_fs and 1_sag_fs (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these that the study has. If a sheet is missing, the study has no series of that plane.
+
+Change 4 - looking, for EVERY study: open native full-resolution views with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder: native axial through the patellar facets and the trochlea, and native sagittal through the patellofemoral joint, cartilage enlarged. Estimate the deepest cartilage loss as a percent of the local full cartilage thickness, and its extent in mm with the 10 mm bar. Start the pf_oa note with "d~N% e~M mm;" (N = deepest loss in percent, M = extent of the loss deeper than half the thickness, 0 if none), then your usual note. The note limit is 200 characters: keep the rest of the note short. Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchor 3297 and look at its report.txt and the Change 3 sheets once. Skip the other two anchors. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p3_s44/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c80/. For each study (and the anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 80
+It empties your temp folder, extracts the study's sheets into _tmp_c80/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p3_s44/ already holds a valid file for it (validate.py OK). If so, skip that index.
+Short restart: if p3_s44/ already holds files when you begin, the user restarted this chat to free context. Do the same setup (prompt.txt, definitions.md, schema_p3.json, the 4 OA figures, anchor 3297), then continue with the first index that has no valid file. Labels must not change because of a restart: same rules, same care.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p3_s44.txt, your output folder p3_s44/, your temp folder _tmp_c80/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s44/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list. It also checks that each file holds exactly its listed finding:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s44 work/claude_labels_oct20/_batches/p3_s44.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies, except: after the 25th study you save in this conversation (count from your start or restart), stop and write "Paused for a context restart after 25 saves. Next: <index>." The user will then clear the chat and paste the same prompt. If you must stop earlier (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p3_s44: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index pf_oa: reason", or "none".
+
+### Phase 3 PF, session 45: image + report labels, pf_oa only with a depth record, batch p3_s45 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p3_s45.txt strictly in order. Each line is "INDEX pf_oa". For each index, label only pf_oa. The list says which finding to label, not whether it is present. Many listed findings are absent, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p3.json in full, and look at host_figures 10_oa_negative, 11_oa_negative, 12_oa_positive and 13_oa_positive (the other figures are for findings you do not label).
+
+Change 1 - the panel: each file follows schema_p3.json and holds "panel": "p3", with no structures list. Its findings object holds exactly pf_oa, nothing else. Use every rule prompt.txt gives for pf_oa.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #9-12"), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 9_patella, 3_ax_fs and 1_sag_fs (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these that the study has. If a sheet is missing, the study has no series of that plane.
+
+Change 4 - looking, for EVERY study: open native full-resolution views with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder: native axial through the patellar facets and the trochlea, and native sagittal through the patellofemoral joint, cartilage enlarged. Estimate the deepest cartilage loss as a percent of the local full cartilage thickness, and its extent in mm with the 10 mm bar. Start the pf_oa note with "d~N% e~M mm;" (N = deepest loss in percent, M = extent of the loss deeper than half the thickness, 0 if none), then your usual note. The note limit is 200 characters: keep the rest of the note short. Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchor 3297 and look at its report.txt and the Change 3 sheets once. Skip the other two anchors. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p3_s45/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c81/. For each study (and the anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 81
+It empties your temp folder, extracts the study's sheets into _tmp_c81/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p3_s45/ already holds a valid file for it (validate.py OK). If so, skip that index.
+Short restart: if p3_s45/ already holds files when you begin, the user restarted this chat to free context. Do the same setup (prompt.txt, definitions.md, schema_p3.json, the 4 OA figures, anchor 3297), then continue with the first index that has no valid file. Labels must not change because of a restart: same rules, same care.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p3_s45.txt, your output folder p3_s45/, your temp folder _tmp_c81/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s45/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list. It also checks that each file holds exactly its listed finding:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s45 work/claude_labels_oct20/_batches/p3_s45.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies, except: after the 25th study you save in this conversation (count from your start or restart), stop and write "Paused for a context restart after 25 saves. Next: <index>." The user will then clear the chat and paste the same prompt. If you must stop earlier (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p3_s45: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index pf_oa: reason", or "none".
+
+### Phase 3 PF, session 46: image + report labels, pf_oa only with a depth record, batch p3_s46 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p3_s46.txt strictly in order. Each line is "INDEX pf_oa". For each index, label only pf_oa. The list says which finding to label, not whether it is present. Many listed findings are absent, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p3.json in full, and look at host_figures 10_oa_negative, 11_oa_negative, 12_oa_positive and 13_oa_positive (the other figures are for findings you do not label).
+
+Change 1 - the panel: each file follows schema_p3.json and holds "panel": "p3", with no structures list. Its findings object holds exactly pf_oa, nothing else. Use every rule prompt.txt gives for pf_oa.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #9-12"), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 9_patella, 3_ax_fs and 1_sag_fs (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these that the study has. If a sheet is missing, the study has no series of that plane.
+
+Change 4 - looking, for EVERY study: open native full-resolution views with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder: native axial through the patellar facets and the trochlea, and native sagittal through the patellofemoral joint, cartilage enlarged. Estimate the deepest cartilage loss as a percent of the local full cartilage thickness, and its extent in mm with the 10 mm bar. Start the pf_oa note with "d~N% e~M mm;" (N = deepest loss in percent, M = extent of the loss deeper than half the thickness, 0 if none), then your usual note. The note limit is 200 characters: keep the rest of the note short. Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchor 3297 and look at its report.txt and the Change 3 sheets once. Skip the other two anchors. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p3_s46/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c82/. For each study (and the anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 82
+It empties your temp folder, extracts the study's sheets into _tmp_c82/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p3_s46/ already holds a valid file for it (validate.py OK). If so, skip that index.
+Short restart: if p3_s46/ already holds files when you begin, the user restarted this chat to free context. Do the same setup (prompt.txt, definitions.md, schema_p3.json, the 4 OA figures, anchor 3297), then continue with the first index that has no valid file. Labels must not change because of a restart: same rules, same care.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p3_s46.txt, your output folder p3_s46/, your temp folder _tmp_c82/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s46/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list. It also checks that each file holds exactly its listed finding:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s46 work/claude_labels_oct20/_batches/p3_s46.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies, except: after the 25th study you save in this conversation (count from your start or restart), stop and write "Paused for a context restart after 25 saves. Next: <index>." The user will then clear the chat and paste the same prompt. If you must stop earlier (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p3_s46: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index pf_oa: reason", or "none".
+
+### Phase 3 PF, session 47: image + report labels, pf_oa only with a depth record, batch p3_s47 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p3_s47.txt strictly in order. Each line is "INDEX pf_oa". For each index, label only pf_oa. The list says which finding to label, not whether it is present. Many listed findings are absent, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p3.json in full, and look at host_figures 10_oa_negative, 11_oa_negative, 12_oa_positive and 13_oa_positive (the other figures are for findings you do not label).
+
+Change 1 - the panel: each file follows schema_p3.json and holds "panel": "p3", with no structures list. Its findings object holds exactly pf_oa, nothing else. Use every rule prompt.txt gives for pf_oa.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #9-12"), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 9_patella, 3_ax_fs and 1_sag_fs (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these that the study has. If a sheet is missing, the study has no series of that plane.
+
+Change 4 - looking, for EVERY study: open native full-resolution views with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder: native axial through the patellar facets and the trochlea, and native sagittal through the patellofemoral joint, cartilage enlarged. Estimate the deepest cartilage loss as a percent of the local full cartilage thickness, and its extent in mm with the 10 mm bar. Start the pf_oa note with "d~N% e~M mm;" (N = deepest loss in percent, M = extent of the loss deeper than half the thickness, 0 if none), then your usual note. The note limit is 200 characters: keep the rest of the note short. Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchor 3297 and look at its report.txt and the Change 3 sheets once. Skip the other two anchors. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p3_s47/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c83/. For each study (and the anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 83
+It empties your temp folder, extracts the study's sheets into _tmp_c83/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p3_s47/ already holds a valid file for it (validate.py OK). If so, skip that index.
+Short restart: if p3_s47/ already holds files when you begin, the user restarted this chat to free context. Do the same setup (prompt.txt, definitions.md, schema_p3.json, the 4 OA figures, anchor 3297), then continue with the first index that has no valid file. Labels must not change because of a restart: same rules, same care.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p3_s47.txt, your output folder p3_s47/, your temp folder _tmp_c83/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s47/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list. It also checks that each file holds exactly its listed finding:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s47 work/claude_labels_oct20/_batches/p3_s47.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies, except: after the 25th study you save in this conversation (count from your start or restart), stop and write "Paused for a context restart after 25 saves. Next: <index>." The user will then clear the chat and paste the same prompt. If you must stop earlier (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p3_s47: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index pf_oa: reason", or "none".
+
+### Phase 3 PF, session 48: image + report labels, pf_oa only with a depth record, batch p3_s48 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p3_s48.txt strictly in order. Each line is "INDEX pf_oa". For each index, label only pf_oa. The list says which finding to label, not whether it is present. Many listed findings are absent, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p3.json in full, and look at host_figures 10_oa_negative, 11_oa_negative, 12_oa_positive and 13_oa_positive (the other figures are for findings you do not label).
+
+Change 1 - the panel: each file follows schema_p3.json and holds "panel": "p3", with no structures list. Its findings object holds exactly pf_oa, nothing else. Use every rule prompt.txt gives for pf_oa.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #9-12"), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 9_patella, 3_ax_fs and 1_sag_fs (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these that the study has. If a sheet is missing, the study has no series of that plane.
+
+Change 4 - looking, for EVERY study: open native full-resolution views with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder: native axial through the patellar facets and the trochlea, and native sagittal through the patellofemoral joint, cartilage enlarged. Estimate the deepest cartilage loss as a percent of the local full cartilage thickness, and its extent in mm with the 10 mm bar. Start the pf_oa note with "d~N% e~M mm;" (N = deepest loss in percent, M = extent of the loss deeper than half the thickness, 0 if none), then your usual note. The note limit is 200 characters: keep the rest of the note short. Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchor 3297 and look at its report.txt and the Change 3 sheets once. Skip the other two anchors. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p3_s48/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c84/. For each study (and the anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 84
+It empties your temp folder, extracts the study's sheets into _tmp_c84/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p3_s48/ already holds a valid file for it (validate.py OK). If so, skip that index.
+Short restart: if p3_s48/ already holds files when you begin, the user restarted this chat to free context. Do the same setup (prompt.txt, definitions.md, schema_p3.json, the 4 OA figures, anchor 3297), then continue with the first index that has no valid file. Labels must not change because of a restart: same rules, same care.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p3_s48.txt, your output folder p3_s48/, your temp folder _tmp_c84/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s48/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list. It also checks that each file holds exactly its listed finding:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s48 work/claude_labels_oct20/_batches/p3_s48.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies, except: after the 25th study you save in this conversation (count from your start or restart), stop and write "Paused for a context restart after 25 saves. Next: <index>." The user will then clear the chat and paste the same prompt. If you must stop earlier (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p3_s48: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index pf_oa: reason", or "none".
+
+### Phase 3 PF, session 49: image + report labels, pf_oa only with a depth record, batch p3_s49 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p3_s49.txt strictly in order. Each line is "INDEX pf_oa". For each index, label only pf_oa. The list says which finding to label, not whether it is present. Many listed findings are absent, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p3.json in full, and look at host_figures 10_oa_negative, 11_oa_negative, 12_oa_positive and 13_oa_positive (the other figures are for findings you do not label).
+
+Change 1 - the panel: each file follows schema_p3.json and holds "panel": "p3", with no structures list. Its findings object holds exactly pf_oa, nothing else. Use every rule prompt.txt gives for pf_oa.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #9-12"), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 9_patella, 3_ax_fs and 1_sag_fs (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these that the study has. If a sheet is missing, the study has no series of that plane.
+
+Change 4 - looking, for EVERY study: open native full-resolution views with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder: native axial through the patellar facets and the trochlea, and native sagittal through the patellofemoral joint, cartilage enlarged. Estimate the deepest cartilage loss as a percent of the local full cartilage thickness, and its extent in mm with the 10 mm bar. Start the pf_oa note with "d~N% e~M mm;" (N = deepest loss in percent, M = extent of the loss deeper than half the thickness, 0 if none), then your usual note. The note limit is 200 characters: keep the rest of the note short. Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchor 3297 and look at its report.txt and the Change 3 sheets once. Skip the other two anchors. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p3_s49/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c85/. For each study (and the anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 85
+It empties your temp folder, extracts the study's sheets into _tmp_c85/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p3_s49/ already holds a valid file for it (validate.py OK). If so, skip that index.
+Short restart: if p3_s49/ already holds files when you begin, the user restarted this chat to free context. Do the same setup (prompt.txt, definitions.md, schema_p3.json, the 4 OA figures, anchor 3297), then continue with the first index that has no valid file. Labels must not change because of a restart: same rules, same care.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p3_s49.txt, your output folder p3_s49/, your temp folder _tmp_c85/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s49/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list. It also checks that each file holds exactly its listed finding:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s49 work/claude_labels_oct20/_batches/p3_s49.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies, except: after the 25th study you save in this conversation (count from your start or restart), stop and write "Paused for a context restart after 25 saves. Next: <index>." The user will then clear the chat and paste the same prompt. If you must stop earlier (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p3_s49: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index pf_oa: reason", or "none".
+
+### Phase 3 PF, session 50: image + report labels, pf_oa only with a depth record, batch p3_s50 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p3_s50.txt strictly in order. Each line is "INDEX pf_oa". For each index, label only pf_oa. The list says which finding to label, not whether it is present. Many listed findings are absent, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p3.json in full, and look at host_figures 10_oa_negative, 11_oa_negative, 12_oa_positive and 13_oa_positive (the other figures are for findings you do not label).
+
+Change 1 - the panel: each file follows schema_p3.json and holds "panel": "p3", with no structures list. Its findings object holds exactly pf_oa, nothing else. Use every rule prompt.txt gives for pf_oa.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #9-12"), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 9_patella, 3_ax_fs and 1_sag_fs (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these that the study has. If a sheet is missing, the study has no series of that plane.
+
+Change 4 - looking, for EVERY study: open native full-resolution views with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder: native axial through the patellar facets and the trochlea, and native sagittal through the patellofemoral joint, cartilage enlarged. Estimate the deepest cartilage loss as a percent of the local full cartilage thickness, and its extent in mm with the 10 mm bar. Start the pf_oa note with "d~N% e~M mm;" (N = deepest loss in percent, M = extent of the loss deeper than half the thickness, 0 if none), then your usual note. The note limit is 200 characters: keep the rest of the note short. Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchor 3297 and look at its report.txt and the Change 3 sheets once. Skip the other two anchors. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p3_s50/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c86/. For each study (and the anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 86
+It empties your temp folder, extracts the study's sheets into _tmp_c86/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p3_s50/ already holds a valid file for it (validate.py OK). If so, skip that index.
+Short restart: if p3_s50/ already holds files when you begin, the user restarted this chat to free context. Do the same setup (prompt.txt, definitions.md, schema_p3.json, the 4 OA figures, anchor 3297), then continue with the first index that has no valid file. Labels must not change because of a restart: same rules, same care.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p3_s50.txt, your output folder p3_s50/, your temp folder _tmp_c86/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s50/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list. It also checks that each file holds exactly its listed finding:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s50 work/claude_labels_oct20/_batches/p3_s50.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies, except: after the 25th study you save in this conversation (count from your start or restart), stop and write "Paused for a context restart after 25 saves. Next: <index>." The user will then clear the chat and paste the same prompt. If you must stop earlier (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p3_s50: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index pf_oa: reason", or "none".
+
+### Phase 3 PF, session 51: image + report labels, pf_oa only with a depth record, batch p3_s51 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p3_s51.txt strictly in order. Each line is "INDEX pf_oa". For each index, label only pf_oa. The list says which finding to label, not whether it is present. Many listed findings are absent, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p3.json in full, and look at host_figures 10_oa_negative, 11_oa_negative, 12_oa_positive and 13_oa_positive (the other figures are for findings you do not label).
+
+Change 1 - the panel: each file follows schema_p3.json and holds "panel": "p3", with no structures list. Its findings object holds exactly pf_oa, nothing else. Use every rule prompt.txt gives for pf_oa.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #9-12"), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 9_patella, 3_ax_fs and 1_sag_fs (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these that the study has. If a sheet is missing, the study has no series of that plane.
+
+Change 4 - looking, for EVERY study: open native full-resolution views with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder: native axial through the patellar facets and the trochlea, and native sagittal through the patellofemoral joint, cartilage enlarged. Estimate the deepest cartilage loss as a percent of the local full cartilage thickness, and its extent in mm with the 10 mm bar. Start the pf_oa note with "d~N% e~M mm;" (N = deepest loss in percent, M = extent of the loss deeper than half the thickness, 0 if none), then your usual note. The note limit is 200 characters: keep the rest of the note short. Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchor 3297 and look at its report.txt and the Change 3 sheets once. Skip the other two anchors. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p3_s51/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c87/. For each study (and the anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 87
+It empties your temp folder, extracts the study's sheets into _tmp_c87/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p3_s51/ already holds a valid file for it (validate.py OK). If so, skip that index.
+Short restart: if p3_s51/ already holds files when you begin, the user restarted this chat to free context. Do the same setup (prompt.txt, definitions.md, schema_p3.json, the 4 OA figures, anchor 3297), then continue with the first index that has no valid file. Labels must not change because of a restart: same rules, same care.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p3_s51.txt, your output folder p3_s51/, your temp folder _tmp_c87/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s51/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list. It also checks that each file holds exactly its listed finding:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s51 work/claude_labels_oct20/_batches/p3_s51.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies, except: after the 25th study you save in this conversation (count from your start or restart), stop and write "Paused for a context restart after 25 saves. Next: <index>." The user will then clear the chat and paste the same prompt. If you must stop earlier (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p3_s51: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index pf_oa: reason", or "none".
+
+### Phase 3 PF, session 52: image + report labels, pf_oa only with a depth record, batch p3_s52 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p3_s52.txt strictly in order. Each line is "INDEX pf_oa". For each index, label only pf_oa. The list says which finding to label, not whether it is present. Many listed findings are absent, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p3.json in full, and look at host_figures 10_oa_negative, 11_oa_negative, 12_oa_positive and 13_oa_positive (the other figures are for findings you do not label).
+
+Change 1 - the panel: each file follows schema_p3.json and holds "panel": "p3", with no structures list. Its findings object holds exactly pf_oa, nothing else. Use every rule prompt.txt gives for pf_oa.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #9-12"), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 9_patella, 3_ax_fs and 1_sag_fs (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these that the study has. If a sheet is missing, the study has no series of that plane.
+
+Change 4 - looking, for EVERY study: open native full-resolution views with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder: native axial through the patellar facets and the trochlea, and native sagittal through the patellofemoral joint, cartilage enlarged. Estimate the deepest cartilage loss as a percent of the local full cartilage thickness, and its extent in mm with the 10 mm bar. Start the pf_oa note with "d~N% e~M mm;" (N = deepest loss in percent, M = extent of the loss deeper than half the thickness, 0 if none), then your usual note. The note limit is 200 characters: keep the rest of the note short. Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchor 3297 and look at its report.txt and the Change 3 sheets once. Skip the other two anchors. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p3_s52/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c88/. For each study (and the anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 88
+It empties your temp folder, extracts the study's sheets into _tmp_c88/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p3_s52/ already holds a valid file for it (validate.py OK). If so, skip that index.
+Short restart: if p3_s52/ already holds files when you begin, the user restarted this chat to free context. Do the same setup (prompt.txt, definitions.md, schema_p3.json, the 4 OA figures, anchor 3297), then continue with the first index that has no valid file. Labels must not change because of a restart: same rules, same care.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p3_s52.txt, your output folder p3_s52/, your temp folder _tmp_c88/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s52/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list. It also checks that each file holds exactly its listed finding:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s52 work/claude_labels_oct20/_batches/p3_s52.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies, except: after the 25th study you save in this conversation (count from your start or restart), stop and write "Paused for a context restart after 25 saves. Next: <index>." The user will then clear the chat and paste the same prompt. If you must stop earlier (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p3_s52: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index pf_oa: reason", or "none".
+
+### Phase 3 PF, session 53: image + report labels, pf_oa only with a depth record, batch p3_s53 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p3_s53.txt strictly in order. Each line is "INDEX pf_oa". For each index, label only pf_oa. The list says which finding to label, not whether it is present. Many listed findings are absent, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p3.json in full, and look at host_figures 10_oa_negative, 11_oa_negative, 12_oa_positive and 13_oa_positive (the other figures are for findings you do not label).
+
+Change 1 - the panel: each file follows schema_p3.json and holds "panel": "p3", with no structures list. Its findings object holds exactly pf_oa, nothing else. Use every rule prompt.txt gives for pf_oa.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #9-12"), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 9_patella, 3_ax_fs and 1_sag_fs (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these that the study has. If a sheet is missing, the study has no series of that plane.
+
+Change 4 - looking, for EVERY study: open native full-resolution views with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder: native axial through the patellar facets and the trochlea, and native sagittal through the patellofemoral joint, cartilage enlarged. Estimate the deepest cartilage loss as a percent of the local full cartilage thickness, and its extent in mm with the 10 mm bar. Start the pf_oa note with "d~N% e~M mm;" (N = deepest loss in percent, M = extent of the loss deeper than half the thickness, 0 if none), then your usual note. The note limit is 200 characters: keep the rest of the note short. Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchor 3297 and look at its report.txt and the Change 3 sheets once. Skip the other two anchors. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p3_s53/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c89/. For each study (and the anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 89
+It empties your temp folder, extracts the study's sheets into _tmp_c89/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p3_s53/ already holds a valid file for it (validate.py OK). If so, skip that index.
+Short restart: if p3_s53/ already holds files when you begin, the user restarted this chat to free context. Do the same setup (prompt.txt, definitions.md, schema_p3.json, the 4 OA figures, anchor 3297), then continue with the first index that has no valid file. Labels must not change because of a restart: same rules, same care.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p3_s53.txt, your output folder p3_s53/, your temp folder _tmp_c89/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s53/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list. It also checks that each file holds exactly its listed finding:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s53 work/claude_labels_oct20/_batches/p3_s53.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies, except: after the 25th study you save in this conversation (count from your start or restart), stop and write "Paused for a context restart after 25 saves. Next: <index>." The user will then clear the chat and paste the same prompt. If you must stop earlier (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p3_s53: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index pf_oa: reason", or "none".
+
+### Phase 3 PF, session 54: image + report labels, pf_oa only with a depth record, batch p3_s54 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p3_s54.txt strictly in order. Each line is "INDEX pf_oa". For each index, label only pf_oa. The list says which finding to label, not whether it is present. Many listed findings are absent, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p3.json in full, and look at host_figures 10_oa_negative, 11_oa_negative, 12_oa_positive and 13_oa_positive (the other figures are for findings you do not label).
+
+Change 1 - the panel: each file follows schema_p3.json and holds "panel": "p3", with no structures list. Its findings object holds exactly pf_oa, nothing else. Use every rule prompt.txt gives for pf_oa.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #9-12"), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 9_patella, 3_ax_fs and 1_sag_fs (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these that the study has. If a sheet is missing, the study has no series of that plane.
+
+Change 4 - looking, for EVERY study: open native full-resolution views with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder: native axial through the patellar facets and the trochlea, and native sagittal through the patellofemoral joint, cartilage enlarged. Estimate the deepest cartilage loss as a percent of the local full cartilage thickness, and its extent in mm with the 10 mm bar. Start the pf_oa note with "d~N% e~M mm;" (N = deepest loss in percent, M = extent of the loss deeper than half the thickness, 0 if none), then your usual note. The note limit is 200 characters: keep the rest of the note short. Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchor 3297 and look at its report.txt and the Change 3 sheets once. Skip the other two anchors. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p3_s54/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c90/. For each study (and the anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 90
+It empties your temp folder, extracts the study's sheets into _tmp_c90/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p3_s54/ already holds a valid file for it (validate.py OK). If so, skip that index.
+Short restart: if p3_s54/ already holds files when you begin, the user restarted this chat to free context. Do the same setup (prompt.txt, definitions.md, schema_p3.json, the 4 OA figures, anchor 3297), then continue with the first index that has no valid file. Labels must not change because of a restart: same rules, same care.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p3_s54.txt, your output folder p3_s54/, your temp folder _tmp_c90/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s54/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list. It also checks that each file holds exactly its listed finding:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s54 work/claude_labels_oct20/_batches/p3_s54.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies, except: after the 25th study you save in this conversation (count from your start or restart), stop and write "Paused for a context restart after 25 saves. Next: <index>." The user will then clear the chat and paste the same prompt. If you must stop earlier (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p3_s54: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index pf_oa: reason", or "none".
+
+### Phase 3 PF, session 55: image + report labels, pf_oa only with a depth record, batch p3_s55 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p3_s55.txt strictly in order. Each line is "INDEX pf_oa". For each index, label only pf_oa. The list says which finding to label, not whether it is present. Many listed findings are absent, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p3.json in full, and look at host_figures 10_oa_negative, 11_oa_negative, 12_oa_positive and 13_oa_positive (the other figures are for findings you do not label).
+
+Change 1 - the panel: each file follows schema_p3.json and holds "panel": "p3", with no structures list. Its findings object holds exactly pf_oa, nothing else. Use every rule prompt.txt gives for pf_oa.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #9-12"), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 9_patella, 3_ax_fs and 1_sag_fs (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these that the study has. If a sheet is missing, the study has no series of that plane.
+
+Change 4 - looking, for EVERY study: open native full-resolution views with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder: native axial through the patellar facets and the trochlea, and native sagittal through the patellofemoral joint, cartilage enlarged. Estimate the deepest cartilage loss as a percent of the local full cartilage thickness, and its extent in mm with the 10 mm bar. Start the pf_oa note with "d~N% e~M mm;" (N = deepest loss in percent, M = extent of the loss deeper than half the thickness, 0 if none), then your usual note. The note limit is 200 characters: keep the rest of the note short. Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchor 3297 and look at its report.txt and the Change 3 sheets once. Skip the other two anchors. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p3_s55/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c91/. For each study (and the anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 91
+It empties your temp folder, extracts the study's sheets into _tmp_c91/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p3_s55/ already holds a valid file for it (validate.py OK). If so, skip that index.
+Short restart: if p3_s55/ already holds files when you begin, the user restarted this chat to free context. Do the same setup (prompt.txt, definitions.md, schema_p3.json, the 4 OA figures, anchor 3297), then continue with the first index that has no valid file. Labels must not change because of a restart: same rules, same care.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p3_s55.txt, your output folder p3_s55/, your temp folder _tmp_c91/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s55/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list. It also checks that each file holds exactly its listed finding:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s55 work/claude_labels_oct20/_batches/p3_s55.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies, except: after the 25th study you save in this conversation (count from your start or restart), stop and write "Paused for a context restart after 25 saves. Next: <index>." The user will then clear the chat and paste the same prompt. If you must stop earlier (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p3_s55: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index pf_oa: reason", or "none".
+
+### Phase 3 PF, session 56: image + report labels, pf_oa only with a depth record, batch p3_s56 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p3_s56.txt strictly in order. Each line is "INDEX pf_oa". For each index, label only pf_oa. The list says which finding to label, not whether it is present. Many listed findings are absent, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p3.json in full, and look at host_figures 10_oa_negative, 11_oa_negative, 12_oa_positive and 13_oa_positive (the other figures are for findings you do not label).
+
+Change 1 - the panel: each file follows schema_p3.json and holds "panel": "p3", with no structures list. Its findings object holds exactly pf_oa, nothing else. Use every rule prompt.txt gives for pf_oa.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #9-12"), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 9_patella, 3_ax_fs and 1_sag_fs (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these that the study has. If a sheet is missing, the study has no series of that plane.
+
+Change 4 - looking, for EVERY study: open native full-resolution views with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder: native axial through the patellar facets and the trochlea, and native sagittal through the patellofemoral joint, cartilage enlarged. Estimate the deepest cartilage loss as a percent of the local full cartilage thickness, and its extent in mm with the 10 mm bar. Start the pf_oa note with "d~N% e~M mm;" (N = deepest loss in percent, M = extent of the loss deeper than half the thickness, 0 if none), then your usual note. The note limit is 200 characters: keep the rest of the note short. Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchor 3297 and look at its report.txt and the Change 3 sheets once. Skip the other two anchors. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p3_s56/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c92/. For each study (and the anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 92
+It empties your temp folder, extracts the study's sheets into _tmp_c92/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p3_s56/ already holds a valid file for it (validate.py OK). If so, skip that index.
+Short restart: if p3_s56/ already holds files when you begin, the user restarted this chat to free context. Do the same setup (prompt.txt, definitions.md, schema_p3.json, the 4 OA figures, anchor 3297), then continue with the first index that has no valid file. Labels must not change because of a restart: same rules, same care.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p3_s56.txt, your output folder p3_s56/, your temp folder _tmp_c92/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s56/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list. It also checks that each file holds exactly its listed finding:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s56 work/claude_labels_oct20/_batches/p3_s56.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies, except: after the 25th study you save in this conversation (count from your start or restart), stop and write "Paused for a context restart after 25 saves. Next: <index>." The user will then clear the chat and paste the same prompt. If you must stop earlier (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p3_s56: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index pf_oa: reason", or "none".
+
+### Phase 3 PF, session 57: image + report labels, pf_oa only with a depth record, batch p3_s57 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p3_s57.txt strictly in order. Each line is "INDEX pf_oa". For each index, label only pf_oa. The list says which finding to label, not whether it is present. Many listed findings are absent, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p3.json in full, and look at host_figures 10_oa_negative, 11_oa_negative, 12_oa_positive and 13_oa_positive (the other figures are for findings you do not label).
+
+Change 1 - the panel: each file follows schema_p3.json and holds "panel": "p3", with no structures list. Its findings object holds exactly pf_oa, nothing else. Use every rule prompt.txt gives for pf_oa.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #9-12"), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 9_patella, 3_ax_fs and 1_sag_fs (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these that the study has. If a sheet is missing, the study has no series of that plane.
+
+Change 4 - looking, for EVERY study: open native full-resolution views with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder: native axial through the patellar facets and the trochlea, and native sagittal through the patellofemoral joint, cartilage enlarged. Estimate the deepest cartilage loss as a percent of the local full cartilage thickness, and its extent in mm with the 10 mm bar. Start the pf_oa note with "d~N% e~M mm;" (N = deepest loss in percent, M = extent of the loss deeper than half the thickness, 0 if none), then your usual note. The note limit is 200 characters: keep the rest of the note short. Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchor 3297 and look at its report.txt and the Change 3 sheets once. Skip the other two anchors. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p3_s57/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c93/. For each study (and the anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 93
+It empties your temp folder, extracts the study's sheets into _tmp_c93/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p3_s57/ already holds a valid file for it (validate.py OK). If so, skip that index.
+Short restart: if p3_s57/ already holds files when you begin, the user restarted this chat to free context. Do the same setup (prompt.txt, definitions.md, schema_p3.json, the 4 OA figures, anchor 3297), then continue with the first index that has no valid file. Labels must not change because of a restart: same rules, same care.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p3_s57.txt, your output folder p3_s57/, your temp folder _tmp_c93/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s57/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list. It also checks that each file holds exactly its listed finding:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s57 work/claude_labels_oct20/_batches/p3_s57.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies, except: after the 25th study you save in this conversation (count from your start or restart), stop and write "Paused for a context restart after 25 saves. Next: <index>." The user will then clear the chat and paste the same prompt. If you must stop earlier (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p3_s57: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index pf_oa: reason", or "none".
+
+### Phase 3 PF, session 58: image + report labels, pf_oa only with a depth record, batch p3_s58 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p3_s58.txt strictly in order. Each line is "INDEX pf_oa". For each index, label only pf_oa. The list says which finding to label, not whether it is present. Many listed findings are absent, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p3.json in full, and look at host_figures 10_oa_negative, 11_oa_negative, 12_oa_positive and 13_oa_positive (the other figures are for findings you do not label).
+
+Change 1 - the panel: each file follows schema_p3.json and holds "panel": "p3", with no structures list. Its findings object holds exactly pf_oa, nothing else. Use every rule prompt.txt gives for pf_oa.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #9-12"), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 9_patella, 3_ax_fs and 1_sag_fs (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these that the study has. If a sheet is missing, the study has no series of that plane.
+
+Change 4 - looking, for EVERY study: open native full-resolution views with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder: native axial through the patellar facets and the trochlea, and native sagittal through the patellofemoral joint, cartilage enlarged. Estimate the deepest cartilage loss as a percent of the local full cartilage thickness, and its extent in mm with the 10 mm bar. Start the pf_oa note with "d~N% e~M mm;" (N = deepest loss in percent, M = extent of the loss deeper than half the thickness, 0 if none), then your usual note. The note limit is 200 characters: keep the rest of the note short. Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchor 3297 and look at its report.txt and the Change 3 sheets once. Skip the other two anchors. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p3_s58/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c94/. For each study (and the anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 94
+It empties your temp folder, extracts the study's sheets into _tmp_c94/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p3_s58/ already holds a valid file for it (validate.py OK). If so, skip that index.
+Short restart: if p3_s58/ already holds files when you begin, the user restarted this chat to free context. Do the same setup (prompt.txt, definitions.md, schema_p3.json, the 4 OA figures, anchor 3297), then continue with the first index that has no valid file. Labels must not change because of a restart: same rules, same care.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p3_s58.txt, your output folder p3_s58/, your temp folder _tmp_c94/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s58/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list. It also checks that each file holds exactly its listed finding:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s58 work/claude_labels_oct20/_batches/p3_s58.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies, except: after the 25th study you save in this conversation (count from your start or restart), stop and write "Paused for a context restart after 25 saves. Next: <index>." The user will then clear the chat and paste the same prompt. If you must stop earlier (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p3_s58: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index pf_oa: reason", or "none".
+
+### Phase 3 PF, session 59: image + report labels, pf_oa only with a depth record, batch p3_s59 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p3_s59.txt strictly in order. Each line is "INDEX pf_oa". For each index, label only pf_oa. The list says which finding to label, not whether it is present. Many listed findings are absent, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p3.json in full, and look at host_figures 10_oa_negative, 11_oa_negative, 12_oa_positive and 13_oa_positive (the other figures are for findings you do not label).
+
+Change 1 - the panel: each file follows schema_p3.json and holds "panel": "p3", with no structures list. Its findings object holds exactly pf_oa, nothing else. Use every rule prompt.txt gives for pf_oa.
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #9-12"), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 9_patella, 3_ax_fs and 1_sag_fs (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these that the study has. If a sheet is missing, the study has no series of that plane.
+
+Change 4 - looking, for EVERY study: open native full-resolution views with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder: native axial through the patellar facets and the trochlea, and native sagittal through the patellofemoral joint, cartilage enlarged. Estimate the deepest cartilage loss as a percent of the local full cartilage thickness, and its extent in mm with the 10 mm bar. Start the pf_oa note with "d~N% e~M mm;" (N = deepest loss in percent, M = extent of the loss deeper than half the thickness, 0 if none), then your usual note. The note limit is 200 characters: keep the rest of the note short. Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchor 3297 and look at its report.txt and the Change 3 sheets once. Skip the other two anchors. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p3_s59/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c95/. For each study (and the anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 95
+It empties your temp folder, extracts the study's sheets into _tmp_c95/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p3_s59/ already holds a valid file for it (validate.py OK). If so, skip that index.
+Short restart: if p3_s59/ already holds files when you begin, the user restarted this chat to free context. Do the same setup (prompt.txt, definitions.md, schema_p3.json, the 4 OA figures, anchor 3297), then continue with the first index that has no valid file. Labels must not change because of a restart: same rules, same care.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, your list _batches/p3_s59.txt, your output folder p3_s59/, your temp folder _tmp_c95/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s59/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list. It also checks that each file holds exactly its listed finding:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p3_s59 work/claude_labels_oct20/_batches/p3_s59.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies, except: after the 25th study you save in this conversation (count from your start or restart), stop and write "Paused for a context restart after 25 saves. Next: <index>." The user will then clear the chat and paste the same prompt. If you must stop earlier (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p3_s59: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index pf_oa: reason", or "none".

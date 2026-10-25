@@ -1,0 +1,189 @@
+### Chat 1: synovitis batch b1
+
+You are labelling knee MRI studies from images only, for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling sessions run at the same time; never touch their folders.
+
+Task: the synovitis panel (joint effusion and synovitis) for the 102 indexes listed in work/codex_labels_oct7/_batches/syn_b1.txt (one per line), in that order; then the 3 extra indexes in work/codex_labels_oct7/_batches/syn_b1_extra.txt. The instructions are work/codex_labels_oct7/_prompts_q/prompt_synovitis.txt (already extracted, read-only: do not modify or re-extract that folder). Follow them exactly, with the changes below; where they conflict, these changes win. Do not use prompt.txt, prompt_fluid.txt or their schemas.
+
+Output: work/codex_labels_oct7/synovitis_b1/ for the 102 listed indexes, and work/codex_labels_oct7/synovitis_extra_b1/ for the 3 extra indexes; one <study_id>.json per index, each with "panel": "synovitis". No archive and no download link.
+Temporary files: only in work/codex_labels_oct7/_tmp_b1/ (create it). For each study, extract only its synovitis-panel sheets (1_sag_fs, 3_ax_fs, 5_notch, 9_patella; those it has) from the image zip named in _prompts_q/studies.csv, and empty the folder after the study is saved.
+
+Before the first study, read prompt_synovitis.txt, schema_synovitis.json, and the effusion and synovitis definitions in _prompts_q/definitions.md.
+
+Blind labelling: you may use only these.
+- Read: work/codex_labels_oct7/_prompts_q/, your two index lists above, your output and temp folders above, and the study folders of your indexes inside image_labeling_bundle/images_*.zip.
+- Run, without reading the files it reads: conda run -n rsna python work/image_labeling/view.py (usage: --help).
+Do not open, list, search or grep anything else: not data/ (reports and labels), not any other folder or file of work/ (including other sessions' synovitis_*, _tmp_*, _batches files and all earlier label folders such as fluid_*, sanity_0-9, gold_*), experiments/, common/, text_labeling_bundle/, public_knowledge/, prompts/, submissions/, git history, ~/.claude or ~/Downloads. No web search. Do not try to find out which real study an index belongs to. Judge every study fresh from its images, the extra indexes too.
+
+Native full-resolution views (view.py), a fixed protocol per study, using the study's fluid-sensitive series:
+- sagittal: about 11 consecutive slices around the middle at full field of view (suprapatellar recess, Hoffa's fat pad, fluid around the cruciates);
+- axial: every slice from the joint line up to the top of the suprapatellar recess.
+Use --window 5 99.9, so that bright fluid is not clipped and grey thickened synovium and debris stand out. Ignore series marked "other knee". Write view PNGs only in your temp folder.
+
+Looking: view every synovitis-panel sheet and every native view you rely on with view_image at full resolution. Code may only display, crop, enlarge or change brightness and contrast. Never decide or pre-fill labels with code. Evidence and boxes must name bundle tiles; when something is clearest on a native view, box it on the bundle tile of the same plane with the nearest position and name the view in the note, e.g. "native s1 #12-14". Some entries are copies of other studies with a small drawn mark: label them like any study and record the mark in qa.marks.
+
+Run Python only as: conda run -n rsna python ...
+Validate each file after saving it, for example:
+  conda run -n rsna python work/codex_labels_oct7/_prompts_q/validate.py work/codex_labels_oct7/synovitis_b1/<study_id>.json
+After the last listed index, validate the whole list; it must report 102 files OK and 0 with problems:
+  conda run -n rsna python work/codex_labels_oct7/_prompts_q/validate.py work/codex_labels_oct7/synovitis_b1 work/codex_labels_oct7/_batches/syn_b1.txt
+Then label the 3 extra indexes the same way and validate them:
+  conda run -n rsna python work/codex_labels_oct7/_prompts_q/validate.py work/codex_labels_oct7/synovitis_extra_b1 work/codex_labels_oct7/_batches/syn_b1_extra.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. Keep the same care for the last study as for the first. If you must stop early, finish and save the current study and end with "Next: <next index>".
+
+Final message:
+- "Batch b1: N of 102 studies, validate.py: N file(s) OK, 0 with problems. Extra: 3 of 3 saved and valid."
+- "Unsure:" followed by up to 10 lines "index finding: reason", or "none".
+
+### Chat 2: synovitis batch b2
+
+You are labelling knee MRI studies from images only, for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling sessions run at the same time; never touch their folders.
+
+Task: the synovitis panel (joint effusion and synovitis) for the 102 indexes listed in work/codex_labels_oct7/_batches/syn_b2.txt (one per line), in that order; then the 3 extra indexes in work/codex_labels_oct7/_batches/syn_b2_extra.txt. The instructions are work/codex_labels_oct7/_prompts_q/prompt_synovitis.txt (already extracted, read-only: do not modify or re-extract that folder). Follow them exactly, with the changes below; where they conflict, these changes win. Do not use prompt.txt, prompt_fluid.txt or their schemas.
+
+Output: work/codex_labels_oct7/synovitis_b2/ for the 102 listed indexes, and work/codex_labels_oct7/synovitis_extra_b2/ for the 3 extra indexes; one <study_id>.json per index, each with "panel": "synovitis". No archive and no download link.
+Temporary files: only in work/codex_labels_oct7/_tmp_b2/ (create it). For each study, extract only its synovitis-panel sheets (1_sag_fs, 3_ax_fs, 5_notch, 9_patella; those it has) from the image zip named in _prompts_q/studies.csv, and empty the folder after the study is saved.
+
+Before the first study, read prompt_synovitis.txt, schema_synovitis.json, and the effusion and synovitis definitions in _prompts_q/definitions.md.
+
+Blind labelling: you may use only these.
+- Read: work/codex_labels_oct7/_prompts_q/, your two index lists above, your output and temp folders above, and the study folders of your indexes inside image_labeling_bundle/images_*.zip.
+- Run, without reading the files it reads: conda run -n rsna python work/image_labeling/view.py (usage: --help).
+Do not open, list, search or grep anything else: not data/ (reports and labels), not any other folder or file of work/ (including other sessions' synovitis_*, _tmp_*, _batches files and all earlier label folders such as fluid_*, sanity_0-9, gold_*), experiments/, common/, text_labeling_bundle/, public_knowledge/, prompts/, submissions/, git history, ~/.claude or ~/Downloads. No web search. Do not try to find out which real study an index belongs to. Judge every study fresh from its images, the extra indexes too.
+
+Native full-resolution views (view.py), a fixed protocol per study, using the study's fluid-sensitive series:
+- sagittal: about 11 consecutive slices around the middle at full field of view (suprapatellar recess, Hoffa's fat pad, fluid around the cruciates);
+- axial: every slice from the joint line up to the top of the suprapatellar recess.
+Use --window 5 99.9, so that bright fluid is not clipped and grey thickened synovium and debris stand out. Ignore series marked "other knee". Write view PNGs only in your temp folder.
+
+Looking: view every synovitis-panel sheet and every native view you rely on with view_image at full resolution. Code may only display, crop, enlarge or change brightness and contrast. Never decide or pre-fill labels with code. Evidence and boxes must name bundle tiles; when something is clearest on a native view, box it on the bundle tile of the same plane with the nearest position and name the view in the note, e.g. "native s1 #12-14". Some entries are copies of other studies with a small drawn mark: label them like any study and record the mark in qa.marks.
+
+Run Python only as: conda run -n rsna python ...
+Validate each file after saving it, for example:
+  conda run -n rsna python work/codex_labels_oct7/_prompts_q/validate.py work/codex_labels_oct7/synovitis_b2/<study_id>.json
+After the last listed index, validate the whole list; it must report 102 files OK and 0 with problems:
+  conda run -n rsna python work/codex_labels_oct7/_prompts_q/validate.py work/codex_labels_oct7/synovitis_b2 work/codex_labels_oct7/_batches/syn_b2.txt
+Then label the 3 extra indexes the same way and validate them:
+  conda run -n rsna python work/codex_labels_oct7/_prompts_q/validate.py work/codex_labels_oct7/synovitis_extra_b2 work/codex_labels_oct7/_batches/syn_b2_extra.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. Keep the same care for the last study as for the first. If you must stop early, finish and save the current study and end with "Next: <next index>".
+
+Final message:
+- "Batch b2: N of 102 studies, validate.py: N file(s) OK, 0 with problems. Extra: 3 of 3 saved and valid."
+- "Unsure:" followed by up to 10 lines "index finding: reason", or "none".
+
+### Chat 3: synovitis batch b3
+
+You are labelling knee MRI studies from images only, for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling sessions run at the same time; never touch their folders.
+
+Task: the synovitis panel (joint effusion and synovitis) for the 102 indexes listed in work/codex_labels_oct7/_batches/syn_b3.txt (one per line), in that order; then the 3 extra indexes in work/codex_labels_oct7/_batches/syn_b3_extra.txt. The instructions are work/codex_labels_oct7/_prompts_q/prompt_synovitis.txt (already extracted, read-only: do not modify or re-extract that folder). Follow them exactly, with the changes below; where they conflict, these changes win. Do not use prompt.txt, prompt_fluid.txt or their schemas.
+
+Output: work/codex_labels_oct7/synovitis_b3/ for the 102 listed indexes, and work/codex_labels_oct7/synovitis_extra_b3/ for the 3 extra indexes; one <study_id>.json per index, each with "panel": "synovitis". No archive and no download link.
+Temporary files: only in work/codex_labels_oct7/_tmp_b3/ (create it). For each study, extract only its synovitis-panel sheets (1_sag_fs, 3_ax_fs, 5_notch, 9_patella; those it has) from the image zip named in _prompts_q/studies.csv, and empty the folder after the study is saved.
+
+Before the first study, read prompt_synovitis.txt, schema_synovitis.json, and the effusion and synovitis definitions in _prompts_q/definitions.md.
+
+Blind labelling: you may use only these.
+- Read: work/codex_labels_oct7/_prompts_q/, your two index lists above, your output and temp folders above, and the study folders of your indexes inside image_labeling_bundle/images_*.zip.
+- Run, without reading the files it reads: conda run -n rsna python work/image_labeling/view.py (usage: --help).
+Do not open, list, search or grep anything else: not data/ (reports and labels), not any other folder or file of work/ (including other sessions' synovitis_*, _tmp_*, _batches files and all earlier label folders such as fluid_*, sanity_0-9, gold_*), experiments/, common/, text_labeling_bundle/, public_knowledge/, prompts/, submissions/, git history, ~/.claude or ~/Downloads. No web search. Do not try to find out which real study an index belongs to. Judge every study fresh from its images, the extra indexes too.
+
+Native full-resolution views (view.py), a fixed protocol per study, using the study's fluid-sensitive series:
+- sagittal: about 11 consecutive slices around the middle at full field of view (suprapatellar recess, Hoffa's fat pad, fluid around the cruciates);
+- axial: every slice from the joint line up to the top of the suprapatellar recess.
+Use --window 5 99.9, so that bright fluid is not clipped and grey thickened synovium and debris stand out. Ignore series marked "other knee". Write view PNGs only in your temp folder.
+
+Looking: view every synovitis-panel sheet and every native view you rely on with view_image at full resolution. Code may only display, crop, enlarge or change brightness and contrast. Never decide or pre-fill labels with code. Evidence and boxes must name bundle tiles; when something is clearest on a native view, box it on the bundle tile of the same plane with the nearest position and name the view in the note, e.g. "native s1 #12-14". Some entries are copies of other studies with a small drawn mark: label them like any study and record the mark in qa.marks.
+
+Run Python only as: conda run -n rsna python ...
+Validate each file after saving it, for example:
+  conda run -n rsna python work/codex_labels_oct7/_prompts_q/validate.py work/codex_labels_oct7/synovitis_b3/<study_id>.json
+After the last listed index, validate the whole list; it must report 102 files OK and 0 with problems:
+  conda run -n rsna python work/codex_labels_oct7/_prompts_q/validate.py work/codex_labels_oct7/synovitis_b3 work/codex_labels_oct7/_batches/syn_b3.txt
+Then label the 3 extra indexes the same way and validate them:
+  conda run -n rsna python work/codex_labels_oct7/_prompts_q/validate.py work/codex_labels_oct7/synovitis_extra_b3 work/codex_labels_oct7/_batches/syn_b3_extra.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. Keep the same care for the last study as for the first. If you must stop early, finish and save the current study and end with "Next: <next index>".
+
+Final message:
+- "Batch b3: N of 102 studies, validate.py: N file(s) OK, 0 with problems. Extra: 3 of 3 saved and valid."
+- "Unsure:" followed by up to 10 lines "index finding: reason", or "none".
+
+### Chat 4: synovitis batch b4
+
+You are labelling knee MRI studies from images only, for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling sessions run at the same time; never touch their folders.
+
+Task: the synovitis panel (joint effusion and synovitis) for the 102 indexes listed in work/codex_labels_oct7/_batches/syn_b4.txt (one per line), in that order; then the 3 extra indexes in work/codex_labels_oct7/_batches/syn_b4_extra.txt. The instructions are work/codex_labels_oct7/_prompts_q/prompt_synovitis.txt (already extracted, read-only: do not modify or re-extract that folder). Follow them exactly, with the changes below; where they conflict, these changes win. Do not use prompt.txt, prompt_fluid.txt or their schemas.
+
+Output: work/codex_labels_oct7/synovitis_b4/ for the 102 listed indexes, and work/codex_labels_oct7/synovitis_extra_b4/ for the 3 extra indexes; one <study_id>.json per index, each with "panel": "synovitis". No archive and no download link.
+Temporary files: only in work/codex_labels_oct7/_tmp_b4/ (create it). For each study, extract only its synovitis-panel sheets (1_sag_fs, 3_ax_fs, 5_notch, 9_patella; those it has) from the image zip named in _prompts_q/studies.csv, and empty the folder after the study is saved.
+
+Before the first study, read prompt_synovitis.txt, schema_synovitis.json, and the effusion and synovitis definitions in _prompts_q/definitions.md.
+
+Blind labelling: you may use only these.
+- Read: work/codex_labels_oct7/_prompts_q/, your two index lists above, your output and temp folders above, and the study folders of your indexes inside image_labeling_bundle/images_*.zip.
+- Run, without reading the files it reads: conda run -n rsna python work/image_labeling/view.py (usage: --help).
+Do not open, list, search or grep anything else: not data/ (reports and labels), not any other folder or file of work/ (including other sessions' synovitis_*, _tmp_*, _batches files and all earlier label folders such as fluid_*, sanity_0-9, gold_*), experiments/, common/, text_labeling_bundle/, public_knowledge/, prompts/, submissions/, git history, ~/.claude or ~/Downloads. No web search. Do not try to find out which real study an index belongs to. Judge every study fresh from its images, the extra indexes too.
+
+Native full-resolution views (view.py), a fixed protocol per study, using the study's fluid-sensitive series:
+- sagittal: about 11 consecutive slices around the middle at full field of view (suprapatellar recess, Hoffa's fat pad, fluid around the cruciates);
+- axial: every slice from the joint line up to the top of the suprapatellar recess.
+Use --window 5 99.9, so that bright fluid is not clipped and grey thickened synovium and debris stand out. Ignore series marked "other knee". Write view PNGs only in your temp folder.
+
+Looking: view every synovitis-panel sheet and every native view you rely on with view_image at full resolution. Code may only display, crop, enlarge or change brightness and contrast. Never decide or pre-fill labels with code. Evidence and boxes must name bundle tiles; when something is clearest on a native view, box it on the bundle tile of the same plane with the nearest position and name the view in the note, e.g. "native s1 #12-14". Some entries are copies of other studies with a small drawn mark: label them like any study and record the mark in qa.marks.
+
+Run Python only as: conda run -n rsna python ...
+Validate each file after saving it, for example:
+  conda run -n rsna python work/codex_labels_oct7/_prompts_q/validate.py work/codex_labels_oct7/synovitis_b4/<study_id>.json
+After the last listed index, validate the whole list; it must report 102 files OK and 0 with problems:
+  conda run -n rsna python work/codex_labels_oct7/_prompts_q/validate.py work/codex_labels_oct7/synovitis_b4 work/codex_labels_oct7/_batches/syn_b4.txt
+Then label the 3 extra indexes the same way and validate them:
+  conda run -n rsna python work/codex_labels_oct7/_prompts_q/validate.py work/codex_labels_oct7/synovitis_extra_b4 work/codex_labels_oct7/_batches/syn_b4_extra.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. Keep the same care for the last study as for the first. If you must stop early, finish and save the current study and end with "Next: <next index>".
+
+Final message:
+- "Batch b4: N of 102 studies, validate.py: N file(s) OK, 0 with problems. Extra: 3 of 3 saved and valid."
+- "Unsure:" followed by up to 10 lines "index finding: reason", or "none".
+
+### Chat 5: gold, images + report, all 12 findings
+
+You are labelling knee MRI studies for a research dataset from the images AND the radiology report. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling sessions run at the same time; never touch their folders.
+
+Task: all 12 findings for the 58 indexes listed in work/codex_labels_oct7/_batches/gold_text.txt (one per line), in that order. The instructions are work/codex_labels_oct7/_prompts_q/prompt.txt (already extracted, read-only: do not modify or re-extract that folder), with schema.json, definitions.md and every image in host_figures/. Follow them exactly, with the changes below; where they conflict, these changes win. prompt.txt says there is no report; in this task there is one, used as described below.
+
+Output: work/codex_labels_oct7/gold_text_image/, one <study_id>.json per index, in the format of schema.json (all 12 findings, qa and structures). No archive and no download link.
+Temporary files: only in work/codex_labels_oct7/_tmp_gold_text/ (create it). For each study, extract only its folder (all its sheets) from the image zip named in _prompts_q/studies.csv, and empty the folder after the study is saved.
+
+The report: work/codex_labels_oct7/_reports_gold/reports.csv has one row per index: index, report (original text, any language; written by the radiologist who read the exam for a clinical purpose, not by the host's rules; anonymisation placeholders such as [DATE] may appear). Use it for each study like this:
+1. Read the report first and note what it says about each of the 12 findings: stated, denied or silent, with location and grade words.
+2. Then read the images as prompt.txt and the native protocol below describe. Check every finding the report states, and search for findings it does not mention.
+3. Decide every finding against the host definitions. The label must describe these images:
+   - stated in the report and seen on the images: decide the status by the definition;
+   - stated in the report but not seen, or seen as less, at these images' resolution: decide from what you see (for example borderline, possible or below), not from the report alone;
+   - not mentioned in the report but seen on the images: decide from the images (reports often leave findings out);
+   - denied in the report but clearly seen on the images: follow the images; if the images are unclear, follow the report;
+   - the report uses other thresholds or grades (for example "small effusion", "chondromalacia grade II"): apply the host definition;
+   - if the report is about the other knee, both knees or another body part, use only the part about this knee or ignore it, and say so in qa.note.
+4. Start every finding's note with exactly one of: "report: stated", "report: denied", "report: silent", "report: unusable", optionally followed by "; " and a short comment (the note stays within 200 characters).
+
+Blind to the reference labels: you may use only these.
+- Read: work/codex_labels_oct7/_prompts_q/, work/codex_labels_oct7/_batches/gold_text.txt, work/codex_labels_oct7/_reports_gold/reports.csv, your output and temp folders above, and the study folders of your indexes inside image_labeling_bundle/images_*.zip.
+- Run, without reading the files it reads: conda run -n rsna python work/image_labeling/view.py (usage: --help).
+Do not open, list, search or grep anything else: not data/ (it holds the reference labels), not any other folder or file of work/ (including other sessions' folders, _batches files other than gold_text.txt, and all earlier label folders such as fluid_*, sanity_0-9, gold_*, synovitis_*), experiments/, common/, text_labeling_bundle/, public_knowledge/, prompts/, submissions/, git history, ~/.claude or ~/Downloads. No web search. Do not try to find out which real study an index belongs to.
+
+Native full-resolution views (view.py): view.py series INDEX, then view.py show with --box and --window. Use --window 0 97 for menisci, ligaments and cartilage edges, --window 20 99.9 for marrow, --window 5 99.9 for fluid and synovium. For each meniscus, step through all its consecutive sagittal slices and the coronal slices of the body. For the ACL, step through every notch slice. For cartilage, look at each compartment on its consecutive sagittal and coronal slices and the patellofemoral joint on axial slices. For contusion and fracture, look at every fluid-sensitive and T1 series of the bones with a marrow window. For effusion and synovitis, about 11 consecutive middle sagittal slices at full field of view and the axial slices from the joint line to the top of the suprapatellar recess; for Baker's cyst, the axial slices at and below the joint line, posteromedially. Ignore series marked "other knee". Write view PNGs only in your temp folder.
+
+Looking: view every bundle sheet and every native view you rely on with view_image at full resolution. Code may only display, crop, enlarge or change brightness and contrast. Never decide or pre-fill labels with code. Evidence and boxes must name bundle tiles; when something is clearest on a native view, box it on the bundle tile of the same plane with the nearest position and name the view in the note after the report part, e.g. "report: silent; native s3 #13-14".
+
+Run Python only as: conda run -n rsna python ...
+Validate each file after saving it, for example:
+  conda run -n rsna python work/codex_labels_oct7/_prompts_q/validate.py work/codex_labels_oct7/gold_text_image/<study_id>.json
+At the end, validate the whole list; it must report 58 files OK and 0 with problems:
+  conda run -n rsna python work/codex_labels_oct7/_prompts_q/validate.py work/codex_labels_oct7/gold_text_image work/codex_labels_oct7/_batches/gold_text.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. There is no time limit: be careful, not fast. If you must stop early, finish and save the current study and end with "Next: <next index>".
+
+Final message:
+- "Gold text+image: N of 58 studies, validate.py: N file(s) OK, 0 with problems."
+- "Unsure:" followed by up to 10 lines "index finding: reason", or "none".

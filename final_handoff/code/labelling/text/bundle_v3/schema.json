@@ -1,0 +1,371 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "Image-read forecast from a knee MRI report, one study (text labelling v3)",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "index",
+  "study_id",
+  "report",
+  "findings"
+ ],
+ "properties": {
+  "index": {
+   "type": "integer",
+   "minimum": 0
+  },
+  "study_id": {
+   "type": "string",
+   "minLength": 1
+  },
+  "report": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "side",
+    "coverage",
+    "setting"
+   ],
+   "properties": {
+    "side": {
+     "enum": [
+      "same",
+      "not_stated",
+      "both",
+      "other"
+     ]
+    },
+    "coverage": {
+     "enum": [
+      "systematic",
+      "partial",
+      "minimal",
+      "empty"
+     ]
+    },
+    "setting": {
+     "enum": [
+      "acute_injury",
+      "degenerative",
+      "mixed",
+      "postoperative",
+      "unclear"
+     ]
+    }
+   }
+  },
+  "findings": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "acl",
+    "mcl",
+    "medial_meniscus",
+    "lateral_meniscus",
+    "medial_oa",
+    "lateral_oa",
+    "pf_oa",
+    "effusion",
+    "synovitis",
+    "bakers_cyst",
+    "contusion",
+    "fracture"
+   ],
+   "properties": {
+    "acl": {
+     "$ref": "#/$defs/finding"
+    },
+    "mcl": {
+     "$ref": "#/$defs/finding"
+    },
+    "medial_meniscus": {
+     "$ref": "#/$defs/finding"
+    },
+    "lateral_meniscus": {
+     "$ref": "#/$defs/finding"
+    },
+    "medial_oa": {
+     "$ref": "#/$defs/finding"
+    },
+    "lateral_oa": {
+     "$ref": "#/$defs/finding"
+    },
+    "pf_oa": {
+     "$ref": "#/$defs/finding"
+    },
+    "effusion": {
+     "$ref": "#/$defs/finding"
+    },
+    "synovitis": {
+     "$ref": "#/$defs/finding"
+    },
+    "bakers_cyst": {
+     "$ref": "#/$defs/finding"
+    },
+    "contusion": {
+     "$ref": "#/$defs/finding"
+    },
+    "fracture": {
+     "$ref": "#/$defs/finding"
+    }
+   }
+  }
+ },
+ "$defs": {
+  "finding": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "evidence",
+    "p",
+    "clues",
+    "quote"
+   ],
+   "properties": {
+    "evidence": {
+     "enum": [
+      "qualifying",
+      "likely_qualifying",
+      "uncertain",
+      "subthreshold",
+      "excluded",
+      "silent",
+      "covered_normal",
+      "negative"
+     ]
+    },
+    "p": {
+     "type": "integer"
+    },
+    "clues": {
+     "type": "array",
+     "uniqueItems": true,
+     "maxItems": 6,
+     "items": {
+      "enum": [
+       "acute_injury",
+       "degenerative_knee",
+       "postoperative_knee",
+       "older_patient",
+       "young_patient",
+       "systematic_report",
+       "brief_report",
+       "acl_tear",
+       "mcl_injury",
+       "other_ligament_injury",
+       "patellar_dislocation_signs",
+       "pivot_shift_pattern",
+       "contusion_present",
+       "fracture_present",
+       "marrow_edema_unattributed",
+       "hemarthrosis",
+       "lipohemarthrosis",
+       "effusion_moderate_plus",
+       "effusion_present",
+       "no_effusion",
+       "synovitis_reported",
+       "synovial_thickening",
+       "hoffa_edema",
+       "loose_bodies",
+       "advanced_oa",
+       "oa_features",
+       "subchondral_edema",
+       "meniscal_tear_present",
+       "meniscal_extrusion",
+       "parameniscal_cyst",
+       "surface_signal",
+       "small_deep_lesion",
+       "popliteal_fluid",
+       "inflammatory_arthritis",
+       "hedged_wording",
+       "size_not_stated",
+       "chronic_or_old",
+       "prior_unchanged"
+      ]
+     }
+    },
+    "quote": {
+     "type": "string",
+     "maxLength": 300
+    }
+   },
+   "allOf": [
+    {
+     "if": {
+      "properties": {
+       "evidence": {
+        "const": "qualifying"
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "p": {
+        "type": "integer",
+        "minimum": 80,
+        "maximum": 98
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "evidence": {
+        "const": "likely_qualifying"
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "p": {
+        "type": "integer",
+        "minimum": 50,
+        "maximum": 85
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "evidence": {
+        "const": "uncertain"
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "p": {
+        "type": "integer",
+        "minimum": 25,
+        "maximum": 65
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "evidence": {
+        "const": "subthreshold"
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "p": {
+        "type": "integer",
+        "minimum": 8,
+        "maximum": 45
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "evidence": {
+        "const": "excluded"
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "p": {
+        "type": "integer",
+        "minimum": 3,
+        "maximum": 25
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "evidence": {
+        "const": "silent"
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "p": {
+        "type": "integer",
+        "minimum": 2,
+        "maximum": 45
+       },
+       "quote": {
+        "const": ""
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "evidence": {
+        "const": "covered_normal"
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "p": {
+        "type": "integer",
+        "minimum": 2,
+        "maximum": 20
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1
+       }
+      }
+     }
+    },
+    {
+     "if": {
+      "properties": {
+       "evidence": {
+        "const": "negative"
+       }
+      }
+     },
+     "then": {
+      "properties": {
+       "p": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 10
+       },
+       "quote": {
+        "type": "string",
+        "minLength": 1
+       }
+      }
+     }
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+    "channel_names": {
+        "0": "MRI"
+    },
+    "labels": {
+        "background": 0,
+        "pat_cart": 1,
+        "fem_cart": 2,
+        "med_tib_cart": 3,
+        "lat_tib_cart": 4,
+        "med_men": 5,
+        "lat_men": 6,
+        "femur": 7,
+        "tibia": 8,
+        "patella": 9
+    },
+    "numTraining": 342,
+    "file_ending": ".nii.gz"
+}

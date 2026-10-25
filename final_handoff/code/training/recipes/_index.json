@@ -1,0 +1,309 @@
+{
+ "sub_b0": {
+  "source_run": "experiments/v0/oct7_baseline/runs/sub_b0",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "m_prob05": {
+  "source_run": "experiments/v1/oct10_synovitis/runs/m_prob05",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2"
+  ]
+ },
+ "nfnet": {
+  "source_run": "experiments/v0/oct9_baseline_2nd/runs/P_final",
+  "folds_with_config": [
+   "fold0",
+   "fold3"
+  ]
+ },
+ "r50": {
+  "source_run": "experiments/v0/oct10_baseline_3rd/runs/F20_rad50m_5e-4",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "n_prob05": {
+  "source_run": "experiments/v1/oct10_synovitis/runs/n_prob05",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2"
+  ]
+ },
+ "oa_v2cor": {
+  "source_run": "experiments/v1/oct10_oa/runs/oa_crop_v2cor",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "oa_v2cor_nf": {
+  "source_run": "experiments/v1/oct10_oa/runs/oa_crop_v2cor_nfnet",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2"
+  ]
+ },
+ "s_fs_nf": {
+  "source_run": "experiments/v1/oct11_synovitis_crops/runs/s_fs_nf",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2"
+  ]
+ },
+ "s_fc125_nf": {
+  "source_run": "experiments/v1/oct11_synovitis_crops/runs/s_fc125_nf",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2"
+  ]
+ },
+ "cs_fs": {
+  "source_run": "experiments/v3/oct16_experts/refs/syn/x_cnx5e-5",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "cs_fc125": {
+  "source_run": "experiments/v3/oct16_experts/refs/syn/x_cnx_fc125",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2"
+  ]
+ },
+ "b_v3": {
+  "source_run": "experiments/v1/oct11_fracture_contusion/runs/b_v3",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "b_lr3": {
+  "source_run": "experiments/v1/oct11_fracture_contusion/runs/b_lr3",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "b_nf": {
+  "source_run": "experiments/v1/oct11_fracture_contusion/runs/b_nf",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2"
+  ]
+ },
+ "sd1b": {
+  "source_run": "experiments/v3/oct16_experts/runs/sd1b",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "bsd_nf": {
+  "source_run": "experiments/v3/oct16_experts/runs/bsd_nf",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "oasep": {
+  "source_run": "experiments/v3/oct16_experts/runs/oasep",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "oasep_nf": {
+  "source_run": "experiments/v3/oct16_experts/runs/oasep_nf",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2"
+  ]
+ },
+ "silsep": {
+  "source_run": "experiments/v3/oct16_experts/runs/silsep",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "b3c_rep": {
+  "source_run": "experiments/v3/oct16_experts/runs/b3c_rep",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "b3l_rep": {
+  "source_run": "experiments/v3/oct16_experts/runs/b3l_rep",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "b3n_rep": {
+  "source_run": "experiments/v3/oct16_experts/runs/b3n_rep",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2"
+  ]
+ },
+ "bfs_rep": {
+  "source_run": "experiments/v3/oct16_experts/runs/bfs_rep",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "w5b_mcl": {
+  "source_run": "experiments/v3/oct16_experts/runs/w5b_mcl",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "z1_acl": {
+  "source_run": "experiments/v3/oct16_experts/runs/z1_acl",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "b3g": {
+  "source_run": "experiments/v3/oct16_experts/runs/b3g",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "ef3": {
+  "source_run": "experiments/v3/oct16_experts/runs/ef3",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "ef3fc": {
+  "source_run": "experiments/v3/oct16_experts/runs/ef3fc",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "ef3nf": {
+  "source_run": "experiments/v3/oct16_experts/runs/ef3nf",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "ef3nffc": {
+  "source_run": "experiments/v3/oct16_experts/runs/ef3nffc",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "sxm": {
+  "source_run": "experiments/v3/oct16_experts/runs/sxm",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2"
+  ]
+ },
+ "ef3m": {
+  "source_run": "experiments/v3/oct16_experts/runs/ef3m",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ },
+ "e3bn": {
+  "source_run": "experiments/v3/oct16_experts/runs/e3bn",
+  "folds_with_config": [
+   "fold0",
+   "fold1",
+   "fold2",
+   "fold3",
+   "fold4"
+  ]
+ }
+}

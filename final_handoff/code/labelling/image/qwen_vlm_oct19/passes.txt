@@ -1,0 +1,37 @@
+# NAME MODEL VIEWSET [options]   (runner reads this fresh before each pass; done = out/NAME.csv exists or NAME.started)
+# 17:3x reorder: most diverse configs first (other models > views > few-shot > thinking); only the findings with signal
+q9b_Ag Qwen/Qwen3.5-9B A --guide --findings Effusion,Synovitis,Baker's,Lateral_OA,Contusion,Fracture,PF_OA
+q9b_Fg Qwen/Qwen3.5-9B F --guide --findings Effusion,Synovitis,Baker's
+ls7b_Ag lingshu-medical-mllm/Lingshu-7B A --guide --findings Effusion,Synovitis,Baker's
+# the 516 Codex Baker's studies = also an independent replication set for the Synovitis / Effusion blend (pass 1 + 2 configs)
+bak_q9b_Ag Qwen/Qwen3.5-9B A --guide --findings Baker's,Effusion,Synovitis --studies work/vlm_label_2026-10-19/out/bakers_studies.csv
+bak_q9b_A Qwen/Qwen3.5-9B A --findings Baker's,Effusion,Synovitis --studies work/vlm_label_2026-10-19/out/bakers_studies.csv
+bak_q9b_Fg Qwen/Qwen3.5-9B F --guide --findings Baker's --studies work/vlm_label_2026-10-19/out/bakers_studies.csv
+q27b_Ag Qwen/Qwen3.5-27B A --bits 4 --guide --findings Effusion,Synovitis,Baker's
+q9b_Ag_shot Qwen/Qwen3.5-9B A --guide --findings Effusion,Synovitis --shots work/vlm_label_2026-10-19/out/shots.csv
+# 18:1x pre-registered: 27B replication on the 516 Codex Baker's studies (runs only if q27b_Ag reaches Synovitis >= 0.82 vs Codex on the full pilot; else comment it out)
+# GATE FAILED 18:2x (q27b_Ag Synovitis 0.807 < 0.82 vs Codex): bak_q27b_Ag Qwen/Qwen3.5-27B A --bits 4 --guide --findings Synovitis,Effusion,Baker's --studies work/vlm_label_2026-10-19/out/bakers_studies.csv
+# DROPPED 17:5x (replication failed; Codex view set = low marginal value; GPU back to Experts sooner): q9b_Bg Qwen/Qwen3.5-9B B --guide --findings Effusion,Synovitis,Baker's
+# 18:2x pre-registered: few-shot replication on the 516 set; runs only if q9b_Ag_shot reaches Synovitis >= 0.82 vs Codex on the full pilot (else commented out)
+bak_q9b_Ag_shot Qwen/Qwen3.5-9B A --guide --findings Synovitis,Effusion --shots work/vlm_label_2026-10-19/out/shots.csv --studies work/vlm_label_2026-10-19/out/bakers_studies.csv
+# 18:4x pre-registered: ONE gold-58 check of the few-shot config (+ the zero-shot pass-2 config for reference); read by gold_check.py, nothing tuned on it
+gold_q9b_Ag_shot Qwen/Qwen3.5-9B A --guide --findings Synovitis,Effusion --shots work/vlm_label_2026-10-19/out/shots.csv --studies work/vlm_label_2026-10-19/out/gold_studies.csv
+gold_q9b_Ag Qwen/Qwen3.5-9B A --guide --findings Synovitis,Effusion --studies work/vlm_label_2026-10-19/out/gold_studies.csv
+# 19:0x USER: gold-example few-shot, cross-fitted on gold (gold_shots.py; examples logged in out/gshot_examples.csv)
+gshot_k0_d0 Qwen/Qwen3.5-9B A --guide --findings Synovitis,Effusion --shots work/vlm_label_2026-10-19/out/gshot_k0_d0_shots.csv --studies work/vlm_label_2026-10-19/out/gshot_k0_d0_studies.csv
+gshot_k0_d1 Qwen/Qwen3.5-9B A --guide --findings Synovitis,Effusion --shots work/vlm_label_2026-10-19/out/gshot_k0_d1_shots.csv --studies work/vlm_label_2026-10-19/out/gshot_k0_d1_studies.csv
+gshot_k1_d0 Qwen/Qwen3.5-9B A --guide --findings Synovitis,Effusion --shots work/vlm_label_2026-10-19/out/gshot_k1_d0_shots.csv --studies work/vlm_label_2026-10-19/out/gshot_k1_d0_studies.csv
+gshot_k1_d1 Qwen/Qwen3.5-9B A --guide --findings Synovitis,Effusion --shots work/vlm_label_2026-10-19/out/gshot_k1_d1_shots.csv --studies work/vlm_label_2026-10-19/out/gshot_k1_d1_studies.csv
+gshot_k2_d0 Qwen/Qwen3.5-9B A --guide --findings Synovitis,Effusion --shots work/vlm_label_2026-10-19/out/gshot_k2_d0_shots.csv --studies work/vlm_label_2026-10-19/out/gshot_k2_d0_studies.csv
+gshot_k2_d1 Qwen/Qwen3.5-9B A --guide --findings Synovitis,Effusion --shots work/vlm_label_2026-10-19/out/gshot_k2_d1_shots.csv --studies work/vlm_label_2026-10-19/out/gshot_k2_d1_studies.csv
+# DROPPED 18:4x (GPU back to Experts sooner; few-shot is the lead): q9b_think Qwen/Qwen3.5-9B A --guide --findings Synovitis --think 768 --limit 40
+# 19:2x USER: VLM on ZOOMED structure crops for the focal findings (render_zoom.py; the zoom members' localised 40-48 mm FS crops, 448 px)
+z_q9b_Z2 Qwen/Qwen3.5-9B Z2 --findings ACL,MCL,Medial_Meniscus,Lateral_Meniscus,Medial_OA,Lateral_OA,PF_OA
+z_q9b_Z2_shot Qwen/Qwen3.5-9B Z2 --findings ACL,MCL,Medial_Meniscus,Lateral_Meniscus,Medial_OA,Lateral_OA,PF_OA --shots work/vlm_label_2026-10-19/out/zshots.csv
+# 19:3x USER (Effusion still promising as a 2nd reader): label ALL non-gold studies for Effusion with the zero-shot pass-2 config (best Codex complement on gold, nothing fitted-to)
+# HELD 19:4x (USER: find the best Effusion set-up first, then gold, then label): pool_q9b_Ag Qwen/Qwen3.5-9B A --guide --findings Effusion --studies work/vlm_label_2026-10-19/out/pool_studies.csv
+# 19:4x USER: Effusion set-up search (pilot 299 + Opus-read set 354; esearch_select.py); pre-registered choice in RESULTS.md
+e_Ag Qwen/Qwen3.5-9B A --guide --findings Effusion --studies work/vlm_label_2026-10-19/out/esearch_studies.csv
+e_Ag_grade Qwen/Qwen3.5-9B A --guide --grade --findings Effusion --studies work/vlm_label_2026-10-19/out/esearch_studies.csv
+e_ZE Qwen/Qwen3.5-9B ZE --findings Effusion --studies work/vlm_label_2026-10-19/out/esearch_studies.csv
+e_Ag_tshot Qwen/Qwen3.5-9B A --guide --findings Effusion --shots work/vlm_label_2026-10-19/out/eshots.csv --studies work/vlm_label_2026-10-19/out/esearch_studies.csv

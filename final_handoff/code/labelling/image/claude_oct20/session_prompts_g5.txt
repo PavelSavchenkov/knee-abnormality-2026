@@ -1,0 +1,200 @@
+### Gold feasibility, session 1: image + report labels, 6 findings (ligaments, menisci, tibiofemoral OA), batch g5_s1 (15 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: SIX findings, the "p5" panel: acl, mcl, medial_meniscus, lateral_meniscus, medial_oa, lateral_oa. Do them for the 15 indexes listed in work/claude_labels_oct20/_batches/g5_s1.txt (one index per line), strictly in that order. These are focal findings where small structures decide the label: zoom in for every one of them.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p5.json in full, and look at every image in host_figures/ (ACL, MCL, meniscus and OA examples, positive and negative).
+
+Change 1 - the panel: label only the six findings above. Each file follows schema_p5.json and holds "panel": "p5", with no structures list. Use every rule prompt.txt gives for these six findings (ACL fibres; MCL fibres + adjacent oedema; meniscus surface tiles + morphology; OA cartilage loss + extent).
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In each finding's note, name the native views you looked at (series + slice range), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - looking, for EVERY study and ALL SIX findings: open every sheet of the study, then before deciding open at least one native full-resolution view of each structure with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder:
+- acl: sagittal slices through the intercondylar notch (the whole ligament from femur to tibia), plus coronal through the notch;
+- mcl: coronal fluid-sensitive slices on the medial side, from the femoral to the tibial attachment;
+- menisci: sagittal through the medial and the lateral compartment (anterior and posterior horns) and coronal through the joint line (bodies, roots); count the consecutive slices on which signal reaches the surface;
+- medial_oa / lateral_oa: coronal and sagittal through the weight-bearing femoral condyle and tibial plateau of that compartment, cartilage enlarged; measure depth and extent with the 10 mm bar.
+Keep the same care for the last study as for the first.
+
+Change 4 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. For each of its 3 anchor indexes, run views.py and look at every sheet and its report.txt once. Never save labels for anchors.
+
+Change 5 - output: work/claude_labels_oct20/g5_s1/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c64/. For each study (and each anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 64
+It empties your temp folder, extracts the study's sheets into _tmp_c64/<index>/ and writes the report there as report.txt.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/g5_s1/ already holds a valid file for it (validate.py OK). If so, skip that index.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, this prompt file, your list _batches/g5_s1.txt, your output folder g5_s1/, your temp folder _tmp_c64/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/g5_s1/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/g5_s1 work/claude_labels_oct20/_batches/g5_s1.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. If you must stop (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch g5_s1: N of 15 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index finding: reason", or "none".
+
+### Gold feasibility, session 2: image + report labels, 6 findings (ligaments, menisci, tibiofemoral OA), batch g5_s2 (15 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: SIX findings, the "p5" panel: acl, mcl, medial_meniscus, lateral_meniscus, medial_oa, lateral_oa. Do them for the 15 indexes listed in work/claude_labels_oct20/_batches/g5_s2.txt (one index per line), strictly in that order. These are focal findings where small structures decide the label: zoom in for every one of them.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p5.json in full, and look at every image in host_figures/ (ACL, MCL, meniscus and OA examples, positive and negative).
+
+Change 1 - the panel: label only the six findings above. Each file follows schema_p5.json and holds "panel": "p5", with no structures list. Use every rule prompt.txt gives for these six findings (ACL fibres; MCL fibres + adjacent oedema; meniscus surface tiles + morphology; OA cartilage loss + extent).
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In each finding's note, name the native views you looked at (series + slice range), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - looking, for EVERY study and ALL SIX findings: open every sheet of the study, then before deciding open at least one native full-resolution view of each structure with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder:
+- acl: sagittal slices through the intercondylar notch (the whole ligament from femur to tibia), plus coronal through the notch;
+- mcl: coronal fluid-sensitive slices on the medial side, from the femoral to the tibial attachment;
+- menisci: sagittal through the medial and the lateral compartment (anterior and posterior horns) and coronal through the joint line (bodies, roots); count the consecutive slices on which signal reaches the surface;
+- medial_oa / lateral_oa: coronal and sagittal through the weight-bearing femoral condyle and tibial plateau of that compartment, cartilage enlarged; measure depth and extent with the 10 mm bar.
+Keep the same care for the last study as for the first.
+
+Change 4 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. For each of its 3 anchor indexes, run views.py and look at every sheet and its report.txt once. Never save labels for anchors.
+
+Change 5 - output: work/claude_labels_oct20/g5_s2/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c65/. For each study (and each anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 65
+It empties your temp folder, extracts the study's sheets into _tmp_c65/<index>/ and writes the report there as report.txt.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/g5_s2/ already holds a valid file for it (validate.py OK). If so, skip that index.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, this prompt file, your list _batches/g5_s2.txt, your output folder g5_s2/, your temp folder _tmp_c65/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/g5_s2/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/g5_s2 work/claude_labels_oct20/_batches/g5_s2.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. If you must stop (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch g5_s2: N of 15 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index finding: reason", or "none".
+
+### Gold feasibility, session 3: image + report labels, 6 findings (ligaments, menisci, tibiofemoral OA), batch g5_s3 (14 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: SIX findings, the "p5" panel: acl, mcl, medial_meniscus, lateral_meniscus, medial_oa, lateral_oa. Do them for the 14 indexes listed in work/claude_labels_oct20/_batches/g5_s3.txt (one index per line), strictly in that order. These are focal findings where small structures decide the label: zoom in for every one of them.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p5.json in full, and look at every image in host_figures/ (ACL, MCL, meniscus and OA examples, positive and negative).
+
+Change 1 - the panel: label only the six findings above. Each file follows schema_p5.json and holds "panel": "p5", with no structures list. Use every rule prompt.txt gives for these six findings (ACL fibres; MCL fibres + adjacent oedema; meniscus surface tiles + morphology; OA cartilage loss + extent).
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In each finding's note, name the native views you looked at (series + slice range), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - looking, for EVERY study and ALL SIX findings: open every sheet of the study, then before deciding open at least one native full-resolution view of each structure with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder:
+- acl: sagittal slices through the intercondylar notch (the whole ligament from femur to tibia), plus coronal through the notch;
+- mcl: coronal fluid-sensitive slices on the medial side, from the femoral to the tibial attachment;
+- menisci: sagittal through the medial and the lateral compartment (anterior and posterior horns) and coronal through the joint line (bodies, roots); count the consecutive slices on which signal reaches the surface;
+- medial_oa / lateral_oa: coronal and sagittal through the weight-bearing femoral condyle and tibial plateau of that compartment, cartilage enlarged; measure depth and extent with the 10 mm bar.
+Keep the same care for the last study as for the first.
+
+Change 4 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. For each of its 3 anchor indexes, run views.py and look at every sheet and its report.txt once. Never save labels for anchors.
+
+Change 5 - output: work/claude_labels_oct20/g5_s3/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c66/. For each study (and each anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 66
+It empties your temp folder, extracts the study's sheets into _tmp_c66/<index>/ and writes the report there as report.txt.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/g5_s3/ already holds a valid file for it (validate.py OK). If so, skip that index.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, this prompt file, your list _batches/g5_s3.txt, your output folder g5_s3/, your temp folder _tmp_c66/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/g5_s3/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/g5_s3 work/claude_labels_oct20/_batches/g5_s3.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. If you must stop (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch g5_s3: N of 14 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index finding: reason", or "none".
+
+### Gold feasibility, session 4: image + report labels, 6 findings (ligaments, menisci, tibiofemoral OA), batch g5_s4 (14 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: SIX findings, the "p5" panel: acl, mcl, medial_meniscus, lateral_meniscus, medial_oa, lateral_oa. Do them for the 14 indexes listed in work/claude_labels_oct20/_batches/g5_s4.txt (one index per line), strictly in that order. These are focal findings where small structures decide the label: zoom in for every one of them.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt, definitions.md and schema_p5.json in full, and look at every image in host_figures/ (ACL, MCL, meniscus and OA examples, positive and negative).
+
+Change 1 - the panel: label only the six findings above. Each file follows schema_p5.json and holds "panel": "p5", with no structures list. Use every rule prompt.txt gives for these six findings (ACL fibres; MCL fibres + adjacent oedema; meniscus surface tiles + morphology; OA cartilage loss + extent).
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definitions in definitions.md, and report wording and thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a finding clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In each finding's note, name the native views you looked at (series + slice range), then what you saw, then end with the source tag "images", "both" or "report".
+
+Change 3 - looking, for EVERY study and ALL SIX findings: open every sheet of the study, then before deciding open at least one native full-resolution view of each structure with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder:
+- acl: sagittal slices through the intercondylar notch (the whole ligament from femur to tibia), plus coronal through the notch;
+- mcl: coronal fluid-sensitive slices on the medial side, from the femoral to the tibial attachment;
+- menisci: sagittal through the medial and the lateral compartment (anterior and posterior horns) and coronal through the joint line (bodies, roots); count the consecutive slices on which signal reaches the surface;
+- medial_oa / lateral_oa: coronal and sagittal through the weight-bearing femoral condyle and tibial plateau of that compartment, cartilage enlarged; measure depth and extent with the 10 mm bar.
+Keep the same care for the last study as for the first.
+
+Change 4 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. For each of its 3 anchor indexes, run views.py and look at every sheet and its report.txt once. Never save labels for anchors.
+
+Change 5 - output: work/claude_labels_oct20/g5_s4/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c67/. For each study (and each anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 67
+It empties your temp folder, extracts the study's sheets into _tmp_c67/<index>/ and writes the report there as report.txt.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/g5_s4/ already holds a valid file for it (validate.py OK). If so, skip that index.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, this prompt file, your list _batches/g5_s4.txt, your output folder g5_s4/, your temp folder _tmp_c67/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/g5_s4/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/g5_s4 work/claude_labels_oct20/_batches/g5_s4.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. If you must stop (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch g5_s4: N of 14 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index finding: reason", or "none".
+

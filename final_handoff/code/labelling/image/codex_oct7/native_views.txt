@@ -1,0 +1,10 @@
+0: s1 #1-34 (marrow), #6-32 (detail); s2 #7-24; s3 #1-38 (marrow), #22-27 (detail); s4 #1-30 (marrow), #10-21 (detail); s5 #1-30 (marrow).
+1: s1 #1-23; s2 #5-21 (detail); s3 #1-18, #7-12 (detail); s4 #1-18; s5 #1-20; s6 #1-13. All fluid-sensitive/T1 series in marrow window.
+2: s1 #1-25 marrow; s2 #1-19 marrow, #5-15 detail; s3 #1-19 marrow, #2-19 detail; s4 #7-17 detail; s5 #1-20 marrow, #7-17 detail.
+3: s1 #1-40 marrow, #20-25 detail; s2 #8-26 detail; s3 #1-34 marrow, #9-20 detail; s4 #1-42 marrow, #16-27 detail; s5 #1-42 marrow, #17-22 detail.
+4: s1 #1-33 marrow, #6-29 detail; s2 #1-33 T1 marrow, #14-19 detail; s3 #1-36 marrow, #13-24 detail; s4 #1-36 marrow; s5 #1-50 marrow, #20-31 detail; s6 #1-25 marrow.
+5: s1 #1-33 marrow, #6-29 detail; s2 #1-33 T1 marrow, #15-20 detail; s3 #1-32 marrow, #2-7 and #13-24 detail; s4 #1-32 marrow; s5 #1-36 marrow, #16-27 detail; s6 #1-25 marrow.
+6: s1 #1-24 marrow, #5-22 detail; s2 #1-24 marrow, #9-20 detail; s3 #1-28 marrow, #14-20 detail; s4 #9-16 detail; s5 #1-24 T1 marrow; s6 #1-28 T1 marrow, #14-20 detail.
+7: s1 #1-30 T1 marrow; s2 #1-30 marrow, #15-20 detail; s3 #1-27 marrow, #5-24 detail; s4 #1-27 T1 marrow; s5 #10-15 detail; s6 #1-30 marrow, #11-22 detail; s7 #1-30 T1 marrow; s8 #1-16 marrow, #7-12 detail; s9 #1-16 marrow.
+8: s1 #1-40 marrow; s2 #1-40 marrow, #19-30 detail; s3 #1-30 marrow; s4 #1-30 marrow, #14-19 detail; s5 #1-30 marrow, #5-28 detail; s6 #1-35 marrow, #13-24 detail; s7 #1-35 marrow; s8 #1-35 marrow; s9 #1-20 marrow.
+9: s1 #1-24 marrow, #3-22 detail and #10-15 anterior detail; s2 #1-24 marrow, #9-20 detail; s3 #1-28 marrow, #14-25 detail; s4 #5-16 detail; s5 #1-24 marrow, #13-18 detail; s6 #1-28 marrow.

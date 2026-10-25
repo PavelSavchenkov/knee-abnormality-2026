@@ -1,0 +1,408 @@
+### Phase 4, session 1: image + report labels, Baker's cyst only, batch p4_s1 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p4_s1.txt strictly in order. Each line is "INDEX bakers_cyst". For each index, label ONLY the Baker's cyst finding (bakers_cyst). The list says which finding to label, not whether it is present. Many listed studies have no cyst or only a small one, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt (at least "The images", the Baker's cyst section, the certainty rules and the output format), definitions.md and schema_p4.json in full.
+
+Change 1 - the panel: each file follows schema_p4.json and holds "panel": "p4", with no structures list. Its findings object holds exactly bakers_cyst, nothing else. Use every rule prompt.txt gives for Baker's cyst (grade, diameter_mm, neck_seen, ruptured, other_cysts; the status rules from grade).
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definition in definitions.md ("a moderate or large fluid collection in the characteristic location behind the knee"), and report wording and size thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a cyst clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #4-12"), give the largest diameter you measured, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 1_sag_fs, 3_ax_fs and 6_medial (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these the study has.
+
+Change 4 - looking, for EVERY study: before deciding, open at least one native full-resolution view with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder:
+- an axial fluid-sensitive series through the popliteal fossa, behind the medial femoral condyle, between the medial gastrocnemius head and the semimembranosus tendon (look for the neck);
+- a sagittal fluid-sensitive series through the posteromedial knee for the cranio-caudal extent.
+Measure the largest diameter with the 10 mm bar. Tell apart the bursae, parameniscal cysts, ganglia and popliteal vessels that prompt.txt lists under "Does not count".
+Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchors 3297 and 3831 (both: Baker's absent per report) and look at their report.txt and the Change 3 sheets once. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p4_s1/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c56/. For each study (and each anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 56
+It empties your temp folder, extracts the study's sheets into _tmp_c56/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p4_s1/ already holds a valid file for it (validate.py OK). If so, skip that index.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, this prompt file, your list _batches/p4_s1.txt, your output folder p4_s1/, your temp folder _tmp_c56/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p4_s1/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p4_s1 work/claude_labels_oct20/_batches/p4_s1.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. If you must stop (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p4_s1: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index: reason", or "none".
+
+### Phase 4, session 2: image + report labels, Baker's cyst only, batch p4_s2 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p4_s2.txt strictly in order. Each line is "INDEX bakers_cyst". For each index, label ONLY the Baker's cyst finding (bakers_cyst). The list says which finding to label, not whether it is present. Many listed studies have no cyst or only a small one, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt (at least "The images", the Baker's cyst section, the certainty rules and the output format), definitions.md and schema_p4.json in full.
+
+Change 1 - the panel: each file follows schema_p4.json and holds "panel": "p4", with no structures list. Its findings object holds exactly bakers_cyst, nothing else. Use every rule prompt.txt gives for Baker's cyst (grade, diameter_mm, neck_seen, ruptured, other_cysts; the status rules from grade).
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definition in definitions.md ("a moderate or large fluid collection in the characteristic location behind the knee"), and report wording and size thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a cyst clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #4-12"), give the largest diameter you measured, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 1_sag_fs, 3_ax_fs and 6_medial (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these the study has.
+
+Change 4 - looking, for EVERY study: before deciding, open at least one native full-resolution view with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder:
+- an axial fluid-sensitive series through the popliteal fossa, behind the medial femoral condyle, between the medial gastrocnemius head and the semimembranosus tendon (look for the neck);
+- a sagittal fluid-sensitive series through the posteromedial knee for the cranio-caudal extent.
+Measure the largest diameter with the 10 mm bar. Tell apart the bursae, parameniscal cysts, ganglia and popliteal vessels that prompt.txt lists under "Does not count".
+Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchors 3297 and 3831 (both: Baker's absent per report) and look at their report.txt and the Change 3 sheets once. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p4_s2/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c57/. For each study (and each anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 57
+It empties your temp folder, extracts the study's sheets into _tmp_c57/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p4_s2/ already holds a valid file for it (validate.py OK). If so, skip that index.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, this prompt file, your list _batches/p4_s2.txt, your output folder p4_s2/, your temp folder _tmp_c57/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p4_s2/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p4_s2 work/claude_labels_oct20/_batches/p4_s2.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. If you must stop (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p4_s2: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index: reason", or "none".
+
+### Phase 4, session 3: image + report labels, Baker's cyst only, batch p4_s3 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p4_s3.txt strictly in order. Each line is "INDEX bakers_cyst". For each index, label ONLY the Baker's cyst finding (bakers_cyst). The list says which finding to label, not whether it is present. Many listed studies have no cyst or only a small one, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt (at least "The images", the Baker's cyst section, the certainty rules and the output format), definitions.md and schema_p4.json in full.
+
+Change 1 - the panel: each file follows schema_p4.json and holds "panel": "p4", with no structures list. Its findings object holds exactly bakers_cyst, nothing else. Use every rule prompt.txt gives for Baker's cyst (grade, diameter_mm, neck_seen, ruptured, other_cysts; the status rules from grade).
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definition in definitions.md ("a moderate or large fluid collection in the characteristic location behind the knee"), and report wording and size thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a cyst clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #4-12"), give the largest diameter you measured, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 1_sag_fs, 3_ax_fs and 6_medial (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these the study has.
+
+Change 4 - looking, for EVERY study: before deciding, open at least one native full-resolution view with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder:
+- an axial fluid-sensitive series through the popliteal fossa, behind the medial femoral condyle, between the medial gastrocnemius head and the semimembranosus tendon (look for the neck);
+- a sagittal fluid-sensitive series through the posteromedial knee for the cranio-caudal extent.
+Measure the largest diameter with the 10 mm bar. Tell apart the bursae, parameniscal cysts, ganglia and popliteal vessels that prompt.txt lists under "Does not count".
+Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchors 3297 and 3831 (both: Baker's absent per report) and look at their report.txt and the Change 3 sheets once. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p4_s3/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c58/. For each study (and each anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 58
+It empties your temp folder, extracts the study's sheets into _tmp_c58/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p4_s3/ already holds a valid file for it (validate.py OK). If so, skip that index.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, this prompt file, your list _batches/p4_s3.txt, your output folder p4_s3/, your temp folder _tmp_c58/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p4_s3/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p4_s3 work/claude_labels_oct20/_batches/p4_s3.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. If you must stop (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p4_s3: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index: reason", or "none".
+
+### Phase 4, session 4: image + report labels, Baker's cyst only, batch p4_s4 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p4_s4.txt strictly in order. Each line is "INDEX bakers_cyst". For each index, label ONLY the Baker's cyst finding (bakers_cyst). The list says which finding to label, not whether it is present. Many listed studies have no cyst or only a small one, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt (at least "The images", the Baker's cyst section, the certainty rules and the output format), definitions.md and schema_p4.json in full.
+
+Change 1 - the panel: each file follows schema_p4.json and holds "panel": "p4", with no structures list. Its findings object holds exactly bakers_cyst, nothing else. Use every rule prompt.txt gives for Baker's cyst (grade, diameter_mm, neck_seen, ruptured, other_cysts; the status rules from grade).
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definition in definitions.md ("a moderate or large fluid collection in the characteristic location behind the knee"), and report wording and size thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a cyst clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #4-12"), give the largest diameter you measured, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 1_sag_fs, 3_ax_fs and 6_medial (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these the study has.
+
+Change 4 - looking, for EVERY study: before deciding, open at least one native full-resolution view with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder:
+- an axial fluid-sensitive series through the popliteal fossa, behind the medial femoral condyle, between the medial gastrocnemius head and the semimembranosus tendon (look for the neck);
+- a sagittal fluid-sensitive series through the posteromedial knee for the cranio-caudal extent.
+Measure the largest diameter with the 10 mm bar. Tell apart the bursae, parameniscal cysts, ganglia and popliteal vessels that prompt.txt lists under "Does not count".
+Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchors 3297 and 3831 (both: Baker's absent per report) and look at their report.txt and the Change 3 sheets once. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p4_s4/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c59/. For each study (and each anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 59
+It empties your temp folder, extracts the study's sheets into _tmp_c59/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p4_s4/ already holds a valid file for it (validate.py OK). If so, skip that index.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, this prompt file, your list _batches/p4_s4.txt, your output folder p4_s4/, your temp folder _tmp_c59/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p4_s4/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p4_s4 work/claude_labels_oct20/_batches/p4_s4.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. If you must stop (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p4_s4: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index: reason", or "none".
+
+### Phase 4, session 5: image + report labels, Baker's cyst only, batch p4_s5 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p4_s5.txt strictly in order. Each line is "INDEX bakers_cyst". For each index, label ONLY the Baker's cyst finding (bakers_cyst). The list says which finding to label, not whether it is present. Many listed studies have no cyst or only a small one, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt (at least "The images", the Baker's cyst section, the certainty rules and the output format), definitions.md and schema_p4.json in full.
+
+Change 1 - the panel: each file follows schema_p4.json and holds "panel": "p4", with no structures list. Its findings object holds exactly bakers_cyst, nothing else. Use every rule prompt.txt gives for Baker's cyst (grade, diameter_mm, neck_seen, ruptured, other_cysts; the status rules from grade).
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definition in definitions.md ("a moderate or large fluid collection in the characteristic location behind the knee"), and report wording and size thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a cyst clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #4-12"), give the largest diameter you measured, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 1_sag_fs, 3_ax_fs and 6_medial (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these the study has.
+
+Change 4 - looking, for EVERY study: before deciding, open at least one native full-resolution view with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder:
+- an axial fluid-sensitive series through the popliteal fossa, behind the medial femoral condyle, between the medial gastrocnemius head and the semimembranosus tendon (look for the neck);
+- a sagittal fluid-sensitive series through the posteromedial knee for the cranio-caudal extent.
+Measure the largest diameter with the 10 mm bar. Tell apart the bursae, parameniscal cysts, ganglia and popliteal vessels that prompt.txt lists under "Does not count".
+Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchors 3297 and 3831 (both: Baker's absent per report) and look at their report.txt and the Change 3 sheets once. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p4_s5/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c60/. For each study (and each anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 60
+It empties your temp folder, extracts the study's sheets into _tmp_c60/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p4_s5/ already holds a valid file for it (validate.py OK). If so, skip that index.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, this prompt file, your list _batches/p4_s5.txt, your output folder p4_s5/, your temp folder _tmp_c60/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p4_s5/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p4_s5 work/claude_labels_oct20/_batches/p4_s5.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. If you must stop (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p4_s5: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index: reason", or "none".
+
+### Phase 4, session 6: image + report labels, Baker's cyst only, batch p4_s6 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p4_s6.txt strictly in order. Each line is "INDEX bakers_cyst". For each index, label ONLY the Baker's cyst finding (bakers_cyst). The list says which finding to label, not whether it is present. Many listed studies have no cyst or only a small one, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt (at least "The images", the Baker's cyst section, the certainty rules and the output format), definitions.md and schema_p4.json in full.
+
+Change 1 - the panel: each file follows schema_p4.json and holds "panel": "p4", with no structures list. Its findings object holds exactly bakers_cyst, nothing else. Use every rule prompt.txt gives for Baker's cyst (grade, diameter_mm, neck_seen, ruptured, other_cysts; the status rules from grade).
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definition in definitions.md ("a moderate or large fluid collection in the characteristic location behind the knee"), and report wording and size thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a cyst clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #4-12"), give the largest diameter you measured, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 1_sag_fs, 3_ax_fs and 6_medial (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these the study has.
+
+Change 4 - looking, for EVERY study: before deciding, open at least one native full-resolution view with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder:
+- an axial fluid-sensitive series through the popliteal fossa, behind the medial femoral condyle, between the medial gastrocnemius head and the semimembranosus tendon (look for the neck);
+- a sagittal fluid-sensitive series through the posteromedial knee for the cranio-caudal extent.
+Measure the largest diameter with the 10 mm bar. Tell apart the bursae, parameniscal cysts, ganglia and popliteal vessels that prompt.txt lists under "Does not count".
+Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchors 3297 and 3831 (both: Baker's absent per report) and look at their report.txt and the Change 3 sheets once. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p4_s6/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c61/. For each study (and each anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 61
+It empties your temp folder, extracts the study's sheets into _tmp_c61/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p4_s6/ already holds a valid file for it (validate.py OK). If so, skip that index.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, this prompt file, your list _batches/p4_s6.txt, your output folder p4_s6/, your temp folder _tmp_c61/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p4_s6/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p4_s6 work/claude_labels_oct20/_batches/p4_s6.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. If you must stop (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p4_s6: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index: reason", or "none".
+
+### Phase 4, session 7: image + report labels, Baker's cyst only, batch p4_s7 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p4_s7.txt strictly in order. Each line is "INDEX bakers_cyst". For each index, label ONLY the Baker's cyst finding (bakers_cyst). The list says which finding to label, not whether it is present. Many listed studies have no cyst or only a small one, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt (at least "The images", the Baker's cyst section, the certainty rules and the output format), definitions.md and schema_p4.json in full.
+
+Change 1 - the panel: each file follows schema_p4.json and holds "panel": "p4", with no structures list. Its findings object holds exactly bakers_cyst, nothing else. Use every rule prompt.txt gives for Baker's cyst (grade, diameter_mm, neck_seen, ruptured, other_cysts; the status rules from grade).
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definition in definitions.md ("a moderate or large fluid collection in the characteristic location behind the knee"), and report wording and size thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a cyst clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #4-12"), give the largest diameter you measured, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 1_sag_fs, 3_ax_fs and 6_medial (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these the study has.
+
+Change 4 - looking, for EVERY study: before deciding, open at least one native full-resolution view with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder:
+- an axial fluid-sensitive series through the popliteal fossa, behind the medial femoral condyle, between the medial gastrocnemius head and the semimembranosus tendon (look for the neck);
+- a sagittal fluid-sensitive series through the posteromedial knee for the cranio-caudal extent.
+Measure the largest diameter with the 10 mm bar. Tell apart the bursae, parameniscal cysts, ganglia and popliteal vessels that prompt.txt lists under "Does not count".
+Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchors 3297 and 3831 (both: Baker's absent per report) and look at their report.txt and the Change 3 sheets once. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p4_s7/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c62/. For each study (and each anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 62
+It empties your temp folder, extracts the study's sheets into _tmp_c62/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p4_s7/ already holds a valid file for it (validate.py OK). If so, skip that index.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, this prompt file, your list _batches/p4_s7.txt, your output folder p4_s7/, your temp folder _tmp_c62/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p4_s7/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p4_s7 work/claude_labels_oct20/_batches/p4_s7.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. If you must stop (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p4_s7: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index: reason", or "none".
+
+### Phase 4, session 8: image + report labels, Baker's cyst only, batch p4_s8 (20 studies)
+
+You are labelling knee MRI studies for a research dataset. Work in /home/pavel/Programming/knee-abnormality-2026. Other labelling chats run at the same time with their own lists; never touch their files.
+
+Task: work through work/claude_labels_oct20/_batches/p4_s8.txt strictly in order. Each line is "INDEX bakers_cyst". For each index, label ONLY the Baker's cyst finding (bakers_cyst). The list says which finding to label, not whether it is present. Many listed studies have no cyst or only a small one, so judge each one exactly as you would in a full read.
+
+Instructions: work/claude_labels_oct20/_prompts/prompt.txt (read-only: never modify that folder). Follow it exactly, with the changes below; where they conflict, these changes win. Before the first study, read prompt.txt (at least "The images", the Baker's cyst section, the certainty rules and the output format), definitions.md and schema_p4.json in full.
+
+Change 1 - the panel: each file follows schema_p4.json and holds "panel": "p4", with no structures list. Its findings object holds exactly bakers_cyst, nothing else. Use every rule prompt.txt gives for Baker's cyst (grade, diameter_mm, neck_seen, ruptured, other_cysts; the status rules from grade).
+
+Change 2 - every study HAS a radiology report (this replaces "There is no report: you label from the images only"):
+- views.py copies it to report.txt next to the study's sheets. Read it, then label from the images AND the report together.
+- The report was written by the radiologist who read every slice; you see a subset. Your labels are checked against expert image reads that apply the host definition in definitions.md ("a moderate or large fluid collection in the characteristic location behind the knee"), and report wording and size thresholds vary by site and radiologist. So the report is evidence, not the answer: decide from what you see first, then compare with the report.
+- If the report states a cyst clearly and you cannot see it, keep it likely, unless the images clearly contradict it. If the report is silent or vague, decide from the images.
+- In the note, name the native views you looked at (series + slice range, e.g. "s3 AX PD FS #4-12"), give the largest diameter you measured, then end with the source tag "images", "both" or "report".
+
+Change 3 - sheets: open only 1_sag_fs, 3_ax_fs and 6_medial (this replaces "look at every sheet of the study"). sheets_viewed lists exactly the sheets you opened. validate.py requires the ones of these the study has.
+
+Change 4 - looking, for EVERY study: before deciding, open at least one native full-resolution view with work/image_labeling/view.py show ... --box (an enlarged crop), written into your temp folder:
+- an axial fluid-sensitive series through the popliteal fossa, behind the medial femoral condyle, between the medial gastrocnemius head and the semimembranosus tendon (look for the neck);
+- a sagittal fluid-sensitive series through the posteromedial knee for the cranio-caudal extent.
+Measure the largest diameter with the 10 mm bar. Tell apart the bursae, parameniscal cysts, ganglia and popliteal vessels that prompt.txt lists under "Does not count".
+Keep the same care for the last study as for the first.
+
+Change 5 - text reference first. Read work/claude_labels_oct20/_prompts_pilot/anchors.md. Run views.py for anchors 3297 and 3831 (both: Baker's absent per report) and look at their report.txt and the Change 3 sheets once. Never save labels for anchors.
+
+Change 6 - output: work/claude_labels_oct20/p4_s8/ (create it): one <study_id>.json per index. No archive and no download link. Temporary files: only in work/claude_labels_oct20/_tmp_c63/. For each study (and each anchor) run, from the repo root:
+  conda run -n rsna python work/claude_labels_oct20/views.py <index> --chat 63
+It empties your temp folder, extracts the study's sheets into _tmp_c63/<index>/ and writes the report there as report.txt. It extracts every sheet; open only the ones Change 3 names.
+
+Resuming: this chat may be a restart of an earlier chat that ran out. Before each index, check whether work/claude_labels_oct20/p4_s8/ already holds a valid file for it (validate.py OK). If so, skip that index.
+
+Blind labelling: you may use only these.
+- Read: work/claude_labels_oct20/_prompts/, work/claude_labels_oct20/_prompts_pilot/, this prompt file, your list _batches/p4_s8.txt, your output folder p4_s8/, your temp folder _tmp_c63/.
+- Run, without reading the files they read: work/claude_labels_oct20/views.py and work/image_labeling/view.py.
+- Never look for, open, list, search or grep any existing label of these studies: not data/, not work/claude_labels_oct20/_reports/ or _key/ directly, not other chats' folders, not any other folder or file of work/ or experiments/.
+
+Memory safety: run every Python command inside a small capped scope, one at a time:
+  systemd-run --user --scope -q -p MemoryMax=3G -E PATH="$PATH" -E HOME="$HOME" conda run -n rsna python ...
+
+Validate each file right after saving it:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p4_s8/<study_id>.json
+Fix any problem before the next study. After the last index, validate the whole list:
+  conda run -n rsna python work/claude_labels_oct20/_prompts/validate.py work/claude_labels_oct20/p4_s8 work/claude_labels_oct20/_batches/p4_s8.txt
+
+Work one study at a time, in list order, and don't stop or ask between studies. If you must stop (limits), finish and save the current study first.
+
+Final message (when the list is done or you stop):
+- "Batch p4_s8: N of 20 indexes saved, validate.py: N OK, 0 with problems. Next: <index or done>."
+- "Unsure:" followed by up to 10 lines "index: reason", or "none".
+

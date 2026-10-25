@@ -1,0 +1,254 @@
+{
+ "form": {
+  "frac": true,
+  "effc": false,
+  "sxm": false,
+  "fc_off": true
+ },
+ "seeds": {
+  "sub_b0": [
+   "A1",
+   "A2",
+   "A3"
+  ],
+  "m_prob05": [
+   "A1",
+   "A2",
+   "A3"
+  ],
+  "nfnet": [
+   "A1",
+   "A2",
+   "A3"
+  ],
+  "r50": [
+   "A1",
+   "A2",
+   "A3"
+  ],
+  "n_prob05": [
+   "P201",
+   "P202",
+   "P203"
+  ],
+  "oa_v2cor": [
+   "A1",
+   "A2",
+   "A3",
+   "A4",
+   "A5"
+  ],
+  "oa_v2cor_nf": [
+   "A1",
+   "A2",
+   "A3"
+  ],
+  "s_fs_nf": [
+   "P201",
+   "P202",
+   "P203"
+  ],
+  "s_fc125_nf": [
+   "P201",
+   "P202",
+   "P203"
+  ],
+  "sd1b": [
+   101,
+   102,
+   103,
+   104,
+   105,
+   "P201",
+   "P202",
+   "P203",
+   "P204",
+   "P205"
+  ],
+  "bsd_nf": [
+   "P201",
+   "P202",
+   "P203"
+  ],
+  "oasep": [
+   101,
+   102,
+   103
+  ],
+  "oasep_nf": [
+   101,
+   102,
+   103
+  ],
+  "silsep": [
+   101,
+   102,
+   103
+  ],
+  "b3c_rep": [
+   101,
+   102,
+   103
+  ],
+  "b3l_rep": [
+   101,
+   102,
+   103
+  ],
+  "b3n_rep": [
+   101,
+   102,
+   103
+  ],
+  "bfs_rep": [
+   101,
+   102,
+   103,
+   104,
+   105
+  ],
+  "w5b_mcl": [
+   101,
+   102,
+   103,
+   104,
+   105,
+   106,
+   107,
+   108,
+   109,
+   "P201",
+   "P202",
+   "P203",
+   "P204",
+   "P205",
+   "P206",
+   "P207",
+   "P208",
+   "P209"
+  ],
+  "z1_acl": [
+   101,
+   102,
+   103,
+   "P201",
+   "P202",
+   "P203"
+  ],
+  "b3g": [
+   "P201",
+   "P202",
+   "P203"
+  ],
+  "cs_fs": [
+   "P201",
+   "P202",
+   "P203"
+  ],
+  "cs_fc125": [
+   "P201",
+   "P202",
+   "P203"
+  ],
+  "ef3": [
+   "P201",
+   "P202",
+   "P203"
+  ],
+  "ef3fc": [
+   "P201",
+   "P202",
+   "P203"
+  ],
+  "ef3nf": [
+   "P201",
+   "P202",
+   "P203"
+  ],
+  "ef3nffc": [
+   "P201",
+   "P202",
+   "P203"
+  ]
+ },
+ "pl": {
+  "sub_b0": [
+   "P201",
+   "P202",
+   "P203"
+  ],
+  "m_prob05": [
+   "P201",
+   "P202",
+   "P203"
+  ],
+  "nfnet": [
+   "P201",
+   "P202",
+   "P203"
+  ],
+  "r50": [
+   "P201",
+   "P202",
+   "P203"
+  ],
+  "oa_v2cor": [
+   "P201",
+   "P202",
+   "P203",
+   "P204",
+   "P205"
+  ],
+  "oa_v2cor_nf": [
+   "P201",
+   "P202",
+   "P203"
+  ]
+ },
+ "routes": {
+  "sub_b0": {
+   "ACL": "pl",
+   "Medial Meniscus": "pl",
+   "Lateral Meniscus": "pl",
+   "Medial OA": "plain",
+   "Lateral OA": "pl",
+   "PF OA": "pl",
+   "Fracture": "pl"
+  },
+  "m_prob05": {
+   "Synovitis": "pl"
+  },
+  "nfnet": {
+   "ACL": "pl",
+   "Medial Meniscus": "pl",
+   "Lateral Meniscus": "pl",
+   "Medial OA": "plain",
+   "Lateral OA": "pl",
+   "PF OA": "pl",
+   "Fracture": "pl"
+  },
+  "r50": {
+   "ACL": "pl",
+   "Medial Meniscus": "pl",
+   "Lateral Meniscus": "pl",
+   "Medial OA": "plain",
+   "Lateral OA": "pl",
+   "PF OA": "pl",
+   "Fracture": "pl",
+   "MCL": "pl"
+  },
+  "oa_v2cor": {
+   "Medial OA": "plain",
+   "PF OA": "pl",
+   "Medial Meniscus": "both",
+   "Lateral Meniscus": "both"
+  },
+  "oa_v2cor_nf": {
+   "Medial OA": "plain",
+   "PF OA": "pl",
+   "Medial Meniscus": "both",
+   "Lateral Meniscus": "both"
+  }
+ },
+ "window": "both"
+}

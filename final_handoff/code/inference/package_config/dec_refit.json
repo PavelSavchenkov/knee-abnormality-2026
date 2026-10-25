@@ -1,0 +1,35 @@
+{
+ "dec": {
+  "MCL": {
+   "context": "Contusion",
+   "b": 0.2,
+   "c0": -2.0172928736727602,
+   "c": 0.31754119357063526
+  },
+  "Lateral Meniscus": {
+   "context": "ACL",
+   "b": 0.1,
+   "c0": -1.371208412532161,
+   "c": 0.322331809283129
+  }
+ },
+ "q6_refit": {
+  "control_old_context": {
+   "c0": -2.03519693412932,
+   "c": 0.30693894711092845
+  },
+  "new_context": {
+   "context": "Contusion",
+   "b": 0.2,
+   "c0": -2.0172928736727602,
+   "c": 0.31754119357063526
+  },
+  "n": 2584,
+  "folds": [
+   0,
+   1,
+   2
+  ],
+  "method": "label-free polyfit(Contusion, MCL pre-Q6), Q21's own fit"
+ }
+}

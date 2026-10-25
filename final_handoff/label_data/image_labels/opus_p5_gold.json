@@ -1,0 +1,5489 @@
+{
+ "1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404": {
+  "study_id": "1.2.826.0.1.3680043.8.498.22109739962224309418874538994436903404",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s1",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [
+    "meniscus_surgery"
+   ],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Prior partial lateral meniscectomy; diminutive lateral meniscus body and posterior horn. Mild lateral tibial subchondral edema. Baker cyst."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 SAG T2FS #16-21: taut striated band notch roof to tibial spines, continuous fibres, normal course. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s5 COR T2FS #16-24: thin dark MCL femur to tibia, no thickening, no adjacent edema. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 SAG T2FS #8-13, s5 COR #16-24: horns and body uniformly dark, normal shape, no surface signal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s5 COR #18-23, s3 SAG #20-25: body nearly absent, small posterior horn (post partial meniscectomy), irregular inner margin; report: recurrent tear. both",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": null
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 SAG #8-13, s5 COR #16-24: even full-thickness femoral and tibial cartilage, no marrow change. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 SAG #22-26, s5 COR #19-23: mild posterior tibiofemoral cartilage thinning, grey layer kept; small subchondral tibial edema. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": true
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187": {
+  "study_id": "1.2.826.0.1.3680043.8.498.47921753480592595198052407850568677187",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s1",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "1.5T, 4 mm slices, 0.74 mm/px FS. Medial femoral condyle subchondral fracture with extensive marrow edema (SIFK pattern), extruded medial meniscus, medial soft-tissue edema."
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s2 SAG PDFS #11-13, s3 T1 #11-13: thick grey ACL, continuous fibres on normal course; report: mucoid degeneration. both",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s4 COR PDFS #12-17: dark continuous MCL, edema around it, ligament not clearly thickened; report: grade I sprain. both",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 SAG #5-10, s4 COR #13-17: posterior horn grey with horizontal line to posterior margin, body extruded; report: horizontal tear + extrusion. both",
+    "location": [
+     "posterior_horn",
+     "body"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": 3
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 SAG #14-19, s4 COR #13-18: dark horns and body, normal shape; report grade I degeneration not seen. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s2 SAG #6-9, s4 COR #13-16: subchondral fracture + edema MFC, narrowed joint, cartilage thin but not gradeable at 4 mm; report: no chondral loss stated. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "mild",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 SAG #14-19, s4 COR #13-18: even femoral and tibial cartilage, no subchondral change. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662": {
+  "study_id": "1.2.826.0.1.3680043.8.498.97274720257634584071500649275217521662",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s1",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": "No sagittal FS series (sag PD + sag T2). Subacute ACL tear; residual posterolateral tibial bruise; medial tibial marginal edema."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s5 SAG T2 #18-22, s2 COR #17-22: no taut band on lateral notch wall, amorphous grey tissue in notch, empty wall; report: known ACL rupture. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 COR PDFS #13-20: thin dark MCL femur to tibia, no thickening or adjacent edema. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s4 SAG PD #12-15, s2 COR #17-19: grey horizontal line in posterior horn reaching margin, small cleft #14; report: horizontal tear body to PH. both",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s5 SAG T2 #20-23, s2 COR #20-23: posterior root not clearly outlined, grey tissue at root; horns/body otherwise dark; report: root unclear, DD avulsion. both",
+    "location": [
+     "root"
+    ],
+    "surface_tiles": 0,
+    "morphology": "other",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s2 COR #17-22, s4 SAG #11-15: femoral and tibial grey layers kept, mild tibial thinning, marginal tibial edema; report: chondropathy. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "s5 SAG T2 #21-25, s2 COR #17-22: even cartilage; small irregularity over posterolateral tibial impaction; report: punctate chondral lesions. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": true
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10170898615867673028696505248839028269",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s1",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Young knee. Lateral patellar osteochondral lesion and lateral trochlear full-thickness defect (PF), effusion with synovial thickening, small loose body anteriorly."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 SAG PDFS #14-17, s7 COR #15-18: striated dark ACL continuous tibia to lateral notch wall, normal course; synovitis around it. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s7 COR PDFS #13-18: thin dark MCL, no thickening, no adjacent edema. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 SAG PDFS #6-11, s7 COR #13-18: horns and body uniformly dark, normal shape. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 SAG PDFS #19-22: small fragmented anterior horn with fluid clefts through it to the surface on 3 slices; PH normal; report: horizontal AH tear. both",
+    "location": [
+     "anterior_horn"
+    ],
+    "surface_tiles": 3,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 SAG #6-11, s7 COR #13-18: even femoral and tibial cartilage, no marrow change. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 SAG #19-24, s7 COR #13-18: even lateral femoral and tibial cartilage; defects only in PF per report. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450": {
+  "study_id": "1.2.826.0.1.3680043.8.498.54977581323931277817074741182670080450",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s1",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Lateral compartment degeneration: complex lateral meniscus tear with parameniscal cysts and extrusion, diffuse lateral cartilage thinning. Small effusion."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s5 SAG PDFS #17-22, s2 COR #15-20: ACL continuous from lateral notch wall to tibia, normal course; mildly grey. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 COR PDFS #14-20: thin dark MCL femur to tibia, no thickening or adjacent edema. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 SAG #9-14, s2 COR #15-20: grey intrasubstance signal in posterior horn, not reaching surface; shape normal; report: no tear. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s5 SAG #22-27, s2 COR #14-20: anterior horn and body disrupted, parameniscal cysts, body extruded and thinned; report: complex tear + cysts. both",
+    "location": [
+     "anterior_horn",
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 3,
+    "morphology": "other",
+    "extrusion_mm": 4
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s5 SAG #9-14, s2 COR #15-20: even femoral and tibial cartilage; report: medial cartilage normal. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s5 SAG #23-28, s2 COR #14-19: thin remnant femoral and tibial cartilage over weight-bearing zone >10 mm, narrowed; report: grade 2-3 ulcers. both",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": true,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": "mild",
+    "focal": false
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190": {
+  "study_id": "1.2.826.0.1.3680043.8.498.75187434248356774277526985329346125190",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s1",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Acute ACL tear with pivot-shift edema (lateral femoral condyle impaction, posterior tibia). Report places the osteochondral fracture on the medial condyle; by tile letters the impaction is lateral."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 SAG PDFS #14-17, s3 COR #15-19: no taut ACL band; wavy edematous fibres lying low, empty lateral notch wall; report: complete femoral-side rupture. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 COR PDFS #15-20: thin dark MCL femur to tibia, no thickening, no clear adjacent edema; report: collaterals normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 SAG PDFS #6-11: grey-bright signal in peripheral posterior horn at capsular junction on 4 slices, reaching margin; report: oblique PH tear grade 3. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "s1 SAG PDFS #19-24, s3 COR #15-20: horns dark with normal shape, no surface signal seen; report: PH grade 2a, mild extrusion. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 SAG #5-11, s3 COR #15-20: even medial femoral and tibial cartilage. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "s1 SAG #21-23, s3 COR #16-18: acute femoral impaction with overlying cartilage thinned over <10 mm; no wear elsewhere; report: thinning ~9 mm. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": true
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125": {
+  "study_id": "1.2.826.0.1.3680043.8.498.41600498783384864111179175518614837125",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s1",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Acute ACL tear, medial bucket-handle tear with fragment in the notch, MCL sprain with edema, lateral femoral condyle and posterolateral tibial bruises."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 SAG PDFS #13-18, s6 COR #15-18: no ACL band; amorphous edematous tissue in notch, empty lateral wall; report: acute complete midsubstance tear. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s6 COR PDFS #12-17: MCL thickened, bright within, edema between and around layers at mid substance; report: grade II partial tear deep+superficial. both",
+    "fibres": "thickened_or_bright",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 SAG #4-9, s6 COR #15-18: horns and body diminutive, fragment flipped into notch under PCL; report: bucket-handle tear with displaced fragment. both",
+    "location": [
+     "anterior_horn",
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "displaced_fragment",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 SAG #19-24, s6 COR #15-18: horns and body dark with normal shape; report only 'suspicious' small peripheral PH tear, not seen. images",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 SAG #4-9, s6 COR #13-18: even medial femoral and tibial cartilage; report: no chondral injury. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "s1 SAG #21-24: acute osteochondral injury of weight-bearing LFC with edema, grey layer kept; no wear; report: osteochondral injury ~6x10 mm. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": true
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910": {
+  "study_id": "1.2.826.0.1.3680043.8.498.64408609256163127278435484217683272910",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s1",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Degenerative knee: degenerated ACL, medial meniscus complex tear, medial marrow edema, edema at lateral tibial spine, Baker cyst. Cartilage bright on SPAIR PD; checked on non-FS PD and T1."
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s2 SAG PDFS #16-20: thick grey striated ACL, fibres continuous femur to tibia on normal course; report: continuous, moderately-severely degenerated. both",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 COR PDFS #14-19: thin dark MCL, not thickened, no edema in or next to it; report: collaterals normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s3 COR #16-21, s2 SAG #9-14: body/PH grey and blunted, signal to femoral surface on 2 coronal slices; report: complex radial+horizontal tear. both",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "other",
+    "extrusion_mm": null
+   },
+   "lateral_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s2 SAG #20-25, s3 COR #14-19: grey signal in anterior horn/root not reaching surface; body and PH dark; report: AH degeneration, no tear. both",
+    "location": [
+     "anterior_horn",
+     "root"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 COR PD #14-19, s1 SAG T1 #9-14, s2 #8-13: grey cartilage near full thickness both surfaces, surface irregular, marrow edema; report: erosive changes. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 COR #14-19, s2 SAG #23-25: lateral tibial cartilage thin but present, femoral layer even; report: grade II chondromalacia lateral tibia. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": false
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10306159113324811538703788080836752052",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s1",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Right knee (mirrored). Uneven fat suppression at the lateral image edge. Advanced medial OA with medial meniscus torn and severely extruded; subcutaneous edema."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 SAG PD #11-14, s5 PDFS #12-14: ACL band followed from lateral notch wall to tibia, normal course, mildly grey; no gap. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s6 COR STIR #13-18: MCL thin, bowed by extruded meniscus; fluid at joint line from OA/extrusion and subcutaneous edema, not sprain; report normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s5 SAG #6-10, s6 COR #13-18: horns not seen as triangles, body extruded beyond tibial edge, little meniscus in joint; report: complete tears + root, severe extrusion. both",
+    "location": [
+     "body",
+     "posterior_horn",
+     "root"
+    ],
+    "surface_tiles": 0,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 6
+   },
+   "lateral_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 SAG #15-19, s6 COR #13-18: horns and body triangular, mild grey internal signal, no surface contact; report: degenerative signal, no tear. both",
+    "location": [
+     "anterior_horn",
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s5 SAG #6-9, s6 COR #13-17, s3 T1: no grey layer on femur or tibia over >20 mm, bone apposition, marginal osteophytes; report: full-thickness loss. both",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": true,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": "marked",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 SAG #16-19, s6 COR #13-18: lateral grey layers kept on femur and tibia, mildly uneven; report: mild heterogeneity and fissuring. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": false
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924": {
+  "study_id": "1.2.826.0.1.3680043.8.498.27437263843446879932281897446100134924",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s1",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Isolated horizontal tear of the medial meniscus posterior horn; otherwise normal-looking knee."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 SAG PDFS #12-15, s2 COR #16-18: taut striated ACL from lateral notch wall to tibial spines, continuous. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 COR PDFS #13-18: thin dark MCL femur to tibia, no thickening, no adjacent edema. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 SAG PDFS #7-11: horizontal bright cleft through posterior horn reaching posterior margin on 3+ slices; body small, dark; report: MM tear. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 3,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 SAG #18-24, s2 COR #13-18: horns and body uniformly dark, normal shape. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 SAG #5-11, s2 COR #13-18: even full-thickness femoral and tibial cartilage. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 SAG #18-24, s2 COR #13-18: even lateral femoral and tibial cartilage. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11915937982684988073644209606907169581",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s1",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Right knee (mirrored). Degenerative: macerated lateral meniscus, lateral cartilage thinning with tibial subchondral edema, effusion with synovitis, Baker cyst."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 SAG T2FS #15-18, s2 COR #18-21: ACL band continuous lateral notch wall to tibia, normal course, mildly grey distally. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s2 COR PDFS #18-23: MCL thin and dark, mild proximal thickening at most, edema superficial to it; report: grade 1 sprain. both",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 SAG #8-13, s2 COR #18-23: grey signal in posterior horn not reaching surface; shape normal; report: intrasubstance degeneration. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s3 SAG #19-23, s4 PD #20-22, s2 COR #18-21: anterior horn small, grey, macerated; body thin; report: complex tear + displaced fragment. both",
+    "location": [
+     "anterior_horn",
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": null
+   },
+   "medial_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 SAG #8-13, s2 COR #18-23: grey layers kept on femur and tibia, mildly thinned; report: moderate thinning. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s4 PD #20-25, s3 #20-23, s2 COR #18-21: femoral and tibial layers thin, depth near half over >10 mm, tibial subchondral edema; report: full-thickness fissures. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": "mild",
+    "focal": false
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11382021393803389951964005983002209238",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s1",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "ACL tear with edematous stump in the notch; medial meniscus posterior horn and body tear. No bone bruise seen."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s3 SAG PDFS #12-15, s6 COR #16-19: no taut ACL band, edematous amorphous stump, empty lateral notch wall; report: complete midsubstance tear. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s6 COR PDFS #14-19: thin dark MCL femur to tibia, no thickening or adjacent edema. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s3 SAG #8-10, s6 COR #16-19: posterior horn reduced to small peripheral rim with fluid through it; body small; report: vertical longitudinal tear body+PH. both",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 SAG #18-23, s6 COR #14-19: horns and body uniformly dark, normal shape; report: not torn. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 SAG #5-10, s6 COR #14-19: even medial femoral and tibial cartilage; report: no chondral injury. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 SAG #18-23, s6 COR #14-19: even lateral femoral and tibial cartilage. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12606657226568558340797193167488111973",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s1",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "ACL tear with edematous stump, MCL sprain with thickening and surrounding edema, peripheral lateral posterior horn tear. No bone bruise seen."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s4 SAG PDFS #13-17, s7 COR #15-19: no taut ACL band; edematous mass in notch, empty lateral wall; report: complete midsubstance tear. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s7 COR PDFS #12-17: MCL thickened and grey along femur to tibia, edema within and around it; report: grade II partial tear. both",
+    "fibres": "thickened_or_bright",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 SAG #5-11, s7 COR #14-19: horns and body uniformly dark, normal shape; report: not torn. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s4 SAG PDFS #20-21: vertical bright signal through peripheral posterior horn on 2 slices, medial to popliteus hiatus; report: vertical oblique PH tear. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 SAG #5-11, s7 COR #14-19: even medial femoral and tibial cartilage. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 SAG #19-24, s7 COR #16-21: even lateral femoral and tibial cartilage. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312": {
+  "study_id": "1.2.826.0.1.3680043.8.498.94433753471890306108089557761231739312",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s1",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Weak fat suppression on all PD FS series (fat and marrow grey), lowering edema contrast. Structures otherwise well seen; normal-looking knee."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 SAG PDFS #18-21, s2 COR #18-20: dark ACL band continuous from lateral notch wall to tibial spines, normal course; report normal. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 COR PDFS #16-21: thin dark MCL femur to tibia, no thickening or adjacent fluid; weak FS contrast. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 SAG #7-12, s2 COR #16-21: horns and body uniformly dark, sharp triangles, no surface signal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 SAG #22-27, s2 COR #16-21: horns and body uniformly dark, normal shape. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 SAG #7-12, s2 COR #16-21: even grey femoral and tibial cartilage. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 SAG #22-27, s2 COR #16-21: even grey lateral femoral and tibial cartilage. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711": {
+  "study_id": "1.2.826.0.1.3680043.8.498.17844546765907321649997094867791102711",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s1",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Acute ACL tear with pivot-shift injury: lateral femoral condyle subchondral fracture with marrow edema, posterolateral tibial bruise. Menisci intact."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s2 SAG PDFS #13-16, s4 COR #17-20: ACL lax, wavy and edematous, lying low with no taut band to the lateral notch wall; report: (near) complete tear. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 COR PDFS #15-20: thin dark MCL femur to tibia, no thickening, no clear adjacent edema; report: collaterals normal, POL edema only. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 SAG #6-11, s4 COR #15-20: horns and body uniformly dark, normal shape; report: normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 SAG #17-22, s4 COR #15-20: horns and body uniformly dark, normal shape; report: normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 SAG #6-11, s4 COR #15-20: even medial femoral and tibial cartilage. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 SAG #17-22, s4 COR #15-20: lateral cartilage preserved over acute LFC impaction/edema (traumatic, not wear); report: cartilage normal. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149": {
+  "study_id": "1.2.826.0.1.3680043.8.498.10095687747295410396510538520594649149",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s2",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Lateral meniscus body small/blunted; focal trochlear cartilage ulcer per report (PF, not in this panel)."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 #15-22 sag, s2 #11-19 cor: taut striated dark ACL, continuous from lateral notch wall to tibial spines; report normal. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 #11-19 cor medial crop: thin dark MCL, fat around, no edema in or beside it; report normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 #4-15 sag, s2 #11-19 cor: uniformly dark horns and body, normal shape; report normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 #13-21 cor, s4 #23-34 sag: body small and blunted mid-coronal vs posterior body, fluid beside it, no peripheral bow-tie; report: marginal amputation of body. both",
+    "location": [
+     "body"
+    ],
+    "surface_tiles": 0,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": null
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 #4-15 sag, s2 #11-19 cor: even femoral and tibial cartilage, no defect; report normal. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 #23-30 sag, s2 #13-21 cor: even lateral femoral and tibial cartilage; report normal. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12978510157202852202776899910529174803",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s2",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": false,
+   "pattern": "acute_trauma",
+   "note": "M/L flipped: fibula and ACL on side marked M (s5 #2-8, #15-16). Labels use true anatomy: 6_medial tiles = true lateral, 7_lateral tiles = true medial. Only sag PD non-FS, no coronal. Tibial eminence fracture."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s5 #14-18 sag PD: ACL intermediate band, continuous femur to tibial eminence (eminence fracture below it); non-FS only. Report: cruciates intact. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "not_assessable",
+    "certainty": null,
+    "probability": null,
+    "note": "s5 #24-31 sag PD (true medial): no coronal or fluid-sensitive series; MCL not identifiable. Report silent. images",
+    "fibres": null,
+    "adjacent_edema": null
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "True medial = 7_lateral tiles. s5 #19-28 sag PD: horns uniformly dark, normal shape, posterior horn larger; no coronal. Report: menisci normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "True lateral = 6_medial tiles. s5 #5-14 sag PD: horns uniformly dark, equal size, normal shape; no coronal. Report: menisci normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "True medial = 7_lateral tiles. s5 #19-28 sag PD: even femoral and tibial cartilage; no coronal. Report: cartilage preserved. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "True lateral = 6_medial tiles. s5 #5-14 sag PD: even femoral and tibial cartilage; no coronal. Report: cartilage preserved. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395": {
+  "study_id": "1.2.826.0.1.3680043.8.498.62465595376489211274225312453216559395",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s2",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Coronal only PD non-FS; sag FS 5.5 mm spacing. Multi-ligament injury (ACL, PCL, MCL, LCL per report), lateral plateau impaction fracture."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s4 #10-15 sag FS, s1 #9-14 cor: no ACL band, notch filled by edematous mass; report complete rupture. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 #8-16 cor PD: wavy proximal fibres, no thin band at joint line; s3 #14-22 ax STIR: edema around MCL. Report complete MCL rupture. both",
+    "fibres": "discontinuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s4 #7-11 sag FS, s2 #4-11 sag PD: thin bright vertical cleft in peripheral posterior horn, both surfaces, s2 #7-8 and s4 #8-9; report vertical tear. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 #15-21 sag FS, s1 #9-16 cor PD: horns and body uniformly dark, normal shape; report no lateral tear. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 #7-11 sag FS, s1 #8-16 cor: even medial femoral and tibial cartilage; report medial cartilage intact. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 #15-21 sag FS, s1 #9-16 cor: lateral cartilage even over plateau impaction fracture and condyle edema; no high-grade loss. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039": {
+  "study_id": "1.2.826.0.1.3680043.8.498.64703506772167798469048460791472465039",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s2",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Tibial spine avulsion fracture with ACL insertion and meniscal roots; medial plateau extension; Segond fracture; large effusion; extensive marrow edema."
+  },
+  "findings": {
+   "acl": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s3 #17-24 sag T2FS, s2 #18-24 PD: thick lax ACL, fibres continuous to elevated tibial spine fragment (bony avulsion); report low-grade partial tear. both",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s4 #15-26 cor PD FS: MCL thickened, wavy, ill-defined distal fibres, edema in and around it; report complete superficial MCL tear. both",
+    "fibres": "partly_disrupted",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s4 #16-27 cor, s3 #8-16 sag: faint signal in body reaching femoral surface s4 #19-20, fluid at capsule; horns dark. Report small body tear + root bony avulsion. both",
+    "location": [
+     "body",
+     "root"
+    ],
+    "surface_tiles": 1,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s4 #22-23 cor: vertical bright cleft through posterior body/horn on 2 slices; s3 #24-32 sag: peripheral posterior horn irregular. Report Wrisberg rip + root avulsions. both",
+    "location": [
+     "posterior_horn",
+     "body",
+     "root"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 #8-16 sag, s4 #16-27 cor: medial cartilage even; plateau step is fracture, not wear; report no degenerative change. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 #24-32 sag, s4 #16-27 cor: lateral cartilage even; small condyle impaction is trauma, no high-grade loss; report no degenerative change. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12448079646359892252441208258836556945",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s2",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "normal_looking",
+   "note": "Report: IT band friction, Hoffa impingement, patellar chondropathy only. Sag/cor slices 4.5-5 mm apart."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 #10-13 sag FS, s4 #7-12 cor: taut dark ACL, continuous femur to tibia. Report silent. images",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 #7-12 cor FS: thin dark MCL, no edema in or beside it. Report silent. images",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #3-9 sag FS, s4 #7-12 cor: horns and body uniformly dark, normal shape; 4.5 mm gaps. Report silent. images",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #14-19 sag FS, s4 #7-12 cor: horns and body uniformly dark, normal shape. Report silent. images",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 #3-9 sag, s4 #7-12 cor: even medial femoral and tibial cartilage. Report silent. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 #14-19 sag, s4 #7-12 cor: even lateral femoral and tibial cartilage. Report silent. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645": {
+  "study_id": "1.2.826.0.1.3680043.8.498.25695966186129395049687747156570466645",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s2",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Two reports filed; images fit report 1 (synovial fronds CJ8-9, normal non-discoid lateral meniscus). Slices 5 mm apart."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 #9-12 sag FS: ACL band continuous notch roof to tibia, mild intermediate signal, normal course; 5 mm gaps. Report: cruciates normal. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #8-13 cor FS: thin dark MCL, no edema beside it. Report: collaterals normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s4 #3-8 sag, s2 #8-13 cor: body small with grey inner signal not reaching surface, mild extrusion; horns dark. Report: degeneration + mild subluxation. both",
+    "location": [
+     "body"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 2
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #8-13 cor, s4 sag lateral: normal non-discoid triangles, uniformly dark. Report 1: simple degeneration only. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s4 #3-8 sag, s2 #8-13 cor: weight-bearing MFC cartilage thinned, no full or >50% defect seen; mild marrow edema. Report: focal ICRS II erosion. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": true
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 lateral sag, s2 #8-13 cor: even lateral femoral and tibial cartilage. Report silent on lateral cartilage. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500": {
+  "study_id": "1.2.826.0.1.3680043.8.498.39500553372517290823815606829518305500",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s2",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [
+    "motion"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Degenerative lateral compartment: macerated extruded lateral meniscus, posterior lateral plateau edema; mild motion streaks on mid-sagittal slices."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s5 #16-20 sag FS: ACL fibres continuous notch roof to tibia, mild signal; motion on #19. Report: cruciates normal. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 #13-21 cor FS: thin dark MCL, no edema beside it. Report: collaterals normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s5 #4-12 sag FS, s2 #13-21 cor: horns and body uniformly dark, normal shape. Report: medial meniscus preserved. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s2 #13-21 cor: body small, irregular, bright, extruded; s5 #22-30 sag: horns small, frayed. Report: complex degenerative tear AH-body-PH-root + extrusion. both",
+    "location": [
+     "anterior_horn",
+     "body",
+     "posterior_horn",
+     "root"
+    ],
+    "surface_tiles": 3,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 3
+   },
+   "medial_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 #4-12 sag, s2 #13-21 cor: medial cartilage mildly uneven, no deep defect. Report: superficial chondropathy medial. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s5 #23-30 sag: posterior weight-bearing femur/tibia cartilage thin remnant over #24-28 (~11 mm), plateau edema. Report: partial+full-thickness ulcers, grade 3-4. both",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": true,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": "mild",
+    "focal": false
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828": {
+  "study_id": "1.2.826.0.1.3680043.8.498.78512215519177850923279235346968676828",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s2",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Posterior intercondylar tibial subchondral cysts; PF OA grade IV per report (not in panel); ganglia along medial posterior horn."
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 #16-21 sag FS: ACL striated, intermediate signal near tibial insertion, normal course, no gap. Report: triangular signal, maybe small intrasubstance tear. both",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #15-23 cor FS: thin dark MCL, no edema beside it. Report: collaterals normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 #6-13 sag FS: bright signal in posterior horn reaching inferior/peripheral surface on #10-12, capsule signal. Report: vertical PH tear to inferior surface, ramp lesion. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 3,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #22-28 sag FS, s3 #15-23 cor: horns and body uniformly dark, normal shape. Report: lateral meniscus normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 #6-13 sag, s3 #15-23 cor: MFC cartilage mildly thinned and uneven, no >50% defect. Report: grade II MFC chondromalacia. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 #22-28 sag, s3 #15-23 cor: lateral tibial cartilage mildly thinned, femoral even; no >50% loss. Report: grade II lateral plateau, osteophytes. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": false
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309": {
+  "study_id": "1.2.826.0.1.3680043.8.498.15593638897292057356864060466120253309",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s2",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Degenerative knee, 1.5 T; uneven fat suppression at edges. Both menisci torn per report; MFC and lateral tibial cartilage loss; diffuse patellar ulcers (not in panel)."
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "NT4-NT6, s5 notch: ACL thick, bright, cystic proximal third, fibres on normal course, no gap. Report: partial cystic transformation, cruciates otherwise normal. both",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #13-21 cor FS: thin dark MCL, no edema beside it. Report: collaterals normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s5 #13-19 sag FS: bright signal in posterior horn reaching inferior surface on #17-18 (MM7-MM8); s3 #14-17 cor: body small. Report: tear to inferior surface PH and body. both",
+    "location": [
+     "posterior_horn",
+     "body"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s3 #14-19 cor: lateral body thin, flattened, irregular, bright; s5 #27-37 sag: horns small and irregular, anterior soft-tissue edema. Report: complex AH-body-PH tear, minimal extrusion. both",
+    "location": [
+     "anterior_horn",
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 2
+   },
+   "medial_oa": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s3 #15-17 cor, s5 #13-19 sag: central weight-bearing MFC cartilage thin remnant with fluid on bone over ~10-15 mm. Report: partial + full-thickness ulcers, grade 3. both",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": true,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": "mild",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s3 #17-19 cor, s5 #31-34 sag: central lateral tibial cartilage thinned over >10 mm, depth near half. Report: partial-thickness ulcers, grade 3. both",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": true,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": "mild",
+    "focal": false
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742": {
+  "study_id": "1.2.826.0.1.3680043.8.498.37040910196459054543310335064167212742",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s2",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Only sagittal series for this knee (cor/ax flagged other knee); 4.4 mm spacing. Diffuse marrow edema, large effusion, medial soft-tissue edema."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 #9-13 sag T2FS, s1 notch: ACL lax, wavy, ill-defined and bright, not a straight band; sagittal only. Report: ACL tear. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s1 #1-4 sag: medial soft-tissue edema; no coronal, MCL fibres not judgeable. Report: grade 2 injury, deep MCL. both",
+    "fibres": null,
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s1 #4-9 sag FS: grey signal in posterior horn reaching inferior surface #5-6; no coronal. Report: linear signal body+PH to surface, tear. both",
+    "location": [
+     "posterior_horn",
+     "body"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "lateral_meniscus": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 #13-18 sag FS: posterior horn small near root on #13-14, cannot confirm gap; no coronal. Report: gap in PH near root, suspect root tear. both",
+    "location": [
+     "posterior_horn",
+     "root"
+    ],
+    "surface_tiles": 1,
+    "morphology": "other",
+    "extrusion_mm": null
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #4-9 sag: even medial femoral and tibial cartilage; marrow edema is contusion. Report silent on cartilage. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #13-18 sag: even lateral femoral and tibial cartilage. Report silent on cartilage. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": null,
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11557620559191469069130827959098335840",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s2",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Acute ACL tear with hemarthrosis; small full-thickness ulcer lateral femoral condyle 6x5 mm per report."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s5 #16-20 sag FS: no ACL band, edematous mass in notch, fibres lax and flat near tibia. Report: full-thickness ACL tear. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 cor FS, CJ1-CJ9: thin dark MCL, no edema beside it. Report: collaterals normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "MM1-MM9, CJ5-CJ9: grey signal inside posterior horn/body, not reaching surface. Report: central signal, no tear. both",
+    "location": [
+     "posterior_horn",
+     "body"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s5 #25-30 sag, s2 #18-25 cor: PH-body junction inner tip possibly blunted, no definite cleft seen. Report: small incomplete radial tear PH-body junction. report",
+    "location": [
+     "posterior_horn",
+     "body"
+    ],
+    "surface_tiles": 1,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "MM1-MM9, s2 cor: even medial femoral and tibial cartilage. Report: other cartilage normal. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 #25-30 sag: small focal defect weight-bearing LFC, < 10 mm. Report: full-thickness ulcer 6x5 mm LFC, thin focal ulcer posterior LTP. both",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": false,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": true
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710": {
+  "study_id": "1.2.826.0.1.3680043.8.498.59483999067816153759785789654766826710",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s2",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Acute ACL tear, lateral plateau fracture, LFC and tibial contusions, hemarthrosis, MPFL femoral tear with extensive medial soft-tissue edema."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 #18-23 sag FS: no ACL band, disorganised edematous tissue in notch. Report: ACL rupture with disorganised fibres, edema, blood. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 #12-20 cor FS: MCL thin, dark, continuous; extensive edema beside it, mostly anteromedial (MPFL). Report: MPFL tear, MCL not mentioned. both",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #8-15 sag FS, CJ1-CJ9: horns and body uniformly dark, normal shape. Report: menisci normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #25-32 sag FS, CJ1-CJ9: horns and body dark, normal shape; plateau fracture edema below. Report: menisci normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #8-15 sag, CJ1-CJ9: even medial cartilage. Report: cartilage intact. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #25-32 sag, CJ1-CJ9: even lateral cartilage over contusion and fracture. Report: cartilage intact. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774": {
+  "study_id": "1.2.826.0.1.3680043.8.498.67188121544063723837669983597453941774",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s2",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "1.5 T, sag FS 0.78 mm/px and 4.5 mm spacing. Effusion. ACL partial rupture and medial PH radial tear per report."
+  },
+  "findings": {
+   "acl": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s2 #12-16 sag FS: ACL thick, edematous, fibres ill-defined in mid part, course roughly kept; low res. Report: partial rupture with discontinuity. both",
+    "fibres": "partly_disrupted",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 #10-18 cor FS: thin dark MCL, no edema in or beside it. Report: collaterals normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s2 #9-11 sag FS: posterior horn small, blunt inner tip near root, grey signal; low res. Report: radial tear line in PH. report",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 1,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": null
+   },
+   "lateral_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "LM1-LM9, s4 cor: horns and body normal shape, faint inner signal not reaching surface. Report: grade II degeneration. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #7-11 sag, s4 #10-18 cor: even medial cartilage. Report silent. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "LM1-LM9, s4 #10-18 cor: even lateral cartilage. Report silent. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236": {
+  "study_id": "1.2.826.0.1.3680043.8.498.62549354677638403845904556149868367236",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s2",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Pivot-shift injury: complete ACL tear, LFC impaction fracture with extensive edema, posterior lateral plateau contusion, proximal MCL sprain, moderate effusion."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 #15-19 sag FS: no ACL band, irregular edematous tissue across notch, empty lateral wall. Report: complete ACL tear, discontinuous. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s4 #12-20 cor FS: proximal MCL thickened, bright near femoral attachment, fluid superficial and deep to it. Report: grade 2 partial proximal MCL tear. both",
+    "fibres": "thickened_or_bright",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "MM1-MM9, CJ1-CJ9: horns and body uniformly dark, normal shape. Report: menisci normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "LM1-LM9, CJ1-CJ9: horns and body uniformly dark, normal shape. Report: menisci normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "MM1-MM9, CJ1-CJ9: even medial femoral and tibial cartilage. Report: cartilage normal. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "LM1-LM9, CJ1-CJ9: lateral cartilage even; LFC impaction is trauma, no high-grade loss. Report: cartilage normal. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767": {
+  "study_id": "1.2.826.0.1.3680043.8.498.90283565381042081768587894596970552767",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s2",
+  "position": 14,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "1.5 T; coronal 5.9 mm spacing. Degenerative knee with effusion/synovitis, PF OA, lateral plateau subchondral cyst, old tibial tuberosity osteochondritis per report."
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "s1 #10-14 sag FS, s3 #9-10 cor: ACL grey, thick, ill-defined but on normal course, no gap seen. Report silent on cruciates. images",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 #7-12 cor FS: thin dark MCL, no edema beside it; 5.9 mm gaps. Report silent. images",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 #4-9 sag FS, s3 #7-12 cor: grey signal inside posterior horn, not reaching surface; shape normal. Report: signal change, no tear. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "LM1-LM9, s3 #7-12 cor: horns and body dark, normal shape. Report silent on lateral meniscus. images",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "medial_oa": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "s1 #4-9 sag, s3 #7-12 cor: medial cartilage thin and uneven, no >50% defect seen; coarse coronal. Report: medial femorotibial OA (body only). both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": "mild",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "LM1-LM9, s3 #7-12 cor: lateral cartilage mildly thinned, no >50% defect; subchondral cyst lateral plateau. Report: lateral femorotibial OA (body only). both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": false
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220": {
+  "study_id": "1.2.826.0.1.3680043.8.498.73527530686853911124431549317032662220",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s3",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Pivot-shift pattern edema in lateral femoral condyle and posterior lateral tibia; moderate effusion."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1/s2 #8-13 sag, s4 #11-16 cor: no dark ACL band, amorphous edematous tissue in notch, empty lateral wall; LFC/LTP edema. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 #7-18 cor medial crop: thin dark continuous MCL; only diffuse subcutaneous edema, not around the ligament. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "borderline",
+    "certainty": "moderate",
+    "probability": 0.5,
+    "note": "s1/s2 #3-8 sag, s4 #12-19 cor: vertical bright line peripheral PH to surface on #4, probable #5; coronal no clear tear. Report R/O ramp. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 1,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #12-17 sag, s4 #7-18 cor: horns and body uniformly dark, normal shape; popliteus hiatus normal. images",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #3-8 sag, s4 #12-17 cor: medial femoral and tibial cartilage even, no loss. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #12-17 sag, s4 #7-18 cor: lateral cartilage even over the LFC contusion, no defect. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192": {
+  "study_id": "1.2.826.0.1.3680043.8.498.16060119389060497136231217718921482192",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s3",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Extensive medial femoral condyle marrow edema with subchondral irregularity (insufficiency fracture per report); large effusion; Baker's cyst; lobulated lateral parameniscal cyst."
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 #14-20 sag, s2 #17-24 cor: ACL thick, intermediate striated signal, fibres continuous femur to tibia on normal course. Report: normal. images",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #12-25 cor medial: MCL thin dark continuous; diffuse subcutaneous edema only, joint-recess fluid deep to it. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s1 #6-14 sag, s2 #14-25 cor: horizontal grey line through posterior horn #8-10 probably reaching surface; body dark, small. Report states tear. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": 2
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s2 #16-24 cor, s1 #20-31 sag: grey line in body #19-20 toward lobulated parameniscal cyst at lateral tibial rim. Report states tear. both",
+    "location": [
+     "body"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": null
+   },
+   "medial_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 #6-13 sag, s2 #17-25 cor: femoral cartilage thinned, grey layer kept; subchondral irregularity posterior MFC. Report: incipient OA. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #20-27 sag, s2 #16-24 cor: lateral femoral and tibial cartilage even, no defect. Report: incipient OA. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254": {
+  "study_id": "1.2.826.0.1.3680043.8.498.82166943552764439138333504456139890254",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s3",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "trauma_and_degenerative",
+   "note": "Chronic ACL tear, complex meniscal tears both sides, tibiofemoral chondrosis; small effusion."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 #12-18 sag, s7 #14-21 cor: no ACL band in notch, only fluid and small remnants on tibia; lateral wall empty. Report: chronic complete tear. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s7 #10-21 cor medial: MCL thin dark continuous; meniscal material/fluid in gutter deep to it, no periligamentous edema. Report: intact. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 #6-12 sag, s7 #13-20 cor: posterior horn small/truncated, body diminutive, material in medial gutter. Report: radial tear + displaced fragment. both",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "displaced_fragment",
+    "extrusion_mm": null
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 #17-25 sag, s7 #12-18 cor: grey signal and irregular shape of body, small posterior horn. Report: complex + bucket-handle tear. both",
+    "location": [
+     "anterior_horn",
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "other",
+    "extrusion_mm": null
+   },
+   "medial_oa": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 #6-12 sag, s7 #13-20 cor: diffuse thinning of femoral and tibial cartilage, thin grey layer kept on most tiles. Report: diffuse high/low grade, mild OA. both",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": true,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": "mild",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s1 #18-24 sag, s7 #16-21 cor: posterior lateral tibial cartilage thin, defect not clear to me. Report: focal high grade 15x19 mm with subchondral edema. report",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": true,
+    "osteophytes": "small",
+    "subchondral_marrow": null,
+    "narrowing": "none",
+    "focal": true
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11548045715264151632153040089882701935",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s3",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Acute trauma: hemarthrosis, edematous ACL, posterolateral soft-tissue edema (LCL/popliteus injury per report)."
+  },
+  "findings": {
+   "acl": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 #12-18 sag, s9 #6-14 cor: ACL swollen, bright, ill-defined; no clear continuous dark band, no clear full gap. Report: interstitial midsubstance tear. both",
+    "fibres": "partly_disrupted",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s7 #11-22 cor medial: MCL thin dark continuous, no edema around it beyond diffuse subcutaneous signal. Report: intact. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #4-11 sag, s7 #11-22 cor: horns and body dark, normal shape. Report: not torn. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s1 #17-25 sag, s7 #14-22 cor: posterior horn small and blunted near root with fluid at tip on #19-21; no clear cleft. Report: complex PH tear. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 1,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": null
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #4-11 sag, s7 #11-22 cor: medial cartilage even on both surfaces. Report: no chondrosis. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #17-25 sag, s7 #11-22 cor: lateral cartilage even on both surfaces. Report: no chondrosis. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903": {
+  "study_id": "1.2.826.0.1.3680043.8.498.13335129881737731410081002627729200903",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s3",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Advanced OA, worst lateral (bare bone); effusion with synovitis; mucoid ACL; popliteal cyst."
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 #14-21 sag, s4 #14-21 cor: ACL very thick, striated intermediate signal, fibres follow normal course to tibia. Report: advanced mucoid degeneration. both",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 #10-21 cor medial: MCL thin dark continuous over osteophytes; edema only subcutaneous. Report silent. images",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "s1 #4-13 sag, s4 #10-18 cor: body dark triangle, horns dark; posterior horn somewhat small, no surface signal. Report silent. images",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 2
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s4 #10-18 cor, s1 #22-30 sag: body absent from joint, swollen grey remnant extruded beyond tibial rim; only peripheral horns. Report: degenerative, extruded. both",
+    "location": [
+     "body"
+    ],
+    "surface_tiles": 0,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 5
+   },
+   "medial_oa": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 #9-13 sag, s4 #13-18 cor: MFC weight-bearing cartilage very thin over >10 mm, osteophytes, narrowing. Report: near-complete loss MFC. both",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": true,
+    "osteophytes": "large",
+    "subchondral_marrow": false,
+    "narrowing": "mild",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 #22-30 sag, s4 #10-18 cor: bright fluid directly on bare femoral and tibial bone over >20 mm; osteophytes. Report: full-thickness loss. both",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": true,
+    "osteophytes": "large",
+    "subchondral_marrow": true,
+    "narrowing": "marked",
+    "focal": false
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363": {
+  "study_id": "1.2.826.0.1.3680043.8.498.56512564464301544960446419143135447363",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s3",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Medial femoral condyle cartilage defect with subchondral edema; large suprapatellar effusion."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #10-15 sag, s2 #12-19 cor: dark taut ACL from lateral notch wall to tibial spines, continuous. Report: normal. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 #10-19 cor medial: MCL thin dark continuous, no adjacent edema. Report: normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #3-10 sag, s2 #10-19 cor: horns and body dark, normal shape, no surface signal. Report: mucoid degeneration (not seen). images",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #15-22 sag, s2 #12-19 cor: horns and body uniformly dark, normal shape. Report: normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 #5-8 sag, s2 #12-17 cor: fluid-filled high-grade MFC weight-bearing defect ~15 mm long, subchondral edema. Report: OA medial compartment. both",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": true,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": "mild",
+    "focal": true
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #15-22 sag, s2 #12-19 cor: lateral femoral and tibial cartilage even, no defect. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945": {
+  "study_id": "1.2.826.0.1.3680043.8.498.32321830776739689645700555055955725945",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s3",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Acute trauma: extensive proximal tibial marrow edema, ACL tear, proximal MCL injury, effusion, prepatellar bursitis. 4-5 mm slices."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s3 #9-12 sag PD FS, s4 #10-14 GRE, s2 #9-14 cor: no dark ACL band, swollen intermediate tissue in notch. Report: subtotal tear with discontinuity. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 #7-12 cor: proximal MCL thickened, intermediate signal, wavy, edema around it. Report: proximal discontinuity + periligamentous edema, grade 2. both",
+    "fibres": "partly_disrupted",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 #4-9 sag, s2 #9-14 cor: grey signal inside posterior horn, not clearly reaching surface; shape normal. Report: PH degeneration. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s3 #12-17 sag, s2 #9-14 cor: thin bright line under/through anterior horn on #13-14, may be recess or fluid; posterior horn dark. Report silent. images",
+    "location": [
+     "anterior_horn"
+    ],
+    "surface_tiles": 1,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "s3 #4-9 sag, s2 #9-14 cor: medial cartilage thin but grey layer kept, no full-depth defect seen. Report: thinning, irregularity, incipient OA. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 #12-17 sag, s2 #9-14 cor: lateral cartilage even on both surfaces. Report: no other cartilage findings. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891": {
+  "study_id": "1.2.826.0.1.3680043.8.498.13267780356245120052411517053322874891",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s3",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Lateral tibial plateau split-depression fracture with extensive tibial edema; fibular head injury; effusion."
+  },
+  "findings": {
+   "acl": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s1/s2 #9-12 sag, s4 #12-17 cor: ACL swollen, intermediate signal, distal fibres seen to tibia, proximal part blurred by edema. Report: grade 2 injury. both",
+    "fibres": "partly_disrupted",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 #6-17 cor medial: MCL thin dark continuous, no periligamentous edema. Report: normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #3-8 sag, s4 #6-17 cor: horns and body dark triangles, normal shape. Report: normal (impression places tear in lateral AH). both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s1 #12-15 sag, s4 #9-11 cor: anterior horn irregular, grey, blunted with fluid around it next to the plateau fracture. Report: AH tear. both",
+    "location": [
+     "anterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "other",
+    "extrusion_mm": null
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #3-8 sag, s4 #9-17 cor: medial cartilage even on both surfaces. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #12-17 sag, s4 #9-17 cor: cartilage layer kept; tibial surface stepped by acute depression fracture, not wear. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683": {
+  "study_id": "1.2.826.0.1.3680043.8.498.37392127307867238524251864751713143683",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s3",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Transient lateral patellar dislocation: medial patella and anterolateral femoral condyle edema, medial retinaculum tear; physeal scars."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #15-20 sag, s3 #15-22 cor: ACL dark striated band, continuous femur to tibia; faint signal at tibial end only. Report: possible sprain/minor partial. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #13-24 cor medial: MCL thin dark continuous, no adjacent edema (medial retinacular edema is anterior). Report: normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #5-13 sag, s3 #13-24 cor: horns and body dark, normal shape; faint peripheral PH line = vessel. Report: no tear. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #20-27 sag, s3 #13-24 cor: horns and body uniformly dark, normal shape. Report: no tear. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #8-13 sag, s3 #13-24 cor: medial cartilage even on both surfaces. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #20-27 sag, s3 #13-24 cor: lateral cartilage even; marrow edema of LFC is impaction, not wear. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12801308844398614687904447633432197492",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s3",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Medial compartment OA with medial tibial marrow edema (SONK per report); large multiloculated Baker's cyst; moderate effusion. 1.5T, 4-5 mm slices."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "s4 #9-13 sag PD FS, s5 #11-15 GRE, s2 #10-15 cor: intermediate band along lateral notch wall to tibia, course normal; image quality limited. Report: normal. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #8-16 cor medial: thin dark MCL continuous; bright signal deep to it is joint recess fluid, not periligamentous. Report: normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s4 #3-9 sag, s2 #8-16 cor: posterior horn smaller than anterior, grey internal signal; body small at medial edge. Report: degenerative PH + body tear. both",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 1,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": null
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 #12-18 sag, s2 #8-16 cor: horns and body dark triangles, normal shape. Report: no lateral meniscal finding. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s4 #3-9 sag, s2 #8-16 cor: medial tibial cartilage very thin/not seen over weight-bearing area, marrow edema, osteophytes. Report: ICRS IV tibial loss. both",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": true,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": "mild",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 #12-18 sag, s2 #8-16 cor: lateral femoral and tibial cartilage even. Report: only mild lateral tibial marrow edema. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911": {
+  "study_id": "1.2.826.0.1.3680043.8.498.30246079718471552972130572444383079911",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s3",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Pivot-shift trauma: lateral femoral condyle and lateral tibial plateau edema, ACL tear, large effusion, Hoffa edema. 1.5T, 4 mm slices."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s2 #9-13 sag, s4 #14-19 cor: no ACL band, edematous tissue in notch, empty lateral wall; pivot-shift edema. Report: complete tear. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s4 #13-19 cor medial: MCL thin dark continuous, mild edema around it. Report: grade I sprain. both",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s2 #4-9 sag, s4 #13-19 cor: body small/blunted on coronal, horns dark on sagittal; no clear cleft. Report: radial tear. both",
+    "location": [
+     "body"
+    ],
+    "surface_tiles": 1,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 #13-18 sag, s4 #13-19 cor: posterior horn small/absent, anterior horn bulky (flipped fragment). Report: bucket-handle tear. both",
+    "location": [
+     "anterior_horn",
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "displaced_fragment",
+    "extrusion_mm": null
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #4-9 sag, s4 #13-19 cor: medial cartilage even on both surfaces. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #13-18 sag, s4 #13-19 cor: lateral cartilage preserved over contused LFC and LTP. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132": {
+  "study_id": "1.2.826.0.1.3680043.8.498.48946580946665031852355005294734101132",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s3",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Acute ACL injury after fall; no coronal fat-suppressed series (coronal PD shown); 3D sagittal PD FS."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s3 #150-194 sag 3D, s1 #11-16 cor: no taut dark ACL band, swollen intermediate tissue in notch, proximal fibres not traced to wall. Report: high-grade partial. both",
+    "fibres": "partly_disrupted",
+    "graft": false
+   },
+   "mcl": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s1 #10-17 cor PD, s4 #12-17 ax FS: proximal MCL thickened, intermediate signal, thin fluid along it on axial; distal intact. Report: low-grade partial tear. both",
+    "fibres": "thickened_or_bright",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #76-142 sag 3D, s1 #10-17 cor: horns and body uniformly dark, normal shape. Report: intact. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #196-262 sag 3D, s1 #11-16 cor: horns and body uniformly dark, normal shape. Report: intact. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #76-142 sag 3D, s1 #10-17 cor: medial cartilage even on both surfaces. Report: preserved. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #196-262 sag 3D, s1 #11-16 cor: lateral cartilage even on both surfaces. Report: preserved. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037": {
+  "study_id": "1.2.826.0.1.3680043.8.498.86968600239724310678905311244945464037",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s3",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "ACL tear with lateral tibial plateau edema, moderate effusion, prepatellar/infrapatellar soft-tissue edema. 5 mm slices."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1/s2 #6-10 sag, s4 #7-12 cor: no ACL band, fluid and wavy remnants in notch, empty lateral wall. Report: complete tear. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 #6-13 cor medial: MCL thin dark continuous, no periligamentous edema. Report: intact. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s1 #2-7 sag, s4 #9-12 cor: bright line through posterior horn to surface on #4-5, irregular near root on coronal #11. Report: PH tear. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s1 #9-14 sag, s4 #9-12 cor: fluid between posterior horn and capsule, horn itself dark. Report: no obvious tear, suspected meniscocapsular separation. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #2-7 sag, s4 #6-13 cor: medial cartilage even on both surfaces. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #9-14 sag, s4 #7-12 cor: lateral cartilage even; tibial marrow edema without cartilage loss. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11771393824519892797114773408583976756",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s3",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Valgus-type injury: medial soft-tissue edema around MCL, mild femoral/tibial marrow edema, ACL signal change; menisci and cartilage normal."
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s1 #10-15 sag, s4 #13-19 cor: ACL slightly bright/striated, fibres continuous femur to tibia, normal slope. Report: grade 1 interstitial injury. both",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "borderline",
+    "certainty": "low",
+    "probability": 0.45,
+    "note": "s4 #6-17 cor medial: extensive edema around MCL, proximal ligament slightly bright, fibres continuous. Report: grade 2 MCL injury. both",
+    "fibres": "thickened_or_bright",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #3-9 sag, s4 #13-19 cor: horns and body uniformly dark, normal shape. Report: no tear. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #15-21 sag, s4 #13-19 cor: horns and body uniformly dark, normal shape. Report: no tear. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #3-9 sag, s4 #13-19 cor: medial cartilage even on both surfaces. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #15-21 sag, s4 #13-19 cor: lateral cartilage even on both surfaces. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608": {
+  "study_id": "1.2.826.0.1.3680043.8.498.28925345859498351203477642741908452608",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s4",
+  "position": 0,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Degenerative medial compartment: narrowing, thin cartilage, tibial subchondral edema, extruded medial meniscus; large Baker's cyst; fluid along MCL."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #14-18 sag, s4 #13-18 cor, s1 #16-21 ax: dark ACL in lateral notch, continuous to tibia; knee extended, oblique view; no secondary signs. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s4 #11-16 cor: MCL thin, dark, continuous; fluid deep and superficial to it, bowed by extruded meniscus; no intraligament edema. Report: MCL normal, fluid around. both",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 #6-12 sag, s4 #13-18 cor: small posterior horn, signal to inferior surface on 2-3 slices; body extruded ~3 mm. Report: PH tear, extrusion. both",
+    "location": [
+     "posterior_horn",
+     "body"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": 3
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 #20-25 sag, s4 #15-18 cor: horns and body uniformly dark, normal shape. Report: normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s4 #13-18 cor, s2 #8-11 sag: diffuse thinning of both medial surfaces >50% over >10 mm, narrowed vs lateral, tibial subchondral edema; no bare bone. Report: marked narrowing. both",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": true,
+    "osteophytes": "none",
+    "subchondral_marrow": true,
+    "narrowing": "marked",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 #20-25 sag, s4 #15-18 cor: even femoral and tibial cartilage, thicker than medial; no marrow change. Report silent. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003": {
+  "study_id": "1.2.826.0.1.3680043.8.498.77362718298550276679350855963451855003",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s4",
+  "position": 1,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Patellar dislocation pattern: medial retinaculum / MPFL injury with medial soft-tissue haematoma, lateral femoral condyle edema, large effusion, shallow trochlea."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #11-15 sag, s2 #15-17 cor, s3 #13-16 ax: striated ACL along lateral notch wall to tibia, normal course; slight distal brightness. Report: normal. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "s2 #10-15 cor: MCL thin, continuous; extensive medial soft-tissue edema from retinacular / MPFL injury around it, no clear intraligament edema. Report: MCL normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s1 #6-10 sag, s2 #11-18 cor: fluid at inferior periphery of body / AH junction on 2-3 slices, may be recess; no clear intrameniscal signal. Report: MM tear. report",
+    "location": [
+     "body",
+     "anterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #15-20 sag, s2 #12-17 cor: horns and body uniformly dark with normal shape. Report: normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #6-10 sag, s2 #11-18 cor: even medial femoral and tibial cartilage, young knee. Report: cartilage normal. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #15-20 sag, s2 #12-17 cor: even lateral cartilage; condyle edema is impact, not under a defect. Report: cartilage normal. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819": {
+  "study_id": "1.2.826.0.1.3680043.8.498.12505035424093604269515328931488770819",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s4",
+  "position": 2,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Acute ACL rupture with pivot-shift contusions (lateral femoral condyle, posterolateral tibia), MCL sprain / partial tear, effusion. Coronal and sagittal 5 mm spacing."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s5 #9-13 FS, s3 #10-13 PD sag, s1 #9-13 cor: no fibres, edematous mass in notch, empty lateral wall; pivot contusions. Report: ACL rupture. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 #7-12 cor: proximal MCL thickened, wavy, bright, edema within and around it, no complete gap. Report: partial MCL tear. both",
+    "fibres": "thickened_or_bright",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s3 #4-9 PD, s5 #3-8 FS sag, s1 #9-13 cor: posterior horn thin, signal at its peripheral attachment on 2 slices (ramp-type). Report: medial tear. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s3 #12-18 PD, s5 #12-16 FS sag, s1 #9-13 cor: fluid at peripheral body on 2 coronal slices, irregular anterior horn; subtle. Report: lateral tear. both",
+    "location": [
+     "body",
+     "anterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #3-8 PD, s5 #3-8 FS sag, s1 #9-13 cor: even medial femoral and tibial cartilage. Report silent. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #13-18 PD, s5 #12-17 FS sag, s1 #9-13 cor: even lateral cartilage; condyle / plateau edema is pivot-shift impact. Report silent. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002": {
+  "study_id": "1.2.826.0.1.3680043.8.498.69392348385274125385290015404144639002",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s4",
+  "position": 3,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [
+    "motion"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "other",
+   "note": "Hoffa fat-pad impingement edema, patellar chondropathy; tibiofemoral structures intact. Posterior coronal slices blurred."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #10-13 PD sag, s4 #8-11 cor: dark striated ACL from lateral notch wall to tibia, continuous, normal course. Report silent. images",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 #7-12 cor: thin dark MCL close to bone, no edema in or around it. Report silent. images",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #4-9 PD sag, s4 #7-12 cor: horns and body uniformly dark, normal shape. Report silent. images",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #14-19 PD sag, s4 #8-11 cor: horns and body uniformly dark, normal shape. Report silent. images",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #4-9 PD sag, s4 #7-11 cor: even medial femoral and tibial cartilage. Report: only patellar chondropathy. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s1 #14-19 PD sag, s4 #8-11 cor: even lateral cartilage, no marrow change. Report: only patellar chondropathy. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550": {
+  "study_id": "1.2.826.0.1.3680043.8.498.29764868091238287072166823522853419550",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s4",
+  "position": 4,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Acute ACL tear with posterolateral tibial plateau contusion and effusion; weak fat suppression of subcutaneous fat."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s3 #16-20 FS, s4 #16-19 T1 sag, s2 #17-22 cor: no ACL fibres from lateral wall, fluid / edematous stump in notch; LTP contusion. Report: rupture. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #14-21 cor: thin dark MCL, continuous; tiny fluid foci at the meniscocapsular junction only. Report: normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #6-13 sag, s2 #14-21 cor: horns and body uniformly dark, normal triangles. Report: normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 #21-28 sag, s2 #17-22 cor: horns and body dark, normal shape; fluid only around anterior horn recess. Report: normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #6-13 sag, s2 #17-21 cor: even medial femoral and tibial cartilage. Report: cartilage normal. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #21-26 sag, s2 #17-22 cor: even lateral cartilage; plateau marrow edema is a posterior contusion. Report: cartilage normal. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11851412923016044948101698015974810604",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s4",
+  "position": 5,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Degenerative knee: medial root tear, posterior MFC subchondral edema, tibial insufficiency-type edema, effusion; 0.66 mm/px fluid-sensitive series."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 #16-19 T2FS, s2 #16-19 PD sag, s4 #19-23 cor: ACL band from lateral notch wall to tibia, continuous, slightly bright. Report: normal. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s4 #18-25 cor: thin dark MCL, continuous; only subcutaneous edema farther out. Report: normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s3 #10-16, s2 #10-15 sag, s4 #20-25 cor: posterior horn absent near root, fluid in its place (ghost); mild extrusion. Report: root radial tear. both",
+    "location": [
+     "posterior_horn",
+     "root"
+    ],
+    "surface_tiles": 2,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 2
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s3 #20-25 T2FS, s2 #20-25 PD sag, s4 #16-23 cor: anterior horn smaller than posterior, inner tip blunt; no clear signal. Report: partial radial tear AH/body. report",
+    "location": [
+     "anterior_horn",
+     "body"
+    ],
+    "surface_tiles": 0,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s3 #12-15 T2FS zoom, s2 #13-15 PD, s4 #22-25 cor: irregular thin cartilage over posterior MFC subchondral edema ~10 mm; cannot grade depth. Report: high-grade fissuring. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": "none",
+    "focal": true
+   },
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s3 #20-25 T2FS, s2 #20-25 PD sag, s4 #19-24 cor: lateral cartilage mostly preserved, mild posterior tibial irregularity. Report: low-grade LFC, fissuring LTP. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": true
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995": {
+  "study_id": "1.2.826.0.1.3680043.8.498.73926443729786165628848843707532839995",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s4",
+  "position": 6,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "No fat-suppressed sagittal series (sagittal sheets are PD). Medial meniscus body tear with extrusion, fluid along MCL, Baker's cyst, small effusion."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #14-17 PD sag, s2 #13-20 cor: ACL band continuous from lateral notch wall to tibia, normal course; small insertion cysts. Report: intact. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s2 #13-20 cor: MCL thin dark layers, continuous; fluid stripes along and between layers, no intraligament edema. Report: fluid around MCL, intact. both",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 #12-19 cor zoom, s1 #5-10 PD sag: linear signal in body reaching inner / lower surface on 2 slices, body extruded; PH faint horizontal signal. Report: radial tear. both",
+    "location": [
+     "body",
+     "posterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "normal",
+    "extrusion_mm": 3
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "LM1-LM9 PD sag, s2 #13-20 cor: horns and body uniformly dark, normal shape. Report silent. images",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s1 #5-10 PD sag, s2 #12-20 cor: even medial femoral and tibial cartilage; small focal tibial marrow signal only. Report silent on cartilage. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "LM1-LM9 PD sag, s2 #13-20 cor: even lateral cartilage, no marrow change. Report silent. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274": {
+  "study_id": "1.2.826.0.1.3680043.8.498.48348615349418615469875801439348424274",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s4",
+  "position": 7,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "MCL sprain / partial tear with medial soft-tissue edema; meniscocapsular signal at medial posterior horn; small effusion, small popliteal cyst."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 #20-23 sag, s2 #17-22 cor: striated dark ACL from lateral notch wall to tibia, continuous, normal course. Report: no ACL lesion. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s2 #13-22 cor: proximal-mid superficial MCL thickened, intermediate signal, edema within and around it, fibres wavy. Report: grade II sprain, partial discontinuity. both",
+    "fibres": "thickened_or_bright",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s4 #7-14 sag zoom: bright signal at meniscocapsular junction of posterior horn; meniscus itself dark, normal shape. Report: meniscocapsular signal, possible partial lesion. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 #27-34 sag, s2 #17-22 cor: horns and body uniformly dark, normal shape. Report: normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 #7-14 sag, s2 #17-22 cor: even medial femoral and tibial cartilage. Report: cartilage normal. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s4 #27-34 sag, s2 #17-22 cor: even lateral femoral and tibial cartilage. Report: cartilage normal. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435": {
+  "study_id": "1.2.826.0.1.3680043.8.498.88077418639301174409926781329613570435",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s4",
+  "position": 8,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Advanced OA: bare medial compartment, extruded / torn menisci, chronic absent ACL, thick edematous PCL, large effusion with synovitis, osteophytes, metaphyseal red marrow."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s1 #15-19 sag, s3 #18-23 cor: no ACL band on lateral notch wall, notch filled with edematous tissue; chronic in OA. Report: complete ACL rupture. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s3 #15-22 cor: proximal MCL thickened, striated, edema around it, bowed by extruded meniscus; likely degenerative. Report: thickening + periligamentous edema, enthesopathy. both",
+    "fibres": "thickened_or_bright",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 #7-12 sag, s3 #16-23 cor: body extruded ~5 mm beyond tibia, horns largely absent from the joint (fluid in place). Report: complex tear, 5 mm extrusion. both",
+    "location": [
+     "body",
+     "posterior_horn",
+     "anterior_horn"
+    ],
+    "surface_tiles": 3,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 5
+   },
+   "lateral_meniscus": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s1 #22-27 sag, s3 #17-22 cor zoom: body extruded, irregular with signal to surface on 2 slices; small anterior horn. Report: complex tear, extrusion. both",
+    "location": [
+     "body",
+     "anterior_horn"
+    ],
+    "surface_tiles": 2,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 4
+   },
+   "medial_oa": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s1 #7-12 sag, s3 #16-23 cor: fluid lies on bare femoral and tibial bone over >20 mm, no grey layer; osteophytes. Report: medial denudation. both",
+    "cartilage_loss": "full_thickness",
+    "extent_ge_10mm": true,
+    "osteophytes": "large",
+    "subchondral_marrow": false,
+    "narrowing": "mild",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "s1 #22-27 sag, s3 #17-22 cor zoom: thinned but continuous grey layer on both lateral surfaces, no bare bone. Report: fissures and erosions. both",
+    "cartilage_loss": "partial_lt_50",
+    "extent_ge_10mm": null,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": false
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465": {
+  "study_id": "1.2.826.0.1.3680043.8.498.26790702379506190936834447203448882465",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s4",
+  "position": 9,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "fat_suppression_failure"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Weak fat suppression throughout (fat grey-bright). Mid-substance ACL tear with mild lateral femoral condyle / posterior tibial edema; mild effusion."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s3 notch, s4 #13-17 T1 sag, s2 #15-20 cor: ACL replaced by lax, edematous, wavy tissue lying low in the notch, no taut fibres. Report: mid-substance rupture. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #13-20 cor: thin dark MCL close to bone, no edema in or around it; weak fat suppression limits contrast. Report: normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #4-9 sag, s2 #15-20 cor: horns and body uniformly dark, normal triangles. Report: normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #19-24 sag, s2 #15-20 cor: horns and body uniformly dark, normal shape. Report: normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #4-9 sag, s2 #15-20 cor: even medial femoral and tibial cartilage, young knee. Report: cartilage normal. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #19-24 sag, s2 #15-20 cor: even lateral cartilage; condyle edema is contusion. Report: cartilage normal. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921": {
+  "study_id": "1.2.826.0.1.3680043.8.498.72853333220043794904856138561095171921",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s4",
+  "position": 10,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Subacute injury: MCL sprain with medial soft-tissue edema, small posterior lateral femoral condyle impaction / edema, anteromedial tibial edema; no effusion."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #12-15 PD sag, s5 #20-24 cor: ACL band continuous from lateral notch wall to tibia, normal course. Report: no tear. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s5 #17-24 cor zoom: proximal-mid MCL thickened, bright, layered, fluid deep and superficial, fibres intact. Report: grade 2 MCL injury. both",
+    "fibres": "thickened_or_bright",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #6-11 T2FS, s2 #6-11 PD sag, s5 cor: horns and body uniformly dark, normal shape. Report: no tear. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #15-20 T2FS, s2 #16-20 PD sag, s5 cor: horns and body uniformly dark, normal shape. Report: no tear. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s3 #6-11 sag, s5 #17-24 cor: even medial femoral and tibial cartilage. Report: intact. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 #15-20 sag, s5 cor: lateral cartilage even; posterior LFC edema is small impaction injury, not wear. Report: cartilage intact. both",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580": {
+  "study_id": "1.2.826.0.1.3680043.8.498.11287937729196958426538087439102017580",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s4",
+  "position": 11,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "limited",
+   "problems": [
+    "low_resolution",
+    "other"
+   ],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Noisy low-SNR images. Thick bright PCL (reported complete PCL tear), large effusion with synovitis, subcutaneous edema; tibiofemoral menisci and cartilage look preserved."
+  },
+  "findings": {
+   "acl": {
+    "status": "normal",
+    "certainty": "low",
+    "probability": 0.08,
+    "note": "s4 #9-12 T1, s3 #9-12 T2FS sag, s5 #13-18 cor: grey ACL band notch roof to tibia, normal course; noise limits fibre detail. Report: normal. both",
+    "fibres": "continuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s5 #13-18 cor: thin dark MCL along medial joint, continuous; fluid only in the joint recess deep to it, subcutaneous edema farther out. Report: normal. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 #3-8 T2FS sag, s5 #13-18 cor: horns and body dark, normal triangles; noisy images. Report: normal. both",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 #13-17 T2FS sag, s5 #13-18 cor: horns and body dark, normal shape. Report silent. images",
+    "location": [],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 #3-8 sag, s5 #13-18 cor: thin even grey layer on both medial surfaces, no defect or marrow change; noise limits detail. Report silent. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s3 #13-17 sag, s5 #13-18 cor: even lateral cartilage, no defect or marrow change. Report silent. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327": {
+  "study_id": "1.2.826.0.1.3680043.8.498.65708905118633339771181857781063784327",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s4",
+  "position": 12,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "degenerative",
+   "note": "Tricompartmental OA: medial root tear with extrusion, thin medial cartilage, focal lateral tibial defect per report, effusion with synovitis, Baker's cyst, thick ACL."
+  },
+  "findings": {
+   "acl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s5 #15-18 PD FS, s4 #15-18 T2 sag, s6 #18-21 cor: thick striated ACL, continuous to tibia on normal course, mild intermediate signal. Report: intact. both",
+    "fibres": "thickened_or_bright",
+    "graft": false
+   },
+   "mcl": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s6 #15-22 cor zoom: thin dark MCL, continuous, bowed by extruded meniscus, no clear edema in or around it. Report: intact. both",
+    "fibres": "continuous",
+    "adjacent_edema": false
+   },
+   "medial_meniscus": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s5 #6-13 sag, s6 #15-22 cor zoom: posterior horn missing near root (fluid in its place), body extruded ~3 mm. Report: root radial tear, gutter fragment. both",
+    "location": [
+     "posterior_horn",
+     "root",
+     "body"
+    ],
+    "surface_tiles": 2,
+    "morphology": "truncated_or_diminutive",
+    "extrusion_mm": 3
+   },
+   "lateral_meniscus": {
+    "status": "possible",
+    "certainty": "low",
+    "probability": 0.3,
+    "note": "s5 #19-25 sag zoom, s6 #15-22 cor: thin bright line in anterior horn, surface contact unclear; body and posterior horn dark. Report: suspected small horizontal AH tear. both",
+    "location": [
+     "anterior_horn"
+    ],
+    "surface_tiles": 1,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "meets",
+    "certainty": "moderate",
+    "probability": 0.85,
+    "note": "s5 #9-13 sag, s6 #15-22 cor zoom: diffusely thin medial femoral and tibial cartilage, fluid near bone >10 mm, osteophytes. Report: diffuse high-grade chondrosis, edema. both",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": true,
+    "osteophytes": "small",
+    "subchondral_marrow": true,
+    "narrowing": "mild",
+    "focal": false
+   },
+   "lateral_oa": {
+    "status": "meets",
+    "certainty": "low",
+    "probability": 0.7,
+    "note": "s5 #20-25 sag zoom, s6 #15-22 cor zoom: mid lateral tibial cartilage thin / irregular, extent unclear on images. Report: focal high-grade LTP defect 1.2 x 1.1 cm. report",
+    "cartilage_loss": "partial_ge_50",
+    "extent_ge_10mm": true,
+    "osteophytes": "small",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": true
+   }
+  }
+ },
+ "1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378": {
+  "study_id": "1.2.826.0.1.3680043.8.498.18392509497170616983977319528036573378",
+  "labeller": "claude",
+  "model": "Claude Opus 5.5 (Claude Code session, with native views; images + radiology report)",
+  "panel": "p5",
+  "prompt": "p5+report zoom",
+  "source": "work/claude_labels_oct20/g5_s4",
+  "position": 13,
+  "sheets_viewed": [
+   "1_sag_fs",
+   "2_cor_fs",
+   "3_ax_fs",
+   "4_nonfs",
+   "5_notch",
+   "6_medial",
+   "7_lateral",
+   "8_cor_joint",
+   "9_patella"
+  ],
+  "qa": {
+   "image_quality": "good",
+   "problems": [],
+   "postoperative": [],
+   "open_growth_plates": false,
+   "orientation_ok": true,
+   "pattern": "acute_trauma",
+   "note": "Acute ACL rupture with pivot-shift edema (lateral femoral condyle, posterior lateral tibia), MCL sprain with periligamentous edema, effusion, calf muscle edema."
+  },
+  "findings": {
+   "acl": {
+    "status": "meets",
+    "certainty": "high",
+    "probability": 0.95,
+    "note": "s2 #15-18 sag, s4 #14-19 cor: no ACL band, notch filled with disorganised edematous tissue, empty lateral wall; pivot-shift edema. Report: complete rupture. both",
+    "fibres": "discontinuous",
+    "graft": false
+   },
+   "mcl": {
+    "status": "below",
+    "certainty": "moderate",
+    "probability": 0.15,
+    "note": "s4 #13-18 cor zoom: MCL thin, dark and continuous; fluid layers superficial and deep to it, no intraligament edema or thickening. Report: grade I sprain. both",
+    "fibres": "continuous",
+    "adjacent_edema": true
+   },
+   "medial_meniscus": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "s2 #5-11 sag, s4 #14-19 cor: horns and body dark with normal shape; faint grey in posterior horn, no surface contact. Report: grade II degeneration. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "lateral_meniscus": {
+    "status": "below",
+    "certainty": "low",
+    "probability": 0.2,
+    "note": "s2 #20-25 sag, s4 #14-19 cor: horns and body dark, normal shape; faint posterior horn grey signal, no surface contact. Report: grade II degeneration. both",
+    "location": [
+     "posterior_horn"
+    ],
+    "surface_tiles": 0,
+    "morphology": "normal",
+    "extrusion_mm": 0
+   },
+   "medial_oa": {
+    "status": "normal",
+    "certainty": "high",
+    "probability": 0.02,
+    "note": "s2 #5-11 sag, s4 #14-19 cor: even medial femoral and tibial cartilage. Report silent. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   },
+   "lateral_oa": {
+    "status": "normal",
+    "certainty": "moderate",
+    "probability": 0.04,
+    "note": "s2 #20-25 sag, s4 #14-19 cor: lateral cartilage even; femoral marrow edema is impaction / contusion, not wear. Report silent on cartilage. images",
+    "cartilage_loss": "none",
+    "extent_ge_10mm": null,
+    "osteophytes": "none",
+    "subchondral_marrow": false,
+    "narrowing": "none",
+    "focal": null
+   }
+  }
+ }
+}

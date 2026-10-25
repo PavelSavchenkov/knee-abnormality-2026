@@ -1,0 +1,155 @@
+{
+ "f0": {
+  "form": {
+   "Baker's": "pkg961",
+   "PF OA": "pkg961",
+   "Medial OA": "pkg961",
+   "Medial Meniscus": "pkg961",
+   "Lateral OA": "Q15 (c188)",
+   "Lateral Meniscus": "Q22 (c188)",
+   "ACL": "Q16 acl16",
+   "Synovitis": "cnx (c188)",
+   "Contusion": "all-4 swap_read",
+   "Fracture": "v3c_fs: all-4 swap_read + bfs_rep splice w 0.75",
+   "Effusion": "EF3 (window fusion + EF3 img_eff, v2 recipe, EF3 stats)",
+   "MCL": "Q21 chain, then the v2 kernel DEC on this teacher's Contusion"
+  },
+  "missing_share": {
+   "ACL": 0.0,
+   "MCL": 0.0,
+   "Medial Meniscus": 0.0,
+   "Lateral Meniscus": 0.0,
+   "Medial OA": 0.0,
+   "Lateral OA": 0.0,
+   "PF OA": 0.0,
+   "Effusion": 0.0,
+   "Synovitis": 0.0,
+   "Baker's": 0.0,
+   "Contusion": 0.0,
+   "Fracture": 0.0
+  }
+ },
+ "f1": {
+  "form": {
+   "Baker's": "pkg961",
+   "PF OA": "pkg961",
+   "Medial OA": "pkg961",
+   "Medial Meniscus": "pkg961",
+   "Lateral OA": "Q15 (c188)",
+   "Lateral Meniscus": "Q22 (c188)",
+   "ACL": "Q16 acl16",
+   "Synovitis": "cnx (c188)",
+   "Contusion": "all-4 swap_read",
+   "Fracture": "v3c_fs: all-4 swap_read + bfs_rep splice w 0.75",
+   "Effusion": "EF3 (window fusion + EF3 img_eff, v2 recipe, EF3 stats)",
+   "MCL": "Q21 chain, then the v2 kernel DEC on this teacher's Contusion"
+  },
+  "missing_share": {
+   "ACL": 0.0,
+   "MCL": 0.0,
+   "Medial Meniscus": 0.0,
+   "Lateral Meniscus": 0.0,
+   "Medial OA": 0.0,
+   "Lateral OA": 0.0,
+   "PF OA": 0.0,
+   "Effusion": 0.0,
+   "Synovitis": 0.0,
+   "Baker's": 0.0,
+   "Contusion": 0.0,
+   "Fracture": 0.0
+  }
+ },
+ "f2": {
+  "form": {
+   "Baker's": "pkg961",
+   "PF OA": "pkg961",
+   "Medial OA": "pkg961",
+   "Medial Meniscus": "pkg961",
+   "Lateral OA": "Q15 (c188)",
+   "Lateral Meniscus": "Q22 (c188)",
+   "ACL": "Q16 acl16",
+   "Synovitis": "cnx (c188)",
+   "Contusion": "all-4 swap_read",
+   "Fracture": "v3c_fs: all-4 swap_read + bfs_rep splice w 0.75",
+   "Effusion": "EF3 (window fusion + EF3 img_eff, v2 recipe, EF3 stats)",
+   "MCL": "Q21 chain, then the v2 kernel DEC on this teacher's Contusion"
+  },
+  "missing_share": {
+   "ACL": 0.0,
+   "MCL": 0.0,
+   "Medial Meniscus": 0.0,
+   "Lateral Meniscus": 0.0,
+   "Medial OA": 0.0,
+   "Lateral OA": 0.0,
+   "PF OA": 0.0,
+   "Effusion": 0.0,
+   "Synovitis": 0.0,
+   "Baker's": 0.0,
+   "Contusion": 0.0,
+   "Fracture": 0.0
+  }
+ },
+ "f3": {
+  "form": {
+   "Baker's": "3x3 window fusion (fused3)",
+   "Lateral OA": "clean_f34 (C213)",
+   "PF OA": "clean_f34 (C213)",
+   "Medial OA": "clean_f34 (C213)",
+   "Medial Meniscus": "clean_f34 (C213)",
+   "Lateral Meniscus": "clean_f34 (C213)",
+   "ACL": "Q16 acl16_on (C213)",
+   "Synovitis": "study-level cnx form (1/3 heads + 2/3 cnx / NF crops)",
+   "Contusion": "all-4 swap_read",
+   "Fracture": "v3c_fs: all-4 swap_read + bfs_rep splice w 0.75",
+   "Effusion": "EF3 (window fusion + EF3 img_eff, v2 recipe, EF3 stats)",
+   "MCL": "Q21 chain, then the v2 kernel DEC on this teacher's Contusion"
+  },
+  "missing_share": {
+   "ACL": 0.0,
+   "MCL": 0.0,
+   "Medial Meniscus": 0.0,
+   "Lateral Meniscus": 0.0,
+   "Medial OA": 0.0,
+   "Lateral OA": 0.0,
+   "PF OA": 0.0,
+   "Effusion": 0.0,
+   "Synovitis": 0.0,
+   "Baker's": 0.0,
+   "Contusion": 0.0,
+   "Fracture": 0.0
+  },
+  "pending": []
+ },
+ "f4": {
+  "form": {
+   "Baker's": "3x3 window fusion (fused3)",
+   "Lateral OA": "clean_f34 (C213)",
+   "PF OA": "clean_f34 (C213)",
+   "Medial OA": "clean_f34 (C213)",
+   "Medial Meniscus": "clean_f34 (C213)",
+   "Lateral Meniscus": "clean_f34 (C213)",
+   "ACL": "Q16 acl16_on (C213)",
+   "Synovitis": "study-level cnx form (1/3 heads + 2/3 cnx / NF crops)",
+   "Contusion": "all-4 swap_read",
+   "Fracture": "v3c_fs: all-4 swap_read + bfs_rep splice w 0.75",
+   "Effusion": "EF3 (window fusion + EF3 img_eff, v2 recipe, EF3 stats)",
+   "MCL": "Q21 chain, then the v2 kernel DEC on this teacher's Contusion"
+  },
+  "missing_share": {
+   "ACL": 0.0,
+   "MCL": 0.0,
+   "Medial Meniscus": 0.0,
+   "Lateral Meniscus": 0.0,
+   "Medial OA": 0.0,
+   "Lateral OA": 0.0,
+   "PF OA": 0.0,
+   "Effusion": 0.0,
+   "Synovitis": 0.0,
+   "Baker's": 0.0,
+   "Contusion": 0.0,
+   "Fracture": 0.0
+  },
+  "pending": []
+ },
+ "pending_columns": []
+}

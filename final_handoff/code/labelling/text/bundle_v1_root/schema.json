@@ -1,0 +1,823 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "knee_report_labels",
+  "title": "Knee MRI report labels: one object per study",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "index",
+    "study_id",
+    "study",
+    "findings"
+  ],
+  "properties": {
+    "index": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "study_id": {
+      "type": "string"
+    },
+    "study": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "report_side",
+        "report_type",
+        "refers_to_prior",
+        "hoffa_edema"
+      ],
+      "properties": {
+        "report_side": {
+          "enum": [
+            "same",
+            "not_stated",
+            "both",
+            "other"
+          ]
+        },
+        "report_type": {
+          "enum": [
+            "structured",
+            "narrative",
+            "impression_only",
+            "empty"
+          ]
+        },
+        "refers_to_prior": {
+          "type": "boolean"
+        },
+        "hoffa_edema": {
+          "enum": [
+            true,
+            false,
+            null
+          ]
+        }
+      }
+    },
+    "findings": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "acl",
+        "mcl",
+        "medial_meniscus",
+        "lateral_meniscus",
+        "medial_oa",
+        "lateral_oa",
+        "pf_oa",
+        "effusion",
+        "synovitis",
+        "bakers_cyst",
+        "contusion",
+        "fracture"
+      ],
+      "properties": {
+        "acl": {
+          "$ref": "#/$defs/acl"
+        },
+        "mcl": {
+          "$ref": "#/$defs/mcl"
+        },
+        "medial_meniscus": {
+          "$ref": "#/$defs/meniscus"
+        },
+        "lateral_meniscus": {
+          "$ref": "#/$defs/meniscus"
+        },
+        "medial_oa": {
+          "$ref": "#/$defs/oa"
+        },
+        "lateral_oa": {
+          "$ref": "#/$defs/oa"
+        },
+        "pf_oa": {
+          "$ref": "#/$defs/oa"
+        },
+        "effusion": {
+          "$ref": "#/$defs/effusion"
+        },
+        "synovitis": {
+          "$ref": "#/$defs/basic"
+        },
+        "bakers_cyst": {
+          "$ref": "#/$defs/bakers_cyst"
+        },
+        "contusion": {
+          "$ref": "#/$defs/contusion"
+        },
+        "fracture": {
+          "$ref": "#/$defs/fracture"
+        }
+      }
+    }
+  },
+  "$defs": {
+    "status": {
+      "enum": [
+        "meets",
+        "unsettled",
+        "hedged",
+        "below",
+        "excluded",
+        "denied",
+        "structure_normal",
+        "general_normal",
+        "not_mentioned",
+        "conflict"
+      ]
+    },
+    "missing": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "size",
+          "grade",
+          "extent",
+          "cause",
+          "acuity",
+          "compartment",
+          "type"
+        ]
+      }
+    },
+    "quote": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "rules": {
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "unsettled"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "missing": {
+                "minItems": 1
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "missing": {
+                "maxItems": 0
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "not_mentioned"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "quote": {
+                "maxLength": 0
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "quote": {
+                "minLength": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "meets"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "probability": {
+                "enum": [
+                  0.97,
+                  0.9,
+                  0.8
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "unsettled"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "probability": {
+                "enum": [
+                  0.75,
+                  0.6,
+                  0.45
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "conflict"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "probability": {
+                "enum": [
+                  0.65,
+                  0.55,
+                  0.45
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "hedged"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "probability": {
+                "enum": [
+                  0.5,
+                  0.4,
+                  0.3
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "below"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "probability": {
+                "enum": [
+                  0.35,
+                  0.2,
+                  0.1
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "general_normal"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "probability": {
+                "enum": [
+                  0.15,
+                  0.08
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "excluded"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "probability": {
+                "enum": [
+                  0.12,
+                  0.05
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "structure_normal"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "probability": {
+                "enum": [
+                  0.05,
+                  0.02
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "denied"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "probability": {
+                "enum": [
+                  0.03,
+                  0.01
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "not_mentioned"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "probability": {
+                "enum": [
+                  null
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "ligament_grade": {
+      "enum": [
+        "degeneration",
+        "low_grade",
+        "low_to_partial",
+        "partial",
+        "high_grade",
+        "complete",
+        null
+      ]
+    },
+    "acuity": {
+      "enum": [
+        "acute",
+        "subacute",
+        "chronic",
+        null
+      ]
+    },
+    "basic": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "missing",
+        "quote",
+        "probability"
+      ],
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/status"
+        },
+        "missing": {
+          "$ref": "#/$defs/missing"
+        },
+        "quote": {
+          "$ref": "#/$defs/quote"
+        },
+        "probability": {
+          "$ref": "#/$defs/probability"
+        }
+      },
+      "allOf": [
+        {
+          "$ref": "#/$defs/rules"
+        }
+      ]
+    },
+    "acl": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "missing",
+        "quote",
+        "probability",
+        "grade",
+        "acuity",
+        "graft"
+      ],
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/status"
+        },
+        "missing": {
+          "$ref": "#/$defs/missing"
+        },
+        "quote": {
+          "$ref": "#/$defs/quote"
+        },
+        "probability": {
+          "$ref": "#/$defs/probability"
+        },
+        "grade": {
+          "$ref": "#/$defs/ligament_grade"
+        },
+        "acuity": {
+          "$ref": "#/$defs/acuity"
+        },
+        "graft": {
+          "type": "boolean"
+        }
+      },
+      "allOf": [
+        {
+          "$ref": "#/$defs/rules"
+        }
+      ]
+    },
+    "mcl": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "missing",
+        "quote",
+        "probability",
+        "grade",
+        "acuity"
+      ],
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/status"
+        },
+        "missing": {
+          "$ref": "#/$defs/missing"
+        },
+        "quote": {
+          "$ref": "#/$defs/quote"
+        },
+        "probability": {
+          "$ref": "#/$defs/probability"
+        },
+        "grade": {
+          "$ref": "#/$defs/ligament_grade"
+        },
+        "acuity": {
+          "$ref": "#/$defs/acuity"
+        }
+      },
+      "allOf": [
+        {
+          "$ref": "#/$defs/rules"
+        }
+      ]
+    },
+    "oa": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "missing",
+        "quote",
+        "probability",
+        "depth",
+        "size_mm",
+        "extent",
+        "severity_word"
+      ],
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/status"
+        },
+        "missing": {
+          "$ref": "#/$defs/missing"
+        },
+        "quote": {
+          "$ref": "#/$defs/quote"
+        },
+        "probability": {
+          "$ref": "#/$defs/probability"
+        },
+        "depth": {
+          "enum": [
+            "superficial",
+            "partial",
+            "deep",
+            "full",
+            null
+          ]
+        },
+        "size_mm": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        },
+        "extent": {
+          "enum": [
+            "focal",
+            "multifocal",
+            "diffuse",
+            null
+          ]
+        },
+        "severity_word": {
+          "enum": [
+            "mild",
+            "mild_to_moderate",
+            "moderate",
+            "moderate_to_severe",
+            "severe",
+            null
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "$ref": "#/$defs/rules"
+        }
+      ]
+    },
+    "effusion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "missing",
+        "quote",
+        "probability",
+        "size"
+      ],
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/status"
+        },
+        "missing": {
+          "$ref": "#/$defs/missing"
+        },
+        "quote": {
+          "$ref": "#/$defs/quote"
+        },
+        "probability": {
+          "$ref": "#/$defs/probability"
+        },
+        "size": {
+          "enum": [
+            "none",
+            "trace",
+            "small",
+            "mild",
+            "mild_to_moderate",
+            "moderate",
+            "large",
+            null
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "$ref": "#/$defs/rules"
+        }
+      ]
+    },
+    "bakers_cyst": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "missing",
+        "quote",
+        "probability",
+        "size",
+        "longest_mm"
+      ],
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/status"
+        },
+        "missing": {
+          "$ref": "#/$defs/missing"
+        },
+        "quote": {
+          "$ref": "#/$defs/quote"
+        },
+        "probability": {
+          "$ref": "#/$defs/probability"
+        },
+        "size": {
+          "enum": [
+            "small",
+            "moderate",
+            "large",
+            null
+          ]
+        },
+        "longest_mm": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "exclusiveMinimum": 0
+        }
+      },
+      "allOf": [
+        {
+          "$ref": "#/$defs/rules"
+        }
+      ]
+    },
+    "contusion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "missing",
+        "quote",
+        "probability",
+        "cause",
+        "bones"
+      ],
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/status"
+        },
+        "missing": {
+          "$ref": "#/$defs/missing"
+        },
+        "quote": {
+          "$ref": "#/$defs/quote"
+        },
+        "probability": {
+          "$ref": "#/$defs/probability"
+        },
+        "cause": {
+          "enum": [
+            "trauma",
+            "degeneration",
+            "fracture",
+            "insufficiency",
+            "other",
+            null
+          ]
+        },
+        "bones": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "medial_femoral_condyle",
+              "lateral_femoral_condyle",
+              "femur_other",
+              "medial_tibial_plateau",
+              "lateral_tibial_plateau",
+              "tibia_other",
+              "patella",
+              "fibula"
+            ]
+          }
+        }
+      },
+      "allOf": [
+        {
+          "$ref": "#/$defs/rules"
+        }
+      ]
+    },
+    "fracture": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "missing",
+        "quote",
+        "probability",
+        "acuity"
+      ],
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/status"
+        },
+        "missing": {
+          "$ref": "#/$defs/missing"
+        },
+        "quote": {
+          "$ref": "#/$defs/quote"
+        },
+        "probability": {
+          "$ref": "#/$defs/probability"
+        },
+        "acuity": {
+          "$ref": "#/$defs/acuity"
+        }
+      },
+      "allOf": [
+        {
+          "$ref": "#/$defs/rules"
+        }
+      ]
+    },
+    "meniscus": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "missing",
+        "quote",
+        "probability",
+        "location",
+        "displaced_fragment"
+      ],
+      "properties": {
+        "status": {
+          "$ref": "#/$defs/status"
+        },
+        "missing": {
+          "$ref": "#/$defs/missing"
+        },
+        "quote": {
+          "$ref": "#/$defs/quote"
+        },
+        "probability": {
+          "$ref": "#/$defs/probability"
+        },
+        "location": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "anterior_horn",
+              "body",
+              "posterior_horn",
+              "anterior_root",
+              "posterior_root"
+            ]
+          }
+        },
+        "displaced_fragment": {
+          "enum": [
+            true,
+            false,
+            null
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "$ref": "#/$defs/rules"
+        }
+      ]
+    },
+    "probability": {
+      "type": [
+        "number",
+        "null"
+      ]
+    }
+  }
+}

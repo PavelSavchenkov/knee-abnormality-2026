@@ -1,0 +1,19 @@
+oct20_stack_all_v2 FROZEN 10-19 20:44 (Experts V3; Master GO 20:3x after the LB audit for the USER 'every LB-confirmed gain, nothing LB-untested'). v1 (oct20_stack_all, frozen 16:56) untouched. No more edits to the files below; any later fix bumps a version (oct20_stack_all_v3/).
+Change vs v1: P2 OFF (eff961) = Effusion is the 0.961 form (img_eff from the effb0 crops, 0.961 stats); notebook diff vs v1 = the P2_EFF line + the '-v2' kernel name. Base kernel only (switches OFF: all LB losses / lpw C184b FAIL).
+Gates: run_local base PASS (run_local_base.log): G1 incl. Effusion vs 0.961 1.43e-06 (<= 1e-5), Baker's 8.28e-06; G2 ACL 1.99e-05 / LOA / Syn / Cont fp-exact / MCL (a) 1.82e-05 (b) 0; G3 LM 0; G4 P1 5.59e-05 / 4.30e-05, eff961 recipe + members == 0.961 config; G5 PASS. Kaggle estimate (original runner) 400 min (v1 407; syn stage +2.2 s local ~ +3 Kaggle min). OAI: no.
+md5:
+24d75a619fd22995a089cce4b8328999  ensemble.py
+5cb9b3b5f9b142b92bbfe76a46e4269b  make_kernel.py
+d4b13314e21910d996b69e93d5cf8fde  oa_stage.py
+ecd2983e7292a75569ff10df3127c442  fc_stage.py
+825fc6246d86ee6e756edd1dabd132e0  syn_stage.py
+7fc8717ceb4eca2f1d1db77f30b566e5  check_studies.csv
+7b9a055ed2f2025f679e22b47a6fb835  refit.json
+a0e26e22214716bc5ad212e2ad7ce03d  run_local.py
+a492ba2d827ea7ae5722acb8f22647be  build.py
+1963ac36d0620eadfcf7f3df5ad81a49  build_lpw.py
+c16fe714d54d6427349dffacf9d543eb  expected_gold.csv
+c08946473ca2ac3c4db096afe237b094  expected_lm_allpw.csv
+533b2a7b5d44f86b5c5be574d394b28d  runtime_table.py
+f18eb54400a05263e62d87a4c86d3f54  kernel/knee-oct20-stack-all-v2-sub.ipynb
+220437920fe617952b8ee955fe3c7e26  kernel/kernel-metadata.json
